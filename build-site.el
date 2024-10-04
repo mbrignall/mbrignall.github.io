@@ -80,37 +80,42 @@ https://ogbe.net/blog/blogging_with_org.html"
 ;; Define the publishing project
 (setq org-publish-project-alist
       (list
+       ;; Main content
        (list "org-site:main"
              :recursive t
              :base-directory "./content"
              :publishing-function 'org-html-publish-to-html
-	     :html-preamble (file-contents "assets/html_preamble.html")
-	     :html-postamble (file-contents "assets/html_postamble.html")
+             :html-preamble (file-contents "assets/html_preamble.html")
+             :html-postamble (file-contents "assets/html_postamble.html")
              :publishing-directory "./public"
              :with-author nil
              :with-creator t
              :with-toc nil
              :section-numbers nil
              :auto-sitemap t
-             :sitemap-title nil;"mblognl"
+             :sitemap-title "mblognl"
              :sitemap-format-entry 'my/org-publish-org-sitemap-format
              :sitemap-function 'my/org-publish-org-sitemap
              :sitemap-sort-files 'anti-chronologically
              :sitemap-filename "sitemap.org"
-             :sitemap-style 'tree	     
+             :sitemap-style 'tree
              :time-stamp-file nil
              :html-doctype "html5"
              :html-html5-fancy t
              :htmlized-source t
-	     :with-todo-keywords t
-             :exclude "./posts/drafts/.*")
+             :with-todo-keywords t
+             :exclude "^posts/drafts/.*")  ;; Corrected exclude pattern
+
+       ;; Static assets
        (list "org-site:static"
              :base-directory "./static/"
              :base-extension "css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|svg"
              :publishing-directory "./public/"
              :recursive t
              :publishing-function 'org-publish-attachment
-	     :exclude "./posts/drafts/.*")
+             :exclude "^posts/drafts/.*")  ;; Corrected exclude pattern
+
+       ;; Other assets (CSS, images, etc.)
        (list "org-site:assets"
              :base-directory "./assets/"
              :base-extension "css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|ico"
