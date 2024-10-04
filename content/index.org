@@ -1,0 +1,42 @@
+#+title: mblognl - moments of clarity, shared.
+#+author: mbrignall
+#+date: <2024-10-03 Thu>
+
+* Welcome to /mblognl/
+:PROPERTIES:
+:ID:       C515ACEE-D41D-495C-989F-BA9977D51E82
+:PUBDATE:  2024-10-04 Fri 00:42
+:END:
+
+Welcome to my blog! Here, I will be documenting my journey, sharing my thoughts, findings, and learnings in various fields that interest me. This space will evolve as I experiment, explore, and expand my knowledge.
+
+I hope you find something useful or thought-provoking!
+
+** What to expect
+:PROPERTIES:
+:ID:       04EEA490-DA0C-48B4-9BDD-4CC907A183B6
+:END:
+
+In this blog, you'll likely find me talking about my favourite tech. I may, from time to time, speak of other interests outside the tech realm. I may even cover topics that overlap with creative, technology and otherworldly interests. I promise I will try not to bore you too much.
+
+*** Some topics, themes, and subjects
+:PROPERTIES:
+:ID:       2838AFCD-3BBA-4F08-AD20-DD021FA661A3
+:END:
+- *Cyber Defense and Security Engineering*
+- *Web Development and DevOps*
+- *Me talking profusely, and lovingly about Emacs*
+- *My own experiments, code snippets*
+- *reflections on various projects and tools*
+
+* Contact
+:PROPERTIES:
+:ID:       7B5DFEEF-CBFA-4C8A-B5D2-5B3E2D08BA23
+:PUBDATE:  2024-10-04 Fri 00:42
+:END:
+Feel free to reach out via email or GitHub:
+- [[mailto:martinaloysiusbrignall@gmail.com][email me]]
+- [[https://github.com/mbrignall][github/mbrignall]]
+
+* Post Archive
+[[file:archive.org][All Posts]]

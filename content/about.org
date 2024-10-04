@@ -1,0 +1,58 @@
+#+TITLE: About Me
+#+author: mbrignall
+
+#+ATTR_HTML: :style margin:auto; display:block; width:200px
+[[./mbrignl.jpg]]
+
+* I grew up in Gloucestershire...
+:PROPERTIES:
+:ID:       E4412E7B-90F2-4DF3-A730-AAF840B8F551
+:PUBDATE:  2024-10-04 Fri 00:42
+:END:
+
+and was not academic in my youth. I moved to London when I was 19 to pursue a passion for music. This went well for a while and I was playing regularly, at least a few nights a week.
+
+I like playing guitar mainly but also bass (often as a stand-in) and on occasion banjo. I specialise in fingerstyle guitar mainly and am heavily influenced by musicians like Jim O'Rourke and John Fahey, Capt. Beefheart and Django Reinhardt. I also like many other genres and movements like experimental, American indie/emo, screamo, post-rock, metal (of many different flavours), blues, folk and many more!
+
+** Tech Dabblings
+:PROPERTIES:
+:ID:       97B36D86-81A7-4ABE-A45D-F313494F030D
+:END:
+I have always dabbled with computers and from an early age had access to technology due to my dad being an engineer. I remember him having a BBC Micro in my parents bedroom, at the time I didn't appreciate the impact that would have later in my life. I distantly remember copying the code for a ski game out of a magazine and getting it to run.
+
+Being a person who found it easy to troubleshoot and fix things I was often a go to for people experiencing problems with tech. Even before doing Tech Support professionally I was able to remove viruses, reinstall operating systems and fix driver issues etc. Around 8 years ago I started working for a green energy company, OVO Energy.
+
+** Contact center swing set
+:PROPERTIES:
+:ID:       83A173C8-7AD0-4B0F-BBB3-66339527E604
+:END:
+I started taking calls for customers who had PAYG (top-up) meters. These were often tricky conversations, dealing with people in challenging situations who were often struggling to keep the lights on. We were given autonomy to fix problems, 'right first time' was the motto. So you could jump into all kinds of things in the hope that you avoided a repeat contact and solved the problem for the customer. There was a genuine feeling of 'doing the right thing'.
+
+After doing the call center role for a few years I was offered an opportunity to join 'Second Line', an escalation team. This was an opportunity to get more technical, taking contact from front line agents unable to solve the problem at hand for the caller. We touched many areas of the industry, like metering, industry flows, regulatory bodies, field engineers. It could be really interesting and came with challenges that kept me interested.
+
+** Tech Support, take a jar off the shelf, open and eat
+:PROPERTIES:
+:ID:       9AF41BBC-483F-45BC-8D9A-259315FFFCF7
+:END:
+Not long after joining the team I saw an internal role come up within Tech Support, my manager at the time encouraged me to apply. I did, and I got the job! It did not take long to realise that I was in my element and with my people.
+
+I often refer to myself as a kid in a sweetshop when it comes to tech related pursuit, and I ate all the sweets and more!
+
+** Autonomy for imposters
+:PROPERTIES:
+:ID:       9AE22941-F509-4183-82D9-077F2B15DD1D
+:END:
+I quickly realised that I was in a unique situation where I had autonomy, I was working around experts, and the company was still living with a 'startup' culture. This meant I was able to spread my tech support wings and tap into many areas I may not have been exposed to if I had been in another organisation.
+
+The cool things about my experience was that I could appreciate my privilege, I was humble and hungry, but occasionally suffered severe imposter syndrome.
+
+** Bring me some Atlassian, and make it snappy
+:PROPERTIES:
+:ID:       358C9A6F-EC26-4BDF-9EA8-D09D05A130C2
+:END:
+Quickly I noticed that there was an under resourced team that were struggling with their backlog. Backed up in their queues were many requests for support with Jira and Service Management projects. I had been working as a service desk agent for over a year at this point so was familiar with many of the Atlassian products.
+
+Picking up tickets helped me learn the admin ropes and opened me up to the satisfaction you get for helping someone improve or automate their workflows. I was mixing tickets for Jira support with general tech support, so still learning about many other areas. 
+
+
+

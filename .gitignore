@@ -1,0 +1,46 @@
+# Emacs backup and autosave files
+*~
+\#*\#
+.#*
+
+# Org-mode temporary files
+*.org~  # Backup files
+*.org_archive  # Archived Org-mode files
+
+# Compiled object files
+*.o
+*.elc
+
+# Emacs packages and settings
+.packages/
+.emacs.d/
+.cache/
+
+# Temporary files and build artifacts
+content/.#*
+content/*~
+
+# Build directory for generated static site
+/public/
+
+# GitHub Actions and workflows
+# (If you have any generated artifacts or local secrets)
+.github/workflows/*.env
+.github/workflows/*.secrets
+
+# Other IDE or OS generated files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+.packages/
+public/
+
+*~undo-tree~
+/notes.org
+
+.DS_Store
+
+.env
+

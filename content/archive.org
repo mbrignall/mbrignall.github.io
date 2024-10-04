@@ -1,0 +1,5 @@
+#+TITLE: Posts Archive
+#+Author: mbrignall
+
+
+#+INCLUDE: sitemap.org::*posts :only-contents t

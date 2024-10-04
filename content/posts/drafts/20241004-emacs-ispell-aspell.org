@@ -1,0 +1,15 @@
+#+title: Emacs with aspell/ispell on Nix Darwin
+#+author: mrbignall
+#+date: 2024-10-04
+
+* British English and Emacs
+
+I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Ispell is built in to the current version I'm using (29.1). However it was locked to the default US dictionary. Easy fix right?
+
+** Discoveries
+
+Out the box the latest version of ispell on Nix Packages and built in Emacs does not have UK/British English default. So I started looking on Reddit and Googled ispell and Nix to see where I could go.
+
+** Emacs philosophy and approach
+
+I am a strong believer in keeping things simple and with the introduction of 'use-package' and the extra features in 29.1 I was keen to rewrite my config and use as close to vanilla setup as possible. 

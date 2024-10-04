@@ -1,0 +1,7 @@
+#+TITLE: Notes and Drafts
+#+Author: mbrignall
+
+Notes and drafts live here and the occasional pontification.
+
+#+INCLUDE: sitemap.org::*notes :only-contents t
+
