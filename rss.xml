@@ -7,38 +7,38 @@
 <generator>Emacs webfeeder.el</generator>
 <link>https://blog.mbrig.nl</link>
 <atom:link href="https://blog.mbrig.nl/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 04 Oct 2024 15:52:43 +0000</lastBuildDate>
+<lastBuildDate>Fri, 04 Oct 2024 16:00:33 +0000</lastBuildDate>
 <item>
   <title>‎</title>
   <description><![CDATA[<div id="content" class="content">
 </div>]]></description>
   <link>https://blog.mbrig.nl/posts/./newpost.html</link>
   <guid isPermaLink="false">https://blog.mbrig.nl/posts/./newpost.html</guid>
-  <pubDate>Fri, 04 Oct 2024 15:52:43 +0000</pubDate>
+  <pubDate>Fri, 04 Oct 2024 16:00:33 +0000</pubDate>
 </item>
 <item>
   <title>Emacs with aspell/ispell on Nix Darwin</title>
   <description><![CDATA[<div id="content" class="content">
- <div id="outline-container-org0fa8617" class="outline-2">
- <h2 id="org0fa8617">British English and Emacs</h2>
- <div class="outline-text-2" id="text-org0fa8617">
+ <div id="outline-container-orgbb30632" class="outline-2">
+ <h2 id="orgbb30632">British English and Emacs</h2>
+ <div class="outline-text-2" id="text-orgbb30632">
  <p>
 I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Ispell is built in to the current version I'm using (29.1). However it was locked to the default US dictionary. Easy fix right?
 </p>
 </div>
 
- <div id="outline-container-org45cd9b2" class="outline-3">
- <h3 id="org45cd9b2">Discoveries</h3>
- <div class="outline-text-3" id="text-org45cd9b2">
+ <div id="outline-container-org74862e0" class="outline-3">
+ <h3 id="org74862e0">Discoveries</h3>
+ <div class="outline-text-3" id="text-org74862e0">
  <p>
 Out the box the latest version of ispell on Nix Packages and built in Emacs does not have UK/British English default. So I started looking on Reddit and Googled ispell and Nix to see where I could go.
 </p>
 </div>
 </div>
 
- <div id="outline-container-orgb2764e7" class="outline-3">
- <h3 id="orgb2764e7">Emacs philosophy and approach</h3>
- <div class="outline-text-3" id="text-orgb2764e7">
+ <div id="outline-container-orgb79456a" class="outline-3">
+ <h3 id="orgb79456a">Emacs philosophy and approach</h3>
+ <div class="outline-text-3" id="text-orgb79456a">
  <p>
 I am a strong believer in keeping things simple and with the introduction of 'use-package' and the extra features in 29.1 I was keen to rewrite my config and use as close to vanilla setup as possible. 
 </p>
@@ -48,7 +48,7 @@ I am a strong believer in keeping things simple and with the introduction of 'us
 </div>]]></description>
   <link>https://blog.mbrig.nl/posts/./drafts/20241004-emacs-ispell-aspell.html</link>
   <guid isPermaLink="false">https://blog.mbrig.nl/posts/./drafts/20241004-emacs-ispell-aspell.html</guid>
-  <pubDate>Fri, 04 Oct 2024 15:52:43 +0000</pubDate>
+  <pubDate>Fri, 04 Oct 2024 16:00:33 +0000</pubDate>
 </item>
 </channel>
 </rss>
