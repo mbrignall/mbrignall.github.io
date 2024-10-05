@@ -93,6 +93,7 @@ https://ogbe.net/blog/blogging_with_org.html"
              :html-preamble (file-contents "assets/html_preamble.html")
              :html-postamble t
              :publishing-directory "./public"
+	     :headline-levels 4
              :with-author nil
              :with-creator nil
              :with-toc nil

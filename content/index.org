@@ -29,6 +29,16 @@ In this blog, you'll likely find me talking about my favourite tech. I may, from
 - *My own experiments, code snippets*
 - *reflections on various projects and tools*
 
+* Current Book
+
+** Cuckoo's Egg by Cliff Stoll
+  #+ATTR_HTML: :style float:left; margin-right: 15px; margin-bottom: 15px; :width 75px
+  [[https://m.media-amazon.com/images/I/71KvXfFyi4L._SL1500_.jpg]]
+
+  I haven’t finished it yet, but it’s a look into the early days of computer security, hacking, and investigation.
+
+  So far, good! I'm taking time to get through books nowadays... 
+  
 * Contact
 :PROPERTIES:
 :ID:       7B5DFEEF-CBFA-4C8A-B5D2-5B3E2D08BA23
