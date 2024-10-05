@@ -61,6 +61,8 @@ Picking up tickets helped me learn the admin ropes and opened me up to the satis
 ** Into the Developer abyss
 Following a short time being a global Atlassian admin and helping introduce the business to 'zero-touch' MDM platforms like Mosyle I landed a job in the new Developer Experience team. Built from the ashes of a separating sister company I was able to get in at ground level and really understand the mission statement. During this time I was exposed to a lot of technology, concepts (SDLC, DevOps, TDD, BDD), cloud-native concepts, and speaking with engineers and developers on a daily basis. I worked on some cool projects like a GCP vend for new project templates and trying out AI driven Slack support bots 😀.
 
+*** To vend a GCP project
+
 The GCP vend was a fun one:
 
     - Requester goes to our Slack channel to request a new GCP project
@@ -78,7 +80,7 @@ The GCP vend was a fun one:
       - If failure: Sends advice corresponding to the error and next steps
     - We then hold the ticket until the actions are taken by the requester, the PR is recorded and ownership is granted.
 
-  The long term goal of such a process was to ensure that we enable engineers in a positive way but also start building the super important guardrails required for an organisation of our size dealing with the cloud.
+ The long term goal of such a process was to ensure that we enable engineers in a positive way but also start building the super important guardrails required for an organisation of our size dealing with the cloud.
 
 * Security Time!
 
