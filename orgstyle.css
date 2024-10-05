@@ -12,7 +12,7 @@ html, body {
 /* For smaller screens, adjust the width to be more user-friendly */
 @media screen and (max-width: 768px) {
     body {
-        max-width: 90%;  /* Use 90% width on tablet-sized screens */
+        max-width: 100%;  /* Use 90% width on tablet-sized screens */
         margin: 0 auto;  /* Keep centered */
     }
 }
