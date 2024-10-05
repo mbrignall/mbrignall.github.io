@@ -77,6 +77,15 @@ https://ogbe.net/blog/blogging_with_org.html"
         (buffer-string))
     (error "File not readable: %s" file)))
 
+(setq org-html-postamble
+      (lambda (info)
+        (concat (file-contents "assets/html_postamble.html")  ;; Load existing postamble
+                "<p class='creator' style='text-align: center; margin-top: 10px;'>"
+                "Created by <a href=\"https://orgmode.org\">Org mode</a> "
+                (org-version) " with <a href=\"https://www.gnu.org/software/emacs/\">Emacs</a> "
+                emacs-version
+                "</p>")))
+
 ;; Define the publishing project
 (setq org-publish-project-alist
       (list
@@ -86,7 +95,7 @@ https://ogbe.net/blog/blogging_with_org.html"
              :base-directory "./content"
              :publishing-function 'org-html-publish-to-html
              :html-preamble (file-contents "assets/html_preamble.html")
-             :html-postamble (file-contents "assets/html_postamble.html")
+             :html-postamble t
              :publishing-directory "./public"
              :with-author nil
              :with-creator t
