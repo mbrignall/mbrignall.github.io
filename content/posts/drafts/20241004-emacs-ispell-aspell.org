@@ -12,4 +12,6 @@ Out the box the latest version of ispell on Nix Packages and built in Emacs does
 
 ** Emacs philosophy and approach
 
-I am a strong believer in keeping things simple and with the introduction of 'use-package' and the extra features in 29.1 I was keen to rewrite my config and use as close to vanilla setup as possible. 
+I am a strong believer in keeping things simple and with the introduction of 'use-package' and the extra features in 29.1 I was keen to rewrite my config and use as close to vanilla setup as possible. I took the very base of what was needed and started from scratch building outward and exploring built-in packages.
+
+

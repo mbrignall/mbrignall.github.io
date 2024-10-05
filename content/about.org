@@ -14,6 +14,8 @@ and was not academic in my youth. I moved to London when I was 19 to pursue a pa
 
 I like playing guitar mainly but also bass (often as a stand-in) and on occasion banjo. I specialise in fingerstyle guitar mainly and am heavily influenced by musicians like Jim O'Rourke and John Fahey, Capt. Beefheart and Django Reinhardt. I also like many other genres and movements like experimental, American indie/emo, screamo, post-rock, metal (of many different flavours), blues, folk and many more!
 
+* Into the tech stadium
+
 ** Tech Dabblings
 :PROPERTIES:
 :ID:       97B36D86-81A7-4ABE-A45D-F313494F030D
@@ -50,12 +52,13 @@ The cool things about my experience was that I could appreciate my privilege, I 
 :PROPERTIES:
 :ID:       358C9A6F-EC26-4BDF-9EA8-D09D05A130C2
 :END:
-Quickly I noticed that there was an under resourced team that were struggling with their backlog. Backed up in their queues were many requests for support with Jira and Service Management projects. I had been working as a service desk agent for over a year at this point so was familiar with many of the Atlassian products.
+I noticed that there was an under resourced team that were struggling with their backlog. Backed up in their queues were many requests for support with Jira and Service Management projects. I had been working as a service desk agent for over a year at this point so was familiar with many of the Atlassian products.
 
 Picking up tickets helped me learn the admin ropes and opened me up to the satisfaction you get for helping someone improve or automate their workflows. I was mixing tickets for Jira support with general tech support, so still learning about many other areas. 
 
-** Into the Developer abyss
+* DevEx and me
 
+** Into the Developer abyss
 Following a short time being a global Atlassian admin and helping introduce the business to 'zero-touch' MDM platforms like Mosyle I landed a job in the new Developer Experience team. Built from the ashes of a separating sister company I was able to get in at ground level and really understand the mission statement. During this time I was exposed to a lot of technology, concepts (SDLC, DevOps, TDD, BDD), cloud-native concepts, and speaking with engineers and developers on a daily basis. I worked on some cool projects like a GCP vend for new project templates and trying out AI driven Slack support bots 😀.
 
 The GCP vend was a fun one:
@@ -76,6 +79,8 @@ The GCP vend was a fun one:
     - We then hold the ticket until the actions are taken by the requester, the PR is recorded and ownership is granted.
 
   The long term goal of such a process was to ensure that we enable engineers in a positive way but also start building the super important guardrails required for an organisation of our size dealing with the cloud.
+
+* Security Time!
 
 ** TODO Move to Cyber Defence...
 
