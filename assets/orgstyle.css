@@ -1,162 +1,178 @@
 /* Base Styles */
 html, body {
-  background-color: #1c1e26;
-  font-size: 14px;
-  line-height: 1.5;
-  color: #dcdccc;
-  font-family: 'Fira Mono', monospace;
-  margin: 0 auto;
-  max-width: 90%;
+    background-color: #1c1e26;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #dcdccc;
+    font-family: 'Fira Mono', monospace;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+/* For smaller screens, adjust the width to be more user-friendly */
+@media screen and (max-width: 768px) {
+    body {
+        max-width: 90%;  /* Use 90% width on tablet-sized screens */
+        margin: 0 auto;  /* Keep centered */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        max-width: 100%;  /* Full width on mobile screens */
+        margin: 0;  /* Remove margins on the sides */
+    }
 }
 
 /* Headings */
 h1 {
-  color: #e79686;
-  font-size: 2em;
-  text-align: center;
-  margin-bottom: 0;
+    color: #e79686;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 0;
 }
 
 h2 {
-  color: #7ec98f;
-  font-size: 1.5em;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #7ec98f;
+    color: #7ec98f;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #7ec98f;
 }
 
 h3 {
-  color: #a89bb9;
-  font-size: 1.2em;
-  margin-top: 10px;
-  margin-bottom: 5px;
+    color: #a89bb9;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 h4 {
-  color:  #6ca0dc;
-  font-size: 1.2em;
-  margin-top: 10px;
-  margin-bottom: 5px;
+    color:  #6ca0dc;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 a img[src$="rss.png"] {
-  margin-right: 10px;
-  vertical-align: middle;
-  margin-top: -3px;
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-top: -3px;
 }
 
 /* Paragraphs and Lists */
 p {
-  margin: 10px 0;
+    text-align: justify;
+    margin-bottom: 1.5em;
 }
 
 ul {
-  padding-left: 20px;
+    padding-left: 20px;
 }
 
 /* Links */
 a {
-  color: #7ec98f;
-  text-decoration: none;
+    color: #7ec98f;
+    text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* Centering Elements */
 .center {
-  text-align: center;
+    text-align: center;
 }
 
 /* Code Block */
 code {
-  background-color: #2e3440;
-  color: #dcdccc;
-  padding: 2px 4px;
-  border-radius: 4px;
+    background-color: #2e3440;
+    color: #dcdccc;
+    padding: 2px 4px;
+    border-radius: 4px;
 }
 
 /* Todo Items */
 .todo {
-  background-color: #e79686;
-  color: white;
-  padding: .1em 0.3em;
-  border-radius: 3px;
-  font-size: 0.9em;
-  display: inline-block;
-  margin-right: 5px;
+    background-color: #e79686;
+    color: white;
+    padding: .1em 0.3em;
+    border-radius: 3px;
+    font-size: 0.9em;
+    display: inline-block;
+    margin-right: 5px;
 }
 
 /* Done Items */
 .done {
-  background-color: #7ec98f;
-  color: white;
-  padding: .1em 0.3em;
-  border-radius: 3px;
-  font-size: 0.9em;
-  display: inline-block;
-  margin-right: 5px;
+    background-color: #7ec98f;
+    color: white;
+    padding: .1em 0.3em;
+    border-radius: 3px;
+    font-size: 0.9em;
+    display: inline-block;
+    margin-right: 5px;
 }
 
 /* Priority */
 .priority {
-  color: orange;
-  font-family: 'Fira Mono', monospace;
-  font-weight: bold;
+    color: orange;
+    font-family: 'Fira Mono', monospace;
+    font-weight: bold;
 }
 
 /* Tags */
 .tag {
-  font-family: 'Fira Mono', monospace;
-  font-size: 0.9em;
-  float: right;
-  background-color: #2e3440;
-  color: #7ec98f;
-  padding: 3px;
-  border-radius: 5px;
-  display: inline-block;
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.9em;
+    float: right;
+    background-color: #2e3440;
+    color: #7ec98f;
+    padding: 3px;
+    border-radius: 5px;
+    display: inline-block;
 }
 
 /* Timestamp */
 .timestamp {
-  color: #bebebe;
-  font-size: 0.85em;
-  font-style: italic;
+    color: #bebebe;
+    font-size: 0.85em;
+    font-style: italic;
 }
 
 /* Footnotes */
 #footnotes {
-  font-size: 0.9em;
-  color: #dcdccc;
-  margin-top: 20px;
-  border-top: 1px solid #7ec98f;
+    font-size: 0.9em;
+    color: #dcdccc;
+    margin-top: 20px;
+    border-top: 1px solid #7ec98f;
 }
 
 .footpara {
-  margin-bottom: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .footdef sup {
-  padding-right: 0.5em;
+    padding-right: 0.5em;
 }
 
 /* Highlighting */
 .code-highlighted {
-  background-color: #ffff00;
-  font-family: 'Fira Mono', monospace;
+    background-color: #ffff00;
+    font-family: 'Fira Mono', monospace;
 }
 
 /* Flexbox for Postamble */
 .flex-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
 }
 
 /* Ensure content takes up available space */
 .content {
-  flex: 1; /* This will make sure content takes up the space above the postamble */
+    flex: 1; /* This will make sure content takes up the space above the postamble */
 }
 
 /* Postamble styling */
