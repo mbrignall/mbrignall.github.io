@@ -8,7 +8,7 @@
 :PUBDATE:  2024-10-04 Fri 00:42
 :END:
 
-Welcome to my blog! Here, I will be documenting my journey, sharing my thoughts, findings, and learnings in various fields that interest me. This space will evolve as I experiment, explore, and expand my knowledge.
+Here, I will be documenting my journey, sharing my thoughts, findings, and learnings in various fields that interest me. This space will evolve as I experiment, explore, and expand my knowledge.
 
 I hope you find something useful or thought-provoking!
 
@@ -37,7 +37,7 @@ In this blog, you'll likely find me talking about my favourite tech. I may, from
 
   I haven’t finished it yet, but it’s a look into the early days of computer security, hacking, and investigation.
 
-  So far, good! I'm taking time to get through books nowadays... 
+  So far, good! I'm taking time to get through books nowadays so keep an eye out for anything of interest as time goes by.
   
 * Contact
 :PROPERTIES:

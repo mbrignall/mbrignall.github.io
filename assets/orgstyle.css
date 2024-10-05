@@ -6,23 +6,17 @@ html, body {
     color: #dcdccc;
     font-family: 'Fira Mono', monospace;
     margin: 0 auto;
-    max-width: 70%;
+    width: 70%;
 }
 
-/* For smaller screens, adjust the width to be more user-friendly */
-@media screen and (max-width: 768px) {
+/* For Mobile */
+@media screen and (max-width: 540px) {
     body {
-        max-width: 100%;  /* Use 90% width on tablet-sized screens */
-        margin: 0 auto;  /* Keep centered */
+        width: 100%;
+	margin: 0;
     }
 }
 
-@media screen and (max-width: 480px) {
-    body {
-        max-width: 100%;  /* Full width on mobile screens */
-        margin: 0;  /* Remove margins on the sides */
-    }
-}
 
 /* Headings */
 h1 {
