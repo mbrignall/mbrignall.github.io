@@ -98,7 +98,7 @@ https://ogbe.net/blog/blogging_with_org.html"
              :html-postamble t
              :publishing-directory "./public"
              :with-author nil
-             :with-creator t
+             :with-creator nil
              :with-toc nil
              :section-numbers nil
              :auto-sitemap t
