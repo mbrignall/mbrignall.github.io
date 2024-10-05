@@ -12,7 +12,7 @@
 
 and was not academic in my youth. I moved to London when I was 19 to pursue a passion for music. This went well for a while and I was playing regularly, at least a few nights a week.
 
-I like playing guitar mainly but also bass (often as a stand-in) and on occasion banjo. I specialise in fingerstyle guitar mainly and am heavily influenced by musicians like Jim O'Rourke and John Fahey, Capt. Beefheart and Django Reinhardt. I also like many other genres and movements like experimental, American indie/emo, screamo, post-rock, metal (of many different flavours), blues, folk and many more!
+I like playing guitar mainly but also bass (often as a stand-in) and on occasion banjo. I specialise in fingerstyle guitar and am heavily influenced by musicians like Jim O'Rourke and John Fahey, Capt. Beefheart and Django Reinhardt. I also like many other genres and movements like experimental, American indie/emo, screamo, post-rock, metal (of many different flavours), blues, folk and many more!
 
 * Into the tech stadium
 
@@ -32,7 +32,7 @@ I started taking calls for customers who had PAYG (top-up) meters. These were of
 
 After doing the call center role for a few years I was offered an opportunity to join 'Second Line', an escalation team. This was an opportunity to get more technical, taking contact from front line agents unable to solve the problem at hand for the caller. We touched many areas of the industry, like metering, industry flows, regulatory bodies, field engineers. It could be really interesting and came with challenges that kept me interested.
 
-** Tech Support, take a jar off the shelf, open and eat
+** Tech Support: take a jar off the shelf, open and eat
 :PROPERTIES:
 :ID:       9AF41BBC-483F-45BC-8D9A-259315FFFCF7
 :END:
@@ -59,7 +59,7 @@ Picking up tickets helped me learn the admin ropes and opened me up to the satis
 * DevEx and me
 
 ** Into the Developer abyss
-Following a short time being a global Atlassian admin and helping introduce the business to 'zero-touch' MDM platforms like Mosyle I landed a job in the new Developer Experience team. Built from the ashes of a separating sister company I was able to get in at ground level and really understand the mission statement. During this time I was exposed to a lot of technology, concepts (SDLC, DevOps, TDD, BDD), cloud-native concepts, and speaking with engineers and developers on a daily basis. I worked on some cool projects like a GCP vend for new project templates and trying out AI driven Slack support bots 😀.
+Following a short time being a global Atlassian admin and helping introduce the business to 'zero-touch' MDM platforms like Mosyle I landed a job in the new Developer Experience team. Built from the ashes of a separating sister company I was able to get in at ground level and really understand the mission statement. During this time I was exposed to a lot of technology, concepts (SDLC, DevOps, TDD, BDD), cloud-native concepts, and speaking with engineers and developers on a daily basis. I worked on some cool projects like a GCP vend for new project templates and trying out AI driven Slack support bots.😀 During this time the business decided to use Backstage as a internal developer portal. 
 
 *** To vend a GCP project
 
