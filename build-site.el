@@ -95,7 +95,7 @@ https://ogbe.net/blog/blogging_with_org.html"
              :base-directory "./content"
              :publishing-function 'org-html-publish-to-html
              :html-preamble (file-contents "assets/html_preamble.html")
-             :html-postamble t
+             :html-postamble (file-contents "assets/html_postamble.html")
              :publishing-directory "./public"
              :with-author nil
              :with-creator nil
