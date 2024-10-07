@@ -4,12 +4,6 @@
 #+ATTR_HTML: :style margin:auto; display:block; width:200px
 [[./mbrignl.jpg]]
 
-#+TITLE: About Me
-#+author: mbrignall
-
-#+ATTR_HTML: :style margin:auto; display:block; width:200px
-[[./mbrignl.jpg]]
-
 * I grew up in Gloucestershire…
 :PROPERTIES:
 :ID: E4412E7B-90F2-4DF3-A730-AAF840B8F551
