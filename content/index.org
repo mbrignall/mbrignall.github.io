@@ -51,8 +51,8 @@ In this blog, you'll likely find me talking about my favourite tech. I may, from
 :END:
 
 Feel free to reach out via email or GitHub:
-- [[mailto:martinaloysiusbrignall@gmail.com][email me]]
-- [[https://github.com/mbrignall][github/mbrignall]]
+- @@html:<i class="fa fa-envelope"></i>@@ [[mailto:martinaloysiusbrignall@gmail.com][email me]] 
+- @@html:<i class="fa-brands fa-github-alt"></i>@@ [[https://github.com/mbrignall][github/mbrignall]]
 
 * Post Archive
 [[file:archive.org][All Posts]]
