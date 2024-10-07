@@ -4,87 +4,66 @@
 #+ATTR_HTML: :style margin:auto; display:block; width:200px
 [[./mbrignl.jpg]]
 
-* I grew up in Gloucestershire...
+#+TITLE: About Me
+#+author: mbrignall
+
+#+ATTR_HTML: :style margin:auto; display:block; width:200px
+[[./mbrignl.jpg]]
+
+* I grew up in Gloucestershire…
 :PROPERTIES:
-:ID:       E4412E7B-90F2-4DF3-A730-AAF840B8F551
-:PUBDATE:  2024-10-04 Fri 00:42
+:ID: E4412E7B-90F2-4DF3-A730-AAF840B8F551
+:PUBDATE: 2024-10-04 Fri 00:42
 :END:
 
-and was not academic in my youth. I moved to London when I was 19 to pursue a passion for music. This went well for a while and I was playing regularly, at least a few nights a week.
-
-I like playing guitar mainly but also bass (often as a stand-in) and on occasion banjo. I specialise in fingerstyle guitar and am heavily influenced by musicians like Jim O'Rourke and John Fahey, Capt. Beefheart and Django Reinhardt. I also like many other genres and movements like experimental, American indie/emo, screamo, post-rock, metal (of many different flavours), blues, folk and many more!
+I wasn’t very academic and moved to London at 19 to pursue music. I played guitar (mostly fingerstyle) and occasionally bass and banjo. I was influenced by musicians like Jim O’Rourke, John Fahey, and Django Reinhardt, but my interests span many genres: blues, post-rock, metal, and more.
 
 * Into the tech stadium
 
-** Tech Dabblings
+** Tech Beginnings
 :PROPERTIES:
-:ID:       97B36D86-81A7-4ABE-A45D-F313494F030D
+:ID: 97B36D86-81A7-4ABE-A45D-F313494F030D
 :END:
-I have always dabbled with computers and from an early age had access to technology due to my dad being an engineer. I remember him having a BBC Micro in my parents bedroom, at the time I didn't appreciate the impact that would have later in my life. I distantly remember copying the code for a ski game out of a magazine and getting it to run.
+I grew up around tech, thanks to my dad, an engineer. My early interest came from fixing tech problems for others. Around 8 years ago, I joined OVO Energy, which started my career in tech.
 
-Being a person who found it easy to troubleshoot and fix things I was often a go to for people experiencing problems with tech. Even before doing Tech Support professionally I was able to remove viruses, reinstall operating systems and fix driver issues etc. Around 8 years ago I started working for a green energy company, OVO Energy.
-
-** Contact center swing set
+** Customer Support Days
 :PROPERTIES:
-:ID:       83A173C8-7AD0-4B0F-BBB3-66339527E604
+:ID: 83A173C8-7AD0-4B0F-BBB3-66339527E604
 :END:
-I started taking calls for customers who had PAYG (top-up) meters. These were often tricky conversations, dealing with people in challenging situations who were often struggling to keep the lights on. We were given autonomy to fix problems, 'right first time' was the motto. So you could jump into all kinds of things in the hope that you avoided a repeat contact and solved the problem for the customer. There was a genuine feeling of 'doing the right thing'.
+I started in customer support, taking calls for PAYG meters, where autonomy and ‘doing the right thing’ mattered. Eventually, I moved to a more technical Second Line team, dealing with escalations across various industry areas.
 
-After doing the call center role for a few years I was offered an opportunity to join 'Second Line', an escalation team. This was an opportunity to get more technical, taking contact from front line agents unable to solve the problem at hand for the caller. We touched many areas of the industry, like metering, industry flows, regulatory bodies, field engineers. It could be really interesting and came with challenges that kept me interested.
-
-** Tech Support: take a jar off the shelf, open and eat
+** Transition to Tech Support
 :PROPERTIES:
-:ID:       9AF41BBC-483F-45BC-8D9A-259315FFFCF7
+:ID: 9AF41BBC-483F-45BC-8D9A-259315FFFCF7
 :END:
-Not long after joining the team I saw an internal role come up within Tech Support, my manager at the time encouraged me to apply. I did, and I got the job! It did not take long to realise that I was in my element and with my people.
+I applied for Tech Support and loved it immediately—immersed in solving technical issues, learning from experts, and benefiting from a flexible, startup-like culture.
 
-I often refer to myself as a kid in a sweetshop when it comes to tech related pursuit, and I ate all the sweets and more!
-
-** Autonomy for imposters
+** Learning Atlassian Admin
 :PROPERTIES:
-:ID:       9AE22941-F509-4183-82D9-077F2B15DD1D
+:ID: 358C9A6F-EC26-4BDF-9EA8-D09D05A130C2
 :END:
-I quickly realised that I was in a unique situation where I had autonomy, I was working around experts, and the company was still living with a 'startup' culture. This meant I was able to spread my tech support wings and tap into many areas I may not have been exposed to if I had been in another organisation.
+I saw an opportunity to help the Atlassian admin team with their backlog. I dove into Jira and Service Management projects while still supporting general tech queries, learning to improve and automate workflows.
 
-The cool things about my experience was that I could appreciate my privilege, I was humble and hungry, but occasionally suffered severe imposter syndrome.
-
-** Bring me some Atlassian, and make it snappy
-:PROPERTIES:
-:ID:       358C9A6F-EC26-4BDF-9EA8-D09D05A130C2
-:END:
-I noticed that there was an under resourced team that were struggling with their backlog. Backed up in their queues were many requests for support with Jira and Service Management projects. I had been working as a service desk agent for over a year at this point so was familiar with many of the Atlassian products.
-
-Picking up tickets helped me learn the admin ropes and opened me up to the satisfaction you get for helping someone improve or automate their workflows. I was mixing tickets for Jira support with general tech support, so still learning about many other areas. 
+During this time I helped introduce the business to their AI chatbot offering: Virtual Agent. This offers a workflow based Slack workflow that creates tickets when matching the intent of a requester. This was the ground basis for the GCP vend that is mentioned in the next section.
 
 * DevEx and me
 
-** Into the Developer abyss
-Following a short time being a global Atlassian admin and helping introduce the business to 'zero-touch' MDM platforms like Mosyle I landed a job in the new Developer Experience team. Built from the ashes of a separating sister company I was able to get in at ground level and really understand the mission statement. During this time I was exposed to a lot of technology, concepts (SDLC, DevOps, TDD, BDD), cloud-native concepts, and speaking with engineers and developers on a daily basis. I worked on some cool projects like a GCP vend for new project templates and trying out AI driven Slack support bots.😀 During this time the business decided to use Backstage as a internal developer portal. 
+** Developer Experience
+After helping introduce ‘zero-touch’ MDM platforms and managing Atlassian admin work, I joined the Developer Experience team. We built new processes like automating GCP project requests and deploying AI-driven Slack bots, while focusing on cloud-native concepts and DevOps practices.
 
-*** To vend a GCP project
+*** Automating GCP Project Vends
+In our GCP vend process:
+- Requests came through Slack, triggering Jira tickets
+- A bot asked key questions, checking project names for uniqueness
+- Jira triggered an AWS Lambda via SNS, which interfaced with Google’s API to create the project
+- Success/failure messages were posted back to Slack for actioning
 
-The GCP vend was a fun one:
-
-    - Requester goes to our Slack channel to request a new GCP project
-    - We had a Jira to Slack integration so Slack creates a ticket on matched intents
-    - Bot picks up the request and asks probing questions like:
-      - Is it dev/staging/prod environment?
-      - What is the name of the project?
-      - Confirm the owner
-      - More was planned...
-    - The request is triaged and regex checks the project name is unique and doesn't match regex
-    - Automation for Jira has a neat AWS feature 'send SNS message' with the values from the fields needed to a Lambda endpoint.
-    - The Lamba collects the field values and sends them off to the Google API to create a new project in a holding folder.
-    - On success/failure the Lambda sends an email back to the JSM project, holding the ticket number, that updates the comments, sending a response into the Slack channel.
-      - If successful: Lists the project ID, Name and any other details needed for a PR to declare ownership of the project.
-      - If failure: Sends advice corresponding to the error and next steps
-    - We then hold the ticket until the actions are taken by the requester, the PR is recorded and ownership is granted.
-
- The long term goal of such a process was to ensure that we enable engineers in a positive way but also start building the super important guardrails required for an organisation of our size dealing with the cloud.
+This was about enabling engineers while building the guardrails needed for our growing cloud infrastructure.
 
 * Security Time!
 
-** TODO Move to Cyber Defence...
+** TODO Move to Cyber Defence…
+
 
     
 
