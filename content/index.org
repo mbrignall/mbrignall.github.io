@@ -23,6 +23,7 @@ In this blog, you'll likely find me talking about my favourite tech. I may, from
 :PROPERTIES:
 :ID:       2838AFCD-3BBA-4F08-AD20-DD021FA661A3
 :END:
+
 - *Cyber Defense and Security Engineering*
 - *Web Development and DevOps*
 - *Me talking profusely, and lovingly about Emacs*
@@ -37,13 +38,16 @@ In this blog, you'll likely find me talking about my favourite tech. I may, from
 
   I haven’t finished it yet, but it’s a look into the early days of computer security, hacking, and investigation.
 
-  So far, good! I'm taking time to get through books nowadays so keep an eye out for anything of interest as time goes by.
+  So far: good!
+
+  I'm taking time to get through books nowadays so keep an eye out for anything of interest as time goes by.
   
 * Contact
 :PROPERTIES:
 :ID:       7B5DFEEF-CBFA-4C8A-B5D2-5B3E2D08BA23
 :PUBDATE:  2024-10-04 Fri 00:42
 :END:
+
 Feel free to reach out via email or GitHub:
 - [[mailto:martinaloysiusbrignall@gmail.com][email me]]
 - [[https://github.com/mbrignall][github/mbrignall]]
