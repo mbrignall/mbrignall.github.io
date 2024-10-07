@@ -41,6 +41,8 @@ In this blog, you'll likely find me talking about my favourite tech. I may, from
   So far: good!
 
   I'm taking time to get through books nowadays so keep an eye out for anything of interest as time goes by.
+
+  @@html:<div style="clear: both;"></div>@@
   
 * Contact
 :PROPERTIES:
