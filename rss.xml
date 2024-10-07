@@ -7,14 +7,14 @@
 <generator>Emacs webfeeder.el</generator>
 <link>https://blog.mbrig.nl</link>
 <atom:link href="https://blog.mbrig.nl/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 07 Oct 2024 15:04:54 +0000</lastBuildDate>
+<lastBuildDate>Mon, 07 Oct 2024 15:15:08 +0000</lastBuildDate>
 <item>
   <title>‎</title>
   <description><![CDATA[<div id="content" class="content">
 </div>]]></description>
   <link>https://blog.mbrig.nl/posts/./newpost.html</link>
   <guid isPermaLink="false">https://blog.mbrig.nl/posts/./newpost.html</guid>
-  <pubDate>Mon, 07 Oct 2024 15:04:54 +0000</pubDate>
+  <pubDate>Mon, 07 Oct 2024 15:15:08 +0000</pubDate>
 </item>
 </channel>
 </rss>
