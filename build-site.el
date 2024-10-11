@@ -22,6 +22,7 @@
 (use-package htmlize)
 (use-package ess)
 (use-package ox-rss)
+(use-package ob-nix)
 (use-package esxml)
 
 ;;; Sitemap preprocessing
@@ -133,7 +134,15 @@ https://ogbe.net/blog/blogging_with_org.html"
 (setq org-html-validation-link nil
       org-html-htmlize-output-type 'css
       org-html-style-default (file-contents "assets/head.html")
-      org-export-use-babel nil)
+      org-export-use-babel t)
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((nix . t)))
+
+;; Customize export for Nix code blocks
+(setq org-src-lang-modes
+      (append '(("nix" . nix)) org-src-lang-modes))  ;; Ensure Nix gets mapped correctly
 
 ;; Generate the site output
 (org-publish-all t)

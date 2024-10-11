@@ -18,7 +18,7 @@ I am a strong believer in keeping things simple and with the introduction of 'us
 
 Add this to your ~init.el~:
 
-#+begin_src elisp :exports code
+#+begin_src emacs-lisp
   ;; Spellcheck
   (require 'ispell)
   (setq ispell-program-name "aspell")
@@ -31,14 +31,12 @@ Add this to your ~init.el~:
 
 With the emphasis on declarative, reproducible systems, I've been using Nix for some time now. I have a config for Linux/NixOS outside of work, when at work I use a Macbook so have a Nix Darwin build for that. The addition of ~aspell~ with dictionaries was surprisingly simple once I'd worked out how to declare it in my configuration file:
 
-#+begin_src nix :exports code
-  # System packages
-  environment.systemPackages = with pkgs; [
-    # Applications
-    (aspellWithDicts (dicts: with dicts; [ en en-computers en-science ]))
-    ispell
-    # other packages
-  ];
-#+end_src
 
-
+@@html:<pre class="src src-nix">@@
+@@html:<span class="org-comment-delimiter"># </span><span class="org-comment">System Packages</span>@@
+@@html:<span class="org-keyword">environment.systemPackages</span> = with <span class="org-constant">pkgs</span>; [@@
+@@html:<span class="org-comment-delimiter">  # </span><span class="org-comment">Applications</span>@@
+@@html:  (<span class="org-keyword">aspellWithDicts</span> (<span class="org-constant">dicts:</span> with dicts; <span class="org-string">[ en en-computers en-science ]</span>))@@
+@@html:<span class="org-constant">  ispell</span>@@
+@@html:<span class="org-comment-delimiter">  # </span><span class="org-comment">Other Packages</span>@@
+@@html:];</pre>@@
