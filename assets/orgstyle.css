@@ -24,6 +24,11 @@ html, body {
         margin: 0;
         padding: 10px;
     }
+    #content {
+        width: 90%; /* Ensure the content area also takes up 90% of the width */
+        margin: 0;
+        padding: 10px;
+    }
 }
 
 /* Headings */
