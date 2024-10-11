@@ -124,7 +124,7 @@ https://ogbe.net/blog/blogging_with_org.html"
        ;; Other assets (CSS, images, etc.)
        (list "org-site:assets"
              :base-directory "./assets/"
-             :base-extension "css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|ico"
+             :base-extension "css\\|ico\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|ico"
              :publishing-directory "./public/"
              :recursive t
              :publishing-function 'org-publish-attachment)))
