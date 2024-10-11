@@ -18,7 +18,7 @@ I am a strong believer in keeping things simple and with the introduction of 'us
 
 Add this to your ~init.el~:
 
-#+begin_src elisp
+#+begin_src elisp :exports code
   ;; Spellcheck
   (require 'ispell)
   (setq ispell-program-name "aspell")
@@ -31,7 +31,7 @@ Add this to your ~init.el~:
 
 With the emphasis on declarative, reproducible systems, I've been using Nix for some time now. I have a config for Linux/NixOS outside of work, when at work I use a Macbook so have a Nix Darwin build for that. The addition of ~aspell~ with dictionaries was surprisingly simple once I'd worked out how to declare it in my configuration file:
 
-#+begin_src nix
+#+begin_src nix :exports code
   # System packages
   environment.systemPackages = with pkgs; [
     # Applications

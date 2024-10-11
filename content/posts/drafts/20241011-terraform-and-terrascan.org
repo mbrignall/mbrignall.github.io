@@ -2,4 +2,8 @@
 #+author: mbrignall
 #+date: 2024-10-11
 
+* Terraform for AWS
+
+* Terrascan
+
 

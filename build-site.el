@@ -19,7 +19,7 @@
 
 ;; Load publishing system
 (require 'ox-publish)
-
+(use-package htmlize)
 (use-package ess)
 (use-package ox-rss)
 (use-package esxml)
