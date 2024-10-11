@@ -4,48 +4,31 @@
 #+ATTR_HTML: :style margin:auto; display:block; width:200px
 [[./mbrignl.jpg]]
 
-* I grew up in Gloucestershire…
-:PROPERTIES:
-:ID: E4412E7B-90F2-4DF3-A730-AAF840B8F551
-:PUBDATE: 2024-10-04 Fri 00:42
-:END:
-
-I wasn’t very academic and moved to London at 19 to pursue music. I played guitar (mostly fingerstyle) and occasionally bass and banjo. I was influenced by musicians like Jim O’Rourke, John Fahey, and Django Reinhardt, but my interests span many genres: blues, post-rock, metal, and more.
+* Early years
+I moved to London at 19 to follow my passion for music. I mainly played guitar (fingerstyle), with occasional stints on bass and banjo. My musical influences include Jim O’Rourke, John Fahey, and Django Reinhardt, but I enjoy exploring a wide range of genres—from blues and post-rock to metal and beyond. I have a background in Music Tech and spent many hours building devices and instruments using Raspberry Pi, [[https://puredata.info/][Pure Data]] and the fun music communities I discovered along the way. 
 
 * Into the tech stadium
 
 ** Tech Beginnings
-:PROPERTIES:
-:ID: 97B36D86-81A7-4ABE-A45D-F313494F030D
-:END:
 I grew up around tech, thanks to my dad, an engineer. My early interest came from fixing tech problems for others. Around 8 years ago, I joined OVO Energy, which started my career in tech.
 
 ** Customer Support Days
-:PROPERTIES:
-:ID: 83A173C8-7AD0-4B0F-BBB3-66339527E604
-:END:
 I started in customer support, taking calls for PAYG meters, where autonomy and ‘doing the right thing’ mattered. Eventually, I moved to a more technical Second Line team, dealing with escalations across various industry areas.
 
 ** Transition to Tech Support
-:PROPERTIES:
-:ID: 9AF41BBC-483F-45BC-8D9A-259315FFFCF7
-:END:
 I applied for Tech Support and loved it immediately—immersed in solving technical issues, learning from experts, and benefiting from a flexible, startup-like culture.
 
 ** Learning Atlassian Admin
-:PROPERTIES:
-:ID: 358C9A6F-EC26-4BDF-9EA8-D09D05A130C2
-:END:
 I saw an opportunity to help the Atlassian admin team with their backlog. I dove into Jira and Service Management projects while still supporting general tech queries, learning to improve and automate workflows.
-
-During this time I helped introduce the business to their AI chatbot offering: Virtual Agent. This offers a workflow based Slack workflow that creates tickets when matching the intent of a requester. This was the ground basis for the GCP vend that is mentioned in the next section.
 
 * DevEx and me
 
 ** Developer Experience
 After helping introduce ‘zero-touch’ MDM platforms and managing Atlassian admin work, I joined the Developer Experience team. We built new processes like automating GCP project requests and deploying AI-driven Slack bots, while focusing on cloud-native concepts and DevOps practices.
 
-*** Automating GCP Project Vends
+During this time I also helped introduce the business to their AI chatbot offering: Virtual Agent. This offers a workflow based Slack workflow that creates tickets when matching the intent of a requester. This was the ground basis for the GCP vend that is mentioned in the next section.
+
+** Automating GCP Project Vends
 In our GCP vend process:
 - Requests came through Slack, triggering Jira tickets
 - A bot asked key questions, checking project names for uniqueness
@@ -56,11 +39,7 @@ This was about enabling engineers while building the guardrails needed for our g
 
 * Security Time!
 
-** TODO Move to Cyber Defence…
+** Transition to Cyber Defence
+I made the move to Cyber Defence around mid 2024, joining a CSIRT (Cyber Security Incident Response Team). It’s been a natural step forward from solving technical problems to defending against cyber threats.
 
-
-    
-
-
-
-
+In this role, I’m involved in email security, threat intelligence, and automation. We use a mix of tools like GCP/Chronicle (SIEM), AWS GuardDuty, Wiz, and Tines to identify and respond to potential security issues. Automation has become key, allowing us to handle repetitive tasks and speed up our response to incidents using platforms like Tines and custom scripts.

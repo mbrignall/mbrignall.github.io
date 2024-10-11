@@ -45,11 +45,6 @@ In this blog, you'll likely find me talking about my favourite tech. I may, from
   @@html:<div style="clear: both;"></div>@@
   
 * Contact
-:PROPERTIES:
-:ID:       7B5DFEEF-CBFA-4C8A-B5D2-5B3E2D08BA23
-:PUBDATE:  2024-10-04 Fri 00:42
-:END:
-
 Feel free to reach out via email or GitHub:
 - @@html:<i class="fa fa-envelope"></i>@@ [[mailto:martinaloysiusbrignall@gmail.com][email me]] 
 - @@html:<i class="fa-brands fa-github-alt"></i>@@ [[https://github.com/mbrignall][github/mbrignall]]

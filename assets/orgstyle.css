@@ -6,17 +6,25 @@ html, body {
     color: #dcdccc;
     font-family: 'Fira Mono', monospace;
     margin: 0 auto;
-    width: 70%;
 }
 
-/* For Mobile */
-@media screen and (max-width: 540px) {
+/* For Larger Screens */
+@media screen and (min-width: 481px) {
     body {
-        width: 100%;
-	margin: 0;
+        width: 48rem;
+        margin: 0 auto;
+        padding: 20px;
     }
 }
 
+/* For Mobile */
+@media screen and (max-width: 480px) {
+    body {
+        width: 90%;
+        margin: 0;
+        padding: 10px;
+    }
+}
 
 /* Headings */
 h1 {
@@ -67,7 +75,6 @@ ul {
 /* Links */
 a {
     color: #7ec98f;
-    text-decoration: none;
 }
 
 a:hover {
