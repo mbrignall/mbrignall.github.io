@@ -9,7 +9,7 @@ html, body {
 }
 
 /* For Larger Screens */
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 680px) {
     body {
         width: 48rem;
         margin: 0 auto;
@@ -18,15 +18,10 @@ html, body {
 }
 
 /* For Mobile */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 430px) {
     body {
         width: 90%;
-        margin: 0;
-        padding: 10px;
-    }
-    #content {
-        width: 90%; /* Ensure the content area also takes up 90% of the width */
-        margin: 0;
+        margin: 0 auto;
         padding: 10px;
     }
 }
