@@ -6,9 +6,11 @@
 (No preview)
 * [[file:index.org][(2024-10-03) Moments of clarity, shared.]]
 (No preview)
+* posts
+** [[file:posts/20241004-emacs-ispell-aspell.org][(2024-10-11) Emacs with aspell/ispell on Nix Darwin]]
+(No preview)
+** [[file:posts/newpost.org][(2024-10-04) newpost]]
+(No preview)
 * notes
 ** [[file:notes/notes.org][(2024-10-04) Notes - a place to store]]
-(No preview)
-* posts
-** [[file:posts/newpost.org][(2024-10-04) newpost]]
 (No preview)
