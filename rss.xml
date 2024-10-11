@@ -7,47 +7,47 @@
 <generator>Emacs webfeeder.el</generator>
 <link>https://blog.mbrig.nl</link>
 <atom:link href="https://blog.mbrig.nl/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 11 Oct 2024 18:18:40 +0000</lastBuildDate>
+<lastBuildDate>Fri, 11 Oct 2024 18:33:51 +0000</lastBuildDate>
 <item>
   <title>‎</title>
   <description><![CDATA[<div id="content" class="content">
 </div>]]></description>
   <link>https://blog.mbrig.nl/posts/./newpost.html</link>
   <guid isPermaLink="false">https://blog.mbrig.nl/posts/./newpost.html</guid>
-  <pubDate>Fri, 11 Oct 2024 18:18:40 +0000</pubDate>
+  <pubDate>Fri, 11 Oct 2024 18:33:51 +0000</pubDate>
 </item>
 <item>
   <title>Emacs with aspell/ispell on Nix Darwin</title>
   <description><![CDATA[<div id="content" class="content">
- <div id="outline-container-org353cbdb" class="outline-2">
- <h2 id="org353cbdb">British English and Emacs</h2>
- <div class="outline-text-2" id="text-org353cbdb">
+ <div id="outline-container-orgf4ff287" class="outline-2">
+ <h2 id="orgf4ff287">British English and Emacs</h2>
+ <div class="outline-text-2" id="text-orgf4ff287">
  <p>
 I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Ispell is built in to the current version I'm using (29.1). However it was locked to the default US dictionary. Easy fix right?
 </p>
 </div>
 
- <div id="outline-container-org4854c1d" class="outline-3">
- <h3 id="org4854c1d">Discoveries</h3>
- <div class="outline-text-3" id="text-org4854c1d">
+ <div id="outline-container-orgd170a96" class="outline-3">
+ <h3 id="orgd170a96">Discoveries</h3>
+ <div class="outline-text-3" id="text-orgd170a96">
  <p>
 Out the box the latest version of ispell on Nix Packages and built in Emacs does not have UK/British English default. So I started looking on Reddit and Googled ispell and Nix to see where I could go.
 </p>
 </div>
 </div>
 
- <div id="outline-container-org83ba9f0" class="outline-3">
- <h3 id="org83ba9f0">Emacs philosophy and approach</h3>
- <div class="outline-text-3" id="text-org83ba9f0">
+ <div id="outline-container-orgdb4db9b" class="outline-3">
+ <h3 id="orgdb4db9b">Emacs philosophy and approach</h3>
+ <div class="outline-text-3" id="text-orgdb4db9b">
  <p>
 I am a strong believer in keeping things simple and with the introduction of 'use-package' and the extra features in 29.1 I was keen to rewrite my config and use as close to vanilla setup as possible. I took the very base of what was needed and started from scratch building outward and exploring built-in packages. My config file is available here:  <a href="https://github.com/mbrignall/nix-darwin">nix-darwin repo</a>
 </p>
 </div>
 </div>
 
- <div id="outline-container-org3e1b6c4" class="outline-3">
- <h3 id="org3e1b6c4">Emacs Aspell/Ispell config</h3>
- <div class="outline-text-3" id="text-org3e1b6c4">
+ <div id="outline-container-org38512b2" class="outline-3">
+ <h3 id="org38512b2">Emacs Aspell/Ispell config</h3>
+ <div class="outline-text-3" id="text-org38512b2">
  <p>
 Add this to your  <code>init.el</code>:
 </p>
@@ -64,9 +64,9 @@ Add this to your  <code>init.el</code>:
 </div>
 </div>
 
- <div id="outline-container-org12efddb" class="outline-3">
- <h3 id="org12efddb">NixOS/ Nix Darwin</h3>
- <div class="outline-text-3" id="text-org12efddb">
+ <div id="outline-container-orgdd511aa" class="outline-3">
+ <h3 id="orgdd511aa">NixOS/ Nix Darwin</h3>
+ <div class="outline-text-3" id="text-orgdd511aa">
  <p>
 With the emphasis on declarative, reproducible systems, I've been using Nix for some time now. I have a config for Linux/NixOS outside of work, when at work I use a Macbook so have a Nix Darwin build for that. The addition of  <code>aspell</code> with dictionaries was surprisingly simple once I'd worked out how to declare it in my configuration file:
 </p>
@@ -87,7 +87,7 @@ environment.systemPackages = with pkgs; [
 </div>]]></description>
   <link>https://blog.mbrig.nl/posts/./20241004-emacs-ispell-aspell.html</link>
   <guid isPermaLink="false">https://blog.mbrig.nl/posts/./20241004-emacs-ispell-aspell.html</guid>
-  <pubDate>Fri, 11 Oct 2024 18:18:40 +0000</pubDate>
+  <pubDate>Fri, 11 Oct 2024 18:33:51 +0000</pubDate>
 </item>
 </channel>
 </rss>
