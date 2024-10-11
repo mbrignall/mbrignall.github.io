@@ -9,7 +9,7 @@ html, body {
 }
 
 /* For Larger Screens */
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 680px) {
     body {
         width: 48rem;
         margin: 0 auto;
@@ -49,6 +49,19 @@ h3 {
     margin-bottom: 5px;
 }
 
+h4 {
+    color:  #6ca0dc;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+a img[src$="rss.png"] {
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
 /* Paragraphs and Lists */
 p {
     text-align: justify;
@@ -73,60 +86,82 @@ a:hover {
     text-align: center;
 }
 
-/* Code Block - Inline Code */
+/* Code Block */
 code {
     background-color: #2e3440;
     color: #dcdccc;
     padding: 2px 4px;
     border-radius: 4px;
-    font-family: 'Fira Mono', monospace;
 }
 
-/* Block Code - Preformatted Code Block */
-pre {
-    background-color: #2e3440;
-    color: #dcdccc;
-    padding: 10px;
-    border-radius: 8px;
-    overflow: auto;
+/* Todo Items */
+.todo {
+    background-color: #e79686;
+    color: white;
+    padding: .1em 0.3em;
+    border-radius: 3px;
+    font-size: 0.9em;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* Done Items */
+.done {
+    background-color: #7ec98f;
+    color: white;
+    padding: .1em 0.3em;
+    border-radius: 3px;
+    font-size: 0.9em;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* Priority */
+.priority {
+    color: orange;
+    font-family: 'Fira Mono', monospace;
+    font-weight: bold;
+}
+
+/* Tags */
+.tag {
     font-family: 'Fira Mono', monospace;
     font-size: 0.9em;
-    line-height: 1.4;
+    float: right;
+    background-color: #2e3440;
+    color: #7ec98f;
+    padding: 3px;
+    border-radius: 5px;
+    display: inline-block;
 }
 
-/* Highlighted Code Block */
-pre.src {
-    background-color: #3b4252; /* Darker color for code blocks */
-    border: 1px solid #4c566a;
-    padding: 10px;
-    border-radius: 8px;
-    overflow: auto;
+/* Timestamp */
+.timestamp {
+    color: #bebebe;
+    font-size: 0.85em;
+    font-style: italic;
 }
 
-/* Org-mode Syntax Highlighting for src blocks */
-pre.src span {
+/* Footnotes */
+#footnotes {
+    font-size: 0.9em;
     color: #dcdccc;
+    margin-top: 20px;
+    border-top: 1px solid #7ec98f;
 }
 
-pre.src .org-keyword {
-    color: #81a1c1;
+.footpara {
+    margin-bottom: 0.5em;
 }
 
-pre.src .org-comment {
-    color: #616e88;
+.footdef sup {
+    padding-right: 0.5em;
 }
 
-pre.src .org-string {
-    color: #a3be8c;
-}
-
-pre.src .org-constant {
-    color: #ebcb8b;
-}
-
-/* Org-mode SRC container */
-.org-src-container {
-    margin-bottom: 1em;
+/* Highlighting */
+.code-highlighted {
+    background-color: #ffff00;
+    font-family: 'Fira Mono', monospace;
 }
 
 /* Flexbox for Postamble */
