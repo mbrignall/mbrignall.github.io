@@ -25,7 +25,9 @@ Terraform is an open-source tool developed by HashiCorp. Infrastructure is defin
 
 When you start the lab you'll get an overview of both Terraform and Terrascan. Make sure that you read through the information in order to become accustomed as to how they both work and integrate.
 
-#+ATTR_HTML: :style margin:auto; display:block; width:600px
+
+#+ATTR_HTML: :style margin:auto; display:block; width:90%
+#+caption: What the console looks like
 [[file:../tfexample.png]]
 
 ** Episode 1
@@ -38,14 +40,14 @@ The first labs starts with a simple S3 bucket configuration with some missing sc
   - Access logging should be enabled and configured to log to another bucket
   - Objects should be owned by the bucket owner if they have been uploaded with the bucket-owner-full-control canned ACL
 
-The auto-complete chooser is going to be your friend here 😉:
-
-#+ATTR_HTML: :style margin:auto; display:block; width:500px
+#+ATTR_HTML: :style margin:auto; display:block; width:90%
+#+caption: The auto-complete chooser is going to be your friend here 😉
 [[file:../tfexample3.png]]
 
 You're going to want to try a validate first in order to get feedback from Terrascan as to what's missing, unless you can tell off the bat and have previous experience in TF. The terminal response is really useful and I used the pointers to look at the official docs in order to work out which Key Value pair was needed.
 
-#+ATTR_HTML: :style margin:auto; display:block; width:600px
+#+ATTR_HTML: :style margin:auto; display:block; width:90%
+#+caption: Example of Terrascan in action 
 [[file:../tfexample1.png]]
 
 ** Episode 2
@@ -54,7 +56,8 @@ Covers KMS keys which are cryptographic keys that can be used to encrypt and sec
 
 As above, I went with the terminal feedback first, by running validate. This gave me the missing resources and configurations I needed to target. The Terraform documents are very clear, respect to Hashicorp for that.
 
-#+ATTR_HTML: :style margin:auto; display:block; width:600px
+#+ATTR_HTML: :style margin:auto; display:block; width:90%
+#+caption: More action
 [[file:../tfexample2.png]]
 
 In summary:
