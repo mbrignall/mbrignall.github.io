@@ -1,0 +1,3 @@
+#+title: Org Mode - It's excellent
+#+author: mbrignall
+#+date: 2024-10-24

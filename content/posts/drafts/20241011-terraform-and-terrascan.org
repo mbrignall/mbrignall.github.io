@@ -1,9 +1,0 @@
-#+title: Terraform and Terrascan with AWS (Immersive Labs)
-#+author: mbrignall
-#+date: 2024-10-11
-
-* Terraform for AWS
-
-* Terrascan
-
-
