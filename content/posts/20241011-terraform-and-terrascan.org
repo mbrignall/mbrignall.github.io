@@ -25,7 +25,7 @@ Terraform is an open-source tool developed by HashiCorp. Infrastructure is defin
 
 When you start the lab you'll get an overview of both Terraform and Terrascan. Make sure that you read through the information in order to become accustomed as to how they both work and integrate.
 
-#+ATTR_HTML: :style margin:auto; display:block; width:400px
+#+ATTR_HTML: :style margin:auto; display:block; width:600px
 [[file:../tfexample.png]]
 
 ** Episode 1
@@ -40,12 +40,12 @@ The first labs starts with a simple S3 bucket configuration with some missing sc
 
 The auto-complete chooser is going to be your friend here 😉:
 
-#+ATTR_HTML: :style margin:auto; display:block; width:400px
+#+ATTR_HTML: :style margin:auto; display:block; width:500px
 [[file:../tfexample3.png]]
 
 You're going to want to try a validate first in order to get feedback from Terrascan as to what's missing, unless you can tell off the bat and have previous experience in TF. The terminal response is really useful and I used the pointers to look at the official docs in order to work out which Key Value pair was needed.
 
-#+ATTR_HTML: :style margin:auto; display:block; width:400px
+#+ATTR_HTML: :style margin:auto; display:block; width:600px
 [[file:../tfexample.png]]
 
 ** Episode 2
