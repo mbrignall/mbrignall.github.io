@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Terraform and Terrascan with AWS (Immersive Labs)</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="/stylesorg.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+<div id="preamble" class="status">
+<hr style="border-top: 1px solid black;">
+<div class='topnav' style='display: flex; justify-content: space-between; align-items: center;'>
+  <a href="/index.html"><h2 style='margin-top: 0; margin-bottom: 0; margin-left:0px;'>mblognl</h2></a>
+  <div>
+    <a href='/archive.html' style='font-weight:bold; font-style:italic;'>Blog</a> | 
+    <a href='/about.html' style='font-weight:bold; font-style:italic;'>About Me</a> |
+    <a href='/notes.html' style='font-weight:bold; font-style:italic;'>Notes</a> |
+    <a href='/rss.xml'>
+      <img src='/rss.png' style='height: 0.8em;'>
+    </a>
+  </div>
+</div>
+<hr style="border-top: 1px solid black;">
+</div>
+<div id="content" class="content">
+<header>
+<h1 class="title">Terraform and Terrascan with AWS (Immersive Labs)</h1>
+</header>
+<div id="outline-container-org36bbdf7" class="outline-2">
+<h2 id="org36bbdf7">Immersive Labs</h2>
+<div class="outline-text-2" id="text-org36bbdf7">
+
+<figure id="org75e8cb9">
+<img src="https://static-00.iconduck.com/assets.00/terraform-icon-1803x2048-hodrzd3t.png" alt="terraform-icon-1803x2048-hodrzd3t.png" style="margin:auto; display:block; width:200px">
+
+</figure>
+
+<p>
+This post is going to cover the most recent lab "Secure Terraform for AWS". I wanted to present my personal approach on the lab and my experience in general. I'm going to try not to give away too much, just some hints and what to expect if you're considering purchasing licences or you're a learner considering which labs to do next.
+</p>
+
+<p>
+For some time now I've been working through the Immersive Labs career pathways. My focus has been on Incident Response, Malicious File Analysis and Windows Malware, SIEM/Elastic and Event/Log Analysis. I've also completed a lot of the introductory labs that covers Security/Cyber Professional basics.
+</p>
+
+<p>
+Having used some similar platforms like Hack the Box and the likes, I can say that the Immersive Labs are well designed with content that is thorough and excellent. If I find myself a bit lost at any point, I can easily flip to the guidance tab and after some perseverance manage to finish the labs with little frustration.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga8b81fd" class="outline-2">
+<h2 id="orga8b81fd">Terraform for AWS</h2>
+<div class="outline-text-2" id="text-orga8b81fd">
+<p>
+A quick reminder of what Terraform does:
+</p>
+
+<blockquote>
+<p>
+
+</p>
+
+<p>
+Terraform is an open-source tool developed by HashiCorp. Infrastructure is defined in a human-readable format in HashiCorp Language (HCL) or JSON which is processed by Terraform and then deployed into the appropriate target – typically cloud. It's a popular way for companies to manage their infrastructure as code (IaC) and can be used in conjunction with most existing cloud providers. In this lab, we take a look at Terraform in the context of AWS.
+</p>
+</blockquote>
+
+<p>
+When you start the lab you'll get an overview of both Terraform and Terrascan. Make sure that you read through the information in order to become accustomed as to how they both work and integrate.
+</p>
+
+
+<figure id="org050f81b">
+<img src="../tfexample.png" alt="tfexample.png" style="margin:auto; display:block; width:200px">
+
+</figure>
+</div>
+
+<div id="outline-container-orge186e5f" class="outline-3">
+<h3 id="orge186e5f">Episode 1</h3>
+<div class="outline-text-3" id="text-orge186e5f">
+<p>
+The first labs starts with a simple S3 bucket configuration with some missing scopes/resources. Your job is to make sure that the Terraform HCL passes the Terrascan expected configuration so that the bucket is secure and meets the following expectations:
+</p>
+
+<ul class="org-ul">
+<li>Server-side encryption should be enabled</li>
+<li>Public access should not be granted</li>
+<li>Buckets should be private</li>
+<li>Access logging should be enabled and configured to log to another bucket</li>
+<li>Objects should be owned by the bucket owner if they have been uploaded with the bucket-owner-full-control canned ACL</li>
+</ul>
+
+<p>
+The auto-complete chooser is going to be your friend here 😉:
+</p>
+
+
+<figure id="org764d65f">
+<img src="../tfexample3.png" alt="tfexample3.png" style="margin:auto; display:block; width:200px">
+
+</figure>
+
+<p>
+You're going to want to try a validate first in order to get feedback from Terrascan as to what's missing, unless you can tell off the bat and have previous experience in TF. The terminal response is really useful and I used the pointers to look at the official docs in order to work out which Key Value pair was needed.
+</p>
+
+
+<figure id="org4323708">
+<img src="../tfexample.png" alt="tfexample.png" style="margin:auto; display:block; width:200px">
+
+</figure>
+</div>
+</div>
+
+<div id="outline-container-org900b4a3" class="outline-3">
+<h3 id="org900b4a3">Episode 2</h3>
+<div class="outline-text-3" id="text-org900b4a3">
+<p>
+Covers KMS keys which are cryptographic keys that can be used to encrypt and secure AWS resources. EBS is also covered in this session which is for scalable block storage and is used as the default when creating volumes for EC2.
+</p>
+
+<p>
+As above, I went with the terminal feedback first, by running validate. This gave me the missing resources and configurations I needed to target. The Terraform documents are very clear, respect to Hashicorp for that.
+</p>
+
+<p>
+In summary:
+</p>
+
+<ul class="org-ul">
+<li>Run <code>terraform validate</code> to ensure that declarations are not missing arguments</li>
+<li>Use Terrascan to identify potential security issues and syntax errors</li>
+</ul>
+
+<p>
+I feel this episode was slightly easier and definitely had less points to address.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org064577f" class="outline-3">
+<h3 id="org064577f">Episode 3</h3>
+<div class="outline-text-3" id="text-org064577f">
+<p>
+This episode touches on the Aurora and Relational Database Services (RDS) in AWS. The brief covers the basics of the services and what to look out for in the lab. The goal is to correct the errors and update the resources to securely deploy infrastructure associated with the AWS Aurora service for relational databases (DBs).
+</p>
+
+<p>
+This lab has a high and medium alert reported in Terrascan:
+</p>
+
+<ul class="org-ul">
+<li><b>High</b> <code>aws_rds_cluster.aurora:#36</code></li>
+<li><b>Medium</b> <code>aws_rds_cluster_instance.aurora:#49</code></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org44684cf" class="outline-3">
+<h3 id="org44684cf">Episode 4 - the finale</h3>
+<div class="outline-text-3" id="text-org44684cf">
+<p>
+We reach the final episode which brings some more general security fundamentals and enabling detailed monitoring. Here we learn about how we restrict AWS VPC traffic to EC2 instances by using security groups and custom rules. EC2’s instance metadata service (IMDS) can be used to retrieve metadata about running EC2 instances from within the instance.
+</p>
+
+<blockquote>
+<p>
+This allows applications running within the instance to access temporary, rotated credentials, avoiding the need for developers to hardcode credentials. However, this metadata should not be available from outside the instance. IMDSv2 ensures that every request to the service is protected by session authentication where session tokens, unusable from outside the instance, are used to create temporary passwords for requests to the metadata service.
+</p>
+</blockquote>
+
+<p>
+I found this lab slightly more tricky as it was dealing with areas of AWS and resources, data blocks and configuration I'm less familiar with. However the terminal response of Terrascan made the experience fairly straight forward and that paired with using the excellent documentation offered made the Lab enjoyable, informative and filled in some blanks.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org549fd3c" class="outline-2">
+<h2 id="org549fd3c">Terrascan by Tenable</h2>
+<div class="outline-text-2" id="text-org549fd3c">
+<p>
+<a href="https://github.com/tenable/terrascanlink">Terrascan GitHub</a>
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<div class="postamble" style="text-align: center; margin-top: 20px; margin-bottom: 20px;"> 
+               <p> Created by <a href="https://www.gnu.org/software/emacs/">Emacs</a> 29.3 (<a href="https://orgmode.org">Org</a> mode 9.6.15)  </p>
+               </div>
+</div>
+</body>
+</html>
