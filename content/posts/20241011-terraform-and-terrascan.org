@@ -46,13 +46,16 @@ The auto-complete chooser is going to be your friend here 😉:
 You're going to want to try a validate first in order to get feedback from Terrascan as to what's missing, unless you can tell off the bat and have previous experience in TF. The terminal response is really useful and I used the pointers to look at the official docs in order to work out which Key Value pair was needed.
 
 #+ATTR_HTML: :style margin:auto; display:block; width:600px
-[[file:../tfexample.png]]
+[[file:../tfexample1.png]]
 
 ** Episode 2
 
 Covers KMS keys which are cryptographic keys that can be used to encrypt and secure AWS resources. EBS is also covered in this session which is for scalable block storage and is used as the default when creating volumes for EC2.
 
 As above, I went with the terminal feedback first, by running validate. This gave me the missing resources and configurations I needed to target. The Terraform documents are very clear, respect to Hashicorp for that.
+
+#+ATTR_HTML: :style margin:auto; display:block; width:600px
+[[file:../tfexample2.png]]
 
 In summary:
 
