@@ -1,6 +1,6 @@
 #+title: Release Monitoring with Automation for Jira
 #+author: mbrignall
-#+date: 2024-10-11
+#+date: <2024-10-11>
 
 * @@html:<i class="fa-regular fa-heart"></i>@@ We like automation, we like monitoring releases
 

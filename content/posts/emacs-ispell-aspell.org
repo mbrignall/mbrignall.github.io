@@ -1,6 +1,6 @@
 #+title: Emacs with aspell/ispell on Nix Darwin
 #+author: mrbignall
-#+date: 2024-10-04
+#+date: <2024-10-04>
 
 * British English and Emacs
 

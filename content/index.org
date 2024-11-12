@@ -1,6 +1,6 @@
 #+title: Moments of clarity, shared.
 #+author: mbrignall
-#+date: <2024-10-03 Thu>
+#+date: <2024-10-03>
 
 * Welcome to /mblognl/
 :PROPERTIES:

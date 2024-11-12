@@ -31,16 +31,19 @@
 ;; modify with an "if error skip" logic
 ;; still need conditional
 (defun my/get-preview (file)
-  "Get preview text from FILE, handling missing or misformatted preview blocks."
-  (when (file-readable-p file)
-    (with-temp-buffer
-      (insert-file-contents file)
+  "get preview text from a file
+
+Uses the function here as a starting point:
+https://ogbe.net/blog/blogging_with_org.html"
+  (with-temp-buffer
+    (insert-file-contents file)
+    (goto-char (point-min))
+    (when (re-search-forward "^#\\+BEGIN_PREVIEW$" nil 1)
       (goto-char (point-min))
-      (if (re-search-forward "^#\\+BEGIN_PREVIEW$" nil t)
-          (let ((beg (point)))
-            (when (re-search-forward "^#\\+END_PREVIEW$" nil t)
-              (buffer-substring-no-properties beg (match-beginning 0))))
-        "(No preview)"))))
+      (let ((beg (+ 1 (re-search-forward "^#\\+BEGIN_PREVIEW$" nil 1)))
+            (end (progn (re-search-forward "^#\\+END_PREVIEW$" nil 1)
+                        (match-beginning 0))))
+        (buffer-substring beg end)))))
 
 ;;;; Format Sitemap
 (defun my/org-publish-org-sitemap (title list)
@@ -49,27 +52,21 @@
   (org-list-to-subtree list))
 
 (defun my/org-publish-org-sitemap-format (entry style project)
-  "Custom sitemap entry formatting: add date from the #+DATE: property."
+  "Custom sitemap entry formatting: add date"
   (cond ((not (directory-name-p entry))
-         (let* ((preview (or (my/get-preview (concat "content/" entry))
-                             "(No preview)"))
-                (date (org-publish-find-property entry :date project))
-                ;; Extract the year, month, and day from the timestamp
-                (formatted-date (if (and (listp date) 
-                                         (plist-get date :year-start))
-                                    (format "%04d-%02d-%02d"
-                                            (plist-get date :year-start)
-                                            (plist-get date :month-start)
-                                            (plist-get date :day-start))
-                                  ;; Fallback if no valid date is found
-                                  "Unknown Date")))
-           (format "[[file:%s][(%s) %s]]\n%s"
-                   entry
-                   formatted-date
-                   (org-publish-find-title entry project)
-                   preview)))
+         (let ((preview (if (my/get-preview (concat "content/" entry))
+                            (my/get-preview (concat "content/" entry))
+                          "(No preview)")))
+         (format "[[file:%s][(%s) %s]]\n%s"
+                 entry
+                 (format-time-string "%Y-%m-%d"
+                                     (org-publish-find-date entry project))
+                 (org-publish-find-title entry project)
+                 preview)))
         ((eq style 'tree)
          ;; Return only last subdir.
+         ;; ends up as a headline at higher level than the posts
+         ;; it contains
          (file-name-nondirectory (directory-file-name entry)))
         (t entry)))
 

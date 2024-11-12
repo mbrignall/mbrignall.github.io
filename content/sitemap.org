@@ -1,18 +1,18 @@
-* [[file:about.org][(Unknown Date) About Me]]
+* [[file:about.org][(2024-11-12) About Me]]
 (No preview)
-* [[file:archive.org][(Unknown Date) Posts Archive]]
+* [[file:archive.org][(2024-11-04) Posts Archive]]
 (No preview)
-* [[file:notes.org][(Unknown Date) Notes and Drafts]]
+* [[file:notes.org][(2024-11-04) Notes and Drafts]]
 (No preview)
-* [[file:index.org][(Unknown Date) Moments of clarity, shared.]]
-(No preview)
-* notes
-** [[file:notes/notes.org][(Unknown Date) Notes - a place to store]]
+* [[file:index.org][(2024-10-03) Moments of clarity, shared.]]
 (No preview)
 * posts
-** [[file:posts/20241011-release-monitoring-in-jira.org][(Unknown Date) Release Monitoring with Automation for Jira]]
+** [[file:posts/terraform-and-terrascan.org][(2024-10-11) Terraform and Terrascan with AWS (Immersive Labs)]]
 (No preview)
-** [[file:posts/20241011-terraform-and-terrascan.org][(Unknown Date) Terraform and Terrascan with AWS (Immersive Labs)]]
+** [[file:posts/release-monitoring-in-jira.org][(2024-10-11) Release Monitoring with Automation for Jira]]
 (No preview)
-** [[file:posts/20241004-emacs-ispell-aspell.org][(Unknown Date) Emacs with aspell/ispell on Nix Darwin]]
+** [[file:posts/emacs-ispell-aspell.org][(2024-10-04) Emacs with aspell/ispell on Nix Darwin]]
+(No preview)
+* notes
+** [[file:notes/notes.org][(2024-11-04) Notes - a place to store]]
 (No preview)

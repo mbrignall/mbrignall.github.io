@@ -1,6 +1,6 @@
 #+title: Terraform and Terrascan with AWS (Immersive Labs)
 #+author: mbrignall
-#+date: 2024-10-11
+#+date: <2024-10-11>
 
 * Immersive Labs
 
