@@ -30,9 +30,9 @@
 <header>
 <h1 class="title">Release Monitoring with Automation for Jira</h1>
 </header>
-<div id="outline-container-org2a58358" class="outline-2">
-<h2 id="org2a58358"><i class="fa-regular fa-heart"></i> We like automation, we like monitoring releases</h2>
-<div class="outline-text-2" id="text-org2a58358">
+<div id="outline-container-orgebbdea3" class="outline-2">
+<h2 id="orgebbdea3"><i class="fa-regular fa-heart"></i> We like automation, we like monitoring releases</h2>
+<div class="outline-text-2" id="text-orgebbdea3">
 <p>
 So your organisation has decided to build a Internal Developer Portal (IDP) using Backstage. All of a sudden you're responsible for looking after a quickly growing, forever updating production environment, as well as an IDP? You may even have a request from your SEM along the lines of this:
 </p>
@@ -61,18 +61,18 @@ You monitor the releases in a Jira project backlog of course!
 </div>
 </div>
 
-<div id="outline-container-orgc5bfe34" class="outline-2">
-<h2 id="orgc5bfe34"><i class="fa-solid fa-robot"></i> Here is how I did it with automation&#x2026;</h2>
-<div class="outline-text-2" id="text-orgc5bfe34">
+<div id="outline-container-org5444571" class="outline-2">
+<h2 id="org5444571"><i class="fa-solid fa-robot"></i> Here is how I did it with automation&#x2026;</h2>
+<div class="outline-text-2" id="text-org5444571">
 <p>
 I wanted to create a new task whenever a new release of Backstage is rolled out on the main Github page <i class="fa-brands fa-github-alt"></i> <a href="https://github.com/backstage/backstage">backstage/backstage</a>. The task could then be broken down into smaller pieces of work or spikes so I could monitor builds or raise pull requests directly from Jira using the GitHub integration.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org5cda3eb" class="outline-2">
-<h2 id="org5cda3eb"><i class="fa-regular fa-calendar"></i> Setting up the Schedule</h2>
-<div class="outline-text-2" id="text-org5cda3eb">
+<div id="outline-container-org5125042" class="outline-2">
+<h2 id="org5125042"><i class="fa-regular fa-calendar"></i> Setting up the Schedule</h2>
+<div class="outline-text-2" id="text-org5125042">
 <p>
 For the scheduled automation to work I created a custom field in Jira called 'Release Tag', which is where the release tag will be stored.
 </p>
@@ -90,7 +90,7 @@ Because the scheduled automation requires a ticket to be present I had to make a
 </p>
 
 
-<figure id="orgbc7e6d0">
+<figure id="org0574c49">
 <img src="../afj-release.png" alt="afj-release.png" style="margin:auto; display:block; width:100%">
 
 <figcaption><span class="figure-number">Figure 1: </span>Schedule the Automation</figcaption>
@@ -98,9 +98,9 @@ Because the scheduled automation requires a ticket to be present I had to make a
 </div>
 </div>
 
-<div id="outline-container-org60375b9" class="outline-2">
-<h2 id="org60375b9"><i class="fa-solid fa-globe"></i> The Web Request</h2>
-<div class="outline-text-2" id="text-org60375b9">
+<div id="outline-container-orgcb36863" class="outline-2">
+<h2 id="orgcb36863"><i class="fa-solid fa-globe"></i> The Web Request</h2>
+<div class="outline-text-2" id="text-orgcb36863">
 <p>
 The automation will make a request to a public endpoint, so there was need for a Personal Access Token (PAT). Since the request frequency is once a day, it remains within rate limits. The request is made to the following URL:
 </p>
@@ -126,7 +126,7 @@ This is a GET HTTP method, and I didn't anticipate any issue references in the b
 </p>
 
 
-<figure id="org82a0e25">
+<figure id="org5bddcef">
 <img src="../afj-release-3.png" alt="afj-release-3.png" style="margin:auto; display:block; width:100%">
 
 <figcaption><span class="figure-number">Figure 2: </span>Web Request Example</figcaption>
@@ -134,9 +134,9 @@ This is a GET HTTP method, and I didn't anticipate any issue references in the b
 </div>
 </div>
 
-<div id="outline-container-org1895237" class="outline-2">
-<h2 id="org1895237"><i class="fa-solid fa-check"></i> Create Variable</h2>
-<div class="outline-text-2" id="text-org1895237">
+<div id="outline-container-org6a3e7b8" class="outline-2">
+<h2 id="org6a3e7b8"><i class="fa-solid fa-check"></i> Create Variable</h2>
+<div class="outline-text-2" id="text-org6a3e7b8">
 <p>
 The web response body will look a bit like the snipped example:
 </p>
@@ -168,7 +168,7 @@ To extract the <code>tag_name</code>, I created a variable using the newer featu
 </p>
 
 
-<figure id="org49096e2">
+<figure id="orgbcaffa9">
 <img src="../afj-release-1.png" alt="afj-release-1.png" style="margin:auto; display:block; width:100%">
 
 <figcaption><span class="figure-number">Figure 3: </span>Release Tag Variable</figcaption>
@@ -176,9 +176,9 @@ To extract the <code>tag_name</code>, I created a variable using the newer featu
 </div>
 </div>
 
-<div id="outline-container-org1136f9c" class="outline-2">
-<h2 id="org1136f9c"><i class="fa-solid fa-ticket"></i> Create a new ticket</h2>
-<div class="outline-text-2" id="text-org1136f9c">
+<div id="outline-container-orgb211966" class="outline-2">
+<h2 id="orgb211966"><i class="fa-solid fa-ticket"></i> Create a new ticket</h2>
+<div class="outline-text-2" id="text-orgb211966">
 <p>
 I then used the 'If: Matches' conditional module to verify if <code>backstageLatest</code> is greater than the release number in the custom release field. If it is, then I want to create a new ticket in the backlog with:
 </p>
@@ -196,7 +196,7 @@ If the conditions don't match, the automation doesn't perform any actions.
 </p>
 
 
-<figure id="orgf83a5bf">
+<figure id="org17d3c59">
 <img src="../afj-release-2.png" alt="afj-release-2.png" style="margin:auto; display:block; width:100%">
 
 <figcaption><span class="figure-number">Figure 4: </span>Backstage Latest Variable</figcaption>
@@ -204,9 +204,9 @@ If the conditions don't match, the automation doesn't perform any actions.
 </div>
 </div>
 
-<div id="outline-container-org4eac977" class="outline-2">
-<h2 id="org4eac977"><i class="fa-solid fa-flag-checkered"></i> Conclusion</h2>
-<div class="outline-text-2" id="text-org4eac977">
+<div id="outline-container-orgedd6601" class="outline-2">
+<h2 id="orgedd6601"><i class="fa-solid fa-flag-checkered"></i> Conclusion</h2>
+<div class="outline-text-2" id="text-orgedd6601">
 <p>
 By following the above steps, you can set up a process to automatically monitor GitHub releases and track your dependencies. This will save you time and effort to manually check for new releases.
 </p>
