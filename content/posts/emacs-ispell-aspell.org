@@ -4,7 +4,9 @@
 
 * British English and Emacs
 
+#+BEGIN_PREVIEW
 I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Ispell is built in to the current version I'm using (29.1). However it was locked to the default US dictionary. Easy fix right?
+#+END_PREVIEW
 
 ** Discoveries
 

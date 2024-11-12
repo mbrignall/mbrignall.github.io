@@ -7,7 +7,9 @@
 #+ATTR_HTML: :style margin:auto; display:block; width:200px
 [[https://static-00.iconduck.com/assets.00/terraform-icon-1803x2048-hodrzd3t.png]]
 
+#+BEGIN_PREVIEW
 This post is going to cover my most recent lab "Secure Terraform for AWS". I wanted to present my personal approach on the lab and my experience in general. I'm going to try not to give away too much, just some hints and what to expect if you're considering purchasing licences or you're a learner considering which labs to do next.
+#+END_PREVIEW
 
 For some time now I've been working through the Immersive Labs career pathways. My focus has been on Incident Response, Malicious File Analysis and Windows Malware, SIEM/Elastic and Event/Log Analysis. I've also completed a lot of the introductory labs that covers Security/Cyber Professional basics.
 

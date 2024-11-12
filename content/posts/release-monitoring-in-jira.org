@@ -4,7 +4,11 @@
 
 * @@html:<i class="fa-regular fa-heart"></i>@@ We like automation, we like monitoring releases
 
-So your organisation has decided to build a Internal Developer Portal (IDP) using Backstage. All of a sudden you're responsible for looking after a quickly growing, forever updating production environment, as well as an IDP? You may even have a request from your SEM along the lines of this:
+#+BEGIN_PREVIEW
+So your organisation has decided to build a Internal Developer Portal (IDP) using Backstage. All of a sudden you're responsible for looking after a quickly growing, forever updating production environment, as well as an IDP?
+#+END_PREVIEW
+
+You may even have a request from your SEM along the lines of this:
 
 #+begin_quote
 Monthly there is a version bump of Backstage (i.e 1.14.x -> 1.15.0)
