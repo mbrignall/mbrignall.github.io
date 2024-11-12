@@ -20,7 +20,7 @@ Here is a neat (I think) playlist of some of my faves:
  
  @@html:<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0NarSJ8utPoOog9nIDMN2n?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>@@
 
-** Linux things
+* Linux things
 
 For some time now I've been obsessed with Linux, more specifically NixOS and most recently Guix SD. I discovered a rich world of possibilities upon realising that I could craft my systems declaritively.
 
