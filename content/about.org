@@ -4,42 +4,32 @@
 #+ATTR_HTML: :style margin:auto; display:block; width:200px
 [[./mbrignl.jpg]]
 
-* Early years
-I moved to London at 19 to follow my passion for music. I mainly played guitar (fingerstyle), with occasional stints on bass and banjo. My musical influences include Jim O’Rourke, John Fahey, and Django Reinhardt, but I enjoy exploring a wide range of genres—from blues and post-rock to metal and beyond. I have a background in Music Tech and spent many hours building devices and instruments using Raspberry Pi, [[https://puredata.info/][Pure Data]] and the fun music communities I discovered along the way. 
+* About me...
 
-* Into the tech stadium
+During the day I work as a Cyber Security professional in an Incident Response team. When not blocking attackers and analysing threats I can be found playing guitar.
 
-** Tech Beginnings
-I grew up around tech, thanks to my dad, an engineer. My early interest came from fixing tech problems for others. Around 8 years ago, I joined OVO Energy, which started my career in tech.
+My musical influences include:
 
-** Customer Support Days
-I started in customer support, taking calls for PAYG meters, where autonomy and ‘doing the right thing’ mattered. Eventually, I moved to a more technical Second Line team, dealing with escalations across various industry areas.
+  - Jim O’Rourke
+  - John Fahey
+  - Django Reinhardt
 
-** Transition to Tech Support
-I applied for Tech Support and loved it immediately—immersed in solving technical issues, learning from experts, and benefiting from a flexible, startup-like culture.
+ I enjoy exploring blues and post-rock, metal and sub-genres of. I have a background in Music Tech and spent many hours building devices and instruments using Raspberry Pi, [[https://puredata.info/][Pure Data]] and the fun music communities I discovered along the way. Maybe I'll cover those here at some point 🤔
 
-** Learning Atlassian Admin
-I saw an opportunity to help the Atlassian admin team with their backlog. I dove into Jira and Service Management projects while still supporting general tech queries, learning to improve and automate workflows.
+Here is a neat (I think) playlist of some of my faves:
+ 
+ @@html:<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0NarSJ8utPoOog9nIDMN2n?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>@@
 
-* DevEx and me
+** Linux things
 
-** Developer Experience
-After helping introduce ‘zero-touch’ MDM platforms and managing Atlassian admin work, I joined the Developer Experience team. We built new processes like automating GCP project requests and deploying AI-driven Slack bots, while focusing on cloud-native concepts and DevOps practices.
+For some time now I've been obsessed with Linux, more specifically NixOS and most recently Guix SD. I discovered a rich world of possibilities upon realising that I could craft my systems declaritively.
 
-During this time I also helped introduce the business to their AI chatbot offering: Virtual Agent. This offers a workflow based Slack workflow that creates tickets when matching the intent of a requester. This was the ground basis for the GCP vend that is mentioned in the next section.
+At work I'm using MacOS so am using Nix Darwin as a Flake for that:
 
-** Automating GCP Project Vends
-In our GCP vend process:
-- Requests came through Slack, triggering Jira tickets
-- A bot asked key questions, checking project names for uniqueness
-- Jira triggered an AWS Lambda via SNS, which interfaced with Google’s API to create the project
-- Success/failure messages were posted back to Slack for actioning
+- [[https://github.com/mbrignall/nix-darwin][nix-darwin on GitHub]]
 
-This was about enabling engineers while building the guardrails needed for our growing cloud infrastructure.
+A more recent edition is Guix SD and I've taken inspiration from a variety of sources which I'll cover in a post shortly:
 
-* Security Time!
+- [[https://github.com/mbrignall/guix-system][guix-system on GitHub]]
 
-** Transition to Cyber Defence
-I made the move to Cyber Defence around mid 2024, joining a CSIRT (Cyber Security Incident Response Team). It’s been a natural step forward from solving technical problems to defending against cyber threats.
-
-In this role, I’m involved in email security, threat intelligence, and automation. We use a mix of tools like GCP/Chronicle (SIEM), AWS GuardDuty, Wiz, and Tines to identify and respond to potential security issues. Automation has become key, allowing us to handle repetitive tasks and speed up our response to incidents using platforms like Tines and custom scripts.
+* TODO Other stuff
