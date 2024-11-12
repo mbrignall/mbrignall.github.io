@@ -30,11 +30,11 @@
 <header>
 <h1 class="title">Terraform and Terrascan with AWS (Immersive Labs)</h1>
 </header>
-<div id="outline-container-orgc2a9d36" class="outline-2">
-<h2 id="orgc2a9d36">Immersive Labs</h2>
-<div class="outline-text-2" id="text-orgc2a9d36">
+<div id="outline-container-orgbd0486c" class="outline-2">
+<h2 id="orgbd0486c">Immersive Labs</h2>
+<div class="outline-text-2" id="text-orgbd0486c">
 
-<figure id="org334cb68">
+<figure id="orgc22a136">
 <img src="https://static-00.iconduck.com/assets.00/terraform-icon-1803x2048-hodrzd3t.png" alt="terraform-icon-1803x2048-hodrzd3t.png" style="margin:auto; display:block; width:200px">
 
 </figure>
@@ -53,9 +53,9 @@ Having used some similar platforms like Hack the Box and the likes, I can say th
 </div>
 </div>
 
-<div id="outline-container-org7077ae0" class="outline-2">
-<h2 id="org7077ae0">Terraform for AWS</h2>
-<div class="outline-text-2" id="text-org7077ae0">
+<div id="outline-container-orgdfa1671" class="outline-2">
+<h2 id="orgdfa1671">Terraform for AWS</h2>
+<div class="outline-text-2" id="text-orgdfa1671">
 <p>
 A quick reminder of what Terraform does:
 </p>
@@ -76,16 +76,16 @@ When you start the lab you'll get an overview of both Terraform and Terrascan. M
 
 
 
-<figure id="orge44b6e7">
+<figure id="org923bb20">
 <img src="../tfexample.png" alt="tfexample.png" style="margin:auto; display:block; width:100%">
 
 <figcaption><span class="figure-number">Figure 1: </span>What the console looks like</figcaption>
 </figure>
 </div>
 
-<div id="outline-container-org7a51cac" class="outline-3">
-<h3 id="org7a51cac">Episode 1</h3>
-<div class="outline-text-3" id="text-org7a51cac">
+<div id="outline-container-orgf05c85c" class="outline-3">
+<h3 id="orgf05c85c">Episode 1</h3>
+<div class="outline-text-3" id="text-orgf05c85c">
 <p>
 The first labs starts with a simple S3 bucket configuration with some missing scopes/resources. Your job is to make sure that the Terraform HCL passes the Terrascan expected configuration so that the bucket is secure and meets the following expectations:
 </p>
@@ -99,7 +99,7 @@ The first labs starts with a simple S3 bucket configuration with some missing sc
 </ul>
 
 
-<figure id="org4194f44">
+<figure id="org6cceda3">
 <img src="../tfexample3.png" alt="tfexample3.png" style="margin:auto; display:block; width:100%">
 
 <figcaption><span class="figure-number">Figure 2: </span>The auto-complete chooser is going to be your friend here 😉</figcaption>
@@ -110,7 +110,7 @@ You're going to want to try a validate first in order to get feedback from Terra
 </p>
 
 
-<figure id="org17d4e48">
+<figure id="org69f7c77">
 <img src="../tfexample1.png" alt="tfexample1.png" style="margin:auto; display:block; width:100%">
 
 <figcaption><span class="figure-number">Figure 3: </span>Example of Terrascan in action</figcaption>
@@ -118,9 +118,9 @@ You're going to want to try a validate first in order to get feedback from Terra
 </div>
 </div>
 
-<div id="outline-container-org29687a9" class="outline-3">
-<h3 id="org29687a9">Episode 2</h3>
-<div class="outline-text-3" id="text-org29687a9">
+<div id="outline-container-org33a656c" class="outline-3">
+<h3 id="org33a656c">Episode 2</h3>
+<div class="outline-text-3" id="text-org33a656c">
 <p>
 Covers KMS keys which are cryptographic keys that can be used to encrypt and secure AWS resources. EBS is also covered in this session which is for scalable block storage and is used as the default when creating volumes for EC2.
 </p>
@@ -130,7 +130,7 @@ As above, I went with the terminal feedback first, by running validate. This gav
 </p>
 
 
-<figure id="orgf3f0334">
+<figure id="orgd57bb8c">
 <img src="../tfexample2.png" alt="tfexample2.png" style="margin:auto; display:block; width:100%">
 
 <figcaption><span class="figure-number">Figure 4: </span>More action</figcaption>
@@ -151,9 +151,9 @@ I feel this episode was slightly easier and definitely had less points to addres
 </div>
 </div>
 
-<div id="outline-container-orgb873cef" class="outline-3">
-<h3 id="orgb873cef">Episode 3</h3>
-<div class="outline-text-3" id="text-orgb873cef">
+<div id="outline-container-org5f4e321" class="outline-3">
+<h3 id="org5f4e321">Episode 3</h3>
+<div class="outline-text-3" id="text-org5f4e321">
 <p>
 This episode touches on the Aurora and Relational Database Services (RDS) in AWS. The brief covers the basics of the services and what to look out for in the lab. The goal is to correct the errors and update the resources to securely deploy infrastructure associated with the AWS Aurora service for relational databases (DBs).
 </p>
@@ -169,9 +169,9 @@ This lab has a high and medium alert reported in Terrascan:
 </div>
 </div>
 
-<div id="outline-container-orgf74c492" class="outline-3">
-<h3 id="orgf74c492">Episode 4 - the finale</h3>
-<div class="outline-text-3" id="text-orgf74c492">
+<div id="outline-container-org3b87ffc" class="outline-3">
+<h3 id="org3b87ffc">Episode 4 - the finale</h3>
+<div class="outline-text-3" id="text-org3b87ffc">
 <p>
 We reach the final episode which brings some more general security fundamentals and enabling detailed monitoring. Here we learn about how we restrict AWS VPC traffic to EC2 instances by using security groups and custom rules. EC2’s instance metadata service (IMDS) can be used to retrieve metadata about running EC2 instances from within the instance.
 </p>
@@ -189,9 +189,9 @@ I found this lab slightly more tricky as it was dealing with areas of AWS and re
 </div>
 </div>
 
-<div id="outline-container-orgf30f7d1" class="outline-2">
-<h2 id="orgf30f7d1">Terrascan by Tenable</h2>
-<div class="outline-text-2" id="text-orgf30f7d1">
+<div id="outline-container-orga7c09b1" class="outline-2">
+<h2 id="orga7c09b1">Terrascan by Tenable</h2>
+<div class="outline-text-2" id="text-orga7c09b1">
 <p>
 <a href="https://github.com/tenable/terrascanlink">Terrascan GitHub</a>
 </p>
