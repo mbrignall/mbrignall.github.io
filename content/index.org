@@ -31,6 +31,7 @@ In this blog, you'll likely find me talking about my favourite tech. I may, from
 - *reflections on various projects and tools*
 
 * Current Book
+** Going Dark by Julia Ebner
   #+ATTR_HTML: :style float:left; margin-right: 15px; margin-bottom: 15px; :width 75px
   [[https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale,dpr_1.5/jackets/9781526616791.jpg]]
 
