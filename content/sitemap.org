@@ -1,10 +1,10 @@
-* [[file:books.org][(2024-12-31) books]]
+* [[file:about.org][(2024-12-31) About Me]]
+(No preview)
+* [[file:books.org][(2024-12-31) Previous Books]]
 (No preview)
 * [[file:notes.org][(2024-12-12) Notes and Drafts]]
 (No preview)
 * [[file:archive.org][(2024-12-12) Posts Archive]]
-(No preview)
-* [[file:about.org][(2024-12-12) About Me]]
 (No preview)
 * [[file:index.org][(2024-10-03) Moments of clarity, shared.]]
 (No preview)
