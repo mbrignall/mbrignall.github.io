@@ -44,7 +44,7 @@ In this blog, you'll likely find me talking about my favourite tech. I may, from
   
 * Previous Books
 
-** DONE Cuckoo's Egg by Cliff Stoll (finished 05/12/2024) :cybersecurity:
+** Cuckoo's Egg by Cliff Stoll (finished 05/12/2024)
   #+ATTR_HTML: :style float:left; margin-right: 15px; margin-bottom: 15px; :width 75px
   [[https://m.media-amazon.com/images/I/71KvXfFyi4L._SL1500_.jpg]]
 
