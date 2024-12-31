@@ -40,6 +40,8 @@ In this blog, you'll likely find me talking about my favourite tech. I may, from
 
   Will cover once finished
 
+  Additional content: [[https://www.youtube.com/watch?v=fAFV49e2W5M][Going Dark: The Secret Social Lives of Extremists | Julia Ebner | Talks at Google]]
+
   @@html:<div style="clear: both;"></div>@@
   
 * Previous Books
