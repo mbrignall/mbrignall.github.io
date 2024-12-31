@@ -97,6 +97,7 @@ https://ogbe.net/blog/blogging_with_org.html"
 	     :headline-levels 4
              :with-author nil
              :with-creator nil
+	     :with-tags t
              :with-toc nil
              :section-numbers nil
              :auto-sitemap t

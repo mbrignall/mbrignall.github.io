@@ -31,5 +31,5 @@ At work I'm using MacOS so am using Nix Darwin as a Flake for that:
 A more recent edition is Guix SD and I've taken inspiration from a variety of sources which I'll cover in a post shortly:
 
 - [[https://github.com/mbrignall/guix-system][guix-system on GitHub]]
-
+  
 * TODO Other stuff

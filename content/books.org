@@ -1,0 +1,40 @@
+#+title: Previous Books
+#+author: mbrignall
+#+date: <2024-12-31>
+
+  
+* Non-Fiction
+
+** Cuckoo's Egg by Cliff Stoll (finished 05/12/2024)
+  #+ATTR_HTML: :style float:left; margin-right: 15px; margin-bottom: 15px; :width 75px
+  [[https://m.media-amazon.com/images/I/71KvXfFyi4L._SL1500_.jpg]]
+
+#+begin_quote
+Tracking a Spy Through the Maze of Computer Espionage
+#+end_quote
+
+This book is an excellent dive into the cyber security field during the late 80's. Cliff Stoll depicts the challenges and excitement around identifying a person with unauthorised access inside their network.
+
+One day in 1986 Stolls' supervisor asks him to resolve an accounting error of 75 cents in the computer usage accounts. This event triggers a the chase that spans the entire book, with Cliff at the forefront, tracking the hackers every move.
+
+Ultimately exploiting a vulnerability in the GNU Emacs package 'movemail', the hacker was able to traverse the network and other neighbouring networks of various government and military facilities, stealing documents, files, passwords and other data. 
+
+Not only does the story detail everything from the key strokes to the tools/programs used (including key loggers and trojan horses), Stoll also covers tricky it was to monitor the hacker across multiple continents.
+
+On occasion the book felt a little like groundhog day due to the repetitive events of the hacker appearing and then disappearing again. Stolls' frustration expressed of the authorities and policing of cyber crime during the time shows just how far the field has come. 
+
+:cybersecurity:
+:infosec:
+:security:
+:true-crime:
+
+@@html:<div style="clear: both;"></div>@@
+
+
+
+** Cult of the Dead Cow by Joseph Menn (audiobook)
+  #+ATTR_HTML: :style float:left; margin-right: 15px; margin-bottom: 15px; :width 75px
+  [[https://m.media-amazon.com/images/I/71KvXfFyi4L._SL1500_.jpg]]
+
+  
+@@html:<div style="clear: both;"></div>@@
