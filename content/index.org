@@ -37,7 +37,7 @@ In this blog, you'll likely find me talking about my favourite tech. I may, from
   
 * Previous Books @@html:<i class="fa-solid fa-book"></i>@@
 
-** Cuckoo's Egg by Cliff Stoll (finished 05/12/2024) :cybersecurity:truecrime: 
+** Cuckoo's Egg by Cliff Stoll                      :cybersecurity:truecrime: 
 
 #+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
 [[https://m.media-amazon.com/images/I/71KvXfFyi4L._SL1500_.jpg]]

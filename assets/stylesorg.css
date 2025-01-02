@@ -52,6 +52,13 @@ h3 {
     justify-content: space-between;
 }
 
+h4 {
+    color: #a89bb9;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
 /* Paragraphs and Lists */
 p {
     text-align: justify;
@@ -135,7 +142,7 @@ pre {
 
 /* Highlighted Code Block */
 pre.src {
-    background-color: #3b4252; /* Darker color for code blocks */
+    background-color: #3b4252;
     border: 1px solid #4c566a;
     padding: 10px;
     border-radius: 8px;
@@ -186,10 +193,15 @@ pre.src .org-constant {
     border: 1px solid #dcdccc;
     padding: 1px;
     border-radius: 4px;
-    font-size: 0.4em;
+    font-size: 0.6em;
 }
 
 .todo.TODO {
-    color: #e79686;
+    background-color: #e79686;
+    color: #dcdccc;
     font-weight: bold;
+    border: 1px solid #dcdccc;
+    padding: 1px;
+    border-radius: 4px;
+    font-size: 0.7em;
 }
