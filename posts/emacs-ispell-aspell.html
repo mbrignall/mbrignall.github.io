@@ -16,12 +16,10 @@
 <div class='topnav' style='display: flex; justify-content: space-between; align-items: center;'>
   <a href="/index.html"><h2 style='margin-top: 0; margin-bottom: 0; margin-left:0px;'>mblognl</h2></a>
   <div>
-    <a href='/archive.html' style='font-weight:bold; font-style:italic;'>Blog</a> | 
     <a href='/about.html' style='font-weight:bold; font-style:italic;'>About Me</a> |
-    <a href='/notes.html' style='font-weight:bold; font-style:italic;'>Notes</a> |
-    <a href='/rss.xml'>
-      <i class="fa-solid fa-rss"></i>
-    </a>
+    <a href='/archive.html' style='font-weight:bold; font-style:italic;'>Blog</a> |
+    <a href='/books.html' style='font-weight:bold; font-style:italic;'>Books</a> |
+    <a href='/rss.xml' style='font-weight:bold; font-style:italic;'>RSS</a>
   </div>
 </div>
 <hr style="border-top: 1px solid black;">
@@ -30,10 +28,10 @@
 <header>
 <h1 class="title">Emacs with aspell/ispell on Nix Darwin</h1>
 </header>
-<div id="outline-container-orgc54cd81" class="outline-2">
-<h2 id="orgc54cd81">British English and Emacs</h2>
-<div class="outline-text-2" id="text-orgc54cd81">
-<div class="PREVIEW" id="org6f1c7e3">
+<div id="outline-container-orge391eb2" class="outline-2">
+<h2 id="orge391eb2">British English and Emacs</h2>
+<div class="outline-text-2" id="text-orge391eb2">
+<div class="PREVIEW" id="org278595c">
 <p>
 I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Ispell is built in to the current version I'm using (29.1). However it was locked to the default US dictionary. Easy fix right?
 </p>
@@ -41,27 +39,27 @@ I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Is
 </div>
 </div>
 
-<div id="outline-container-org149ad98" class="outline-3">
-<h3 id="org149ad98">Discoveries</h3>
-<div class="outline-text-3" id="text-org149ad98">
+<div id="outline-container-orgf66120a" class="outline-3">
+<h3 id="orgf66120a">Discoveries</h3>
+<div class="outline-text-3" id="text-orgf66120a">
 <p>
 Out the box the latest version of ispell on Nix Packages and built in Emacs does not have UK/British English default. So I started looking on Reddit and Googled ispell and Nix to see where I could go.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgffe5977" class="outline-3">
-<h3 id="orgffe5977">Emacs philosophy and approach</h3>
-<div class="outline-text-3" id="text-orgffe5977">
+<div id="outline-container-orgb3d28e3" class="outline-3">
+<h3 id="orgb3d28e3">Emacs philosophy and approach</h3>
+<div class="outline-text-3" id="text-orgb3d28e3">
 <p>
 I am a strong believer in keeping things simple and with the introduction of 'use-package' and the extra features in 29.1 I was keen to rewrite my config and use as close to vanilla setup as possible. I took the very base of what was needed and started from scratch building outward and exploring built-in packages. My config file is available here: <a href="https://github.com/mbrignall/nix-darwin">nix-darwin repo</a>
 </p>
 </div>
 </div>
 
-<div id="outline-container-org2434600" class="outline-3">
-<h3 id="org2434600">Emacs Aspell/Ispell config</h3>
-<div class="outline-text-3" id="text-org2434600">
+<div id="outline-container-org6a59ff2" class="outline-3">
+<h3 id="org6a59ff2">Emacs Aspell/Ispell config</h3>
+<div class="outline-text-3" id="text-org6a59ff2">
 <p>
 Add this to your <code>init.el</code>:
 </p>
@@ -78,9 +76,9 @@ Add this to your <code>init.el</code>:
 </div>
 </div>
 
-<div id="outline-container-org60ec845" class="outline-3">
-<h3 id="org60ec845">NixOS/ Nix Darwin</h3>
-<div class="outline-text-3" id="text-org60ec845">
+<div id="outline-container-orge2c96df" class="outline-3">
+<h3 id="orge2c96df">NixOS/ Nix Darwin</h3>
+<div class="outline-text-3" id="text-orge2c96df">
 <p>
 With the emphasis on declarative, reproducible systems, I've been using Nix for some time now. I have a config for Linux/NixOS outside of work, when at work I use a Macbook so have a Nix Darwin build for that. The addition of <code>aspell</code> with dictionaries was surprisingly simple once I'd worked out how to declare it in my configuration file:
 </p>
