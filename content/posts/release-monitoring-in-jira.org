@@ -38,7 +38,7 @@ The specifics of the JQL might need adjusting depending on your circumstances bu
 
 Because the scheduled automation requires a ticket to be present I had to make a 'dummy' ticket with the release tag of a previous release added to it, so when the schedule runs the JQL can find a ticket and trigger the subsequent automation. There is a space at the bottom of the following example when you're creating a scheduled automation to add JQL.
 
-#+ATTR_HTML: :style margin:auto; display:block; width:100%
+#+ATTR_HTML: :style margin:auto; display:block; width:400px
 #+caption: Schedule the Automation
 [[file:../afj-release.png]]
 
@@ -56,7 +56,7 @@ This is a GET HTTP method, and I didn't anticipate any issue references in the b
 
 *It's crucial to delay execution until we receive a response from this web request!*
 
-#+ATTR_HTML: :style margin:auto; display:block; width:100%
+#+ATTR_HTML: :style margin:auto; display:block; width:400px
 #+caption: Web Request Example
 [[file:../afj-release-3.png]]
 
@@ -87,7 +87,7 @@ The web response body will look a bit like the snipped example:
 
 To extract the ~tag_name~, I created a variable using the newer feature, referring to the ~{{webResponse.body}}~ (the curly brackets are to use Jira smart values) to retrieve the response body, and then pointing to the ~tag_name~. This creates a variable named ~backstageLatest~ that can be referenced in subsequent actions.
 
-#+ATTR_HTML: :style margin:auto; display:block; width:100%
+#+ATTR_HTML: :style margin:auto; display:block; width:400px
 #+caption: Release Tag Variable
 [[file:../afj-release-1.png]]
 
@@ -103,7 +103,7 @@ I then used the 'If: Matches' conditional module to verify if ~backstageLatest~ 
 
 If the conditions don't match, the automation doesn't perform any actions.
 
-#+ATTR_HTML: :style margin:auto; display:block; width:100%
+#+ATTR_HTML: :style margin:auto; display:block; width:400px
 #+caption: Backstage Latest Variable
 [[file:../afj-release-2.png]]
 
