@@ -4,7 +4,7 @@
 #+ATTR_HTML: :style margin:auto; display:block; width:200px
 [[./mbrignl.jpg]]
 
-* About me...
+* About me... @@html:<i class="fa-regular fa-address-card"></i>@@
 
 During the day I work as a Cyber Security professional in an Incident Response team. When not blocking attackers and analysing threats I can be found playing guitar.
 
@@ -20,7 +20,7 @@ Here is a neat (I think) playlist of some of my faves:
  
  @@html:<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0NarSJ8utPoOog9nIDMN2n?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>@@
 
-* Linux things
+* Linux things @@html:<i class="fa-regular fa-file-code"></i>@@
 
 For some time now I've been obsessed with Linux, more specifically NixOS and most recently Guix SD. I discovered a rich world of possibilities upon realising that I could craft my systems declaritively.
 
@@ -31,5 +31,17 @@ At work I'm using MacOS so am using Nix Darwin as a Flake for that:
 A more recent edition is Guix SD and I've taken inspiration from a variety of sources which I'll cover in a post shortly:
 
 - [[https://github.com/mbrignall/guix-system][guix-system on GitHub]]
-  
-* TODO Other stuff
+
+* Other stuff @@html:<i class="fa-regular fa-file-code"></i>@@
+
+*** TODO Plan 9/ 9front
+
+Just started using 9front over the holiday period, I'll record findings, so far I love it.
+
+useful resources:
+
+- [[https://9p.io/wiki/plan9/plan_9_wiki/][Plan 9 wiki]]
+- [[https://9front.org/][9 front]]
+- 
+
+*** TODO Other stuff

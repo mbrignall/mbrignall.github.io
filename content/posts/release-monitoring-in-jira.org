@@ -2,7 +2,7 @@
 #+author: mbrignall
 #+date: <2024-10-11>
 
-* @@html:<i class="fa-regular fa-heart"></i>@@ We like automation, we like monitoring releases
+* We like automation, we like monitoring releases @@html:<i class="fa-regular fa-heart"></i>@@
 
 #+BEGIN_PREVIEW
 So your organisation has decided to build a Internal Developer Portal (IDP) using Backstage. All of a sudden you're responsible for looking after a quickly growing, forever updating production environment, as well as an IDP?
@@ -24,11 +24,11 @@ What do you do about:
 
 You monitor the releases in a Jira project backlog of course!
 
-* @@html:<i class="fa-solid fa-robot"></i>@@ Here is how I did it with automation...
+* Here is how I did it with automation... @@html:<i class="fa-solid fa-robot"></i>@@
 
 I wanted to create a new task whenever a new release of Backstage is rolled out on the main Github page @@html:<i class="fa-brands fa-github-alt"></i>@@ [[https://github.com/backstage/backstage][backstage/backstage]]. The task could then be broken down into smaller pieces of work or spikes so I could monitor builds or raise pull requests directly from Jira using the GitHub integration.
 
-* @@html:<i class="fa-regular fa-calendar"></i>@@ Setting up the Schedule 
+* Setting up the Schedule @@html:<i class="fa-regular fa-calendar"></i>@@
 
 For the scheduled automation to work I created a custom field in Jira called 'Release Tag', which is where the release tag will be stored.
 
@@ -42,7 +42,7 @@ Because the scheduled automation requires a ticket to be present I had to make a
 #+caption: Schedule the Automation
 [[file:../afj-release.png]]
 
-* @@html:<i class="fa-solid fa-globe"></i>@@ The Web Request
+* The Web Request @@html:<i class="fa-solid fa-globe"></i>@@
 
 The automation will make a request to a public endpoint, so there was need for a Personal Access Token (PAT). Since the request frequency is once a day, it remains within rate limits. The request is made to the following URL:
 
@@ -60,7 +60,7 @@ This is a GET HTTP method, and I didn't anticipate any issue references in the b
 #+caption: Web Request Example
 [[file:../afj-release-3.png]]
 
-* @@html:<i class="fa-solid fa-check"></i>@@ Create Variable
+* Create Variable @@html:<i class="fa-solid fa-check"></i>@@ 
 
 The web response body will look a bit like the snipped example:
 
@@ -91,7 +91,7 @@ To extract the ~tag_name~, I created a variable using the newer feature, referri
 #+caption: Release Tag Variable
 [[file:../afj-release-1.png]]
 
-* @@html:<i class="fa-solid fa-ticket"></i>@@ Create a new ticket
+* Create a new ticket @@html:<i class="fa-solid fa-ticket"></i>@@ 
 
 I then used the 'If: Matches' conditional module to verify if ~backstageLatest~ is greater than the release number in the custom release field. If it is, then I want to create a new ticket in the backlog with:
 
@@ -107,7 +107,7 @@ If the conditions don't match, the automation doesn't perform any actions.
 #+caption: Backstage Latest Variable
 [[file:../afj-release-2.png]]
 
-* @@html:<i class="fa-solid fa-flag-checkered"></i>@@ Conclusion
+* Conclusion @@html:<i class="fa-solid fa-flag-checkered"></i>@@ 
 
 By following the above steps, you can set up a process to automatically monitor GitHub releases and track your dependencies. This will save you time and effort to manually check for new releases.
 

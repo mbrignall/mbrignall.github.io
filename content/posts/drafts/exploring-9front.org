@@ -1,0 +1,12 @@
+#+title: Exploring 9front and Plan 9
+#+author: mbrignall
+#+date: <2024-12-31>
+
+
+* What is Plan 9?
+
+* Why 9front?
+
+* First steps
+
+* Future

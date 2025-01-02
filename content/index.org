@@ -1,28 +1,18 @@
-#+title: Moments of clarity, shared.
+#+title: Welcome to /mblognl/
 #+author: mbrignall
 #+date: <2024-10-03>
 
-* Welcome to /mblognl/
-:PROPERTIES:
-:ID:       C515ACEE-D41D-495C-989F-BA9977D51E82
-:PUBDATE:  2024-10-04 Fri 00:42
-:END:
+* ...a blog you say? @@html:<i class="fa-regular fa-circle-question"></i>@@
 
 Here, I will be documenting my journey, sharing my thoughts, findings, and learnings in various fields that interest me. This space will evolve as I experiment, explore, and expand my knowledge.
 
 I hope you find something useful or thought-provoking!
 
 ** What to expect
-:PROPERTIES:
-:ID:       04EEA490-DA0C-48B4-9BDD-4CC907A183B6
-:END:
 
 In this blog, you'll likely find me talking about my favourite tech. I may, from time to time, speak of other interests outside the tech realm. I may even cover topics that overlap with creative, technology and otherworldly interests. I promise I will try not to bore you too much.
 
 *** Some topics, themes, and subjects
-:PROPERTIES:
-:ID:       2838AFCD-3BBA-4F08-AD20-DD021FA661A3
-:END:
 
 - *Cyber Defense and Security Engineering*
 - *Web Development and DevOps*
@@ -30,11 +20,12 @@ In this blog, you'll likely find me talking about my favourite tech. I may, from
 - *My own experiments, code snippets*
 - *reflections on various projects and tools*
 
-* Current Book
+* Current Book @@html:<i class="fa-solid fa-book"></i>@@
 
 ** Going Dark by Julia Ebner
-  #+ATTR_HTML: :style float:left; margin-right: 15px; margin-bottom: 15px; :width 75px
-  [[https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale,dpr_1.5/jackets/9781526616791.jpg]]
+
+#+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
+[[https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale,dpr_1.5/jackets/9781526616791.jpg]]
 
   Interesting subject matter for me.
 
@@ -44,40 +35,25 @@ In this blog, you'll likely find me talking about my favourite tech. I may, from
 
   @@html:<div style="clear: both;"></div>@@
   
-* Previous Books
+* Previous Books @@html:<i class="fa-solid fa-book"></i>@@
 
-** Cuckoo's Egg by Cliff Stoll (finished 05/12/2024)
-  #+ATTR_HTML: :style float:left; margin-right: 15px; margin-bottom: 15px; :width 75px
-  [[https://m.media-amazon.com/images/I/71KvXfFyi4L._SL1500_.jpg]]
+** Cuckoo's Egg by Cliff Stoll (finished 05/12/2024) :cybersecurity:truecrime: 
 
-#+begin_quote
-Tracking a Spy Through the Maze of Computer Espionage
-#+end_quote
+#+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
+[[https://m.media-amazon.com/images/I/71KvXfFyi4L._SL1500_.jpg]]
 
-This book is an excellent dive into the cyber security field during the late 80's. Cliff Stoll depicts the challenges and excitement around identifying a person with unauthorised access inside their network.
+This book is an excellent dive into the cyber security field during the late 80's... 
 
-One day in 1986 Stolls' supervisor asks him to resolve an accounting error of 75 cents in the computer usage accounts. This event triggers a the chase that spans the entire book, with Cliff at the forefront, tracking the hackers every move.
-
-Ultimately exploiting a vulnerability in the GNU Emacs package 'movemail', the hacker was able to traverse the network and other neighbouring networks of various government and military facilities, stealing documents, files, passwords and other data. 
-
-Not only does the story detail everything from the key strokes to the tools/programs used (including key loggers and trojan horses), Stoll also covers tricky it was to monitor the hacker across multiple continents.
-
-On occasion the book felt a little like groundhog day due to the repetitive events of the hacker appearing and then disappearing again. Stolls' frustration expressed of the authorities and policing of cyber crime during the time shows just how far the field has come. 
-
-:cyber-security:
-:infosec:
-:security:
-:true-crime:
+[[./books.html][Read more...]]
 
 @@html:<div style="clear: both;"></div>@@
 
-[[./books.html][Previous Books here...]]
+* Contact @@html:<i class="fa-solid fa-house"></i>@@
 
-
-* Contact
 Feel free to reach out via email or GitHub:
 - @@html:<i class="fa fa-envelope"></i>@@ [[mailto:martinaloysiusbrignall@gmail.com][email me]] 
 - @@html:<i class="fa-brands fa-github-alt"></i>@@ [[https://github.com/mbrignall][github/mbrignall]]
 
-* Post Archive
+* Post Archive @@html:<i class="fa-solid fa-box-archive"></i>@@
+
 [[file:archive.org][All Posts]]

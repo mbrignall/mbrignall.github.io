@@ -1,4 +1,4 @@
-* [[file:about.org][(2024-12-31) About Me]]
+* [[file:about.org][(2025-01-02) About Me]]
 (No preview)
 * [[file:books.org][(2024-12-31) Previous Books]]
 (No preview)
@@ -6,7 +6,7 @@
 (No preview)
 * [[file:archive.org][(2024-12-12) Posts Archive]]
 (No preview)
-* [[file:index.org][(2024-10-03) Moments of clarity, shared.]]
+* [[file:index.org][(2024-10-03) Welcome to /mblognl/]]
 (No preview)
 * posts
 ** [[file:posts/release-monitoring-in-jira.org][(2024-10-11) Release Monitoring with Automation for Jira]]
