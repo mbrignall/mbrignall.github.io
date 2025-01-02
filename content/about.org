@@ -26,11 +26,11 @@ For some time now I've been obsessed with Linux, more specifically NixOS and mos
 
 At work I'm using MacOS so am using Nix Darwin as a Flake for that:
 
-- [[https://github.com/mbrignall/nix-darwin][nix-darwin on GitHub]]
+  - [[https://github.com/mbrignall/nix-darwin][nix-darwin on GitHub]]
 
 A more recent edition is Guix SD and I've taken inspiration from a variety of sources which I'll cover in a post shortly:
 
-- [[https://github.com/mbrignall/guix-system][guix-system on GitHub]]
+  - [[https://github.com/mbrignall/guix-system][guix-system on GitHub]]
 
 * Other stuff @@html:<i class="fa-regular fa-file-code"></i>@@
 
@@ -42,6 +42,6 @@ useful resources:
 
 - [[https://9p.io/wiki/plan9/plan_9_wiki/][Plan 9 wiki]]
 - [[https://9front.org/][9 front]]
-- 
+- other stuff
 
 *** TODO Other stuff
