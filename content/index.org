@@ -18,7 +18,7 @@ I hope you find something useful or thought-provoking!
 - *Web Development and Web Design*
 - *Me talking profusely, and lovingly about Emacs*
 - *My own experiments, code snippets*
-- *Reflections on various projects and tools*
+- *Single Board Computers*
 
 * Current Book @@html:<i class="fa-solid fa-book"></i>@@
 
@@ -52,7 +52,7 @@ This book is an excellent dive into the cyber security field during the late 80'
 
 Feel free to reach out via email or GitHub:
 
-- @@html:<i class="fa fa-envelope"></i>@@ [[mailto:martinaloysiusbrignall@gmail.com][email me]] 
+- @@html:<i class="fa fa-envelope"></i>@@ [[mailto:hello@mbrig.nl][email me]] 
 - @@html:<i class="fa-brands fa-github-alt"></i>@@ [[https://github.com/mbrignall][github/mbrignall]]
 
 * Post Archive @@html:<i class="fa-solid fa-box-archive"></i>@@
