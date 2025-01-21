@@ -51,15 +51,14 @@ How the Tech Industry Washes Money for the World's Deadliest Crooks
 MILES JOHNSON, AUTHOR OF CHASING SHADOWS
 #+end_quote
 
+#+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
+https://m.media-amazon.com/images/I/71n9FOWUzkL.jpg
+
 Currently listening to the book during my commute. From the opening chapter about Pablo Escobar laundering physical, hard cash to the later chapters covering crypto/blockchain game coins it's a wild ride start to finish. A few key factors and personal observations:
 
 Business Email Compromise (BEC) is unlikely to go anywhere! The email inbox is still a highly effective attack surface for any business or individual. It's also the easiest method to be compromised.
 
 Money laundering and Cyber crime in general are mutually exclusive. Even the most intelligent, highly operative Cyber criminals who can hack systems, compromise organisations and individuals are reliant on the specialists that head up the money laundering industry for their services.
-
-
-#+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
-https://m.media-amazon.com/images/I/71n9FOWUzkL.jpg
 
 @@html:<div style="clear: both;"></div>@@
 

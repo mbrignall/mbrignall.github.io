@@ -48,6 +48,7 @@ h3 {
     font-size: 1.2em;
     margin-top: 10px;
     margin-bottom: 5px;
+    border-bottom: 1px solid #a89bb9;
     display: flex;
     justify-content: space-between;
 }
