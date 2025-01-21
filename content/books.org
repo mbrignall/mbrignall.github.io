@@ -65,7 +65,7 @@ Money laundering and Cyber crime in general are mutually exclusive. Even the mos
 ** Conspiracy Theory: The Story of an Idea by Ian Dunt & Dorian Lynskey
 
 #+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
-https://m.media-amazon.com/images/I/41xfOYze1RL._SL500_.jpg
+https://hachette.imgix.net/books/9781399612869.jpg?auto=compress&w=440
 
 @@html:<div style="clear: both;"></div>@@
 
