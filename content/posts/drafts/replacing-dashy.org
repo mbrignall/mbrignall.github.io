@@ -1,0 +1,13 @@
+#+title: Replacing Dashy using Emacs and Org-Publish
+#+author: mbrignall
+#+date: <2025-02-08>
+
+* What is Dashy?
+
+* Why Replace Dashy?
+
+* Using Emacs and Org-Publish
+
+* Learnings
+
+* Future Ideas

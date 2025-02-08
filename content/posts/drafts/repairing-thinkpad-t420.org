@@ -1,0 +1,10 @@
+#+title: Repairing a Thinkpad t420 laptop
+#+author: mbrignall
+#+date: <2025-02-08>
+
+* Thinkpad t420
+
+* Current state:
+
+* Troubleshooting steps
+

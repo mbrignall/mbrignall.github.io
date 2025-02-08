@@ -204,7 +204,7 @@ pre.src .org-constant {
     border: 1px solid #dcdccc;
     padding: 1px;
     border-radius: 4px;
-    font-size: 0.7em;
+    font-size: 0.6em;
 }
 
 .todo.STARTED {
@@ -214,7 +214,7 @@ pre.src .org-constant {
     border: 1px solid #dcdccc;
     padding: 1px;
     border-radius: 4px;
-    font-size: 0.7em;
+    font-size: 0.6em;
 }
 
 .todo.DONE {
@@ -224,5 +224,5 @@ pre.src .org-constant {
     border: 1px solid #dcdccc;
     padding: 1px;
     border-radius: 4px;
-    font-size: 0.7em;
+    font-size: 0.6em;
 }

@@ -33,7 +33,6 @@ Add this to your ~init.el~:
 
 With the emphasis on declarative, reproducible systems, I've been using Nix for some time now. I have a config for Linux/NixOS outside of work, when at work I use a Macbook so have a Nix Darwin build for that. The addition of ~aspell~ with dictionaries was surprisingly simple once I'd worked out how to declare it in my configuration file:
 
-
 @@html:<pre class="src src-nix">@@
 @@html:<span class="org-comment-delimiter"># </span><span class="org-comment">System Packages</span>@@
 @@html:<span class="org-keyword">environment.systemPackages</span> = with <span class="org-constant">pkgs</span>; [@@

@@ -1,0 +1,9 @@
+#+title: Serving a static site on Raspberry Pi Pico W
+#+author: mbrignall
+#+date: <2025-02-08>
+
+* Resources:
+
+[[https://github.com/Hermann-SW/pico-w/tree/main/MicroPython/I%20Pico%20W%20LED%20web%20server][Pico Web Server]]
+
+

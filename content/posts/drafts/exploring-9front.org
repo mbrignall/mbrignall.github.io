@@ -3,10 +3,25 @@
 #+date: <2024-12-31>
 
 
-* What is Plan 9?
+Just started using 9front over the holiday period, I'll record my findings as I go on this one. 
 
+* What is Plan 9?
+So far I love exploring a new ecosystem with a rich history and strong community. I am looking for old laptops to run the OS on bare metal. I have two options that are in various states:
+
+   - Thinkpad T420: currently not booting, potential system board fail. Waiting for parts.
+   - ASUS eee PC 901: Power issues, but does boot, replacing power cable. Waiting delivery.
+
+From testing on VM using Proxmox I have two running instances, with basic setup and desktop arrangement etc. I have installed Netsurf (the alternative browser) and Uxn to explore that ecosystem from withing 9front. I also installed 9front on a Raspberry Pi 3b which is running 9front successfully.
+  
 * Why 9front?
 
 * First steps
 
 * Future
+
+* useful resources
+
+- adventuresin9front (YouTube)
+- [[https://9p.io/wiki/plan9/plan_9_wiki/][Plan 9 wiki]]
+- [[https://9front.org/][9 front]]
+- other stuff
