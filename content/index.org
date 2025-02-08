@@ -14,37 +14,36 @@ I hope you find something useful or thought-provoking!
 
 *** Some topics, themes, and subjects
 
-- *Cyber Defence and Security Engineering*
+- *Cybersecurity and Security Engineering*
 - *Web Development and Web Design*
-- *Me talking profusely, and lovingly about Emacs*
-- *My own experiments, code snippets*
-- *Single Board Computers*
+- *Me talking lovingly about Emacs*
+- *My own experiments, code snippets and projects*
+- *Single Board Computer exploration*
 
 * Current Book @@html:<i class="fa-solid fa-book"></i>@@
 
-** Going Dark by Julia Ebner
+** America Over Water by Shirley Collins             :folklore:music:america:
 
 #+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
-[[https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale,dpr_1.5/jackets/9781526616791.jpg]]
+https://m.media-amazon.com/images/I/71IYBIjH1gL._SY522_.jpg
 
-An interesting subject matter for me which covers different steps of the radicalisation process.
+Shirley Collins writes her early days and travels with Folklorist, Alan Lomax as the record audio and document the music of Americas heartland.
 
-Will review once finished
-
-Additional content: [[https://www.youtube.com/watch?v=fAFV49e2W5M][Going Dark: The Secret Social Lives of Extremists | Julia Ebner | Talks at Google]]
+In Progress.
 
 @@html:<div style="clear: both;"></div>@@
   
 * Previous Books @@html:<i class="fa-solid fa-book"></i>@@
 
-** Cuckoo's Egg by Cliff Stoll                      :cybersecurity:truecrime: 
+** Going Dark by Julia Ebner              :extremism:radicalisation:politics:
 
 #+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
-[[https://m.media-amazon.com/images/I/71KvXfFyi4L._SL1500_.jpg]]
+[[https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale,dpr_1.5/jackets/9781526616791.jpg]]
 
-This book is an excellent dive into the cyber security field during the late 80's... 
+Dr. Julie Ebner specialises in radicalisation, extremism and terrorism studies. In this book she bravely infiltrates groups from far-right nationalists, Islamic terrorists to trad-wives and ISIS brides...
 
-[[./books.html][Read more...]]
+[[./books.html][Read More...]]
+
 
 @@html:<div style="clear: both;"></div>@@
 
