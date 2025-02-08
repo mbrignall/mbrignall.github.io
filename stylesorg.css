@@ -206,3 +206,13 @@ pre.src .org-constant {
     border-radius: 4px;
     font-size: 0.7em;
 }
+
+.todo.STARTED {
+    background-color: #e79686;
+    color: #dcdccc;
+    font-weight: bold;
+    border: 1px solid #dcdccc;
+    padding: 1px;
+    border-radius: 4px;
+    font-size: 0.7em;
+}

@@ -7,15 +7,15 @@
 <generator>Emacs webfeeder.el</generator>
 <link>https://blog.mbrig.nl</link>
 <atom:link href="https://blog.mbrig.nl/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 21 Jan 2025 16:47:57 +0000</lastBuildDate>
+<lastBuildDate>Sat, 08 Feb 2025 00:20:54 +0000</lastBuildDate>
 <item>
   <title>Terraform and Terrascan with AWS (Immersive Labs)</title>
   <description><![CDATA[<div id="content" class="content">
- <div id="outline-container-org62206bd" class="outline-2">
- <h2 id="org62206bd">Immersive Labs</h2>
- <div class="outline-text-2" id="text-org62206bd">
+ <div id="outline-container-orgbf8a8e5" class="outline-2">
+ <h2 id="orgbf8a8e5">Immersive Labs</h2>
+ <div class="outline-text-2" id="text-orgbf8a8e5">
 
- <figure id="org122d900"> <img src="https://static-00.iconduck.com/assets.00/terraform-icon-1803x2048-hodrzd3t.png" alt="terraform-icon-1803x2048-hodrzd3t.png" style="margin:auto; display:block; width:200px"></img></figure> <div class="PREVIEW" id="org37371d6">
+ <figure id="org2dad11d"> <img src="https://static-00.iconduck.com/assets.00/terraform-icon-1803x2048-hodrzd3t.png" alt="terraform-icon-1803x2048-hodrzd3t.png" style="margin:auto; display:block; width:200px"></img></figure> <div class="PREVIEW" id="org7e9c9bb">
  <p>
 This post is going to cover my most recent lab "Secure Terraform for AWS". I wanted to present my personal approach on the lab and my experience in general. I'm going to try not to give away too much, just some hints and what to expect if you're considering purchasing licences or you're a learner considering which labs to do next.
 </p>
@@ -32,9 +32,9 @@ Having used some similar platforms like Hack the Box and the likes, I can say th
 </div>
 </div>
 
- <div id="outline-container-orgd755775" class="outline-2">
- <h2 id="orgd755775">Terraform for AWS</h2>
- <div class="outline-text-2" id="text-orgd755775">
+ <div id="outline-container-orgcb23aa0" class="outline-2">
+ <h2 id="orgcb23aa0">Terraform for AWS</h2>
+ <div class="outline-text-2" id="text-orgcb23aa0">
  <p>
 A quick reminder of what Terraform does:
 </p>
@@ -55,11 +55,11 @@ When you start the lab you'll get an overview of both Terraform and Terrascan. M
 
 
 
- <figure id="org6d2c9ba"> <img src="../tfexample.png" alt="tfexample.png" style="margin:auto; display:block; width:100%"></img> <figcaption> <span class="figure-number">Figure 1: </span>What the console looks like</figcaption></figure></div>
+ <figure id="orgc9168a9"> <img src="../tfexample.png" alt="tfexample.png" style="margin:auto; display:block; width:100%"></img> <figcaption> <span class="figure-number">Figure 1: </span>What the console looks like</figcaption></figure></div>
 
- <div id="outline-container-orgaa99a2a" class="outline-3">
- <h3 id="orgaa99a2a">Episode 1</h3>
- <div class="outline-text-3" id="text-orgaa99a2a">
+ <div id="outline-container-orgf583e60" class="outline-3">
+ <h3 id="orgf583e60">Episode 1</h3>
+ <div class="outline-text-3" id="text-orgf583e60">
  <p>
 The first labs starts with a simple S3 bucket configuration with some missing scopes/resources. Your job is to make sure that the Terraform HCL passes the Terrascan expected configuration so that the bucket is secure and meets the following expectations:
 </p>
@@ -69,17 +69,17 @@ The first labs starts with a simple S3 bucket configuration with some missing sc
  <li>Buckets should be private</li>
  <li>Access logging should be enabled and configured to log to another bucket</li>
  <li>Objects should be owned by the bucket owner if they have been uploaded with the bucket-owner-full-control canned ACL</li>
-</ul> <figure id="org53265de"> <img src="../tfexample3.png" alt="tfexample3.png" style="margin:auto; display:block; width:100%"></img> <figcaption> <span class="figure-number">Figure 2: </span>The auto-complete chooser is going to be your friend here 😉</figcaption></figure> <p>
+</ul> <figure id="org8cd0b68"> <img src="../tfexample3.png" alt="tfexample3.png" style="margin:auto; display:block; width:100%"></img> <figcaption> <span class="figure-number">Figure 2: </span>The auto-complete chooser is going to be your friend here 😉</figcaption></figure> <p>
 You're going to want to try a validate first in order to get feedback from Terrascan as to what's missing, unless you can tell off the bat and have previous experience in TF. The terminal response is really useful and I used the pointers to look at the official docs in order to work out which Key Value pair was needed.
 </p>
 
 
- <figure id="org74294dc"> <img src="../tfexample1.png" alt="tfexample1.png" style="margin:auto; display:block; width:100%"></img> <figcaption> <span class="figure-number">Figure 3: </span>Example of Terrascan in action</figcaption></figure></div>
+ <figure id="org685e9cc"> <img src="../tfexample1.png" alt="tfexample1.png" style="margin:auto; display:block; width:100%"></img> <figcaption> <span class="figure-number">Figure 3: </span>Example of Terrascan in action</figcaption></figure></div>
 </div>
 
- <div id="outline-container-org172321a" class="outline-3">
- <h3 id="org172321a">Episode 2</h3>
- <div class="outline-text-3" id="text-org172321a">
+ <div id="outline-container-org72c6dc4" class="outline-3">
+ <h3 id="org72c6dc4">Episode 2</h3>
+ <div class="outline-text-3" id="text-org72c6dc4">
  <p>
 Covers KMS keys which are cryptographic keys that can be used to encrypt and secure AWS resources. EBS is also covered in this session which is for scalable block storage and is used as the default when creating volumes for EC2.
 </p>
@@ -89,7 +89,7 @@ As above, I went with the terminal feedback first, by running validate. This gav
 </p>
 
 
- <figure id="org77ef4d7"> <img src="../tfexample2.png" alt="tfexample2.png" style="margin:auto; display:block; width:100%"></img> <figcaption> <span class="figure-number">Figure 4: </span>More action</figcaption></figure> <p>
+ <figure id="orge33797a"> <img src="../tfexample2.png" alt="tfexample2.png" style="margin:auto; display:block; width:100%"></img> <figcaption> <span class="figure-number">Figure 4: </span>More action</figcaption></figure> <p>
 In summary:
 </p>
 
@@ -101,9 +101,9 @@ I feel this episode was slightly easier and definitely had less points to addres
 </div>
 </div>
 
- <div id="outline-container-orgd750fce" class="outline-3">
- <h3 id="orgd750fce">Episode 3</h3>
- <div class="outline-text-3" id="text-orgd750fce">
+ <div id="outline-container-org5bcb9b5" class="outline-3">
+ <h3 id="org5bcb9b5">Episode 3</h3>
+ <div class="outline-text-3" id="text-org5bcb9b5">
  <p>
 This episode touches on the Aurora and Relational Database Services (RDS) in AWS. The brief covers the basics of the services and what to look out for in the lab. The goal is to correct the errors and update the resources to securely deploy infrastructure associated with the AWS Aurora service for relational databases (DBs).
 </p>
@@ -117,9 +117,9 @@ This lab has a high and medium alert reported in Terrascan:
 </ul></div>
 </div>
 
- <div id="outline-container-org2e4c5d4" class="outline-3">
- <h3 id="org2e4c5d4">Episode 4 - the finale</h3>
- <div class="outline-text-3" id="text-org2e4c5d4">
+ <div id="outline-container-org8822be3" class="outline-3">
+ <h3 id="org8822be3">Episode 4 - the finale</h3>
+ <div class="outline-text-3" id="text-org8822be3">
  <p>
 We reach the final episode which brings some more general security fundamentals and enabling detailed monitoring. Here we learn about how we restrict AWS VPC traffic to EC2 instances by using security groups and custom rules. EC2’s instance metadata service (IMDS) can be used to retrieve metadata about running EC2 instances from within the instance.
 </p>
@@ -137,9 +137,9 @@ I found this lab slightly more tricky as it was dealing with areas of AWS and re
 </div>
 </div>
 
- <div id="outline-container-org83e58e9" class="outline-2">
- <h2 id="org83e58e9">Terrascan by Tenable</h2>
- <div class="outline-text-2" id="text-org83e58e9">
+ <div id="outline-container-org3822c89" class="outline-2">
+ <h2 id="org3822c89">Terrascan by Tenable</h2>
+ <div class="outline-text-2" id="text-org3822c89">
  <p>
  <a href="https://github.com/tenable/terrascanlink">Terrascan GitHub</a>
 </p>
@@ -148,15 +148,15 @@ I found this lab slightly more tricky as it was dealing with areas of AWS and re
 </div>]]></description>
   <link>https://blog.mbrig.nl/posts/./terraform-and-terrascan.html</link>
   <guid isPermaLink="false">https://blog.mbrig.nl/posts/./terraform-and-terrascan.html</guid>
-  <pubDate>Tue, 21 Jan 2025 16:47:57 +0000</pubDate>
+  <pubDate>Sat, 08 Feb 2025 00:20:54 +0000</pubDate>
 </item>
 <item>
   <title>Release Monitoring with Automation for Jira</title>
   <description><![CDATA[<div id="content" class="content">
- <div id="outline-container-org8beb009" class="outline-2">
- <h2 id="org8beb009">We like automation, we like monitoring releases  <i class="fa-regular fa-heart"></i></h2>
- <div class="outline-text-2" id="text-org8beb009">
- <div class="PREVIEW" id="orgd8e72ac">
+ <div id="outline-container-orge8f1597" class="outline-2">
+ <h2 id="orge8f1597">We like automation, we like monitoring releases  <i class="fa-regular fa-heart"></i></h2>
+ <div class="outline-text-2" id="text-orge8f1597">
+ <div class="PREVIEW" id="orgf963f9e">
  <p>
 So your organisation has decided to build a Internal Developer Portal (IDP) using Backstage. All of a sudden you're responsible for looking after a quickly growing, forever updating production environment, as well as an IDP?
 </p>
@@ -188,18 +188,18 @@ You monitor the releases in a Jira project backlog of course!
 </div>
 </div>
 
- <div id="outline-container-org67cfcd0" class="outline-2">
- <h2 id="org67cfcd0">Here is how I did it with automation…  <i class="fa-solid fa-robot"></i></h2>
- <div class="outline-text-2" id="text-org67cfcd0">
+ <div id="outline-container-orgcee9c50" class="outline-2">
+ <h2 id="orgcee9c50">Here is how I did it with automation…  <i class="fa-solid fa-robot"></i></h2>
+ <div class="outline-text-2" id="text-orgcee9c50">
  <p>
 I wanted to create a new task whenever a new release of Backstage is rolled out on the main Github page  <i class="fa-brands fa-github-alt"></i>  <a href="https://github.com/backstage/backstage">backstage/backstage</a>. The task could then be broken down into smaller pieces of work or spikes so I could monitor builds or raise pull requests directly from Jira using the GitHub integration.
 </p>
 </div>
 </div>
 
- <div id="outline-container-orgdfa3c13" class="outline-2">
- <h2 id="orgdfa3c13">Setting up the Schedule  <i class="fa-regular fa-calendar"></i></h2>
- <div class="outline-text-2" id="text-orgdfa3c13">
+ <div id="outline-container-org957279b" class="outline-2">
+ <h2 id="org957279b">Setting up the Schedule  <i class="fa-regular fa-calendar"></i></h2>
+ <div class="outline-text-2" id="text-org957279b">
  <p>
 For the scheduled automation to work I created a custom field in Jira called 'Release Tag', which is where the release tag will be stored.
 </p>
@@ -217,12 +217,12 @@ Because the scheduled automation requires a ticket to be present I had to make a
 </p>
 
 
- <figure id="org36eb2c8"> <img src="../afj-release.png" alt="afj-release.png" style="margin:auto; display:block; width:400px"></img> <figcaption> <span class="figure-number">Figure 1: </span>Schedule the Automation</figcaption></figure></div>
+ <figure id="orgf46a155"> <img src="../afj-release.png" alt="afj-release.png" style="margin:auto; display:block; width:400px"></img> <figcaption> <span class="figure-number">Figure 1: </span>Schedule the Automation</figcaption></figure></div>
 </div>
 
- <div id="outline-container-org3901d9d" class="outline-2">
- <h2 id="org3901d9d">The Web Request  <i class="fa-solid fa-globe"></i></h2>
- <div class="outline-text-2" id="text-org3901d9d">
+ <div id="outline-container-org61a9c28" class="outline-2">
+ <h2 id="org61a9c28">The Web Request  <i class="fa-solid fa-globe"></i></h2>
+ <div class="outline-text-2" id="text-org61a9c28">
  <p>
 The automation will make a request to a public endpoint, so there was need for a Personal Access Token (PAT). Since the request frequency is once a day, it remains within rate limits. The request is made to the following URL:
 </p>
@@ -248,12 +248,12 @@ This is a GET HTTP method, and I didn't anticipate any issue references in the b
 </p>
 
 
- <figure id="orga3633f6"> <img src="../afj-release-3.png" alt="afj-release-3.png" style="margin:auto; display:block; width:400px"></img> <figcaption> <span class="figure-number">Figure 2: </span>Web Request Example</figcaption></figure></div>
+ <figure id="orgc15ad2f"> <img src="../afj-release-3.png" alt="afj-release-3.png" style="margin:auto; display:block; width:400px"></img> <figcaption> <span class="figure-number">Figure 2: </span>Web Request Example</figcaption></figure></div>
 </div>
 
- <div id="outline-container-org8778363" class="outline-2">
- <h2 id="org8778363">Create Variable  <i class="fa-solid fa-check"></i></h2>
- <div class="outline-text-2" id="text-org8778363">
+ <div id="outline-container-org42c518a" class="outline-2">
+ <h2 id="org42c518a">Create Variable  <i class="fa-solid fa-check"></i></h2>
+ <div class="outline-text-2" id="text-org42c518a">
  <p>
 The web response body will look a bit like the snipped example:
 </p>
@@ -285,12 +285,12 @@ To extract the  <code>tag_name</code>, I created a variable using the newer feat
 </p>
 
 
- <figure id="org6e7fd65"> <img src="../afj-release-1.png" alt="afj-release-1.png" style="margin:auto; display:block; width:400px"></img> <figcaption> <span class="figure-number">Figure 3: </span>Release Tag Variable</figcaption></figure></div>
+ <figure id="org4dc901a"> <img src="../afj-release-1.png" alt="afj-release-1.png" style="margin:auto; display:block; width:400px"></img> <figcaption> <span class="figure-number">Figure 3: </span>Release Tag Variable</figcaption></figure></div>
 </div>
 
- <div id="outline-container-orgaf9808f" class="outline-2">
- <h2 id="orgaf9808f">Create a new ticket  <i class="fa-solid fa-ticket"></i></h2>
- <div class="outline-text-2" id="text-orgaf9808f">
+ <div id="outline-container-orga5df178" class="outline-2">
+ <h2 id="orga5df178">Create a new ticket  <i class="fa-solid fa-ticket"></i></h2>
+ <div class="outline-text-2" id="text-orga5df178">
  <p>
 I then used the 'If: Matches' conditional module to verify if  <code>backstageLatest</code> is greater than the release number in the custom release field. If it is, then I want to create a new ticket in the backlog with:
 </p>
@@ -305,12 +305,12 @@ If the conditions don't match, the automation doesn't perform any actions.
 </p>
 
 
- <figure id="org2955928"> <img src="../afj-release-2.png" alt="afj-release-2.png" style="margin:auto; display:block; width:400px"></img> <figcaption> <span class="figure-number">Figure 4: </span>Backstage Latest Variable</figcaption></figure></div>
+ <figure id="org44066d1"> <img src="../afj-release-2.png" alt="afj-release-2.png" style="margin:auto; display:block; width:400px"></img> <figcaption> <span class="figure-number">Figure 4: </span>Backstage Latest Variable</figcaption></figure></div>
 </div>
 
- <div id="outline-container-org2c18906" class="outline-2">
- <h2 id="org2c18906">Conclusion  <i class="fa-solid fa-flag-checkered"></i></h2>
- <div class="outline-text-2" id="text-org2c18906">
+ <div id="outline-container-orga1e7b34" class="outline-2">
+ <h2 id="orga1e7b34">Conclusion  <i class="fa-solid fa-flag-checkered"></i></h2>
+ <div class="outline-text-2" id="text-orga1e7b34">
  <p>
 By following the above steps, you can set up a process to automatically monitor GitHub releases and track your dependencies. This will save you time and effort to manually check for new releases.
 </p>
@@ -335,15 +335,15 @@ If you have any other ideas or questions please reach out.  <i class="fa-regular
 </div>]]></description>
   <link>https://blog.mbrig.nl/posts/./release-monitoring-in-jira.html</link>
   <guid isPermaLink="false">https://blog.mbrig.nl/posts/./release-monitoring-in-jira.html</guid>
-  <pubDate>Tue, 21 Jan 2025 16:47:57 +0000</pubDate>
+  <pubDate>Sat, 08 Feb 2025 00:20:54 +0000</pubDate>
 </item>
 <item>
   <title>Emacs with aspell/ispell on Nix Darwin</title>
   <description><![CDATA[<div id="content" class="content">
- <div id="outline-container-org52161d7" class="outline-2">
- <h2 id="org52161d7">British English and Emacs</h2>
- <div class="outline-text-2" id="text-org52161d7">
- <div class="PREVIEW" id="org57a9bbb">
+ <div id="outline-container-org75451e6" class="outline-2">
+ <h2 id="org75451e6">British English and Emacs</h2>
+ <div class="outline-text-2" id="text-org75451e6">
+ <div class="PREVIEW" id="org10ddf25">
  <p>
 I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Ispell is built in to the current version I'm using (29.1). However it was locked to the default US dictionary. Easy fix right?
 </p>
@@ -351,27 +351,27 @@ I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Is
 </div>
 </div>
 
- <div id="outline-container-orgedac1e0" class="outline-3">
- <h3 id="orgedac1e0">Discoveries</h3>
- <div class="outline-text-3" id="text-orgedac1e0">
+ <div id="outline-container-org812a20a" class="outline-3">
+ <h3 id="org812a20a">Discoveries</h3>
+ <div class="outline-text-3" id="text-org812a20a">
  <p>
 Out the box the latest version of ispell on Nix Packages and built in Emacs does not have UK/British English default. So I started looking on Reddit and Googled ispell and Nix to see where I could go.
 </p>
 </div>
 </div>
 
- <div id="outline-container-org410a30e" class="outline-3">
- <h3 id="org410a30e">Emacs philosophy and approach</h3>
- <div class="outline-text-3" id="text-org410a30e">
+ <div id="outline-container-org2ddf986" class="outline-3">
+ <h3 id="org2ddf986">Emacs philosophy and approach</h3>
+ <div class="outline-text-3" id="text-org2ddf986">
  <p>
 I am a strong believer in keeping things simple and with the introduction of 'use-package' and the extra features in 29.1 I was keen to rewrite my config and use as close to vanilla setup as possible. I took the very base of what was needed and started from scratch building outward and exploring built-in packages. My config file is available here:  <a href="https://github.com/mbrignall/nix-darwin">nix-darwin repo</a>
 </p>
 </div>
 </div>
 
- <div id="outline-container-org693aa9a" class="outline-3">
- <h3 id="org693aa9a">Emacs Aspell/Ispell config</h3>
- <div class="outline-text-3" id="text-org693aa9a">
+ <div id="outline-container-org81cb385" class="outline-3">
+ <h3 id="org81cb385">Emacs Aspell/Ispell config</h3>
+ <div class="outline-text-3" id="text-org81cb385">
  <p>
 Add this to your  <code>init.el</code>:
 </p>
@@ -388,9 +388,9 @@ Add this to your  <code>init.el</code>:
 </div>
 </div>
 
- <div id="outline-container-org01bc142" class="outline-3">
- <h3 id="org01bc142">NixOS/ Nix Darwin</h3>
- <div class="outline-text-3" id="text-org01bc142">
+ <div id="outline-container-orgc59a99e" class="outline-3">
+ <h3 id="orgc59a99e">NixOS/ Nix Darwin</h3>
+ <div class="outline-text-3" id="text-orgc59a99e">
  <p>
 With the emphasis on declarative, reproducible systems, I've been using Nix for some time now. I have a config for Linux/NixOS outside of work, when at work I use a Macbook so have a Nix Darwin build for that. The addition of  <code>aspell</code> with dictionaries was surprisingly simple once I'd worked out how to declare it in my configuration file:
 </p>
@@ -412,7 +412,7 @@ With the emphasis on declarative, reproducible systems, I've been using Nix for 
 </div>]]></description>
   <link>https://blog.mbrig.nl/posts/./emacs-ispell-aspell.html</link>
   <guid isPermaLink="false">https://blog.mbrig.nl/posts/./emacs-ispell-aspell.html</guid>
-  <pubDate>Tue, 21 Jan 2025 16:47:57 +0000</pubDate>
+  <pubDate>Sat, 08 Feb 2025 00:20:54 +0000</pubDate>
 </item>
 </channel>
 </rss>
