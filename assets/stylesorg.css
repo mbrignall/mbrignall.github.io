@@ -208,7 +208,17 @@ pre.src .org-constant {
 }
 
 .todo.STARTED {
-    background-color: #e79686;
+    background-color: #ebcb8b;
+    color: #dcdccc;
+    font-weight: bold;
+    border: 1px solid #dcdccc;
+    padding: 1px;
+    border-radius: 4px;
+    font-size: 0.7em;
+}
+
+.todo.DONE {
+    background-color: #a3be8c;
     color: #dcdccc;
     font-weight: bold;
     border: 1px solid #dcdccc;

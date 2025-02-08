@@ -3,6 +3,7 @@
 
 #+ATTR_HTML: :style margin:auto; display:block; width:200px
 [[./mbrignl.jpg]]
+#+TODO: TODO STARTED | DONE
 
 * About me... @@html:<i class="fa-regular fa-address-card"></i>@@
 
@@ -34,12 +35,19 @@ A more recent edition is Guix SD and I've taken inspiration from a variety of so
 
 * Other stuff @@html:<i class="fa-regular fa-file-code"></i>@@
 
-*** TODO Plan 9/ 9front
+*** STARTED Plan 9/ 9front
 
-Just started using 9front over the holiday period, I'll record findings, so far I love it.
+Just started using 9front over the holiday period, I'll record findings, so far I love it. I am looking for old laptops to run the OS on bare metal. I have two options that are in various states:
+
+   - Raspberry Pi 3b: Running 9front successfully.
+   - Thinkpad T420: currently not booting, potential system board fail.
+   - ASUS eee PC 901: Power issues, but does boot, replacing power cable.
+
+From testing on VM using Proxmox I have two running instances, with basic setup and desktop arrangment etc. I have installed Netsurf (the alternative browser) and Uxn to exmplore that ecosystem from withing 9front.
 
 useful resources:
 
+- adventuresin9front (YouTube)
 - [[https://9p.io/wiki/plan9/plan_9_wiki/][Plan 9 wiki]]
 - [[https://9front.org/][9 front]]
 - other stuff

@@ -1,6 +1,7 @@
 #+title: Welcome to /mblognl/
 #+author: mbrignall
 #+date: <2024-10-03>
+#+TODO: TODO STARTED | DONE
 
 * ...a blog you say? @@html:<i class="fa-regular fa-circle-question"></i>@@
 
