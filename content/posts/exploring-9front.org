@@ -1,6 +1,6 @@
 #+title: Exploring 9front and Plan 9
 #+author: marginally
-#+date: <2024-02-15>
+#+date: <2025-02-15>
 
 * Why 9front?
 
