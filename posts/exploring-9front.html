@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Exploring 9front and Plan 9</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="/stylesorg.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+<div id="preamble" class="status">
+<hr style="border-top: 1px solid black;">
+<div class='topnav' style='display: flex; justify-content: space-between; align-items: center;'>
+  <a href="/index.html"><h2 style='margin-top: 0; margin-bottom: 0; margin-left:0px;'>mblognl</h2></a>
+  <div>
+    <a href='/about.html' style='font-weight:bold; font-style:italic;'>About Me</a> |
+    <a href='/archive.html' style='font-weight:bold; font-style:italic;'>Blog</a> |
+    <a href='/books.html' style='font-weight:bold; font-style:italic;'>Books</a> |
+    <a href='/rss.xml' style='font-weight:bold; font-style:italic;'>RSS</a>
+  </div>
+</div>
+<hr style="border-top: 1px solid black;">
+</div>
+<div id="content" class="content">
+<header>
+<h1 class="title">Exploring 9front and Plan 9</h1>
+</header>
+<div id="outline-container-orgf83036f" class="outline-2">
+<h2 id="orgf83036f">Why 9front?</h2>
+<div class="outline-text-2" id="text-orgf83036f">
+
+<figure id="org605aa7b">
+<img src="http://9front.org/img/thistimedefinitely.front.png" alt="thistimedefinitely.front.png" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px">
+
+</figure>
+
+<p>
+Over the holiday period I took the steps towards fully exploring the 9front/Plan 9 ecosystem. It has turned up on the radar for some time now, however if my memory treats me correctly, the first exposure I was overwhelmed. Recently I discovered <a href="https://www.youtube.com/channel/UC7qFfPYl0t8Cq7auyblZqxA">adventuresin9</a> YouTube channel randomly which sprouted the interest again. After trying out 9front on VM via Proxmox I decided that I needed to experience it on bare metal.
+</p>
+
+<p>
+This led to a couple of quests with older laptops to bring them back to life in order to get them running this lesser known OS.
+</p>
+
+<p>
+There was something about the stark, minimalist approach, the art on the cover of the purchased manual, and the general demeanour of the contributors that hooked me. It's hard to explain but I liken it to finding a band you'd never heard of from a past era and then finding out they have a sprawling back catalogue to digest.
+</p>
+
+<p>
+Also, with my interest in the C language, finding out that 9front has it's own dialect and that the whole OS is written in less than 6000 lines I felt this may be a place to learn about operating system architecture and kernels etc
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgdfcacd2" class="outline-2">
+<h2 id="orgdfcacd2">What have I done so far?</h2>
+<div class="outline-text-2" id="text-orgdfcacd2">
+<p>
+Here is a list of the hardware I've managed to get 9front to run on:
+</p>
+</div>
+
+<div id="outline-container-orgc58543a" class="outline-3">
+<h3 id="orgc58543a">Thinkpad T420:</h3>
+<div class="outline-text-3" id="text-orgc58543a">
+
+<figure id="org5d2e779">
+<img src="../img/thinkpad.jpg" alt="thinkpad.jpg" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px">
+
+</figure>
+
+<p>
+I found one of these laptops on Facebook marketplace for £10 including the power adaptor. Initial thoughts was that the hardware was in pretty good condition given the age. However the laptop did not boot. I would get the initial green power led but then nothing. After searching online and diving into a variety of vintage posts I came to the conclusion that the system board must be kaput.
+</p>
+
+<p>
+Luckily replacement parts for this model is still readily available on eBay etc. so I ordered a new motherboard from Latvia. This took a couple of weeks to arrive and once received I was eager to give it a crack
+</p>
+
+<p>
+I have experience in fixing 'things' but this was my first laptop motherboard replacement. Once observation that really sticks out is the ease of replacing components in these devices. In more recent laptops I've opened up they seem difficult to get to the 'guts'. The whole replacement took about an hour from scratch and I only had 2 leftover screws!
+</p>
+
+<p>
+The laptop understandably was missing a sdd so I added my own Kingston 120gb. There was an extra 4gb RAM in the 2nd port which gives the laptop 8gb in total.
+</p>
+
+<p>
+The install is covered below and mostly I followed <a href="https://9lab.org/plan9/thinkpad-t420s/">9lab Thinkpad T420 guide</a> this helped with the wifi firmware and getting the initial boot working.
+</p>
+
+<p>
+Once booted and I followed the install guide, running <code>inst/start</code> and following the prompts, it was pretty straightforward. I didn't sway from the defaults for this laptop, using the default fs and partition suggestions.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgaf3f183" class="outline-3">
+<h3 id="orgaf3f183">ASUS eee PC 901:</h3>
+<div class="outline-text-3" id="text-orgaf3f183">
+
+<figure id="org651a150">
+<img src="../img/asus.jpg" alt="asus.jpg" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px">
+
+</figure>
+
+<p>
+Initial problems: Power issues, did not boot. Replaced power adaptor.
+</p>
+
+<p>
+With this working I was able to wipe the sdd and prepare for install, as 9front requires a blank partition in order to install the OS and various services.
+</p>
+
+<p>
+After install the ral-rt2860 <a href="https://git.9front.org/plan9front/firmware/d6202daaa910a56a60b1ff8cecc9f1dabfd59c0c/files.html">firmware</a> was needed in <code>/lib/firmware/</code> and a reboot I was successfully able to connect to wifi using the following:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-rc">bind -a '#l1' /net
+aux/wpa -s &lt;SSID&gt; -p /net/ether1
+ip/ipconfig
+</pre>
+</div>
+
+<p>
+To test connectivity you can try: <code>ip/ping 8.8.8.8</code> for example and you should get a positive response.
+</p>
+
+<p>
+Note: If you get the password incorrect you're going to see a DHCP error. So far my only way to reset this is to <code>fshalt -r</code> reboot the system and try again, this is super annoying when you have a dodgy key char in the password. 🫠
+</p>
+
+<p>
+In addition to this challenge the ASUS laptop has an unsupported ethernet adaptor, so you can't just plug a cable in to get connectivity. This meant getting the <a href="https://git.9front.org/plan9front/firmware/d6202daaa910a56a60b1ff8cecc9f1dabfd59c0c/files.html">firmware</a> on to the device had to come via USB storage.
+</p>
+
+<p>
+The USB storage mounts on <code>/srv/&lt;device-name&gt;</code> and I moved the file straight fromt here.
+</p>
+
+<p>
+From testing on VM using Proxmox I have two running instances, with basic setup and desktop arrangement etc. I have installed Netsurf (the alternative browser) and Uxn to explore that ecosystem from withing 9front. I
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgabddf09" class="outline-3">
+<h3 id="orgabddf09">Raspberry Pi 3b</h3>
+<div class="outline-text-3" id="text-orgabddf09">
+<p>
+I installed 9front on a Raspberry Pi 3b which is running 9front successfully. There was a couple of guides that helped along the way:
+</p>
+
+<ul class="org-ul">
+<li><a href="https://luksamuk.codes/posts/plan9-setup-rpi.html">Plan 9: Setting up 9front on a Raspberry Pi</a></li>
+<li><a href="https://julienblanchard.com/posts/setting-up-a-9front-cpu-server-on-a-raspberry-pi-4.html">Setting up a 9front CPU server on a Raspberry Pi 4</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb26c488" class="outline-2">
+<h2 id="orgb26c488">Future</h2>
+</div>
+
+<div id="outline-container-org04ae4a2" class="outline-2">
+<h2 id="org04ae4a2">useful resources</h2>
+<div class="outline-text-2" id="text-org04ae4a2">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/channel/UC7qFfPYl0t8Cq7auyblZqxA">adventuresin9</a> (YouTube)</li>
+<li><a href="https://9p.io/wiki/plan9/plan_9_wiki/">Plan 9 wiki</a></li>
+<li><a href="https://9front.org/">9 front</a></li>
+<li><a href="https://www.amazon.co.uk/s?k=9front&amp;crid=132YLI7HQ5LJN&amp;sprefix=9front%2Caps%2C88&amp;ref=nb_sb_noss">Amazon 9front manuals</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<div class="postamble" style="text-align: center; margin-top: 20px; margin-bottom: 20px;"> 
+               <p> Created by <a href="https://www.gnu.org/software/emacs/">Emacs</a> 29.3 (<a href="https://orgmode.org">Org</a> mode 9.6.15)  </p>
+               </div>
+</div>
+</body>
+</html>
