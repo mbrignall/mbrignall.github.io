@@ -118,7 +118,7 @@ https://ogbe.net/blog/blogging_with_org.html"
        (list "org-site:static"
              :base-directory "./static/"
              :base-extension "css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|svg"
-             :publishing-directory "./public/"
+             :publishing-directory "./public/img"
              :recursive t
              :publishing-function 'org-publish-attachment
              :exclude "^posts/drafts/.*")  ;; Corrected exclude pattern
@@ -127,7 +127,7 @@ https://ogbe.net/blog/blogging_with_org.html"
        (list "org-site:assets"
              :base-directory "./assets/"
              :base-extension "css\\|ico\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|ico"
-             :publishing-directory "./public/"
+             :publishing-directory "./public"
              :recursive t
              :publishing-function 'org-publish-attachment)))
 

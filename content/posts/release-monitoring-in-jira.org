@@ -40,7 +40,7 @@ Because the scheduled automation requires a ticket to be present I had to make a
 
 #+ATTR_HTML: :style margin:auto; display:block; width:400px
 #+caption: Schedule the Automation
-[[file:../afj-release.png]]
+[[file:../img/afj-release.png]]
 
 * The Web Request @@html:<i class="fa-solid fa-globe"></i>@@
 
@@ -58,7 +58,7 @@ This is a GET HTTP method, and I didn't anticipate any issue references in the b
 
 #+ATTR_HTML: :style margin:auto; display:block; width:400px
 #+caption: Web Request Example
-[[file:../afj-release-3.png]]
+[[file:../img/afj-release-3.png]]
 
 * Create Variable @@html:<i class="fa-solid fa-check"></i>@@ 
 
@@ -89,7 +89,7 @@ To extract the ~tag_name~, I created a variable using the newer feature, referri
 
 #+ATTR_HTML: :style margin:auto; display:block; width:400px
 #+caption: Release Tag Variable
-[[file:../afj-release-1.png]]
+[[file:../img/afj-release-1.png]]
 
 * Create a new ticket @@html:<i class="fa-solid fa-ticket"></i>@@ 
 
@@ -105,7 +105,7 @@ If the conditions don't match, the automation doesn't perform any actions.
 
 #+ATTR_HTML: :style margin:auto; display:block; width:400px
 #+caption: Backstage Latest Variable
-[[file:../afj-release-2.png]]
+[[file:../img/afj-release-2.png]]
 
 * Conclusion @@html:<i class="fa-solid fa-flag-checkered"></i>@@ 
 

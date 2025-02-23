@@ -1,20 +1,22 @@
-* [[file:about.org][(2025-02-08) About Me]]
+* [[file:about.org][(2025-02-23) About Me]]
+(No preview)
+* [[file:notes.org][(2025-01-17) Notes and Drafts]]
+(No preview)
+* [[file:archive.org][(2025-01-17) Posts Archive]]
 (No preview)
 * [[file:books.org][(2024-12-31) Previous Books]]
-(No preview)
-* [[file:notes.org][(2024-12-12) Notes and Drafts]]
-(No preview)
-* [[file:archive.org][(2024-12-12) Posts Archive]]
 (No preview)
 * [[file:index.org][(2024-10-03) Welcome to /mblognl/]]
 (No preview)
 * posts
-** [[file:posts/release-monitoring-in-jira.org][(2024-10-11) Release Monitoring with Automation for Jira]]
-So your organisation has decided to build a Internal Developer Portal (IDP) using Backstage. All of a sudden you're responsible for looking after a quickly growing, forever updating production environment, as well as an IDP?
 ** [[file:posts/terraform-and-terrascan.org][(2024-10-11) Terraform and Terrascan with AWS (Immersive Labs)]]
 This post is going to cover my most recent lab "Secure Terraform for AWS". I wanted to present my personal approach on the lab and my experience in general. I'm going to try not to give away too much, just some hints and what to expect if you're considering purchasing licences or you're a learner considering which labs to do next.
+** [[file:posts/release-monitoring-in-jira.org][(2024-10-11) Release Monitoring with Automation for Jira]]
+So your organisation has decided to build a Internal Developer Portal (IDP) using Backstage. All of a sudden you're responsible for looking after a quickly growing, forever updating production environment, as well as an IDP?
 ** [[file:posts/emacs-ispell-aspell.org][(2024-10-04) Emacs with aspell/ispell on Nix Darwin]]
 I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Ispell is built in to the current version I'm using (29.1). However it was locked to the default US dictionary. Easy fix right?
+** [[file:posts/exploring-9front.org][(2024-02-15) Exploring 9front and Plan 9]]
+(No preview)
 * notes
-** [[file:notes/notes.org][(2024-12-12) Notes - a place to store]]
+** [[file:notes/notes.org][(2025-01-17) Notes - a place to store]]
 (No preview)
