@@ -59,9 +59,9 @@ Note: If you get the password incorrect you're going to see a DHCP error. So far
 
 In addition to this challenge the ASUS laptop has an unsupported ethernet adaptor, so you can't just plug a cable in to get connectivity. This meant getting the [[https://git.9front.org/plan9front/firmware/d6202daaa910a56a60b1ff8cecc9f1dabfd59c0c/files.html][firmware]] on to the device had to come via USB storage.
 
-The USB storage mounts on ~/srv/<device-name>~ and I moved the file straight fromt here.
+The USB storage mounts on ~/srv/<device-name>~ and I moved the file straight from there.
 
-From testing on VM using Proxmox I have two running instances, with basic setup and desktop arrangement etc. I have installed Netsurf (the alternative browser) and Uxn to explore that ecosystem from withing 9front. I
+From testing on VM using Proxmox I have two running instances, with basic setup and desktop arrangement etc. I have installed Netsurf (the alternative browser) and Uxn to explore that ecosystem from within 9front.
 
 ** Raspberry Pi 3b
 
