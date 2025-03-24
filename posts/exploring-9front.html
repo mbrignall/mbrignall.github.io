@@ -28,11 +28,11 @@
 <header>
 <h1 class="title">Exploring 9front and Plan 9</h1>
 </header>
-<div id="outline-container-org5463a97" class="outline-2">
-<h2 id="org5463a97">Why 9front?</h2>
-<div class="outline-text-2" id="text-org5463a97">
+<div id="outline-container-org4ff0716" class="outline-2">
+<h2 id="org4ff0716">Why 9front?</h2>
+<div class="outline-text-2" id="text-org4ff0716">
 
-<figure id="org2e45c5f">
+<figure id="org8adf262">
 <img src="http://9front.org/img/thistimedefinitely.front.png" alt="thistimedefinitely.front.png" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px">
 
 </figure>
@@ -51,23 +51,23 @@ There was something about the stark, minimalist approach, the art on the cover o
 
 <p>
 Also, with my interest in the C language, finding out that 9front has it's own dialect and that the whole OS is written in less than 6000 lines I felt this may be a place to learn about operating system architecture and kernels etc
+This space will evolve as I experiment, explore, and expand my knowledge.
 </p>
 </div>
 </div>
-
-<div id="outline-container-org8a58902" class="outline-2">
-<h2 id="org8a58902">What have I done so far?</h2>
-<div class="outline-text-2" id="text-org8a58902">
+<div id="outline-container-org5191e82" class="outline-2">
+<h2 id="org5191e82">What have I done so far?</h2>
+<div class="outline-text-2" id="text-org5191e82">
 <p>
 Here is a list of the hardware I've managed to get 9front to run on:
 </p>
 </div>
 
-<div id="outline-container-org354a21e" class="outline-3">
-<h3 id="org354a21e">Thinkpad T420:</h3>
-<div class="outline-text-3" id="text-org354a21e">
+<div id="outline-container-org52a07a3" class="outline-3">
+<h3 id="org52a07a3">Thinkpad T420:</h3>
+<div class="outline-text-3" id="text-org52a07a3">
 
-<figure id="orge391816">
+<figure id="orgd8a16c8">
 <img src="../img/thinkpad.jpg" alt="thinkpad.jpg" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px">
 
 </figure>
@@ -98,27 +98,27 @@ Once booted and I followed the install guide, running <code>inst/start</code> an
 </div>
 </div>
 
-<div id="outline-container-orgaad26b6" class="outline-3">
-<h3 id="orgaad26b6">ASUS eee PC 901:</h3>
-<div class="outline-text-3" id="text-orgaad26b6">
-
-<figure id="org703c26e">
-<img src="../img/asus.jpg" alt="asus.jpg" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px">
-
-</figure>
-
+<div id="outline-container-orga72a02a" class="outline-3">
+<h3 id="orga72a02a">Raspberry Pi 3b</h3>
+<div class="outline-text-3" id="text-orga72a02a">
 <p>
-Initial problems: Power issues, did not boot. Replaced power adaptor.
+I installed 9front on a Raspberry Pi 3b which is running 9front successfully. There was a couple of guides that helped along the way:
 </p>
 
-<p>
-With this working I was able to wipe the sdd and prepare for install, as 9front requires a blank partition in order to install the OS and various services.
-</p>
+<ul class="org-ul">
+<li><a href="https://luksamuk.codes/posts/plan9-setup-rpi.html">Plan 9: Setting up 9front on a Raspberry Pi</a></li>
+<li><a href="https://julienblanchard.com/posts/setting-up-a-9front-cpu-server-on-a-raspberry-pi-4.html">Setting up a 9front CPU server on a Raspberry Pi 4</a></li>
+</ul>
+</div>
+</div>
 
-<p>
-After install the ral-rt2860 <a href="https://git.9front.org/plan9front/firmware/d6202daaa910a56a60b1ff8cecc9f1dabfd59c0c/files.html">firmware</a> was needed in <code>/lib/firmware/</code> and a reboot I was successfully able to connect to wifi using the following:
-</p>
-
+<div id="outline-container-org728b22a" class="outline-3">
+<h3 id="org728b22a">Next Steps:</h3>
+<div class="outline-text-3" id="text-org728b22a">
+</div>
+<div id="outline-container-orgba13741" class="outline-5">
+<h5 id="orgba13741">Connect to wifi</h5>
+<div class="outline-text-5" id="text-orgba13741">
 <div class="org-src-container">
 <pre class="src src-rc">bind -a '#l1' /net
 aux/wpa -s &lt;SSID&gt; -p /net/ether1
@@ -131,45 +131,52 @@ To test connectivity you can try: <code>ip/ping 8.8.8.8</code> for example and y
 </p>
 
 <p>
-Note: If you get the password incorrect you're going to see a DHCP error. So far my only way to reset this is to <code>fshalt -r</code> reboot the system and try again, this is super annoying when you have a dodgy key char in the password. 🫠
+I then moved to something more reliable that I got from the 9lab guide above. The script runs on boot and you can choose to fix to an SSID or skip to desktop.
 </p>
 
 <p>
-In addition to this challenge the ASUS laptop has an unsupported ethernet adaptor, so you can't just plug a cable in to get connectivity. This meant getting the <a href="https://git.9front.org/plan9front/firmware/d6202daaa910a56a60b1ff8cecc9f1dabfd59c0c/files.html">firmware</a> on to the device had to come via USB storage.
+Note: If you get the password incorrect you're going to see a DHCP error. So far my only way to reset this is to <code>fshalt -r</code> reboot the system and try again, this is super annoying when you have a dodgy key char in the password. 🫠
 </p>
+</div>
+</div>
 
+<div id="outline-container-org050e6e2" class="outline-5">
+<h5 id="org050e6e2">USB Storage</h5>
+<div class="outline-text-5" id="text-org050e6e2">
 <p>
 The USB storage mounts on <code>/shr/&lt;device-name&gt;</code> and I moved the file straight from there.
 </p>
+</div>
+</div>
 
+<div id="outline-container-org6f90b10" class="outline-5">
+<h5 id="org6f90b10">Web browsing</h5>
+<div class="outline-text-5" id="text-org6f90b10">
 <p>
-From testing on VM using Proxmox I have two running instances, with basic setup and desktop arrangement etc. I have installed Netsurf (the alternative browser) and Uxn to explore that ecosystem from within 9front.
+From testing on VM using Proxmox I have two running instances, with basic setup and desktop arrangement etc. I have installed Netsurf (the alternative browser) and
 </p>
 </div>
 </div>
 
-<div id="outline-container-org0f21b76" class="outline-3">
-<h3 id="org0f21b76">Raspberry Pi 3b</h3>
-<div class="outline-text-3" id="text-org0f21b76">
+<div id="outline-container-org8466af5" class="outline-5">
+<h5 id="org8466af5">Uxn</h5>
+<div class="outline-text-5" id="text-org8466af5">
 <p>
-I installed 9front on a Raspberry Pi 3b which is running 9front successfully. There was a couple of guides that helped along the way:
+I wanted to explore that ecosystem from within 9front. If you've not come across Uxn/HundredRabbits please check them out.
 </p>
-
-<ul class="org-ul">
-<li><a href="https://luksamuk.codes/posts/plan9-setup-rpi.html">Plan 9: Setting up 9front on a Raspberry Pi</a></li>
-<li><a href="https://julienblanchard.com/posts/setting-up-a-9front-cpu-server-on-a-raspberry-pi-4.html">Setting up a 9front CPU server on a Raspberry Pi 4</a></li>
-</ul>
+</div>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgd9d1764" class="outline-2">
-<h2 id="orgd9d1764">Future</h2>
+
+<div id="outline-container-org403b5f7" class="outline-2">
+<h2 id="org403b5f7">Future</h2>
 </div>
 
-<div id="outline-container-orgd936bf1" class="outline-2">
-<h2 id="orgd936bf1">useful resources</h2>
-<div class="outline-text-2" id="text-orgd936bf1">
+<div id="outline-container-orga90c55f" class="outline-2">
+<h2 id="orga90c55f">useful resources</h2>
+<div class="outline-text-2" id="text-orga90c55f">
 <ul class="org-ul">
 <li><a href="https://www.youtube.com/channel/UC7qFfPYl0t8Cq7auyblZqxA">adventuresin9</a> (YouTube)</li>
 <li><a href="https://9p.io/wiki/plan9/plan_9_wiki/">Plan 9 wiki</a></li>
