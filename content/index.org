@@ -5,7 +5,7 @@
 
 * ...a blog you say? @@html:<i class="fa-regular fa-circle-question"></i>@@
 
-This space will evolve as I experiment, explore, and expand my knowledge. I use this space so I can personally revisit items of interest, store knowledge and maybe achievements.
+I use this space so I can personally revisit items of interest, store knowledge and maybe achievements.
 
 ** What to expect
 
@@ -17,11 +17,11 @@ I hope you find something useful or thought-provoking!
 
 - *Cybersecurity and Security Engineering*
 - *Web Development and Web Design*
-- *Me talking lovingly about Emacs*
-- *My own experiments, code snippets and projects*
+- *Talking lovingly about Emacs*
+- *Experiments, code snippets and projects*
 - *Single Board Computer exploration*
 
-* Current Book @@html:<i class="fa-solid fa-book"></i>@@
+* Current Book(s) @@html:<i class="fa-solid fa-book"></i>@@
 
 ** America Over Water by Shirley Collins             :folklore:music:america:
 
@@ -29,6 +29,17 @@ I hope you find something useful or thought-provoking!
 https://m.media-amazon.com/images/I/71IYBIjH1gL._SY522_.jpg
 
 Shirley Collins writes her early days and travels with Folklorist, Alan Lomax as the record audio and document the music of Americas heartland.
+
+In Progress.
+
+@@html:<div style="clear: both;"></div>@@
+
+** Code by Charles Petzold                          :computer:science:technology:
+
+#+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
+https://m.media-amazon.com/images/I/61Hc-9h+-XL.jpg
+
+I am half way through this book so far, it's fascinating. Covering the beginning of code/bits/bytes up to modern computing. It has illuminated some points of computing that I have not covered for some time. More on that soon. 
 
 In Progress.
 
