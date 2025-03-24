@@ -43,9 +43,9 @@ I installed 9front on a Raspberry Pi 3b which is running 9front successfully. Th
 - [[https://luksamuk.codes/posts/plan9-setup-rpi.html][Plan 9: Setting up 9front on a Raspberry Pi]]
 - [[https://julienblanchard.com/posts/setting-up-a-9front-cpu-server-on-a-raspberry-pi-4.html][Setting up a 9front CPU server on a Raspberry Pi 4]]
   
-** Next Steps:
+* Next Steps
 
-**** Connect to wifi
+** Connect to wifi
 
 #+begin_src rc
   bind -a '#l1' /net
@@ -59,22 +59,22 @@ I then moved to something more reliable that I got from the 9lab guide above. Th
 
 Note: If you get the password incorrect you're going to see a DHCP error. So far my only way to reset this is to ~fshalt -r~ reboot the system and try again, this is super annoying when you have a dodgy key char in the password. 🫠
 
-**** USB Storage
+** USB Storage
 
 The USB storage mounts on ~/shr/<device-name>~ and I moved the file straight from there.
 
-**** Web browsing
+** Web browsing
 
 From testing on VM using Proxmox I have two running instances, with basic setup and desktop arrangement etc. I have installed Netsurf (the alternative browser) and
 
-**** Uxn
+** Uxn
 
 I wanted to explore that ecosystem from within 9front. If you've not come across Uxn/HundredRabbits please check them out.
 
 
 * Future
 
-* useful resources
+* Useful Resources
 
 - [[https://www.youtube.com/channel/UC7qFfPYl0t8Cq7auyblZqxA][adventuresin9]] (YouTube)
 - [[https://9p.io/wiki/plan9/plan_9_wiki/][Plan 9 wiki]]
