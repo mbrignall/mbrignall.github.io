@@ -28,11 +28,11 @@
 <header>
 <h1 class="title">Exploring 9front and Plan 9</h1>
 </header>
-<div id="outline-container-orga0144e5" class="outline-2">
-<h2 id="orga0144e5">Why 9front?</h2>
-<div class="outline-text-2" id="text-orga0144e5">
+<div id="outline-container-orge1717d1" class="outline-2">
+<h2 id="orge1717d1">Why 9front?</h2>
+<div class="outline-text-2" id="text-orge1717d1">
 
-<figure id="org1946f41">
+<figure id="orgfaac11b">
 <img src="http://9front.org/img/thistimedefinitely.front.png" alt="thistimedefinitely.front.png" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px">
 
 </figure>
@@ -55,19 +55,19 @@ This space will evolve as I experiment, explore, and expand my knowledge.
 </p>
 </div>
 </div>
-<div id="outline-container-org63dfd86" class="outline-2">
-<h2 id="org63dfd86">What have I done so far?</h2>
-<div class="outline-text-2" id="text-org63dfd86">
+<div id="outline-container-orgbe5a35e" class="outline-2">
+<h2 id="orgbe5a35e">What have I done so far?</h2>
+<div class="outline-text-2" id="text-orgbe5a35e">
 <p>
 Here is a list of the hardware I've managed to get 9front to run on:
 </p>
 </div>
 
-<div id="outline-container-orgfe48324" class="outline-3">
-<h3 id="orgfe48324">Thinkpad T420:</h3>
-<div class="outline-text-3" id="text-orgfe48324">
+<div id="outline-container-org0816c3c" class="outline-3">
+<h3 id="org0816c3c">Thinkpad T420:</h3>
+<div class="outline-text-3" id="text-org0816c3c">
 
-<figure id="orgd213971">
+<figure id="org8f346b7">
 <img src="../img/thinkpad.jpg" alt="thinkpad.jpg" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px">
 
 </figure>
@@ -98,9 +98,9 @@ Once booted and I followed the install guide, running <code>inst/start</code> an
 </div>
 </div>
 
-<div id="outline-container-org2e3de43" class="outline-3">
-<h3 id="org2e3de43">Raspberry Pi 3b</h3>
-<div class="outline-text-3" id="text-org2e3de43">
+<div id="outline-container-org13767db" class="outline-3">
+<h3 id="org13767db">Raspberry Pi 3b</h3>
+<div class="outline-text-3" id="text-org13767db">
 <p>
 I installed 9front on a Raspberry Pi 3b which is running 9front successfully. There was a couple of guides that helped along the way:
 </p>
@@ -113,13 +113,13 @@ I installed 9front on a Raspberry Pi 3b which is running 9front successfully. Th
 </div>
 </div>
 
-<div id="outline-container-orga0c9f4e" class="outline-2">
-<h2 id="orga0c9f4e">Next Steps</h2>
-<div class="outline-text-2" id="text-orga0c9f4e">
+<div id="outline-container-org1ceff8e" class="outline-2">
+<h2 id="org1ceff8e">Next Steps</h2>
+<div class="outline-text-2" id="text-org1ceff8e">
 </div>
-<div id="outline-container-org34f441e" class="outline-3">
-<h3 id="org34f441e">Connect to wifi</h3>
-<div class="outline-text-3" id="text-org34f441e">
+<div id="outline-container-org41b5203" class="outline-3">
+<h3 id="org41b5203">Connect to wifi</h3>
+<div class="outline-text-3" id="text-org41b5203">
 <div class="org-src-container">
 <pre class="src src-rc">bind -a '#l1' /net
 aux/wpa -s &lt;SSID&gt; -p /net/ether1
@@ -141,42 +141,117 @@ Note: If you get the password incorrect you're going to see a DHCP error. So far
 </div>
 </div>
 
-<div id="outline-container-orgb7a5052" class="outline-3">
-<h3 id="orgb7a5052">USB Storage</h3>
-<div class="outline-text-3" id="text-orgb7a5052">
+<div id="outline-container-orgc9e3e30" class="outline-3">
+<h3 id="orgc9e3e30">Man Pages</h3>
+<div class="outline-text-3" id="text-orgc9e3e30">
 <p>
-The USB storage mounts on <code>/shr/&lt;device-name&gt;</code> and I moved the file straight from there.
+<a href="https://man.9front.org/">man.9front.org</a>
+</p>
+
+<p>
+This is the way to read about built in functions, commands and applications. I use <code>lookman</code> a lot to find words in man pages and then load the page by <code>man &lt;subject&gt;</code> for example:
+</p>
+
+<p>
+<code>man wpa</code>
+</p>
+
+<p>
+returns:
+</p>
+
+<pre class="example">
+WPA(8)                                                     WPA(8)
+
+NAME
+     wpa - Wi-Fi Protected Access setup
+
+SYNOPSIS
+     aux/wpa [ -dp12 ] [ -s essid ] dev
+
+DESCRIPTION
+     Wpa handles the authentication and key exchange with WPA
+     protected wireless networks.
+
+     The dev parameter specifies the network interface that needs
+     to be setup with WPA.  The essid can be set with the -s
+     option. Otherwise, the previously configured essid on the
+     interface will be used.  The -p option will prompt and
+     install the preshared key or pap/chap credentials into fac-
+     totum, otherwise the key has to be already present in facto-
+     tum or an interactive key prompter like auth/fgui (see
+     factotum(4)) needs to provide it.
+
+     The authentication protocol is initiated by the wireless
+     access point so wpa will background itself after the
+     keyprompt and establish the encryption automatically as
+     needed.  The optional -1 or -2 arguments can be used to
+     select between WPA1/TKIP (default) or WPA2/CCMP encryption
+     with WPA PSK.
+
+     The -d option enables debugging and causes wpa to stay in
+     foreground writing protocol messages to standard error.
+
+EXAMPLES
+     Setup wireless encryption:
+     % bind -a '#l1' /net
+     % aux/wpa -s 9HAL -p /net/ether1
+     !Adding key: proto=wpapsk essid=9HAL
+     password: *****
+     !
+     % ip/ipconfig ether /net/ether1
+
+SOURCE
+     /sys/src/cmd/aux/wpa.c
+
+SEE ALSO
+     factotum(4), ipconfig(8)
+
+HISTORY
+     Wpa first appeared in 9front (March, 2013).
+</pre>
+
+<p>
+As you can see, the man pages are well structured and thorough.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org80ebd22" class="outline-3">
-<h3 id="org80ebd22">Web browsing</h3>
-<div class="outline-text-3" id="text-org80ebd22">
+<div id="outline-container-org53bc521" class="outline-3">
+<h3 id="org53bc521">USB Storage</h3>
+<div class="outline-text-3" id="text-org53bc521">
 <p>
-From testing on VM using Proxmox I have two running instances, with basic setup and desktop arrangement etc. I have installed Netsurf (the alternative browser) and
+The USB storage mounts on <code>/shr/&lt;device-name&gt;</code> and I moved the files straight from there. I think there may be mount option just like Linux/Unix but I've not worked that out but there is a man mapge.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org961f648" class="outline-3">
-<h3 id="org961f648">Uxn</h3>
-<div class="outline-text-3" id="text-org961f648">
+<div id="outline-container-org3698d25" class="outline-3">
+<h3 id="org3698d25">Uxn</h3>
+<div class="outline-text-3" id="text-org3698d25">
 <p>
 I wanted to explore that ecosystem from within 9front. If you've not come across Uxn/HundredRabbits please check them out.
 </p>
 </div>
 </div>
+
+<div id="outline-container-orgae5951e" class="outline-3">
+<h3 id="orgae5951e">Web Browsing</h3>
+<div class="outline-text-3" id="text-orgae5951e">
+<p>
+I have installed <a href="https://github.com/netsurf-plan9/nsport">Netsurf</a> (the alternative browser) and there is also Mothra which is really cool. Both provide very minimal web experiences, with Mothra not supporting any JS or 'modern' browsing experiences. To be fair, most of my browsing is reading code or docs/blogs which render fine. I even checked out this blog which translates really well.
+</p>
+</div>
+</div>
 </div>
 
-
-<div id="outline-container-org16b7be5" class="outline-2">
-<h2 id="org16b7be5">Future</h2>
+<div id="outline-container-org8ba5f03" class="outline-2">
+<h2 id="org8ba5f03">Future</h2>
 </div>
 
-<div id="outline-container-orge019c29" class="outline-2">
-<h2 id="orge019c29">Useful Resources</h2>
-<div class="outline-text-2" id="text-orge019c29">
+<div id="outline-container-orgd5248ab" class="outline-2">
+<h2 id="orgd5248ab">Useful Resources</h2>
+<div class="outline-text-2" id="text-orgd5248ab">
 <ul class="org-ul">
 <li><a href="https://www.youtube.com/channel/UC7qFfPYl0t8Cq7auyblZqxA">adventuresin9</a> (YouTube)</li>
 <li><a href="https://9p.io/wiki/plan9/plan_9_wiki/">Plan 9 wiki</a></li>
