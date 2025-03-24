@@ -14,7 +14,7 @@ This led to a couple of quests with older laptops to bring them back to life in 
 There was something about the stark, minimalist approach, the art on the cover of the purchased manual, and the general demeanour of the contributors that hooked me. It's hard to explain but I liken it to finding a band you'd never heard of from a past era and then finding out they have a sprawling back catalogue to digest.
 
 Also, with my interest in the C language, finding out that 9front has it's own dialect and that the whole OS is written in less than 6000 lines I felt this may be a place to learn about operating system architecture and kernels etc
-
+This space will evolve as I experiment, explore, and expand my knowledge.
 * What have I done so far?
 
 Here is a list of the hardware I've managed to get 9front to run on:
@@ -36,16 +36,16 @@ The install is covered below and mostly I followed [[https://9lab.org/plan9/thin
 
 Once booted and I followed the install guide, running ~inst/start~ and following the prompts, it was pretty straightforward. I didn't sway from the defaults for this laptop, using the default fs and partition suggestions.
 
-** ASUS eee PC 901:
+** Raspberry Pi 3b
 
-#+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 200px
-[[../img/asus.jpg]]
+I installed 9front on a Raspberry Pi 3b which is running 9front successfully. There was a couple of guides that helped along the way:
 
-Initial problems: Power issues, did not boot. Replaced power adaptor.
+- [[https://luksamuk.codes/posts/plan9-setup-rpi.html][Plan 9: Setting up 9front on a Raspberry Pi]]
+- [[https://julienblanchard.com/posts/setting-up-a-9front-cpu-server-on-a-raspberry-pi-4.html][Setting up a 9front CPU server on a Raspberry Pi 4]]
+  
+** Next Steps:
 
-With this working I was able to wipe the sdd and prepare for install, as 9front requires a blank partition in order to install the OS and various services.
-
-After install the ral-rt2860 [[https://git.9front.org/plan9front/firmware/d6202daaa910a56a60b1ff8cecc9f1dabfd59c0c/files.html][firmware]] was needed in ~/lib/firmware/~ and a reboot I was successfully able to connect to wifi using the following:
+**** Connect to wifi
 
 #+begin_src rc
   bind -a '#l1' /net
@@ -55,21 +55,23 @@ After install the ral-rt2860 [[https://git.9front.org/plan9front/firmware/d6202d
 
 To test connectivity you can try: ~ip/ping 8.8.8.8~ for example and you should get a positive response.
 
+I then moved to something more reliable that I got from the 9lab guide above. The script runs on boot and you can choose to fix to an SSID or skip to desktop.
+
 Note: If you get the password incorrect you're going to see a DHCP error. So far my only way to reset this is to ~fshalt -r~ reboot the system and try again, this is super annoying when you have a dodgy key char in the password. 🫠
 
-In addition to this challenge the ASUS laptop has an unsupported ethernet adaptor, so you can't just plug a cable in to get connectivity. This meant getting the [[https://git.9front.org/plan9front/firmware/d6202daaa910a56a60b1ff8cecc9f1dabfd59c0c/files.html][firmware]] on to the device had to come via USB storage.
+**** USB Storage
 
 The USB storage mounts on ~/shr/<device-name>~ and I moved the file straight from there.
 
-From testing on VM using Proxmox I have two running instances, with basic setup and desktop arrangement etc. I have installed Netsurf (the alternative browser) and Uxn to explore that ecosystem from within 9front.
+**** Web browsing
 
-** Raspberry Pi 3b
+From testing on VM using Proxmox I have two running instances, with basic setup and desktop arrangement etc. I have installed Netsurf (the alternative browser) and
 
-I installed 9front on a Raspberry Pi 3b which is running 9front successfully. There was a couple of guides that helped along the way:
+**** Uxn
 
-- [[https://luksamuk.codes/posts/plan9-setup-rpi.html][Plan 9: Setting up 9front on a Raspberry Pi]]
-- [[https://julienblanchard.com/posts/setting-up-a-9front-cpu-server-on-a-raspberry-pi-4.html][Setting up a 9front CPU server on a Raspberry Pi 4]]
-  
+I wanted to explore that ecosystem from within 9front. If you've not come across Uxn/HundredRabbits please check them out.
+
+
 * Future
 
 * useful resources
