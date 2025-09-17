@@ -2,14 +2,14 @@
 #+author: mbrignall
 
 #+ATTR_HTML: :style margin:auto; display:block; width:200px
-[[./mbrignl.jpg]]
+[[./img/mbrignl.jpg]]
 #+TODO: TODO STARTED | DONE
 
 * About me... @@html:<i class="fa-regular fa-address-card"></i>@@
 
-During the day I work as a Cyber Security professional in an Incident Response team. When not blocking attackers and analysing threats I can be found playing guitar.
-
 My musical influences include:
+
+During the day I work as a Cyber Security professional in an Incident Response team. When not blocking attackers and analysing threats I can be found playing guitar.
 
   - Jim O’Rourke
   - John Fahey

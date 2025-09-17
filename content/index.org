@@ -23,36 +23,36 @@ I hope you find something useful or thought-provoking!
 
 * Current Book(s) @@html:<i class="fa-solid fa-book"></i>@@
 
-** America Over Water by Shirley Collins             :folklore:music:america:
-
-#+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
-https://m.media-amazon.com/images/I/71IYBIjH1gL._SY522_.jpg
-
-Shirley Collins writes her early days and travels with Folklorist, Alan Lomax as the record audio and document the music of Americas heartland.
-
-In Progress.
-
-@@html:<div style="clear: both;"></div>@@
 
 ** Code by Charles Petzold                          :computer:science:technology:
 
 #+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
 https://m.media-amazon.com/images/I/61Hc-9h+-XL.jpg
 
-I am half way through this book so far, it's fascinating. Covering the beginning of code/bits/bytes up to modern computing. It has illuminated some points of computing that I have not covered for some time. More on that soon. 
+I am half way through this book so far, it's fascinating. Covering the beginning of code/bits/bytes up to modern computing. It has illuminated some points of computing that I have not covered for some time. More on that soon.
 
-In Progress.
+I think I hit a bit of a roof on this one when it started to get super techincal, I decided to take the second half a bit slower.
+
+In Progress... Still in progress.
 
 @@html:<div style="clear: both;"></div>@@
-  
-* Previous Books @@html:<i class="fa-solid fa-book"></i>@@
 
-** Going Dark by Julia Ebner              :extremism:radicalisation:politics:
+** A Trading Game by Gary Stevenson                      :finance:economics:
 
 #+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
-[[https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale,dpr_1.5/jackets/9781526616791.jpg]]
+https://cdn.waterstones.com/bookjackets/large/9781/8020/9781802062731.jpg
 
-Dr. Julie Ebner specialises in radicalisation, extremism and terrorism studies. In this book she bravely infiltrates groups from far-right nationalists, Islamic terrorists to trad-wives and ISIS brides...
+From early life growing up in Ilford, Greater London, 
+
+
+* Previous Books @@html:<i class="fa-solid fa-book"></i>@@
+
+** America Over Water by Shirley Collins             :folk:music:america:
+
+#+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
+https://m.media-amazon.com/images/I/71IYBIjH1gL._SY522_.jpg
+
+Shirley Collins writes her early days and travels with Folklorist, Alan Lomax as the record audio and document the music of Americas heartland...
 
 [[./books.html][Read More...]]
 
