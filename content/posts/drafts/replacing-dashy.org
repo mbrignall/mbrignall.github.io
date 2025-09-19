@@ -4,7 +4,11 @@
 
 * What is Dashy?
 
+[[https://dashy.to/][Dashy.io]] is a simple, slick enough looking dashboard for homelabs/ personal sites and resources. You can declare the configuration in code or using the UI editor. 
+
 * Why Replace Dashy?
+
+I mentioned Dashy to a friend and he asked why I'd choose to use something 'out-of-the-box' like Dashy rather than crafting something like the very blog you're reading created using Emacs. 
 
 * Using Emacs and Org-Publish
 

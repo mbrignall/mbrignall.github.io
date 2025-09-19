@@ -32,7 +32,15 @@ I have experience in fixing 'things' but this was my first laptop motherboard re
 
 The laptop understandably was missing a sdd so I added my own Kingston 120gb. There was an extra 4gb RAM in the 2nd port which gives the laptop 8gb in total.
 
-The install is covered below and mostly I followed [[https://9lab.org/plan9/thinkpad-t420s/][9lab Thinkpad T420 guide]] this helped with the wifi firmware and getting the initial boot working.
+The install is covered below and mostly I followed [[https://9lab.org/plan9/thinkpad-t420s/][9lab Thinkpad T420 guide]] this helped with the wifi firmware and getting the initial boot working. Key benefit was getting the firmware:
+
+#+begin_src 
+  % ramfs ; cd /tmp
+  % hget -o iwn-firmware-5.11p1.tgz \
+    http://firmware.openbsd.org/firmware/6.9/iwn-firmware-5.11p1.tgz
+  % tar xzf iwn-firmware-5.11p1.tgz
+  % cp firmware/iwn-6005 /lib/firmware
+#+end_src
 
 Once booted and I followed the install guide, running ~inst/start~ and following the prompts, it was pretty straightforward. I didn't sway from the defaults for this laptop, using the default fs and partition suggestions.
 
@@ -50,6 +58,7 @@ After install the ral-rt2860 [[https://git.9front.org/plan9front/firmware/d6202d
 #+begin_src rc
   bind -a '#l1' /net
   aux/wpa -s <SSID> -p /net/ether1
+  # Enter password when prompted...
   ip/ipconfig
 #+end_src
 
