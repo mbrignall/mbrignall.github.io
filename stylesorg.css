@@ -199,7 +199,7 @@ pre.src .org-constant {
 
 .todo.TODO {
     background-color: #e79686;
-    color: #dcdccc;
+    color:  #3b4252;
     font-weight: bold;
     border: 1px solid #dcdccc;
     padding: 1px;
@@ -209,7 +209,7 @@ pre.src .org-constant {
 
 .todo.STARTED {
     background-color: #ebcb8b;
-    color: #dcdccc;
+    color:  #3b4252;
     font-weight: bold;
     border: 1px solid #dcdccc;
     padding: 1px;
@@ -219,7 +219,7 @@ pre.src .org-constant {
 
 .todo.DONE {
     background-color: #a3be8c;
-    color: #dcdccc;
+    color:  #3b4252;
     font-weight: bold;
     border: 1px solid #dcdccc;
     padding: 1px;
