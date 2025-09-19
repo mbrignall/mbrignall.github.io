@@ -23,6 +23,20 @@ I hope you find something useful or thought-provoking!
 
 * Current Book(s) @@html:<i class="fa-solid fa-book"></i>@@
 
+** To Anyone Who Ever Asks: The Life, Music, and Mystery of Connie Converse :music:folklore:
+
+Author: Howard Fishman
+Publication date: 2024-05-02
+
+#+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
+https://shop.pem.org/cdn/shop/files/Untitled-2024-11-12T123048.527_1200x.jpg?v=1731432661
+
+So far this book is awesome and intriguing. I have only read the first few chapters and listened to her music for sometime, but hadn't been aware of her strange career.
+
+
+@@html:<div style="clear: both;"></div>@@
+
+* Previous Books @@html:<i class="fa-solid fa-book"></i>@@
 
 ** Code by Charles Petzold                          :computer:science:technology:
 
@@ -35,29 +49,11 @@ I think I hit a bit of a roof on this one when it started to get super techincal
 
 In Progress... Still in progress.
 
-@@html:<div style="clear: both;"></div>@@
-
-** A Trading Game by Gary Stevenson                      :finance:economics:
-
-#+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
-https://cdn.waterstones.com/bookjackets/large/9781/8020/9781802062731.jpg
-
-From early life growing up in Ilford, Greater London, 
-
-
-* Previous Books @@html:<i class="fa-solid fa-book"></i>@@
-
-** America Over Water by Shirley Collins             :folk:music:america:
-
-#+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
-https://m.media-amazon.com/images/I/71IYBIjH1gL._SY522_.jpg
-
-Shirley Collins writes her early days and travels with Folklorist, Alan Lomax as the record audio and document the music of Americas heartland...
-
 [[./books.html][Read More...]]
 
 
 @@html:<div style="clear: both;"></div>@@
+
 
 * Contact @@html:<i class="fa-solid fa-house"></i>@@
 
