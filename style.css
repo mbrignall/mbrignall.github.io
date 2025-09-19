@@ -1,29 +1,29 @@
-/* Base Styles */ 
- html, body { 
-     background-color: #1c1e26; 
-     font-size: 14px; 
-     line-height: 1.5; 
-     color: #dcdccc; 
-     font-family: 'Fira Mono', monospace; 
- } 
+/* Base Styles */
+ html, body {
+     background-color: #1c1e26;
+     font-size: 14px;
+     line-height: 1.5;
+     color: #dcdccc;
+     font-family: 'Fira Mono', monospace;
+ }
 
- /* For Larger Screens */ 
- @media screen and (min-width: 680px) { 
-     body { 
-         width: 48rem; 
-         margin: 0 auto; 
-         padding: 20px; 
-     } 
- } 
+ /* For Larger Screens */
+ @media screen and (min-width: 680px) {
+     body {
+         width: 80%;
+         margin: 0 auto;
+         padding: 20px;
+     }
+ }
 
- /* For Mobile */ 
- @media screen and (max-width: 430px) { 
-     body { 
-         width: 90%; 
-         margin: 0 auto; 
-         padding: 10px; 
-     } 
- } 
+ /* For Mobile */
+ @media screen and (max-width: 430px) {
+     body {
+         width: 80%;
+         margin: 0 auto;
+         padding: 10px;
+     }
+ }
 
  /* Headings */ 
  h1 { 
@@ -63,7 +63,7 @@
  /* Paragraphs and Lists */ 
  p { 
      text-align: justify; 
-     margin-bottom: 1.5em; 
+     margin-bottom: 1.5em;
  } 
 
  ul { 
@@ -87,16 +87,17 @@
  /* Block Quote */ 
  blockquote{ 
    font-size: 0.8em; 
-   /* width: 90%; */xs
+   /* width: 90%; */
    font-style: italic; 
    color: #555555; 
-   padding: 1em 15px 1em 15px; 
-   border-left: 8px solid #78C0A8 ; 
+   padding: 1em 50px 1em 50px; 
+   border-left: 8px solid #78C0A8;
+   border-right: 8px solid #a89bb9; 
    line-height: 1; 
    position: relative;
    background: #a89bb9;
-   margin-right: 10px;
-   margin-left: 10px;
+   margin-right: 0px;
+   margin-left: 0px;
  } 
 
  blockquote::before{ 
