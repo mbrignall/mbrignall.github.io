@@ -43,7 +43,6 @@ So far this book is awesome and intriguing. I have only read the first few chapt
 - Author: Charles Petzold
 - Publication date: 1999-09-29
 
-
 #+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
 https://m.media-amazon.com/images/I/61Hc-9h+-XL.jpg
 
