@@ -7,13 +7,14 @@
 
 * About me... @@html:<i class="fa-regular fa-address-card"></i>@@
 
-My musical influences include:
+During the day I work as a Cyber Security professional in an Incident Response team. When not blocking attackers and analysing threats I can be found playing guitar. I am working on music for live performance hopefully before the end of the year (more on that soon).
 
-During the day I work as a Cyber Security professional in an Incident Response team. When not blocking attackers and analysing threats I can be found playing guitar.
+My musical influences include:
 
   - Jim O’Rourke
   - John Fahey
-  - Django Reinhardt
+  - Converge/Botch
+  - Death
 
  I enjoy exploring blues and post-rock, metal and sub-genres of. I have a background in Music Tech and spent many hours building devices and instruments using Raspberry Pi, [[https://puredata.info/][Pure Data]] and the fun music communities I discovered along the way. Maybe I'll cover those here at some point 🤔
 
@@ -37,14 +38,12 @@ A more recent edition is Guix SD and I've taken inspiration from a variety of so
 
 *** STARTED Plan 9/ 9front
 
-Just started using 9front over the holiday period, I'll record findings, so far I love it. I am looking for old laptops to run the OS on bare metal. I have two options that are in various states:
+Just started using 9front over the holiday period, I'll record findings, so far I love it. I am looking for old laptops to run the OS on bare metal. I have two running machines I've been playing with:
 
    - Raspberry Pi 3b: Running 9front successfully.
-   - Thinkpad T420: currently not booting, potential system board fail.
+   - Thinkpad T420: Fully working, click the link below for the post.
 
-     After some diagnosis and testing it turned out the system board was gone, so a replacement was ordered. Going to cover this in more detail, but replacing board has fixed the issues and now we have a working 9front install.
-   
-   - ASUS eee PC 901: Power issues, but does boot, replacing power cable.
+     After some diagnosis and testing it turned out the system board was gone, so a replacement was ordered and fitted successfully. With some cosmetic care, like replacing the touchpad stickers, it's now in great condition.
 
 [[./posts/exploring-9front.html][...read more]]
 
