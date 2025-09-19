@@ -2,7 +2,13 @@
 #+author: mbrignall
 #+date: <2024-12-31>
 
-* A Trading Game by Gary Stevenson                         :finance:economics:
+* A Trading Game by Gary Stevenson                         :finance:economics:currentaffairs:
+
+#+begin_quote
+The rich get the assets, the poor get the debt, and then the poor have to pay their whole salary to the rich every year just to live in a house. The rich use that money to buy the rest of the assets from the middle class and then the problem gets worse every year.
+
+- *Gary Stephenson*
+#+end_quote
 
 #+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
 https://cdn.waterstones.com/bookjackets/large/9781/8020/9781802062731.jpg
@@ -13,13 +19,18 @@ Gary is clearly a very smart person. Someone who not only can convey complex ide
 
 * America Over Water by Shirley Collins             :folklore:music:america:
 
+#+begin_quote
+If people don't like folk music, they haven't heard the real thing
+
+- *Shirley Collins*
+#+end_quote
+
 #+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
 https://m.media-amazon.com/images/I/71IYBIjH1gL._SY522_.jpg
 
 Shirley Collins writes her early days and travels with Folklorist, Alan Lomax as the record audio and document the music of Americas heartland. Split in chapters between Collins' early life in -- and their professional and emotional relationship with Lomax,
 
 * Cuckoo's Egg by Cliff Stoll                       :cybersecurity:truecrime:
-
 
 #+begin_quote
 The hacker didn't succeed through sophistication. Rather he poked at obvious places, trying to enter through unlock doors. Persistence, not wizardry, let him through.
