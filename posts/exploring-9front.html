@@ -28,11 +28,11 @@
 <header>
 <h1 class="title">Exploring 9front and Plan 9</h1>
 </header>
-<div id="outline-container-org22cb74f" class="outline-2">
-<h2 id="org22cb74f">Why 9front?</h2>
-<div class="outline-text-2" id="text-org22cb74f">
+<div id="outline-container-orgcf5a2fe" class="outline-2">
+<h2 id="orgcf5a2fe">Why 9front?</h2>
+<div class="outline-text-2" id="text-orgcf5a2fe">
 
-<figure id="orgf6bbea6">
+<figure id="org3913ba2">
 <img src="http://9front.org/img/thistimedefinitely.front.png" alt="thistimedefinitely.front.png" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px">
 
 </figure>
@@ -55,19 +55,19 @@ This space will evolve as I experiment, explore, and expand my knowledge.
 </p>
 </div>
 </div>
-<div id="outline-container-org13ced10" class="outline-2">
-<h2 id="org13ced10">What have I done so far?</h2>
-<div class="outline-text-2" id="text-org13ced10">
+<div id="outline-container-org8351009" class="outline-2">
+<h2 id="org8351009">What have I done so far?</h2>
+<div class="outline-text-2" id="text-org8351009">
 <p>
 Here is a list of the hardware I've managed to get 9front to run on:
 </p>
 </div>
 
-<div id="outline-container-org313408e" class="outline-3">
-<h3 id="org313408e">Thinkpad T420:</h3>
-<div class="outline-text-3" id="text-org313408e">
+<div id="outline-container-org5e0caf6" class="outline-3">
+<h3 id="org5e0caf6">Thinkpad T420:</h3>
+<div class="outline-text-3" id="text-org5e0caf6">
 
-<figure id="orgfd2a01c">
+<figure id="org6bb2374">
 <img src="../img/thinkpad.jpg" alt="thinkpad.jpg" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px">
 
 </figure>
@@ -106,9 +106,9 @@ Once booted and I followed the install guide, running <code>inst/start</code> an
 </div>
 </div>
 
-<div id="outline-container-org95288b3" class="outline-3">
-<h3 id="org95288b3">Raspberry Pi 3b</h3>
-<div class="outline-text-3" id="text-org95288b3">
+<div id="outline-container-orge06bb0d" class="outline-3">
+<h3 id="orge06bb0d">Raspberry Pi 3b</h3>
+<div class="outline-text-3" id="text-orge06bb0d">
 <p>
 I installed 9front on a Raspberry Pi 3b which is running 9front successfully. There was a couple of guides that helped along the way:
 </p>
@@ -121,13 +121,13 @@ I installed 9front on a Raspberry Pi 3b which is running 9front successfully. Th
 </div>
 </div>
 
-<div id="outline-container-org00c2ea4" class="outline-2">
-<h2 id="org00c2ea4">Next Steps</h2>
-<div class="outline-text-2" id="text-org00c2ea4">
+<div id="outline-container-org059291d" class="outline-2">
+<h2 id="org059291d">Next Steps</h2>
+<div class="outline-text-2" id="text-org059291d">
 </div>
-<div id="outline-container-orgf36129a" class="outline-3">
-<h3 id="orgf36129a">Connect to wifi</h3>
-<div class="outline-text-3" id="text-orgf36129a">
+<div id="outline-container-orgd1cc7de" class="outline-3">
+<h3 id="orgd1cc7de">Connect to wifi</h3>
+<div class="outline-text-3" id="text-orgd1cc7de">
 <div class="org-src-container">
 <pre class="src src-rc">bind -a '#l1' /net
 aux/wpa -s &lt;SSID&gt; -p /net/ether1
@@ -150,9 +150,9 @@ Note: If you get the password incorrect you're going to see a DHCP error. So far
 </div>
 </div>
 
-<div id="outline-container-org01d864f" class="outline-3">
-<h3 id="org01d864f">Man Pages</h3>
-<div class="outline-text-3" id="text-org01d864f">
+<div id="outline-container-orgabbb435" class="outline-3">
+<h3 id="orgabbb435">Man Pages</h3>
+<div class="outline-text-3" id="text-orgabbb435">
 <p>
 <a href="https://man.9front.org/">man.9front.org</a>
 </p>
@@ -226,27 +226,27 @@ As you can see, the man pages are well structured and thorough.
 </div>
 </div>
 
-<div id="outline-container-org4e07f75" class="outline-3">
-<h3 id="org4e07f75">USB Storage</h3>
-<div class="outline-text-3" id="text-org4e07f75">
+<div id="outline-container-org7098093" class="outline-3">
+<h3 id="org7098093">USB Storage</h3>
+<div class="outline-text-3" id="text-org7098093">
 <p>
 The USB storage mounts on <code>/shr/&lt;device-name&gt;</code> and I moved the files straight from there. I think there may be mount option just like Linux/Unix but I've not worked that out but there is a man mapge.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orge24e88a" class="outline-3">
-<h3 id="orge24e88a">Uxn</h3>
-<div class="outline-text-3" id="text-orge24e88a">
+<div id="outline-container-org2fae114" class="outline-3">
+<h3 id="org2fae114">Uxn</h3>
+<div class="outline-text-3" id="text-org2fae114">
 <p>
 I wanted to explore that ecosystem from within 9front. If you've not come across Uxn/HundredRabbits please check them out.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org8320dfc" class="outline-3">
-<h3 id="org8320dfc">Web Browsing</h3>
-<div class="outline-text-3" id="text-org8320dfc">
+<div id="outline-container-orgf195e25" class="outline-3">
+<h3 id="orgf195e25">Web Browsing</h3>
+<div class="outline-text-3" id="text-orgf195e25">
 <p>
 I have installed <a href="https://github.com/netsurf-plan9/nsport">Netsurf</a> (the alternative browser) and there is also Mothra which is really cool. Both provide very minimal web experiences, with Mothra not supporting any JS or 'modern' browsing experiences. To be fair, most of my browsing is reading code or docs/blogs which render fine. I even checked out this blog which translates really well.
 </p>
@@ -254,13 +254,13 @@ I have installed <a href="https://github.com/netsurf-plan9/nsport">Netsurf</a> (
 </div>
 </div>
 
-<div id="outline-container-orgdab8c08" class="outline-2">
-<h2 id="orgdab8c08">Future</h2>
+<div id="outline-container-org1df6ec4" class="outline-2">
+<h2 id="org1df6ec4">Future</h2>
 </div>
 
-<div id="outline-container-org2e65f35" class="outline-2">
-<h2 id="org2e65f35">Useful Resources</h2>
-<div class="outline-text-2" id="text-org2e65f35">
+<div id="outline-container-org36528b4" class="outline-2">
+<h2 id="org36528b4">Useful Resources</h2>
+<div class="outline-text-2" id="text-org36528b4">
 <ul class="org-ul">
 <li><a href="https://www.youtube.com/channel/UC7qFfPYl0t8Cq7auyblZqxA">adventuresin9</a> (YouTube)</li>
 <li><a href="https://9p.io/wiki/plan9/plan_9_wiki/">Plan 9 wiki</a></li>

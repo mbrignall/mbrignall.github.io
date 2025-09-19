@@ -7,15 +7,15 @@
 <generator>Emacs webfeeder.el</generator>
 <link>https://blog.mbrig.nl</link>
 <atom:link href="https://blog.mbrig.nl/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 19 Sep 2025 15:57:58 +0000</lastBuildDate>
+<lastBuildDate>Fri, 19 Sep 2025 16:01:22 +0000</lastBuildDate>
 <item>
   <title>Terraform and Terrascan with AWS (Immersive Labs)</title>
   <description><![CDATA[<div id="content" class="content">
- <div id="outline-container-org410246b" class="outline-2">
- <h2 id="org410246b">Immersive Labs</h2>
- <div class="outline-text-2" id="text-org410246b">
+ <div id="outline-container-orgc43bf8f" class="outline-2">
+ <h2 id="orgc43bf8f">Immersive Labs</h2>
+ <div class="outline-text-2" id="text-orgc43bf8f">
 
- <figure id="org1be4238"> <img src="https://static-00.iconduck.com/assets.00/terraform-icon-1803x2048-hodrzd3t.png" alt="terraform-icon-1803x2048-hodrzd3t.png" style="margin:auto; display:block; width:200px"></img></figure> <div class="PREVIEW" id="org57c2f1e">
+ <figure id="org61b9bcd"> <img src="https://static-00.iconduck.com/assets.00/terraform-icon-1803x2048-hodrzd3t.png" alt="terraform-icon-1803x2048-hodrzd3t.png" style="margin:auto; display:block; width:200px"></img></figure> <div class="PREVIEW" id="org4ab0bf6">
  <p>
 This post is going to cover my most recent lab "Secure Terraform for AWS". I wanted to present my personal approach on the lab and my experience in general. I'm going to try not to give away too much, just some hints and what to expect if you're considering purchasing licences or you're a learner considering which labs to do next.
 </p>
@@ -32,9 +32,9 @@ Having used some similar platforms like Hack the Box and the likes, I can say th
 </div>
 </div>
 
- <div id="outline-container-orgd8d9bed" class="outline-2">
- <h2 id="orgd8d9bed">Terraform for AWS</h2>
- <div class="outline-text-2" id="text-orgd8d9bed">
+ <div id="outline-container-org6db6674" class="outline-2">
+ <h2 id="org6db6674">Terraform for AWS</h2>
+ <div class="outline-text-2" id="text-org6db6674">
  <p>
 A quick reminder of what Terraform does:
 </p>
@@ -55,11 +55,11 @@ When you start the lab you'll get an overview of both Terraform and Terrascan. M
 
 
 
- <figure id="org7309df9"> <img src="../img/tfexample.png" alt="tfexample.png" style="margin:auto; display:block; width:100%"></img> <figcaption> <span class="figure-number">Figure 1: </span>What the console looks like</figcaption></figure></div>
+ <figure id="org96509f1"> <img src="../img/tfexample.png" alt="tfexample.png" style="margin:auto; display:block; width:100%"></img> <figcaption> <span class="figure-number">Figure 1: </span>What the console looks like</figcaption></figure></div>
 
- <div id="outline-container-orged223aa" class="outline-3">
- <h3 id="orged223aa">Episode 1</h3>
- <div class="outline-text-3" id="text-orged223aa">
+ <div id="outline-container-org810c9e7" class="outline-3">
+ <h3 id="org810c9e7">Episode 1</h3>
+ <div class="outline-text-3" id="text-org810c9e7">
  <p>
 The first labs starts with a simple S3 bucket configuration with some missing scopes/resources. Your job is to make sure that the Terraform HCL passes the Terrascan expected configuration so that the bucket is secure and meets the following expectations:
 </p>
@@ -69,17 +69,17 @@ The first labs starts with a simple S3 bucket configuration with some missing sc
  <li>Buckets should be private</li>
  <li>Access logging should be enabled and configured to log to another bucket</li>
  <li>Objects should be owned by the bucket owner if they have been uploaded with the bucket-owner-full-control canned ACL</li>
-</ul> <figure id="orgf3cc739"> <img src="../img/tfexample3.png" alt="tfexample3.png" style="margin:auto; display:block; width:100%"></img> <figcaption> <span class="figure-number">Figure 2: </span>The auto-complete chooser is going to be your friend here 😉</figcaption></figure> <p>
+</ul> <figure id="org8713d05"> <img src="../img/tfexample3.png" alt="tfexample3.png" style="margin:auto; display:block; width:100%"></img> <figcaption> <span class="figure-number">Figure 2: </span>The auto-complete chooser is going to be your friend here 😉</figcaption></figure> <p>
 You're going to want to try a validate first in order to get feedback from Terrascan as to what's missing, unless you can tell off the bat and have previous experience in TF. The terminal response is really useful and I used the pointers to look at the official docs in order to work out which Key Value pair was needed.
 </p>
 
 
- <figure id="org56b39f6"> <img src="../img/tfexample1.png" alt="tfexample1.png" style="margin:auto; display:block; width:100%"></img> <figcaption> <span class="figure-number">Figure 3: </span>Example of Terrascan in action</figcaption></figure></div>
+ <figure id="orgd69f11f"> <img src="../img/tfexample1.png" alt="tfexample1.png" style="margin:auto; display:block; width:100%"></img> <figcaption> <span class="figure-number">Figure 3: </span>Example of Terrascan in action</figcaption></figure></div>
 </div>
 
- <div id="outline-container-orgca1cf7e" class="outline-3">
- <h3 id="orgca1cf7e">Episode 2</h3>
- <div class="outline-text-3" id="text-orgca1cf7e">
+ <div id="outline-container-orgbf1582c" class="outline-3">
+ <h3 id="orgbf1582c">Episode 2</h3>
+ <div class="outline-text-3" id="text-orgbf1582c">
  <p>
 Covers KMS keys which are cryptographic keys that can be used to encrypt and secure AWS resources. EBS is also covered in this session which is for scalable block storage and is used as the default when creating volumes for EC2.
 </p>
@@ -89,7 +89,7 @@ As above, I went with the terminal feedback first, by running validate. This gav
 </p>
 
 
- <figure id="orgbe1e726"> <img src="../img/tfexample2.png" alt="tfexample2.png" style="margin:auto; display:block; width:100%"></img> <figcaption> <span class="figure-number">Figure 4: </span>More action</figcaption></figure> <p>
+ <figure id="orgc235999"> <img src="../img/tfexample2.png" alt="tfexample2.png" style="margin:auto; display:block; width:100%"></img> <figcaption> <span class="figure-number">Figure 4: </span>More action</figcaption></figure> <p>
 In summary:
 </p>
 
@@ -101,9 +101,9 @@ I feel this episode was slightly easier and definitely had less points to addres
 </div>
 </div>
 
- <div id="outline-container-org737d3dc" class="outline-3">
- <h3 id="org737d3dc">Episode 3</h3>
- <div class="outline-text-3" id="text-org737d3dc">
+ <div id="outline-container-org5cbdb73" class="outline-3">
+ <h3 id="org5cbdb73">Episode 3</h3>
+ <div class="outline-text-3" id="text-org5cbdb73">
  <p>
 This episode touches on the Aurora and Relational Database Services (RDS) in AWS. The brief covers the basics of the services and what to look out for in the lab. The goal is to correct the errors and update the resources to securely deploy infrastructure associated with the AWS Aurora service for relational databases (DBs).
 </p>
@@ -117,9 +117,9 @@ This lab has a high and medium alert reported in Terrascan:
 </ul></div>
 </div>
 
- <div id="outline-container-org04baa49" class="outline-3">
- <h3 id="org04baa49">Episode 4 - the finale</h3>
- <div class="outline-text-3" id="text-org04baa49">
+ <div id="outline-container-org46aec61" class="outline-3">
+ <h3 id="org46aec61">Episode 4 - the finale</h3>
+ <div class="outline-text-3" id="text-org46aec61">
  <p>
 We reach the final episode which brings some more general security fundamentals and enabling detailed monitoring. Here we learn about how we restrict AWS VPC traffic to EC2 instances by using security groups and custom rules. EC2’s instance metadata service (IMDS) can be used to retrieve metadata about running EC2 instances from within the instance.
 </p>
@@ -137,9 +137,9 @@ I found this lab slightly more tricky as it was dealing with areas of AWS and re
 </div>
 </div>
 
- <div id="outline-container-orgc9b2c19" class="outline-2">
- <h2 id="orgc9b2c19">Terrascan by Tenable</h2>
- <div class="outline-text-2" id="text-orgc9b2c19">
+ <div id="outline-container-orga54c9f5" class="outline-2">
+ <h2 id="orga54c9f5">Terrascan by Tenable</h2>
+ <div class="outline-text-2" id="text-orga54c9f5">
  <p>
  <a href="https://github.com/tenable/terrascanlink">Terrascan GitHub</a>
 </p>
@@ -148,15 +148,15 @@ I found this lab slightly more tricky as it was dealing with areas of AWS and re
 </div>]]></description>
   <link>https://blog.mbrig.nl/posts/./terraform-and-terrascan.html</link>
   <guid isPermaLink="false">https://blog.mbrig.nl/posts/./terraform-and-terrascan.html</guid>
-  <pubDate>Fri, 19 Sep 2025 15:57:58 +0000</pubDate>
+  <pubDate>Fri, 19 Sep 2025 16:01:22 +0000</pubDate>
 </item>
 <item>
   <title>Release Monitoring with Automation for Jira</title>
   <description><![CDATA[<div id="content" class="content">
- <div id="outline-container-orge7155d2" class="outline-2">
- <h2 id="orge7155d2">We like automation, we like monitoring releases  <i class="fa-regular fa-heart"></i></h2>
- <div class="outline-text-2" id="text-orge7155d2">
- <div class="PREVIEW" id="org2523613">
+ <div id="outline-container-orgbe19108" class="outline-2">
+ <h2 id="orgbe19108">We like automation, we like monitoring releases  <i class="fa-regular fa-heart"></i></h2>
+ <div class="outline-text-2" id="text-orgbe19108">
+ <div class="PREVIEW" id="org96828f4">
  <p>
 So your organisation has decided to build a Internal Developer Portal (IDP) using Backstage. All of a sudden you're responsible for looking after a quickly growing, forever updating production environment, as well as an IDP?
 </p>
@@ -188,18 +188,18 @@ You monitor the releases in a Jira project backlog of course!
 </div>
 </div>
 
- <div id="outline-container-org4fc0705" class="outline-2">
- <h2 id="org4fc0705">Here is how I did it with automation…  <i class="fa-solid fa-robot"></i></h2>
- <div class="outline-text-2" id="text-org4fc0705">
+ <div id="outline-container-org31d6cc0" class="outline-2">
+ <h2 id="org31d6cc0">Here is how I did it with automation…  <i class="fa-solid fa-robot"></i></h2>
+ <div class="outline-text-2" id="text-org31d6cc0">
  <p>
 I wanted to create a new task whenever a new release of Backstage is rolled out on the main Github page  <i class="fa-brands fa-github-alt"></i>  <a href="https://github.com/backstage/backstage">backstage/backstage</a>. The task could then be broken down into smaller pieces of work or spikes so I could monitor builds or raise pull requests directly from Jira using the GitHub integration.
 </p>
 </div>
 </div>
 
- <div id="outline-container-orgf63cc78" class="outline-2">
- <h2 id="orgf63cc78">Setting up the Schedule  <i class="fa-regular fa-calendar"></i></h2>
- <div class="outline-text-2" id="text-orgf63cc78">
+ <div id="outline-container-org9a24657" class="outline-2">
+ <h2 id="org9a24657">Setting up the Schedule  <i class="fa-regular fa-calendar"></i></h2>
+ <div class="outline-text-2" id="text-org9a24657">
  <p>
 For the scheduled automation to work I created a custom field in Jira called 'Release Tag', which is where the release tag will be stored.
 </p>
@@ -217,12 +217,12 @@ Because the scheduled automation requires a ticket to be present I had to make a
 </p>
 
 
- <figure id="org80444f3"> <img src="../img/afj-release.png" alt="afj-release.png" style="margin:auto; display:block; width:400px"></img> <figcaption> <span class="figure-number">Figure 1: </span>Schedule the Automation</figcaption></figure></div>
+ <figure id="org9c27b3c"> <img src="../img/afj-release.png" alt="afj-release.png" style="margin:auto; display:block; width:400px"></img> <figcaption> <span class="figure-number">Figure 1: </span>Schedule the Automation</figcaption></figure></div>
 </div>
 
- <div id="outline-container-orgc1ca61c" class="outline-2">
- <h2 id="orgc1ca61c">The Web Request  <i class="fa-solid fa-globe"></i></h2>
- <div class="outline-text-2" id="text-orgc1ca61c">
+ <div id="outline-container-org2ca40ed" class="outline-2">
+ <h2 id="org2ca40ed">The Web Request  <i class="fa-solid fa-globe"></i></h2>
+ <div class="outline-text-2" id="text-org2ca40ed">
  <p>
 The automation will make a request to a public endpoint, so there was need for a Personal Access Token (PAT). Since the request frequency is once a day, it remains within rate limits. The request is made to the following URL:
 </p>
@@ -248,12 +248,12 @@ This is a GET HTTP method, and I didn't anticipate any issue references in the b
 </p>
 
 
- <figure id="orgcae3d3b"> <img src="../img/afj-release-3.png" alt="afj-release-3.png" style="margin:auto; display:block; width:400px"></img> <figcaption> <span class="figure-number">Figure 2: </span>Web Request Example</figcaption></figure></div>
+ <figure id="org76ecb1d"> <img src="../img/afj-release-3.png" alt="afj-release-3.png" style="margin:auto; display:block; width:400px"></img> <figcaption> <span class="figure-number">Figure 2: </span>Web Request Example</figcaption></figure></div>
 </div>
 
- <div id="outline-container-org64b4818" class="outline-2">
- <h2 id="org64b4818">Create Variable  <i class="fa-solid fa-check"></i></h2>
- <div class="outline-text-2" id="text-org64b4818">
+ <div id="outline-container-org065d54a" class="outline-2">
+ <h2 id="org065d54a">Create Variable  <i class="fa-solid fa-check"></i></h2>
+ <div class="outline-text-2" id="text-org065d54a">
  <p>
 The web response body will look a bit like the snipped example:
 </p>
@@ -285,12 +285,12 @@ To extract the  <code>tag_name</code>, I created a variable using the newer feat
 </p>
 
 
- <figure id="org4a5bd86"> <img src="../img/afj-release-1.png" alt="afj-release-1.png" style="margin:auto; display:block; width:400px"></img> <figcaption> <span class="figure-number">Figure 3: </span>Release Tag Variable</figcaption></figure></div>
+ <figure id="orgc5dbc5b"> <img src="../img/afj-release-1.png" alt="afj-release-1.png" style="margin:auto; display:block; width:400px"></img> <figcaption> <span class="figure-number">Figure 3: </span>Release Tag Variable</figcaption></figure></div>
 </div>
 
- <div id="outline-container-org6acf0cf" class="outline-2">
- <h2 id="org6acf0cf">Create a new ticket  <i class="fa-solid fa-ticket"></i></h2>
- <div class="outline-text-2" id="text-org6acf0cf">
+ <div id="outline-container-orgc0d4372" class="outline-2">
+ <h2 id="orgc0d4372">Create a new ticket  <i class="fa-solid fa-ticket"></i></h2>
+ <div class="outline-text-2" id="text-orgc0d4372">
  <p>
 I then used the 'If: Matches' conditional module to verify if  <code>backstageLatest</code> is greater than the release number in the custom release field. If it is, then I want to create a new ticket in the backlog with:
 </p>
@@ -305,12 +305,12 @@ If the conditions don't match, the automation doesn't perform any actions.
 </p>
 
 
- <figure id="org6b49c33"> <img src="../img/afj-release-2.png" alt="afj-release-2.png" style="margin:auto; display:block; width:400px"></img> <figcaption> <span class="figure-number">Figure 4: </span>Backstage Latest Variable</figcaption></figure></div>
+ <figure id="org82d1827"> <img src="../img/afj-release-2.png" alt="afj-release-2.png" style="margin:auto; display:block; width:400px"></img> <figcaption> <span class="figure-number">Figure 4: </span>Backstage Latest Variable</figcaption></figure></div>
 </div>
 
- <div id="outline-container-orgc0d3180" class="outline-2">
- <h2 id="orgc0d3180">Conclusion  <i class="fa-solid fa-flag-checkered"></i></h2>
- <div class="outline-text-2" id="text-orgc0d3180">
+ <div id="outline-container-org38527ec" class="outline-2">
+ <h2 id="org38527ec">Conclusion  <i class="fa-solid fa-flag-checkered"></i></h2>
+ <div class="outline-text-2" id="text-org38527ec">
  <p>
 By following the above steps, you can set up a process to automatically monitor GitHub releases and track your dependencies. This will save you time and effort to manually check for new releases.
 </p>
@@ -335,16 +335,16 @@ If you have any other ideas or questions please reach out.  <i class="fa-regular
 </div>]]></description>
   <link>https://blog.mbrig.nl/posts/./release-monitoring-in-jira.html</link>
   <guid isPermaLink="false">https://blog.mbrig.nl/posts/./release-monitoring-in-jira.html</guid>
-  <pubDate>Fri, 19 Sep 2025 15:57:58 +0000</pubDate>
+  <pubDate>Fri, 19 Sep 2025 16:01:22 +0000</pubDate>
 </item>
 <item>
   <title>Exploring 9front and Plan 9</title>
   <description><![CDATA[<div id="content" class="content">
- <div id="outline-container-org22cb74f" class="outline-2">
- <h2 id="org22cb74f">Why 9front?</h2>
- <div class="outline-text-2" id="text-org22cb74f">
+ <div id="outline-container-orgcf5a2fe" class="outline-2">
+ <h2 id="orgcf5a2fe">Why 9front?</h2>
+ <div class="outline-text-2" id="text-orgcf5a2fe">
 
- <figure id="orgf6bbea6"> <img src="http://9front.org/img/thistimedefinitely.front.png" alt="thistimedefinitely.front.png" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px"></img></figure> <p>
+ <figure id="org3913ba2"> <img src="http://9front.org/img/thistimedefinitely.front.png" alt="thistimedefinitely.front.png" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px"></img></figure> <p>
 Over the holiday period I took the steps towards fully exploring the 9front/Plan 9 ecosystem. It has turned up on the radar for some time now, however if my memory treats me correctly, the first exposure I was overwhelmed. Recently I discovered  <a href="https://www.youtube.com/channel/UC7qFfPYl0t8Cq7auyblZqxA">adventuresin9</a> YouTube channel randomly which sprouted the interest again. After trying out 9front on VM via Proxmox I decided that I needed to experience it on bare metal.
 </p>
 
@@ -362,19 +362,19 @@ This space will evolve as I experiment, explore, and expand my knowledge.
 </p>
 </div>
 </div>
- <div id="outline-container-org13ced10" class="outline-2">
- <h2 id="org13ced10">What have I done so far?</h2>
- <div class="outline-text-2" id="text-org13ced10">
+ <div id="outline-container-org8351009" class="outline-2">
+ <h2 id="org8351009">What have I done so far?</h2>
+ <div class="outline-text-2" id="text-org8351009">
  <p>
 Here is a list of the hardware I've managed to get 9front to run on:
 </p>
 </div>
 
- <div id="outline-container-org313408e" class="outline-3">
- <h3 id="org313408e">Thinkpad T420:</h3>
- <div class="outline-text-3" id="text-org313408e">
+ <div id="outline-container-org5e0caf6" class="outline-3">
+ <h3 id="org5e0caf6">Thinkpad T420:</h3>
+ <div class="outline-text-3" id="text-org5e0caf6">
 
- <figure id="orgfd2a01c"> <img src="../img/thinkpad.jpg" alt="thinkpad.jpg" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px"></img></figure> <p>
+ <figure id="org6bb2374"> <img src="../img/thinkpad.jpg" alt="thinkpad.jpg" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px"></img></figure> <p>
 I found one of these laptops on Facebook marketplace for £10 including the power adaptor. Initial thoughts was that the hardware was in pretty good condition given the age. However the laptop did not boot. I would get the initial green power led but then nothing. After searching online and diving into a variety of vintage posts I came to the conclusion that the system board must be kaput.
 </p>
 
@@ -408,9 +408,9 @@ Once booted and I followed the install guide, running  <code>inst/start</code> a
 </div>
 </div>
 
- <div id="outline-container-org95288b3" class="outline-3">
- <h3 id="org95288b3">Raspberry Pi 3b</h3>
- <div class="outline-text-3" id="text-org95288b3">
+ <div id="outline-container-orge06bb0d" class="outline-3">
+ <h3 id="orge06bb0d">Raspberry Pi 3b</h3>
+ <div class="outline-text-3" id="text-orge06bb0d">
  <p>
 I installed 9front on a Raspberry Pi 3b which is running 9front successfully. There was a couple of guides that helped along the way:
 </p>
@@ -421,13 +421,13 @@ I installed 9front on a Raspberry Pi 3b which is running 9front successfully. Th
 </div>
 </div>
 
- <div id="outline-container-org00c2ea4" class="outline-2">
- <h2 id="org00c2ea4">Next Steps</h2>
- <div class="outline-text-2" id="text-org00c2ea4">
+ <div id="outline-container-org059291d" class="outline-2">
+ <h2 id="org059291d">Next Steps</h2>
+ <div class="outline-text-2" id="text-org059291d">
 </div>
- <div id="outline-container-orgf36129a" class="outline-3">
- <h3 id="orgf36129a">Connect to wifi</h3>
- <div class="outline-text-3" id="text-orgf36129a">
+ <div id="outline-container-orgd1cc7de" class="outline-3">
+ <h3 id="orgd1cc7de">Connect to wifi</h3>
+ <div class="outline-text-3" id="text-orgd1cc7de">
  <div class="org-src-container">
  <pre class="src src-rc">bind -a '#l1' /net
 aux/wpa -s <SSID> -p /net/ether1
@@ -450,9 +450,9 @@ Note: If you get the password incorrect you're going to see a DHCP error. So far
 </div>
 </div>
 
- <div id="outline-container-org01d864f" class="outline-3">
- <h3 id="org01d864f">Man Pages</h3>
- <div class="outline-text-3" id="text-org01d864f">
+ <div id="outline-container-orgabbb435" class="outline-3">
+ <h3 id="orgabbb435">Man Pages</h3>
+ <div class="outline-text-3" id="text-orgabbb435">
  <p>
  <a href="https://man.9front.org/">man.9front.org</a>
 </p>
@@ -526,27 +526,27 @@ As you can see, the man pages are well structured and thorough.
 </div>
 </div>
 
- <div id="outline-container-org4e07f75" class="outline-3">
- <h3 id="org4e07f75">USB Storage</h3>
- <div class="outline-text-3" id="text-org4e07f75">
+ <div id="outline-container-org7098093" class="outline-3">
+ <h3 id="org7098093">USB Storage</h3>
+ <div class="outline-text-3" id="text-org7098093">
  <p>
 The USB storage mounts on  <code>/shr/<device-name></code> and I moved the files straight from there. I think there may be mount option just like Linux/Unix but I've not worked that out but there is a man mapge.
 </p>
 </div>
 </div>
 
- <div id="outline-container-orge24e88a" class="outline-3">
- <h3 id="orge24e88a">Uxn</h3>
- <div class="outline-text-3" id="text-orge24e88a">
+ <div id="outline-container-org2fae114" class="outline-3">
+ <h3 id="org2fae114">Uxn</h3>
+ <div class="outline-text-3" id="text-org2fae114">
  <p>
 I wanted to explore that ecosystem from within 9front. If you've not come across Uxn/HundredRabbits please check them out.
 </p>
 </div>
 </div>
 
- <div id="outline-container-org8320dfc" class="outline-3">
- <h3 id="org8320dfc">Web Browsing</h3>
- <div class="outline-text-3" id="text-org8320dfc">
+ <div id="outline-container-orgf195e25" class="outline-3">
+ <h3 id="orgf195e25">Web Browsing</h3>
+ <div class="outline-text-3" id="text-orgf195e25">
  <p>
 I have installed  <a href="https://github.com/netsurf-plan9/nsport">Netsurf</a> (the alternative browser) and there is also Mothra which is really cool. Both provide very minimal web experiences, with Mothra not supporting any JS or 'modern' browsing experiences. To be fair, most of my browsing is reading code or docs/blogs which render fine. I even checked out this blog which translates really well.
 </p>
@@ -554,13 +554,13 @@ I have installed  <a href="https://github.com/netsurf-plan9/nsport">Netsurf</a> 
 </div>
 </div>
 
- <div id="outline-container-orgdab8c08" class="outline-2">
- <h2 id="orgdab8c08">Future</h2>
+ <div id="outline-container-org1df6ec4" class="outline-2">
+ <h2 id="org1df6ec4">Future</h2>
 </div>
 
- <div id="outline-container-org2e65f35" class="outline-2">
- <h2 id="org2e65f35">Useful Resources</h2>
- <div class="outline-text-2" id="text-org2e65f35">
+ <div id="outline-container-org36528b4" class="outline-2">
+ <h2 id="org36528b4">Useful Resources</h2>
+ <div class="outline-text-2" id="text-org36528b4">
  <ul class="org-ul"> <li> <a href="https://www.youtube.com/channel/UC7qFfPYl0t8Cq7auyblZqxA">adventuresin9</a> (YouTube)</li>
  <li> <a href="https://9p.io/wiki/plan9/plan_9_wiki/">Plan 9 wiki</a></li>
  <li> <a href="https://9front.org/">9 front</a></li>
@@ -570,15 +570,15 @@ I have installed  <a href="https://github.com/netsurf-plan9/nsport">Netsurf</a> 
 </div>]]></description>
   <link>https://blog.mbrig.nl/posts/./exploring-9front.html</link>
   <guid isPermaLink="false">https://blog.mbrig.nl/posts/./exploring-9front.html</guid>
-  <pubDate>Fri, 19 Sep 2025 15:57:58 +0000</pubDate>
+  <pubDate>Fri, 19 Sep 2025 16:01:22 +0000</pubDate>
 </item>
 <item>
   <title>Emacs with aspell/ispell on Nix Darwin</title>
   <description><![CDATA[<div id="content" class="content">
- <div id="outline-container-org89f72bd" class="outline-2">
- <h2 id="org89f72bd">British English and Emacs</h2>
- <div class="outline-text-2" id="text-org89f72bd">
- <div class="PREVIEW" id="org9b8fa04">
+ <div id="outline-container-org06cf829" class="outline-2">
+ <h2 id="org06cf829">British English and Emacs</h2>
+ <div class="outline-text-2" id="text-org06cf829">
+ <div class="PREVIEW" id="org242ab0c">
  <p>
 I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Ispell is built in to the current version I'm using (29.1). However it was locked to the default US dictionary. Easy fix right?
 </p>
@@ -586,27 +586,27 @@ I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Is
 </div>
 </div>
 
- <div id="outline-container-org85e1eb1" class="outline-3">
- <h3 id="org85e1eb1">Discoveries</h3>
- <div class="outline-text-3" id="text-org85e1eb1">
+ <div id="outline-container-org85fa943" class="outline-3">
+ <h3 id="org85fa943">Discoveries</h3>
+ <div class="outline-text-3" id="text-org85fa943">
  <p>
 Out the box the latest version of ispell on Nix Packages and built in Emacs does not have UK/British English default. So I started looking on Reddit and Googled ispell and Nix to see where I could go.
 </p>
 </div>
 </div>
 
- <div id="outline-container-org00444c2" class="outline-3">
- <h3 id="org00444c2">Emacs philosophy and approach</h3>
- <div class="outline-text-3" id="text-org00444c2">
+ <div id="outline-container-org9c1e6d1" class="outline-3">
+ <h3 id="org9c1e6d1">Emacs philosophy and approach</h3>
+ <div class="outline-text-3" id="text-org9c1e6d1">
  <p>
 I am a strong believer in keeping things simple and with the introduction of 'use-package' and the extra features in 29.1 I was keen to rewrite my config and use as close to vanilla setup as possible. I took the very base of what was needed and started from scratch building outward and exploring built-in packages. My config file is available here:  <a href="https://github.com/mbrignall/nix-darwin">nix-darwin repo</a>
 </p>
 </div>
 </div>
 
- <div id="outline-container-org938901d" class="outline-3">
- <h3 id="org938901d">Emacs Aspell/Ispell config</h3>
- <div class="outline-text-3" id="text-org938901d">
+ <div id="outline-container-org54da545" class="outline-3">
+ <h3 id="org54da545">Emacs Aspell/Ispell config</h3>
+ <div class="outline-text-3" id="text-org54da545">
  <p>
 Add this to your  <code>init.el</code>:
 </p>
@@ -623,9 +623,9 @@ Add this to your  <code>init.el</code>:
 </div>
 </div>
 
- <div id="outline-container-org285bfa6" class="outline-3">
- <h3 id="org285bfa6">NixOS/ Nix Darwin</h3>
- <div class="outline-text-3" id="text-org285bfa6">
+ <div id="outline-container-org562578e" class="outline-3">
+ <h3 id="org562578e">NixOS/ Nix Darwin</h3>
+ <div class="outline-text-3" id="text-org562578e">
  <p>
 With the emphasis on declarative, reproducible systems, I've been using Nix for some time now. I have a config for Linux/NixOS outside of work, when at work I use a Macbook so have a Nix Darwin build for that. The addition of  <code>aspell</code> with dictionaries was surprisingly simple once I'd worked out how to declare it in my configuration file:
 </p>
@@ -646,7 +646,7 @@ With the emphasis on declarative, reproducible systems, I've been using Nix for 
 </div>]]></description>
   <link>https://blog.mbrig.nl/posts/./emacs-ispell-aspell.html</link>
   <guid isPermaLink="false">https://blog.mbrig.nl/posts/./emacs-ispell-aspell.html</guid>
-  <pubDate>Fri, 19 Sep 2025 15:57:58 +0000</pubDate>
+  <pubDate>Fri, 19 Sep 2025 16:01:22 +0000</pubDate>
 </item>
 </channel>
 </rss>
