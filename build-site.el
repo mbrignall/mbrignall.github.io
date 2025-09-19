@@ -94,25 +94,20 @@ https://ogbe.net/blog/blogging_with_org.html"
              :html-preamble (file-contents "assets/html_preamble.html")
              :html-postamble t
              :publishing-directory "./public"
-	     :headline-levels 4
+             :headline-levels 4
              :with-author nil
              :with-creator nil
-	     :with-tags t
+             :with-tags t
              :with-toc nil
              :section-numbers nil
-             :auto-sitemap t
-             :sitemap-title "mblognl"
-             :sitemap-format-entry 'my/org-publish-org-sitemap-format
-             :sitemap-function 'my/org-publish-org-sitemap
-             :sitemap-sort-files 'anti-chronologically
-             :sitemap-filename "sitemap.org"
-             :sitemap-style 'tree
+             ;; --- CHANGE HERE: Disable sitemap in this component ---
+             :auto-sitemap nil
              :time-stamp-file nil
              :html-doctype "html5"
              :html-html5-fancy t
              :htmlized-source t
              :with-todo-keywords t
-             :exclude "^posts/drafts/.*")  ;; Corrected exclude pattern
+             :exclude "^posts/drafts/.*")
 
        ;; Static assets
        (list "org-site:static"
@@ -120,8 +115,7 @@ https://ogbe.net/blog/blogging_with_org.html"
              :base-extension "css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|svg"
              :publishing-directory "./public/img"
              :recursive t
-             :publishing-function 'org-publish-attachment
-             :exclude "^posts/drafts/.*")  ;; Corrected exclude pattern
+             :publishing-function 'org-publish-attachment)
 
        ;; Other assets (CSS, images, etc.)
        (list "org-site:assets"
@@ -129,7 +123,21 @@ https://ogbe.net/blog/blogging_with_org.html"
              :base-extension "css\\|ico\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|ico"
              :publishing-directory "./public"
              :recursive t
-             :publishing-function 'org-publish-attachment)))
+             :publishing-function 'org-publish-attachment)
+
+       ;; --- ADD THIS NEW COMPONENT FOR THE SITEMAP ---
+       (list "sitemap"
+             :publishing-function 'my/org-publish-org-sitemap
+             :sitemap-filename "sitemap.org"
+             :sitemap-title "mblognl"
+             :sitemap-sort-files 'anti-chronologically
+             :sitemap-style 'tree
+             :sitemap-format-entry 'my/org-publish-org-sitemap-format
+             ;; Tell this component to get its file list from another component
+             :components '("org-site:main"))
+
+       ;; This is the top-level project that combines everything
+       (list "org-site" :components '("org-site:main" "org-site:static" "org-site:assets" "sitemap"))))
 
 ;;; additional settings
 (setq org-html-validation-link nil
