@@ -86,25 +86,27 @@
 
  /* Block Quote */ 
  blockquote{ 
-   font-size: 0.6em; 
-   width: 90%;
-   /* margin: 30px auto; */ 
+   font-size: 0.8em; 
+   /* width: 90%; */xs
    font-style: italic; 
    color: #555555; 
-   padding: 1em 15px 1em 50px; 
+   padding: 1em 15px 1em 15px; 
    border-left: 8px solid #78C0A8 ; 
    line-height: 1; 
-   position: relative; 
-   background: #a89bb9; 
+   position: relative;
+   background: #a89bb9;
+   margin-right: 10px;
+   margin-left: 10px;
  } 
 
  blockquote::before{ 
    content: "\201C"; 
    color: #78C0A8; 
    font-size: 4em; 
-   position: absolute; 
+   float: left;
    left: 10px; 
-   top: 10px; 
+   top: 10px;
+   padding-bottom: 5px;
  } 
 
  blockquote::after{ 
@@ -127,6 +129,19 @@
      border-radius: 4px; 
      font-family: 'Fira Mono', monospace; 
  }
+
+ figure {
+     margin-left: 10px;
+     margin-right: 15px;
+     margin-top: 10pxxs;
+ }
+
+ img {
+     float: left;
+     margin-right: 15px;
+     vertical-align: bottom;
+     width: 75px;
+ }
  
  /* Block Code - Preformatted Code Block */ 
  pre { 
@@ -137,7 +152,7 @@
      overflow: auto; 
      font-family: 'Fira Mono', monospace; 
      font-size: 0.9em; 
-     line-height: 1.4; 
+     line-height: 1.4;
  } 
 
  /* Highlighted Code Block */ 
