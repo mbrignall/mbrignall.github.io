@@ -4,8 +4,7 @@
 
 * Immersive Labs
 
-#+ATTR_HTML: :style margin:auto; display:block; width:200px
-[[https://static-00.iconduck.com/assets.00/terraform-icon-1803x2048-hodrzd3t.png]]
+https://icon.icepanel.io/Technology/svg/HashiCorp-Terraform.svg
 
 #+BEGIN_PREVIEW
 This post is going to cover my most recent lab "Secure Terraform for AWS". I wanted to present my personal approach on the lab and my experience in general. I'm going to try not to give away too much, just some hints and what to expect if you're considering purchasing licences or you're a learner considering which labs to do next.
@@ -20,9 +19,7 @@ Having used some similar platforms like Hack the Box and the likes, I can say th
 A quick reminder of what Terraform does:
 
 #+begin_quote
-
 Terraform is an open-source tool developed by HashiCorp. Infrastructure is defined in a human-readable format in HashiCorp Language (HCL) or JSON which is processed by Terraform and then deployed into the appropriate target – typically cloud. It's a popular way for companies to manage their infrastructure as code (IaC) and can be used in conjunction with most existing cloud providers. In this lab, we take a look at Terraform in the context of AWS.
-
 #+end_quote
 
 When you start the lab you'll get an overview of both Terraform and Terrascan. Make sure that you read through the information in order to become accustomed as to how they both work and integrate.

@@ -13,7 +13,6 @@ The rich get the assets, the poor get the debt, and then the poor have to pay th
 *Gary Stephenson*
 #+end_quote
   
-# #+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
 https://cdn.waterstones.com/bookjackets/large/9781/8020/9781802062731.jpg
 
 Gary's take on economics really helped me understand how economics and trading works both in the UK and internationally. Before reading this I had no idea and hadn't thought too deeply about the topic. Since reading I've also been watching a few channels (including his own) on the topic/current affairs/economics and it has sparked interest in me. I particularly liked hearing about his rise to success in a field dominated by people from privileged backgrounds and how he navigated those relationships. I listened to this as an audiobook read by Gary himself and this made the connection more personal. Hearing about his early life going through school and early jobs around Essex helped set the scene.
@@ -26,15 +25,17 @@ Gary is clearly a very smart person. Someone who not only can convey complex ide
 - Published date: 2022-01-20
 
 #+begin_quote
-If people don't like folk music, they haven't heard the real thing
+If people don't like folk music, they haven't heard the real thing.
+
 
 *Shirley Collins*
 #+end_quote
 
-#+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
 https://m.media-amazon.com/images/I/71IYBIjH1gL._SY522_.jpg
 
 Shirley Collins writes her early days and travels with Folklorist, Alan Lomax as the record audio and document the music of Americas heartland. Split in chapters between Collins' early life in -- and their professional and emotional relationship with Lomax,
+
+@@html:<div style="clear: both;"></div>@@
 
 * The Cuckoo's Egg                                  :cybersecurity:truecrime:
 
@@ -47,7 +48,6 @@ The hacker didn't succeed through sophistication. Rather he poked at obvious pla
 *Clifford Stoll*
 #+end_quote
 
-#+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
 [[https://m.media-amazon.com/images/I/71KvXfFyi4L._SL1500_.jpg]]
 
 This book is an excellent dive into the cyber security field during the late 80's. Cliff Stoll depicts the challenges and excitement around identifying a person with unauthorised access inside their network.
@@ -70,8 +70,7 @@ On occasion the book felt a little like groundhog day due to the repetitive even
 
 - Author: Joseph Menn
 - Published date: 2020-06-02
-  
-#+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
+
 [[https://www.littlebrown.co.uk/wp-content/uploads/2019/05/hbg-title-9781541724426-49.jpg?w=436]]
 
 @@html:<div style="clear: both;"></div>@@
@@ -82,11 +81,11 @@ On occasion the book felt a little like groundhog day due to the repetitive even
 - Published date: 2020-02-20
   
 #+begin_quote
-“Like the coronavirus pandemic, the current infodemic is a global phenomenon. We need to tackle it on an international level to avoid adding a third layer to this worldwide crisis: a societal one.”
+Like the coronavirus pandemic, the current infodemic is a global phenomenon. We need to tackle it on an international level to avoid adding a third layer to this worldwide crisis: a societal one.
 
-*Julia Ebner*, Going Dark: The Secret Social Lives of Extremists
+*Julia Ebner*
 #+end_quote
-#+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
+
 [[https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale,dpr_1.5/jackets/9781526616791.jpg]]
 
 Dr. Julie Ebner specialises in radicalisation, extremism and terrorism studies. In this book she bravely infiltrates groups from far-right nationalists, Islamic terrorists to trad-wives and ISIS brides. She goes to festivals and lurks online in forums/ chat rooms probing the people she encounters looking to understand and explore. A few moments in the book magnify how close Julie gets to danger and the risks she takes to expose methods and approaches of these groups to gain control over members. I agree with some other reviewers online that this book has short sections and uses an investigative journalists tone. It does not mean it is not an informative or, dare I say, an entertaining(?) read in places. The book leaves you wanting more, to understand deeper, and to hopefully be able to recognise family or friends on the precipice of the online rabbit holes covered.
@@ -103,12 +102,11 @@ Additional content: [[https://www.youtube.com/watch?v=fAFV49e2W5M][Going Dark: T
 - Published date: 2024-06-13
 
 #+begin_quote
-'Rinsed is a triumph. If you want to understand how the chaotic world around us really works, read this book!’
+Rinsed is a triumph. If you want to understand how the chaotic world around us really works, read this book!
 
-*MILES JOHNSON, AUTHOR OF CHASING SHADOWS*
+*Miles Johnson, author of Chasing Shadows*
 #+end_quote
 
-#+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
 https://m.media-amazon.com/images/I/71n9FOWUzkL.jpg
 
 Currently listening to the book during my commute. From the opening chapter about Pablo Escobar laundering physical, hard cash to the later chapters covering crypto/blockchain game coins it's a wild ride start to finish. A few key factors and personal observations:
