@@ -1,8 +1,8 @@
 #+TITLE: About Me
 #+author: mbrignall
 
-#+ATTR_HTML: :style margin:auto; display:block; width:200px
 [[./img/mbrignl.jpg]]
+
 #+TODO: TODO STARTED | DONE
 
 * About me... @@html:<i class="fa-regular fa-address-card"></i>@@
