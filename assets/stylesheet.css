@@ -68,7 +68,8 @@
  } 
 
  ul { 
-     padding-left: 30px; 
+     padding-left: 30px;
+     font-size: 0.8em;
  } 
 
  /* Links */ 
@@ -139,7 +140,7 @@
  }
 
  img {
-     float: left;
+     float: inline-start;
      margin-right: 15px;
      vertical-align: bottom;
      width: 75px;
