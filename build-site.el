@@ -79,7 +79,7 @@ https://ogbe.net/blog/blogging_with_org.html"
     (error "File not readable: %s" file)))
 
 (setq org-html-postamble-format
-      '(("en" "<div class=\"postamble\" style=\"text-align: center; margin-top: 20px; margin-bottom: 20px;\"> 
+      '(("en" "<div class=\"postamble\">
                <p> Created by %c %s </p>
                </div>")))
 
@@ -100,7 +100,6 @@ https://ogbe.net/blog/blogging_with_org.html"
              :with-tags t
              :with-toc nil
              :section-numbers nil
-             ;; --- CHANGE HERE: Disable sitemap in this component ---
              :auto-sitemap nil
              :time-stamp-file nil
              :html-doctype "html5"

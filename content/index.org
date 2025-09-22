@@ -13,7 +13,7 @@ You'll likely find me talking about my favourite technologies. I may, from time 
 
 I hope you find something useful or thought-provoking!
 
-*** Some topics, themes, and subjects
+Some topics, themes, and subjects:
 
 - *Cybersecurity and Security Engineering*
 - *Web Development and Web Design*
@@ -23,12 +23,13 @@ I hope you find something useful or thought-provoking!
 
 * Current Book(s) @@html:<i class="fa-solid fa-book"></i>@@
 
+On rotation this month:
+
 ** To Anyone Who Ever Asks: The Life, Music, and Mystery of Connie Converse :music:folklore:
 
-- Author: Howard Fishman
-- Publication date: 2024-05-02
+| Author           | Howard Fishman |
+| Publication date |     2024-05-02 |
 
-#+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
 https://shop.pem.org/cdn/shop/files/Untitled-2024-11-12T123048.527_1200x.jpg?v=1731432661
 
 So far this book is awesome and intriguing. I have only read the first few chapters and listened to her music for sometime, but hadn't been aware of her strange career.
@@ -38,12 +39,13 @@ So far this book is awesome and intriguing. I have only read the first few chapt
 
 * Previous Books @@html:<i class="fa-solid fa-book"></i>@@
 
+Ongoing reads/ last completed book:
+
 ** Code: The Hidden Language of Computer Hardware and Software :computer:science:technology:
 
-- Author: Charles Petzold
-- Publication date: 1999-09-29
+| Author           | Charles Petzold |
+| Publication date |      1999-09-29 |
 
-#+ATTR_HTML: :style float:left; margin-right: 15px; vertical-align: bottom; :width 75px
 https://m.media-amazon.com/images/I/61Hc-9h+-XL.jpg
 
 I am half way through this book so far, it's fascinating. Covering the beginning of code/bits/bytes up to modern computing. It has illuminated some points of computing that I have not covered for some time. More on that soon.
@@ -57,13 +59,12 @@ In Progress... Still in progress.
 
 @@html:<div style="clear: both;"></div>@@
 
-
 * Contact @@html:<i class="fa-solid fa-house"></i>@@
 
 Feel free to reach out via email or GitHub:
 
-- @@html:<i class="fa fa-envelope"></i>@@ [[mailto:hello@mbrig.nl][email me]] 
-- @@html:<i class="fa-brands fa-github-alt"></i>@@ [[https://github.com/mbrignall][github/mbrignall]]
+| [[mailto:hello@mbrig.nl][email me]]         | @@html:<i class="fa fa-envelope"></i>@@          |
+| [[https://github.com/mbrignall][github/mbrignall]] | @@html:<i class="fa-brands fa-github-alt"></i>@@ |
 
 * Post Archive @@html:<i class="fa-solid fa-box-archive"></i>@@
 
