@@ -1,7 +1,7 @@
 /* Base Styles */
  html, body {
      background-color: #1c1e26;
-     font-size: 14px;
+     font-size: 0.8;
      line-height: 1.5;
      color: #dcdccc;
      font-family: 'Fira Mono', monospace;
@@ -10,7 +10,7 @@
  /* For Larger Screens */
  @media screen and (min-width: 680px) {
      body {
-         width: 80%;
+         width: 48rem;
          margin: 0 auto;
          padding: 20px;
      }
@@ -19,7 +19,7 @@
  /* For Mobile */
  @media screen and (max-width: 430px) {
      body {
-         width: 80%;
+         width: 90%;
          margin: 0 auto;
          padding: 10px;
      }
@@ -28,14 +28,15 @@
  /* Headings */ 
  h1 { 
      color: #e79686; 
-     font-size: 2em; 
+     font-size: 1.5em; 
      text-align: center; 
-     margin-bottom: 0; 
+     margin-bottom: 0;
+     width: 90%;
  } 
 
  h2 { 
      color: #7ec98f; 
-     font-size: 1.5em; 
+     font-size: 1em; 
      margin-top: 20px; 
      margin-bottom: 10px; 
      border-bottom: 1px solid #7ec98f; 
@@ -45,7 +46,7 @@
 
  h3 { 
      color: #a89bb9; 
-     font-size: 1.2em; 
+     font-size: 0.8em; 
      margin-top: 10px; 
      margin-bottom: 5px; 
      border-bottom: 1px solid #a89bb9; 
@@ -55,7 +56,7 @@
 
  h4 { 
      color: #a89bb9; 
-     font-size: 1.2em; 
+     font-size: 0.8em; 
      margin-top: 10px; 
      margin-bottom: 5px; 
  } 
@@ -209,7 +210,7 @@
      border: 1px solid #dcdccc; 
      padding: 1px; 
      border-radius: 4px; 
-     font-size: 0.6em; 
+     font-size: 0.4em; 
  } 
 
  .todo.TODO { 
