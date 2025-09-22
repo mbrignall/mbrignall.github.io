@@ -28,30 +28,71 @@
  /* Headings */ 
  h1 { 
      color: #e79686; 
-     font-size: 1.5em; 
-     text-align: center; 
-     margin-bottom: 0;
-     width: 90%;
- } 
-
- h2 { 
-     color: #7ec98f; 
      font-size: 1em; 
-     margin-top: 20px; 
-     margin-bottom: 10px; 
-     border-bottom: 1px solid #7ec98f; 
-     display: flex; 
-     justify-content: space-between; 
- } 
+     text-align: center; 
+     width: 90%;
+ }
+
+ h1.logo:hover {
+     color: #7ec98f;
+ }
+
+ a.areas:hover {
+     color: #e79686;
+ }
+
+ /* h2 { */
+ /*     margin-bottom: 10px; */
+ /*     border-bottom: 1px solid #7ec98f; */
+ /*     display: flex; */
+ /*     justify-content: space-between; */
+ /* } */
+
+ /* Allow the flex container to wrap */
+h2 {
+    color: #7ec98f;
+    font-size: 1em;
+    margin-top: 0px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Good for vertical alignment */
+    flex-wrap: wrap;      /* This is the key change */
+    border-top: 2px solid #7ec98f;
+    padding-top: 0.5em;
+}
+
+/* This rule controls the LAYOUT of the tag container */
+.tag {
+  flex-basis: 100%;      /* Make the container take up the full width */
+  text-align: left;       /* Push the tag to the right on its new line */
+  margin-bottom: 0.5em;    /* Add space between the tag and the bottom border */
+}
+
+/* This rule controls the APPEARANCE of the tag itself */
+.tag span {
+  background-color: #1c1e26;
+  color: #dcdccc;
+  border: 1px solid #dcdccc;
+  padding: 2px;
+  font-size: 0.6em;
+}
+
+.tag span:hover {
+    background-color: #dcdccc;
+    color:  #1c1e26;
+}
 
  h3 { 
      color: #a89bb9; 
      font-size: 0.8em; 
-     margin-top: 10px; 
-     margin-bottom: 5px; 
-     border-bottom: 1px solid #a89bb9; 
-     display: flex; 
-     justify-content: space-between; 
+     margin-top: 0px;
+     margin-bottom: 0;
+     border-top: 2px solid #7ec98f; 
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding-top: 0.5em;
  } 
 
  h4 { 
@@ -65,11 +106,51 @@
  p { 
      text-align: justify; 
      margin-bottom: 1.5em;
- } 
+ }
+
+ /* --- Org Mode Table Styling (Refined) --- */
+
+/* Main table container (no changes here) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #4c566a;
+  border-radius: 0px;
+  overflow: hidden;
+  font-size: 0.8em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+/* Table row styling (no changes here) */
+tr {
+  border-bottom: 1px solid #4c566a;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+tr:hover {
+  background-color: #3b4252;
+}
+
+/* General cell styling (no changes here) */
+th, td {
+  padding: 8px 8px;
+  text-align: left;
+}
+
+/* --- THIS IS THE UPDATED RULE --- */
+/* Specific styling for the "Key" column using its class */
+td.org-left {
+  font-weight: bold;
+  color: #a89bb9;
+}
 
  ul { 
      padding-left: 30px;
      font-size: 0.8em;
+     margin-top: 0;
  } 
 
  /* Links */ 
@@ -199,20 +280,20 @@
      margin-bottom: 1em; 
  } 
 
- /* Postamble styling */ 
- .postamble { 
-     text-align: center; 
-     font-size: 1em; 
- } 
+ /* --- Postamble/Footer Styling --- */
+.postamble {
+    margin-top: 3em;
+    padding-top: 1.5em;
+    border-top: 1px solid #4c566a;
+    font-size: 0.9em;
+    color: #616e88;
+}
 
- .tag span { 
-     background-color: #ebcb8b; 
-     color: #3b4252; 
-     border: 1px solid #dcdccc; 
-     padding: 1px; 
-     border-radius: 4px; 
-     font-size: 0.4em; 
- } 
+/* You can also style the paragraph inside it if needed */
+.postamble p {
+    margin: 0;
+    text-align: center !important;
+}
 
  .todo.TODO { 
      background-color: #e79686; 

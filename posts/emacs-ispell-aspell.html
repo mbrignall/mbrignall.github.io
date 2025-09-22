@@ -14,12 +14,12 @@
 <div id="preamble" class="status">
 <hr style="border-top: 1px solid black;">
 <div class='topnav' style='display: flex; justify-content: space-between; align-items: center;'>
-  <a href="/index.html"><h2 style='margin-top: 0; margin-bottom: 0; margin-left:0px;'>mblognl</h2></a>
+  <a href="/index.html"><h1 class="logo" style='margin-top: 0 !important; margin-bottom: 0 !important; margin-left:0px !important;'>mblognl</h1></a>
   <div>
-    <a href='/about.html' style='font-weight:bold; font-style:italic;'>About Me</a> |
-    <a href='/archive.html' style='font-weight:bold; font-style:italic;'>Blog</a> |
-    <a href='/books.html' style='font-weight:bold; font-style:italic;'>Books</a> |
-    <a href='/rss.xml' style='font-weight:bold; font-style:italic;'>RSS</a>
+    <a href='/about.html' class="areas" style='font-weight:bold; font-style:italic;'>About Me</a> |
+    <a href='/archive.html' class="areas" style='font-weight:bold; font-style:italic;'>Blog</a> |
+    <a href='/books.html' class="areas" style='font-weight:bold; font-style:italic;'>Books</a> |
+    <a href='/rss.xml'  class="areas" style='font-weight:bold; font-style:italic;'>RSS</a>
   </div>
 </div>
 <hr style="border-top: 1px solid black;">
@@ -28,10 +28,10 @@
 <header>
 <h1 class="title">Emacs with aspell/ispell on Nix Darwin</h1>
 </header>
-<div id="outline-container-org74ae2a6" class="outline-2">
-<h2 id="org74ae2a6">British English and Emacs</h2>
-<div class="outline-text-2" id="text-org74ae2a6">
-<div class="PREVIEW" id="orgecd05b3">
+<div id="outline-container-org5135f64" class="outline-2">
+<h2 id="org5135f64">British English and Emacs</h2>
+<div class="outline-text-2" id="text-org5135f64">
+<div class="PREVIEW" id="org993a6e7">
 <p>
 I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Ispell is built in to the current version I'm using (29.1). However it was locked to the default US dictionary. Easy fix right?
 </p>
@@ -39,27 +39,27 @@ I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Is
 </div>
 </div>
 
-<div id="outline-container-orgbbf9ca6" class="outline-3">
-<h3 id="orgbbf9ca6">Discoveries</h3>
-<div class="outline-text-3" id="text-orgbbf9ca6">
+<div id="outline-container-org891bbab" class="outline-3">
+<h3 id="org891bbab">Discoveries</h3>
+<div class="outline-text-3" id="text-org891bbab">
 <p>
 Out the box the latest version of ispell on Nix Packages and built in Emacs does not have UK/British English default. So I started looking on Reddit and Googled ispell and Nix to see where I could go.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org641a8b6" class="outline-3">
-<h3 id="org641a8b6">Emacs philosophy and approach</h3>
-<div class="outline-text-3" id="text-org641a8b6">
+<div id="outline-container-orgf64775a" class="outline-3">
+<h3 id="orgf64775a">Emacs philosophy and approach</h3>
+<div class="outline-text-3" id="text-orgf64775a">
 <p>
 I am a strong believer in keeping things simple and with the introduction of 'use-package' and the extra features in 29.1 I was keen to rewrite my config and use as close to vanilla setup as possible. I took the very base of what was needed and started from scratch building outward and exploring built-in packages. My config file is available here: <a href="https://github.com/mbrignall/nix-darwin">nix-darwin repo</a>
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgb0ea25f" class="outline-3">
-<h3 id="orgb0ea25f">Emacs Aspell/Ispell config</h3>
-<div class="outline-text-3" id="text-orgb0ea25f">
+<div id="outline-container-orgf0e61bb" class="outline-3">
+<h3 id="orgf0e61bb">Emacs Aspell/Ispell config</h3>
+<div class="outline-text-3" id="text-orgf0e61bb">
 <p>
 Add this to your <code>init.el</code>:
 </p>
@@ -76,9 +76,9 @@ Add this to your <code>init.el</code>:
 </div>
 </div>
 
-<div id="outline-container-orga7270bb" class="outline-3">
-<h3 id="orga7270bb">NixOS/ Nix Darwin</h3>
-<div class="outline-text-3" id="text-orga7270bb">
+<div id="outline-container-org47cfcd3" class="outline-3">
+<h3 id="org47cfcd3">NixOS/ Nix Darwin</h3>
+<div class="outline-text-3" id="text-org47cfcd3">
 <p>
 With the emphasis on declarative, reproducible systems, I've been using Nix for some time now. I have a config for Linux/NixOS outside of work, when at work I use a Macbook so have a Nix Darwin build for that. The addition of <code>aspell</code> with dictionaries was surprisingly simple once I'd worked out how to declare it in my configuration file:
 </p>
@@ -98,7 +98,7 @@ With the emphasis on declarative, reproducible systems, I've been using Nix for 
 </div>
 </div>
 <div id="postamble" class="status">
-<div class="postamble" style="text-align: center; margin-top: 20px; margin-bottom: 20px;"> 
+<div class="postamble">
                <p> Created by <a href="https://www.gnu.org/software/emacs/">Emacs</a> 29.3 (<a href="https://orgmode.org">Org</a> mode 9.6.15)  </p>
                </div>
 </div>
