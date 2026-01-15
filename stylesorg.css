@@ -1,0 +1,233 @@
+/* Base Styles */
+html, body {
+    background-color: #1c1e26;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #dcdccc;
+    font-family: 'Fira Mono', monospace;
+}
+
+.title {
+    width: 100%;
+}
+
+/* For Larger Screens */
+@media screen and (min-width: 680px) {
+    body {
+        width: 48rem;
+        margin: 0 auto;
+        padding: 20px;
+    }
+}
+
+/* For Mobile */
+@media screen and (max-width: 430px) {
+    body {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+}
+
+/* Headings */
+h1 {
+    color: #e79686;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+h2 {
+    color: #7ec98f;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #7ec98f;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    color: #a89bb9;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #a89bb9;
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    color: #a89bb9;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Paragraphs and Lists */
+p {
+    text-align: justify;
+    margin-bottom: 1.5em;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+/* Links */
+a {
+    color: #7ec98f;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Centering Elements */
+.center {
+    text-align: center;
+}
+
+/* Block Quote */
+
+blockquote{
+  font-size: 1em;
+  width: 70%;
+  margin: 30px auto;
+  font-style: italic;
+  color: #555555;
+  padding: 1em 15px 1em 50px;
+  border-left: 8px solid #78C0A8 ;
+  line-height: 1.3;
+  position: relative;
+  background: #a89bb9;
+}
+
+blockquote::before{
+  content: "\201C";
+  color: #78C0A8;
+  font-size: 4em;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display: block;
+  color: #333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+/* Code Block - Inline Code */
+code {
+    background-color: #2e3440;
+    color: #dcdccc;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: 'Fira Mono', monospace;
+}
+
+/* Block Code - Preformatted Code Block */
+pre {
+    background-color: #2e3440;
+    color: #dcdccc;
+    padding: 10px;
+    border-radius: 8px;
+    overflow: auto;
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+/* Highlighted Code Block */
+pre.src {
+    background-color: #3b4252;
+    border: 1px solid #4c566a;
+    padding: 10px;
+    border-radius: 8px;
+    overflow: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;    
+}
+
+pre {
+    overflow-x: auto;
+}
+
+/* Org-mode Syntax Highlighting for src blocks */
+pre.src span {
+    color: #dcdccc;
+}
+
+pre.src .org-keyword {
+    color: #81a1c1;
+}
+
+pre.src .org-comment {
+    color: #616e88;
+}
+
+pre.src .org-string {
+    color: #a3be8c;
+}
+
+pre.src .org-constant {
+    color: #ebcb8b;
+}
+
+/* Org-mode SRC container */
+.org-src-container {
+    margin-bottom: 1em;
+}
+
+/* Postamble styling */
+.postamble {
+    text-align: center;
+    font-size: 1em;
+}
+
+.tag span {
+    background-color: #ebcb8b;
+    color: #3b4252;
+    border: 1px solid #dcdccc;
+    padding: 1px;
+    border-radius: 4px;
+    font-size: 0.6em;
+}
+
+.todo.TODO {
+    background-color: #e79686;
+    color: #dcdccc;
+    font-weight: bold;
+    border: 1px solid #dcdccc;
+    padding: 1px;
+    border-radius: 4px;
+    font-size: 0.6em;
+}
+
+.todo.STARTED {
+    background-color: #ebcb8b;
+    color: #dcdccc;
+    font-weight: bold;
+    border: 1px solid #dcdccc;
+    padding: 1px;
+    border-radius: 4px;
+    font-size: 0.6em;
+}
+
+.todo.DONE {
+    background-color: #a3be8c;
+    color: #dcdccc;
+    font-weight: bold;
+    border: 1px solid #dcdccc;
+    padding: 1px;
+    border-radius: 4px;
+    font-size: 0.6em;
+}
