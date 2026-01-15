@@ -25,12 +25,16 @@
      }
  }
 
+ h1.title {
+    width: 100%;
+ }
+ 
  /* Headings */ 
  h1 { 
      color: #e79686; 
      font-size: 1em; 
      text-align: center; 
-     width: 90%;
+     width: 100% !important;
  }
 
  h1.logo:hover {
