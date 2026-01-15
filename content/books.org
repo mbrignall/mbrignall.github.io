@@ -2,6 +2,7 @@
 #+author: mbrignall
 #+date: <2024-12-31>
 
+
 * A Trading Game                           :finance:economics:currentaffairs:
 
 | Author         | Gary Stephenson |
