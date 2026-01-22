@@ -110,7 +110,7 @@ https://ogbe.net/blog/blogging_with_org.html"
 
        ;; Static assets
        (list "org-site:static"
-             :base-directory "./static/"
+             :base-directory "./assets/img"
              :base-extension "css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|svg"
              :publishing-directory "./public/img"
              :recursive t
