@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>KOReader on Kobo</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="/stylesheet.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+<div id="preamble" class="status">
+<hr style="border-top: 1px solid black;">
+<div class='topnav' style='display: flex; justify-content: space-between; align-items: center;'>
+  <a href="/index.html"><h1 class="logo" style='margin-top: 0 !important; margin-bottom: 0 !important; margin-left:0px !important;'>mblognl</h1></a>
+  <div>
+    <a href='/about.html' class="areas" style='font-weight:bold; font-style:italic;'>About Me</a> |
+    <a href='/archive.html' class="areas" style='font-weight:bold; font-style:italic;'>Blog</a> |
+    <a href='/books.html' class="areas" style='font-weight:bold; font-style:italic;'>Books</a> |
+    <a href='/rss.xml'  class="areas" style='font-weight:bold; font-style:italic;'>RSS</a>
+  </div>
+</div>
+<hr style="border-top: 1px solid black;">
+</div>
+<div id="content" class="content">
+<header>
+<h1 class="title">KOReader on Kobo</h1>
+</header>
+<div id="outline-container-orgeb35bb6" class="outline-2">
+<h2 id="orgeb35bb6">Another e-cycled device Martin?</h2>
+<div class="outline-text-2" id="text-orgeb35bb6">
+<p>
+So I found an old Kobo Glo in a charity shop for 10 recently and was not too sure what to do with it. The intention was to read
+more, but&#x2026;
+</p>
+
+<ul class="org-ul">
+<li>How does the e-reader ecosystem work?</li>
+<li>How does it work for me?</li>
+<li>What fun things can I do with it?</li>
+</ul>
+
+<p>
+I was aware of Calibre and ebook management software already. I planned to utilise this and manage my personal
+library but this project quickly became so much more than just obtaining a tablet with an eInk screen!
+</p>
+</div>
+</div>
+
+<div id="outline-container-org08b8a66" class="outline-2">
+<h2 id="org08b8a66">Getting to a usable state</h2>
+<div class="outline-text-2" id="text-org08b8a66">
+<p>
+Unfortunately the device appeared to be locked to the account of the previous owner. This wasn't an issue, but there was no
+books I wanted to read and I didn't want their personal details. I factory reset the device which left me at the setup screen.
+</p>
+
+<p>
+As with all devices like this, the online set up requires an account. Unfortunately, which took some time to debug,
+I realised that the software version I was on was causing the WiFi connection to fail. There was no error
+as such just a timeout when connecting to WiFi. I tried hot-spotting and also setup a 2.5g guest network in the case this device
+needed it.
+</p>
+
+<p>
+<b>Nothing was working</b>
+</p>
+
+<p>
+From some research online I realised this had a lot to do with the version software that was on the Kobo. It was around 2.5 version
+whereas the latest is 4.38 (at time of writing). See the <a href="https://pgaskin.net/KoboStuff/kobofirmware.html">link</a> for available software updates.
+</p>
+
+<p>
+The steps for upgrading:
+</p>
+</div>
+
+<div id="outline-container-org189f9ff" class="outline-3">
+<h3 id="org189f9ff">How to sideload an upgrade onto a Kobo eReader:</h3>
+<div class="outline-text-3" id="text-org189f9ff">
+<ul class="org-ul">
+<li>Download <code>Kobo-update-&lt;release number&gt;-.zip</code> from one of the links below for your specific Kobo eReader model.
+
+<ul class="org-ul">
+<li><b>Important:</b> If there are multiple names listed, double check your Kobo and match the serial number. X means the character can be different.</li>
+</ul></li>
+
+<li>Connect your Kobo eReader device to your computer using its USB cable and your computer will recognise its as a new drive.</li>
+
+<li>Locate the Kobo#-update.zip file on your computer, then right click and Extract all ( Windows ) or double click (Mac) to unzip its contents,
+revealing an "upgrade" folder, <code>KoboRoots.tgz</code> file, and <code>manifest.md5sum</code> file.</li>
+
+<li>Drag and drop the unzipped contents into the device's <code>.Kobo</code> directory (you will need to set show hidden "folders" on your computer)</li>
+
+<li>Safely eject your Kobo eReader device from your computer.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org50489b9" class="outline-3">
+<h3 id="org50489b9">Bypassing user login</h3>
+<div class="outline-text-3" id="text-org50489b9">
+<p>
+Just to be clear the only reason this was necessary was to fix the connect to WiFi option. I don't condone jailbreaking/hacking devices
+unless absolutely necessary but it is a lot of fun and you will <i>always</i> learn new things.
+</p>
+
+<p>
+What we're going to do in this instance is remove the user/id entry in the sqlite database that is stopping us from using the device.
+The steps below are what worked for me, the end result was to get the device into a usable state, update the software/firmware, and get KOReader
+on there.
+</p>
+
+<ul class="org-ul">
+<li>Choose 'computer setup' option</li>
+<li><p>
+Attach to computer and the device should auto mount to <code>/mnt/$USER/KOBOReader</code> or something like that. A good way to check is using
+a file browser and find the device location, right click, and choose the 'open in Terminal' option.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-bash"><span class="org-builtin">cd</span> /mnt/$<span class="org-variable-name">USER</span>/KOBOReader/.kobo/
+sqlite3 KoboReader.sqlite
+</pre>
+</div></li>
+</ul>
+
+<p>
+You'll then be on the sqlite command prompt. From here you can do the following:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-sql"><span class="org-keyword">INSERT</span> <span class="org-keyword">INTO</span> <span class="org-builtin">user</span>(UserID,UserKey,___DeviceID) <span class="org-keyword">VALUES</span>(<span class="org-string">'1'</span>,<span class="org-string">''</span>,<span class="org-string">'N905C'</span>);
+</pre>
+</div>
+
+<p>
+Eject and restart ereader.
+</p>
+
+<p>
+After this when you should be able to bypass the setup steps and see the home screen.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org9da5af7" class="outline-2">
+<h2 id="org9da5af7">KOReader Software</h2>
+<div class="outline-text-2" id="text-org9da5af7">
+<p>
+So having the device back to factory settings and loading pdf's and ebooks via Calibre felt <i>ok</i> but&#x2026;
+</p>
+
+<ul class="org-ul">
+<li>Where is the customisation and user control I knew from using Linux?</li>
+</ul>
+
+<p>
+I distro hopped continuously until finding Nixos, and that became my go to, but I still flit around trying new
+desktop environments when interesting ones pop up in sub-reddits, or are recommended by friends. What draws me to
+Linux is the strong community and focus on customisation. My curiosity is what powers me day-to-day and if I have
+a device, regardless of the architecture, I always think: <b>'how can I make this more my own'</b>, <b>'how can I imprint myself on this device'</b>.
+</p>
+
+<p>
+<a href="https://koreader.rocks/">KOReader</a> scratches this itch.
+</p>
+
+<p>
+From the homepage:
+</p>
+
+<blockquote>
+<p>
+KOReader is a document viewer for E Ink devices.
+</p>
+</blockquote>
+
+<p>
+This description is a painful understatement of the capabilities and powerful extras (plugins and patches) that the software provides.
+</p>
+
+<p>
+I used the install <a href="https://github.com/koreader/koreader/wiki/Installation-on-Kobo-devices">instructions</a> to get KOReader, KFMon and Nickelmenu on the device. The instructions are straight forward for the shell scripted
+install. Within a few seconds the script was finished and the device rebooted. A new option on the settings bar appeared for Nickelmenu and I chose
+'launch KOReader' and I was in.
+</p>
+
+<p>
+The first thing I noticed was the interface was really clean, intuitive and easy on the eyes. No adverts, no book suggestions, this is what
+I needed.
+</p>
+
+<p>
+From here I went through my smallish library of books checking out the different file formats (according to the KOReader homepage:
+supported fileformats include EPUB, PDF, DjVu, XPS, CBT, CBZ, FB2, PDB, TXT, HTML, RTF, CHM, DOC, MOBI and ZIP files).
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6110f69" class="outline-2">
+<h2 id="org6110f69">Where next?</h2>
+<div class="outline-text-2" id="text-org6110f69">
+<p>
+With my new found love for ereaders and KOReader I plan to read more books. I have a collection of books I've been trying to finish,
+also plenty of technical books on the back burner that, with this new format, should enable me to read more regularly and efficiently.
+</p>
+
+<p>
+On top of the ereader features KOReader also provides a RSS/Atom feed manager, ssh session and a TERMINAL EMULATOR!
+</p>
+
+<p>
+I would also like to explore the community maintained plugins and patches for added customisation. Some people have made their
+UX look so fancy. One of the top results on search is <a href="https://github.com/sebdelsol/KOReader.patches">this one</a> from <code>sebdelsol</code> for rounded corners, badges and progress status
+icons on the home screen and other tweaks and visual improvements that are always appreciated.
+</p>
+
+<p>
+All the magic appears to be a combination of shell scripts and lua, both of which I have a bit of experience with.
+</p>
+
+<p>
+So who knows, maybe I'll be putting together a neat plugin shortly?
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<div class="postamble">
+               <p> Created by <a href="https://www.gnu.org/software/emacs/">Emacs</a> 29.3 (<a href="https://orgmode.org">Org</a> mode 9.6.15)  </p>
+               </div>
+</div>
+</body>
+</html>
