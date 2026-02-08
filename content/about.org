@@ -6,10 +6,9 @@
 
 [[./img/mbrignl.jpg]]
 
-During the day I work as a Cyber Security professional in an Incident Response team. When not blocking attackers and analysing threats I can be found playing guitar.
+During the day I work as a Security engineer in an Incident Response team. When not blocking attackers and analysing threats I can be found playing guitar.
 
 * Music things @@html:<i class="fa-solid fa-music"></i>@@
-
 
  I am working on music for live performance hopefully before the end of the year (more on that soon).
 
