@@ -86,7 +86,7 @@ https://ogbe.net/blog/blogging_with_org.html"
 (setq org-publish-project-alist
       '(("mblognl"
          :base-directory "./content"
-         :html-preamble (file-contents "assets/html_preamble.html")
+         :html-preamble ,(file-contents "assets/html_preamble.html")
          :html-postamble t
          :recursive t
 
