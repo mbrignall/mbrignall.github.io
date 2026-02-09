@@ -84,7 +84,7 @@ https://ogbe.net/blog/blogging_with_org.html"
     (error "File not readable: %s" file)))
 
 (setq org-publish-project-alist
-      '(("mblognl"
+      `(("mblognl"
          :base-directory "./content"
          :html-preamble ,(file-contents "assets/html_preamble.html")
          :html-postamble t
