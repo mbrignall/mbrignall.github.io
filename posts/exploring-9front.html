@@ -11,20 +11,33 @@
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body>
+<div id="preamble" class="status">
+<hr style="border-top: 1px solid black;">
+<div class='topnav' style='display: flex; justify-content: space-between; align-items: center;'>
+  <a href="/index.html"><h1 class="logo" style='margin-top: 0 !important; margin-bottom: 0 !important; margin-left:0px !important;'>mblognl</h1></a>
+  <div>
+    <a href='/about.html' class="areas" style='font-weight:bold; font-style:italic;'>About Me</a> |
+    <a href='/archive.html' class="areas" style='font-weight:bold; font-style:italic;'>Blog</a> |
+    <a href='/books.html' class="areas" style='font-weight:bold; font-style:italic;'>Books</a> |
+    <a href='/rss.xml'  class="areas" style='font-weight:bold; font-style:italic;'>RSS</a>
+  </div>
+</div>
+<hr style="border-top: 1px solid black;">
+</div>
 <div id="content" class="content">
 <header>
 <h1 class="title">Exploring 9front and Plan 9</h1>
-</header><div class="PREVIEW" id="org7838121">
+</header><div class="PREVIEW" id="orgc1769ac">
 <p>
 Checking out 9front/Plan 9 and some cool Thinkpad hardware.
 </p>
 
 </div>
-<div id="outline-container-org10930cb" class="outline-2">
-<h2 id="org10930cb">Why 9front?</h2>
-<div class="outline-text-2" id="text-org10930cb">
+<div id="outline-container-org6da6842" class="outline-2">
+<h2 id="org6da6842">Why 9front?</h2>
+<div class="outline-text-2" id="text-org6da6842">
 
-<figure id="orgf43feca">
+<figure id="orgad2783f">
 <img src="http://9front.org/img/thistimedefinitely.front.png" alt="thistimedefinitely.front.png" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px">
 
 </figure>
@@ -47,18 +60,18 @@ This space will evolve as I experiment, explore, and expand my knowledge.
 </p>
 </div>
 </div>
-<div id="outline-container-org6a4d4b3" class="outline-2">
-<h2 id="org6a4d4b3">What have I done so far?</h2>
-<div class="outline-text-2" id="text-org6a4d4b3">
+<div id="outline-container-org63a7800" class="outline-2">
+<h2 id="org63a7800">What have I done so far?</h2>
+<div class="outline-text-2" id="text-org63a7800">
 <p>
 Here is a list of the hardware I've managed to get 9front to run on:
 </p>
 </div>
-<div id="outline-container-org557feb3" class="outline-3">
-<h3 id="org557feb3">Thinkpad T420:</h3>
-<div class="outline-text-3" id="text-org557feb3">
+<div id="outline-container-org10e19f6" class="outline-3">
+<h3 id="org10e19f6">Thinkpad T420:</h3>
+<div class="outline-text-3" id="text-org10e19f6">
 
-<figure id="org7ae9f4d">
+<figure id="orgb287795">
 <img src="../img/thinkpad.jpg" alt="thinkpad.jpg" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px">
 
 </figure>
@@ -97,9 +110,9 @@ Once booted and I followed the install guide, running <code>inst/start</code> an
 </p>
 </div>
 </div>
-<div id="outline-container-orgb67badf" class="outline-3">
-<h3 id="orgb67badf">Raspberry Pi 3b</h3>
-<div class="outline-text-3" id="text-orgb67badf">
+<div id="outline-container-org18bd899" class="outline-3">
+<h3 id="org18bd899">Raspberry Pi 3b</h3>
+<div class="outline-text-3" id="text-org18bd899">
 <p>
 I installed 9front on a Raspberry Pi 3b which is running 9front successfully. There was a couple of guides that helped along the way:
 </p>
@@ -111,13 +124,13 @@ I installed 9front on a Raspberry Pi 3b which is running 9front successfully. Th
 </div>
 </div>
 </div>
-<div id="outline-container-org0b717a8" class="outline-2">
-<h2 id="org0b717a8">Next Steps</h2>
-<div class="outline-text-2" id="text-org0b717a8">
+<div id="outline-container-orgca921cd" class="outline-2">
+<h2 id="orgca921cd">Next Steps</h2>
+<div class="outline-text-2" id="text-orgca921cd">
 </div>
-<div id="outline-container-org22628f6" class="outline-3">
-<h3 id="org22628f6">Connect to wifi</h3>
-<div class="outline-text-3" id="text-org22628f6">
+<div id="outline-container-org6425b8b" class="outline-3">
+<h3 id="org6425b8b">Connect to wifi</h3>
+<div class="outline-text-3" id="text-org6425b8b">
 <div class="org-src-container">
 <pre class="src src-rc"><span class="org-builtin">bind</span> -a <span class="org-string">'#l1'</span> /net
 aux/wpa -s &lt;SSID&gt; -p /net/ether1
@@ -139,9 +152,9 @@ Note: If you get the password incorrect you're going to see a DHCP error. So far
 </p>
 </div>
 </div>
-<div id="outline-container-org1543d6a" class="outline-3">
-<h3 id="org1543d6a">Man Pages</h3>
-<div class="outline-text-3" id="text-org1543d6a">
+<div id="outline-container-org5d43d86" class="outline-3">
+<h3 id="org5d43d86">Man Pages</h3>
+<div class="outline-text-3" id="text-org5d43d86">
 <p>
 <a href="https://man.9front.org/">man.9front.org</a>
 </p>
@@ -215,38 +228,38 @@ As you can see, the man pages are well structured and thorough.
 </p>
 </div>
 </div>
-<div id="outline-container-org9ee994a" class="outline-3">
-<h3 id="org9ee994a">USB Storage</h3>
-<div class="outline-text-3" id="text-org9ee994a">
+<div id="outline-container-orgce4c0b1" class="outline-3">
+<h3 id="orgce4c0b1">USB Storage</h3>
+<div class="outline-text-3" id="text-orgce4c0b1">
 <p>
 The USB storage mounts on <code>/shr/&lt;device-name&gt;</code> and I moved the files straight from there. I think there may be mount option just like Linux/Unix but I've not worked that out but there is a man mapge.
 </p>
 </div>
 </div>
-<div id="outline-container-org0efdd46" class="outline-3">
-<h3 id="org0efdd46">Uxn</h3>
-<div class="outline-text-3" id="text-org0efdd46">
+<div id="outline-container-org9a0ebf1" class="outline-3">
+<h3 id="org9a0ebf1">Uxn</h3>
+<div class="outline-text-3" id="text-org9a0ebf1">
 <p>
 I wanted to explore that ecosystem from within 9front. If you've not come across Uxn/HundredRabbits please check them out.
 </p>
 </div>
 </div>
-<div id="outline-container-orgb55f8c1" class="outline-3">
-<h3 id="orgb55f8c1">Web Browsing</h3>
-<div class="outline-text-3" id="text-orgb55f8c1">
+<div id="outline-container-orgbfb3f1f" class="outline-3">
+<h3 id="orgbfb3f1f">Web Browsing</h3>
+<div class="outline-text-3" id="text-orgbfb3f1f">
 <p>
 I have installed <a href="https://github.com/netsurf-plan9/nsport">Netsurf</a> (the alternative browser) and there is also Mothra which is really cool. Both provide very minimal web experiences, with Mothra not supporting any JS or 'modern' browsing experiences. To be fair, most of my browsing is reading code or docs/blogs which render fine. I even checked out this blog which translates really well.
 </p>
 </div>
 </div>
 </div>
-<div id="outline-container-org745fe08" class="outline-2">
-<h2 id="org745fe08">Future</h2>
+<div id="outline-container-org83801c9" class="outline-2">
+<h2 id="org83801c9">Future</h2>
 </div>
 
-<div id="outline-container-orgd85c8d9" class="outline-2">
-<h2 id="orgd85c8d9">Useful Resources</h2>
-<div class="outline-text-2" id="text-orgd85c8d9">
+<div id="outline-container-orgef64456" class="outline-2">
+<h2 id="orgef64456">Useful Resources</h2>
+<div class="outline-text-2" id="text-orgef64456">
 <ul class="org-ul">
 <li><a href="https://www.youtube.com/channel/UC7qFfPYl0t8Cq7auyblZqxA">adventuresin9</a> (YouTube)</li>
 <li><a href="https://9p.io/wiki/plan9/plan_9_wiki/">Plan 9 wiki</a></li>
