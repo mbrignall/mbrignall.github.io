@@ -14,35 +14,35 @@
 <div id="content" class="content">
 <header>
 <h1 class="title">Emacs with aspell/ispell on Nix Darwin</h1>
-</header><div id="outline-container-orgd0be197" class="outline-2">
-<h2 id="orgd0be197">British English and Emacs</h2>
-<div class="outline-text-2" id="text-orgd0be197">
-<div class="PREVIEW" id="orgbba1bd4">
+</header><div id="outline-container-org6ee2b0b" class="outline-2">
+<h2 id="org6ee2b0b">British English and Emacs</h2>
+<div class="outline-text-2" id="text-org6ee2b0b">
+<div class="PREVIEW" id="orgc5d82ad">
 <p>
 I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Ispell is built in to the current version I'm using (29.1). However it was locked to the default US dictionary. Easy fix right?
 </p>
 
 </div>
 </div>
-<div id="outline-container-org4b93e57" class="outline-3">
-<h3 id="org4b93e57">Discoveries</h3>
-<div class="outline-text-3" id="text-org4b93e57">
+<div id="outline-container-orgcc25fc8" class="outline-3">
+<h3 id="orgcc25fc8">Discoveries</h3>
+<div class="outline-text-3" id="text-orgcc25fc8">
 <p>
 Out the box the latest version of ispell on Nix Packages and built in Emacs does not have UK/British English default. So I started looking on Reddit and Googled ispell and Nix to see where I could go.
 </p>
 </div>
 </div>
-<div id="outline-container-orgaa14efb" class="outline-3">
-<h3 id="orgaa14efb">Emacs philosophy and approach</h3>
-<div class="outline-text-3" id="text-orgaa14efb">
+<div id="outline-container-org2d8fb9d" class="outline-3">
+<h3 id="org2d8fb9d">Emacs philosophy and approach</h3>
+<div class="outline-text-3" id="text-org2d8fb9d">
 <p>
 I am a strong believer in keeping things simple and with the introduction of 'use-package' and the extra features in 29.1 I was keen to rewrite my config and use as close to vanilla setup as possible. I took the very base of what was needed and started from scratch building outward and exploring built-in packages. My config file is available here: <a href="https://github.com/mbrignall/nix-darwin">nix-darwin repo</a>
 </p>
 </div>
 </div>
-<div id="outline-container-org5121e5e" class="outline-3">
-<h3 id="org5121e5e">Emacs Aspell/Ispell config</h3>
-<div class="outline-text-3" id="text-org5121e5e">
+<div id="outline-container-org03fd189" class="outline-3">
+<h3 id="org03fd189">Emacs Aspell/Ispell config</h3>
+<div class="outline-text-3" id="text-org03fd189">
 <p>
 Add this to your <code>init.el</code>:
 </p>
@@ -58,9 +58,9 @@ Add this to your <code>init.el</code>:
 </div>
 </div>
 </div>
-<div id="outline-container-orgf17b0bb" class="outline-3">
-<h3 id="orgf17b0bb">NixOS/ Nix Darwin</h3>
-<div class="outline-text-3" id="text-orgf17b0bb">
+<div id="outline-container-org6c882e9" class="outline-3">
+<h3 id="org6c882e9">NixOS/ Nix Darwin</h3>
+<div class="outline-text-3" id="text-org6c882e9">
 <p>
 With the emphasis on declarative, reproducible systems, I've been using Nix for some time now. I have a config for Linux/NixOS outside of work, when at work I use a Macbook so have a Nix Darwin build for that. The addition of <code>aspell</code> with dictionaries was surprisingly simple once I'd worked out how to declare it in my configuration file:
 </p>
