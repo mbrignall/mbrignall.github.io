@@ -19,7 +19,6 @@
 
 ;; Load publishing system
 (require 'ox-publish)
-(require 'org-publish-rss)
 (use-package htmlize)
 (use-package ess)
 ;; (use-package ox-rss)
