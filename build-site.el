@@ -19,9 +19,10 @@
 
 ;; Load publishing system
 (require 'ox-publish)
+(require 'org-publish-rss)
 (use-package htmlize)
 (use-package ess)
-(use-package ox-rss)
+;; (use-package ox-rss)
 (use-package ob-nix)
 (use-package esxml)
 
@@ -46,29 +47,34 @@ https://ogbe.net/blog/blogging_with_org.html"
         (buffer-substring beg end)))))
 
 ;;;; Format Sitemap
-(defun my/org-publish-org-sitemap (title list)
+(defun my-org-publish-org-sitemap (title list)
   "Sitemap generation function."
-  (concat "#+OPTIONS: toc:nil")
-  (org-list-to-subtree list))
+  (concat "#+TITLE: " title "\n"
+          "#+OPTIONS: toc:nil\n\n"
+          (org-list-to-subtree list)))
 
-(defun my/org-publish-org-sitemap-format (entry style project)
+(defun my-org-publish-org-sitemap-format (entry style project)
   "Custom sitemap entry formatting: add date"
   (cond ((not (directory-name-p entry))
-         (let ((preview (if (my/get-preview (concat "content/" entry))
-                            (my/get-preview (concat "content/" entry))
-                          "(No preview)")))
-         (format "[[file:%s][(%s) %s]]\n%s"
-                 entry
-                 (format-time-string "%Y-%m-%d"
-                                     (org-publish-find-date entry project))
-                 (org-publish-find-title entry project)
-                 preview)))
+         (let* ((file-path (expand-file-name entry (org-publish-property :base-directory project)))
+                (preview (or (my/get-preview file-path) "(No preview)")))
+           (format "[[file:%s][%s — %s]]\n%s"
+                   entry
+                   (format-time-string "%Y-%m-%d" (org-publish-find-date entry project))
+                   (org-publish-find-title entry project)
+                   preview)))
         ((eq style 'tree)
-         ;; Return only last subdir.
-         ;; ends up as a headline at higher level than the posts
-         ;; it contains
          (file-name-nondirectory (directory-file-name entry)))
         (t entry)))
+
+(use-package org-publish-rss
+  :vc (:url "https://git.sr.ht/~taingram/org-publish-rss"
+            :rev :newest))
+
+(setq org-html-postamble-format
+      '(("en" "<div class=\"postamble\">
+               <p> Created by %c %s </p>
+               </div>")))
 
 (defun file-contents (file)
   "Return the contents of FILE as a string, or nil if the file does not exist."
@@ -78,122 +84,76 @@ https://ogbe.net/blog/blogging_with_org.html"
         (buffer-string))
     (error "File not readable: %s" file)))
 
-(setq org-html-postamble-format
-      '(("en" "<div class=\"postamble\">
-               <p> Created by %c %s </p>
-               </div>")))
-
-;; Define the publishing project
 (setq org-publish-project-alist
-      (list
-       ;; Main content
-       (list "org-site:main"
-             :recursive t
-             :base-directory "./content"
-             :publishing-function 'org-html-publish-to-html
-             :html-preamble (file-contents "assets/html_preamble.html")
-             :html-postamble t
-             :publishing-directory "./public"
-             :headline-levels 4
-             :with-author nil
-             :with-creator nil
-             :with-tags t
-             :with-toc nil
-             :section-numbers nil
-             :auto-sitemap nil
-             :time-stamp-file nil
-             :html-doctype "html5"
-             :html-html5-fancy t
-             :htmlized-source t
-             :with-todo-keywords t
-             :exclude "^posts/drafts/.*")
+      '(("mblognl"
+         :base-directory "./content"
+         :html-preamble (file-contents "assets/html_preamble.html")
+         :html-postamble t
+         :recursive t
 
-       ;; Static assets
-       (list "org-site:static"
-             :base-directory "./assets/img"
-             :base-extension "css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|svg"
-             :publishing-directory "./public/img"
-             :recursive t
-             :publishing-function 'org-publish-attachment)
+         ;; --- Sitemap Configuration ---
+         :auto-sitemap t
+         :sitemap-filename "sitemap.org"
+         :sitemap-title "Sitemap"
+         :sitemap-sort-files anti-chronologically
+         :sitemap-function my-org-publish-org-sitemap
+         :sitemap-format-entry my-org-publish-org-sitemap-format
+         ;; -----------------------------
+         
+         :headline-levels 4
+         :with-author nil
+         :with-creator nil
+         :with-tags t
+         :with-toc nil
+         :section-numbers nil        
+         :with-todo-keywords t
+         :time-stamp-file nil
+         :html-doctype "html5"
+         :html-html5-fancy t
+         :htmlized-source t   
+         :publishing-directory "./public"
+         :exclude "^posts/drafts/.*"
+         :publishing-function  org-html-publish-to-html
+         :rss-link "https://blog.mbrig.nl"
+         :auto-rss t
+         :org-publish-rss-publish-immediately t
+         :rss-title "mblognl"
+         :rss-description "mblognl | mbrig.nl"
+         :rss-with-content all
+         :completion-function org-publish-rss)
+        
+        ("mblognl:static"
+         :base-directory "./assets/img"
+         :base-extension "png\\|jpg\\|jpeg"
+         :publishing-directory "./public/img"
+         :publishing-function org-publish-attachment)
+        
+        ("mblognl:assets"
+         :base-directory "./assets"
+         :base-extension "css\\|ico\\|png"
+         :publishing-directory "./public"
+         :publishing-function org-publish-attachment)
+        
+        ("blog.mbrig.nl" :components ("mblognl" "mblognl:static" "mblognl:assets"))))
 
-       ;; Other assets (CSS, images, etc.)
-       (list "org-site:assets"
-             :base-directory "./assets/"
-             :base-extension "css\\|ico\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|ico"
-             :publishing-directory "./public"
-             :recursive t
-             :publishing-function 'org-publish-attachment)
-
-       ;; --- ADD THIS NEW COMPONENT FOR THE SITEMAP ---
-       (list "sitemap"
-             :publishing-function 'my/org-publish-org-sitemap
-             :sitemap-filename "sitemap.org"
-             :sitemap-title "mblognl"
-             :sitemap-sort-files 'anti-chronologically
-             :sitemap-style 'tree
-             :sitemap-format-entry 'my/org-publish-org-sitemap-format
-             ;; Tell this component to get its file list from another component
-             :components '("org-site:main"))
-
-       ;; This is the top-level project that combines everything
-       (list "org-site" :components '("org-site:main" "org-site:static" "org-site:assets" "sitemap"))))
 
 ;;; additional settings
 (setq org-html-validation-link nil
       org-html-htmlize-output-type 'css
-      org-html-style-default (file-contents "assets/head.html")
+      org-html-style-default (file-contents "./assets/head.html")
       org-export-use-babel t)
 
 (org-babel-do-load-languages
  'org-babel-load-languages
  '((nix . t)))
 
-;; Customize export for Nix code blocks
+;; customize export for Nix code blocks
 (setq org-src-lang-modes
-      (append '(("nix" . nix)) org-src-lang-modes))  ;; Ensure Nix gets mapped correctly
+      (append '(("nix" . nix)) org-src-lang-modes))
 
 ;; Generate the site output
+
 (org-publish-all t)
-
-;;; build RSS feed
-
-;;;; https://codeberg.org/SystemCrafters/systemcrafters-site/src/commit/ce3717201ab727f709f9e739842b209d10c8c51a/publish.el#L411
-;;;; https://codeberg.org/SystemCrafters/systemcrafters-site/src/commit/ce3717201ab727f709f9e739842b209d10c8c51a/publish.el#L418
-(defun dw/rss-extract-date (html-file)
-  "Extract the post date from an HTML file."
-  (with-temp-buffer
-    (insert-file-contents html-file)
-    (let* ((dom (libxml-parse-html-region (point-min) (point-max)))
-           (date-node (car (dom-by-class dom "date")))
-           (date-string (when date-node (dom-text date-node))))
-      (if date-string
-          (let* ((parsed-date (parse-time-string date-string))
-                 (day (nth 3 parsed-date))
-                 (month (nth 4 parsed-date))
-                 (year (nth 5 parsed-date)))
-            ;; Check if the parsed date is valid, otherwise fallback to current date
-            (if (and day month year)
-                (encode-time 0 0 8 day month year)
-              (current-time))) ;; Fallback to current time if date is invalid
-        (current-time))))) ;; Fallback to current time if no date is found
-
-;(defun dw/rss-extract-summary (html-file)
-;  )
-
-(setq webfeeder-date-function #'dw/rss-extract-date)
-
-;;;; https://gitlab.com/ambrevar/emacs-webfeeder/-/blob/master/webfeeder.el
-(webfeeder-build "rss.xml"
-                 "./public"
-                 "https://blog.mbrig.nl"
-                 (mapcar (lambda (file) (concat "posts/" file))
-                         (let ((default-directory (expand-file-name "./public/posts/")))
-                           (directory-files-recursively "./" ".*\\.html$")))
-                 :builder 'webfeeder-make-rss
-                 :title "mblognl"
-                 :description "moments of clarity, shared."
-                 :author "mbrignall")
-
-
+(rename-file "./content/rss.xml" "./public/")
 (message "Build Complete!")
 
