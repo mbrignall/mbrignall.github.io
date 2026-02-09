@@ -87,16 +87,18 @@ So having the device back to factory settings and loading pdf's and ebooks via C
 
 I distro hopped continuously until finding Nixos, and that became my go to, but I still flit around trying new
 desktop environments when interesting ones pop up in sub-reddits, or are recommended by friends. What draws me to
-Linux is the strong community and focus on customisation. My curiosity is what powers me day-to-day and if I have
-a device, regardless of the architecture, I always think: *'how can I make this more my own'*, *'how can I imprint myself on this device'*.
+Linux is the strong community and focus on customisation.
+
+My curiosity is what powers me day-to-day and if I have a device, regardless of the architecture, I always think:
+
+  - *'how can I make this more my own?'*
+  - *'how can I imprint myself on this device?'*
 
 [[https://koreader.rocks/][KOReader]] scratches this itch.
 
 From the homepage:
 
-#+begin_quote
-  KOReader is a document viewer for E Ink devices.
-#+end_quote
+KOReader is a document viewer for E Ink devices.
 
 This description is a painful understatement of the capabilities and powerful extras (plugins and patches) that the software provides.
 

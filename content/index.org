@@ -25,15 +25,14 @@ Some topics, themes, and subjects:
 
 On rotation this month:
 
-** To Anyone Who Ever Asks: The Life, Music, and Mystery of Connie Converse :music:folklore:
+** How Bluegrass Music Destroyed My Life
 
-| Author           | Howard Fishman |
-| Publication date |     2024-05-02 |
+| Author           | John Fahey |
+| Publication date | 24-04-2010 |
 
-https://m.media-amazon.com/images/I/616XekvMCTL._AC_UF894,1000_QL80_.jpg
+https://m.media-amazon.com/images/I/712DzUtij-L._AC_UF894,1000_QL80_.jpg
 
-So far this book is awesome and intriguing. I have only read the first few chapters and listened to her music for sometime, but hadn't been aware of her strange career.
-
+Second time reading. Love this book - collection of short stories written by the legend himself.
 
 @@html:<div style="clear: both;"></div>@@
 
@@ -41,18 +40,12 @@ So far this book is awesome and intriguing. I have only read the first few chapt
 
 Ongoing reads/ last completed book:
 
-** Code: The Hidden Language of Computer Hardware and Software :computer:science:technology:
+** Enshittification: Why Everything Suddenly Got Worse and What To Do About It
 
-| Author           | Charles Petzold |
-| Publication date |      1999-09-29 |
+| Author           | Cory Doctorow |
+| Publication date | 14/10/2025    |
 
-https://m.media-amazon.com/images/I/61Hc-9h+-XL.jpg
-
-I am half way through this book so far, it's fascinating. Covering the beginning of code/bits/bytes up to modern computing. It has illuminated some points of computing that I have not covered for some time. More on that soon.
-
-I think I hit a bit of a roof on this one when it started to get super techincal, I decided to take the second half a bit slower.
-
-In Progress... Still in progress.
+Terrifying at times, and very informative. If you want to know how the world became enshittified then get the book (or audio book read by the author)
 
 [[./books.html][Read More...]]
 

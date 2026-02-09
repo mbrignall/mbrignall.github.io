@@ -2,6 +2,33 @@
 #+author: mbrignall
 #+date: <2024-12-31>
 
+* To Anyone Who Ever Asks: The Life, Music, and Mystery of Connie Converse :music:folklore:
+
+| Author           | Howard Fishman |
+| Publication date |     2024-05-02 |
+
+https://m.media-amazon.com/images/I/616XekvMCTL._AC_UF894,1000_QL80_.jpg
+
+Connie Converse is an very interesting character, and this book gives a really details backstory of both her early life up to her strange disappearance. If you've
+not heard Connie's music I recommend starting with 'How Sad, How Lovely'. Her songwriting was miles ahead of her peers, those 'folky' types shackled by tradition.
+
+There are some surprising moments and a few theories on her disappearance that leaves you with questions. Overall I thought the book was well researched and
+is a great introduction to the world of Connie Converse.
+
+@@html:<div style="clear: both;"></div>@@
+
+* Code: The Hidden Language of Computer Hardware and Software :computer:science:technology:
+
+| Author           | Charles Petzold |
+| Publication date |      1999-09-29 |
+
+https://m.media-amazon.com/images/I/61Hc-9h+-XL.jpg
+
+I am half way through this book so far, it's fascinating. Covering the beginning of code/bits/bytes up to modern computing. It has illuminated some points of computing that I have not covered for some time. More on that soon.
+
+I think I hit a bit of a roof on this one when it started to get super techincal, I decided to take the second half a bit slower.
+
+In Progress... Still in progress.
 
 * A Trading Game                           :finance:economics:currentaffairs:
 
