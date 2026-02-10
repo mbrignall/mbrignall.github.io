@@ -6,7 +6,7 @@
 
 [[./img/mbrignl.jpg]]
 
-During the day I work as a Security engineer in an Incident Response team. When not blocking attackers and analysing threats I can be found playing guitar.
+During the day I work as a Security engineer in an incident response team. When not blocking attackers and analysing threats I can be found playing guitar.
 
 * Music things @@html:<i class="fa-solid fa-music"></i>@@
 
@@ -19,7 +19,7 @@ My musical influences include:
   - Converge/Botch
   - Death
 
- I enjoy exploring blues and post-rock, metal and sub-genres of. I have a background in Music Tech and spent many hours building devices and instruments using Raspberry Pi, [[https://puredata.info/][Pure Data]] and the fun music communities I discovered along the way. Maybe I'll cover those here at some point 🤔
+I enjoy exploring blues and post-rock, metal and sub-genres of. I have a background in Music Tech and spent many hours building devices and instruments using Raspberry Pi, [[https://puredata.info/][Pure Data]] and the fun music communities I discovered along the way. Maybe I'll cover those here at some point 🤔
 
 Here is a neat (I think) playlist of some of my faves:
  
@@ -46,7 +46,7 @@ Just started using 9front over the holiday period, I'll record findings, so far 
    - Raspberry Pi 3b: Running 9front successfully.
    - Thinkpad T420: Fully working, click the link below for the post.
 
-     After some diagnosis and testing it turned out the system board was gone, so a replacement was ordered and fitted successfully. With some cosmetic care, like replacing the touchpad stickers, it's now in great condition.
+After some diagnosis and testing it turned out the system board was gone, so a replacement was ordered and fitted successfully. With some cosmetic care, like replacing the touchpad stickers, it's now in great condition.
 
 [[./posts/exploring-9front.html][...read more]]
 

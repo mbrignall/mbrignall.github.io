@@ -1,0 +1,1754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:atom="http://www.w3.org/2005/Atom"
+ xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+ xmlns:georss="http://www.georss.org/georss"
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<atom:link href="https://blog.mbrig.nl/rss.xml" rel="self" type="application/rss+xml" />
+<title>mblognl</title>
+<link>https://blog.mbrig.nl</link>
+<description><![CDATA[mblognl | mbrig.nl]]></description>
+<language>en</language>
+<lastBuildDate>Tue, 10 Feb 2026 09:46:18 +0000</lastBuildDate>
+<generator>Emacs 30.2 org-publish-rss.el 0.8</generator>
+<item>
+<title>Posts Archive</title>
+<link>https://blog.mbrig.nl/archive.html</link>
+<pubDate>Mon, 09 Feb 2026 11:04:31 +0000</pubDate>
+<guid>https://blog.mbrig.nl/archive.html</guid>
+<description>
+<![CDATA[<div id="outline-container-orga0983ee" class="outline-2">
+<h2 id="orga0983ee"><span class="section-number-2">1.</span> <a href="https://blog.mbrig.nl/posts/koreader-on-kobo.html">2026-02-09 — KOReader on Kobo</a></h2>
+<div class="outline-text-2" id="text-1">
+<p>
+So I found an old Kobo Glo in a charity shop for 10 recently and was not too sure what to do with it. The intention was to read
+more, but&#x2026;
+</p>
+</div>
+</div>
+<div id="outline-container-orgfc58b8d" class="outline-2">
+<h2 id="orgfc58b8d"><span class="section-number-2">2.</span> <a href="https://blog.mbrig.nl/posts/exploring-9front.html">2025-02-15 — Exploring 9front and Plan 9</a></h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Checking out 9front/Plan 9 and some cool Thinkpad hardware.
+</p>
+</div>
+</div>
+<div id="outline-container-org6cc7708" class="outline-2">
+<h2 id="org6cc7708"><span class="section-number-2">3.</span> <a href="https://blog.mbrig.nl/posts/release-monitoring-in-jira.html">2024-10-11 — Release Monitoring with Automation for Jira</a></h2>
+<div class="outline-text-2" id="text-3">
+<p>
+So your organisation has decided to build a Internal Developer Portal (IDP) using Backstage. All of a sudden you're responsible for looking after a quickly growing, forever updating production environment, as well as an IDP?
+</p>
+</div>
+</div>
+<div id="outline-container-org61682ef" class="outline-2">
+<h2 id="org61682ef"><span class="section-number-2">4.</span> <a href="https://blog.mbrig.nl/posts/terraform-and-terrascan.html">2024-10-11 — Terraform and Terrascan with AWS (Immersive Labs)</a></h2>
+<div class="outline-text-2" id="text-4">
+<p>
+This post is going to cover my most recent lab "Secure Terraform for AWS". I wanted to present my personal approach on the lab and my experience in general. I'm going to try not to give away too much, just some hints and what to expect if you're considering purchasing licences or you're a learner considering which labs to do next.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf408a69" class="outline-2">
+<h2 id="orgf408a69"><span class="section-number-2">5.</span> <a href="https://blog.mbrig.nl/posts/emacs-ispell-aspell.html">2024-10-04 — Emacs with aspell/ispell on Nix Darwin</a></h2>
+<div class="outline-text-2" id="text-5">
+<p>
+I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Ispell is built in to the current version I'm using (29.1). However it was locked to the default US dictionary. Easy fix right?
+</p>
+</div>
+</div>
+]]>
+</description></item>
+<item>
+<title>Welcome to /mblognl/</title>
+<link>https://blog.mbrig.nl/index.html</link>
+<pubDate>Thu, 03 Oct 2024 00:00:00 +0100</pubDate>
+<guid>https://blog.mbrig.nl/index.html</guid>
+<description>
+<![CDATA[<div id="outline-container-orgb0587e2" class="outline-2">
+<h2 id="orgb0587e2"><span class="section-number-2">1.</span> &#x2026;a blog you say? <i class="fa-regular fa-circle-question"></i></h2>
+<div class="outline-text-2" id="text-1">
+<p>
+I use this space so I can personally revisit items of interest, store knowledge and maybe achievements.
+</p>
+</div>
+<div id="outline-container-orgc5e907d" class="outline-3">
+<h3 id="orgc5e907d"><span class="section-number-3">1.1.</span> What to expect</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+You'll likely find me talking about my favourite technologies. I may, from time to time, speak of other interests. I may even cover topics that overlap with creative and otherworldly interests.
+</p>
+
+<p>
+I hope you find something useful or thought-provoking!
+</p>
+
+<p>
+Some topics, themes, and subjects:
+</p>
+
+<ul class="org-ul">
+<li><b>Cybersecurity and Security Engineering</b></li>
+<li><b>Web Development and Web Design</b></li>
+<li><b>Talking lovingly about Emacs</b></li>
+<li><b>Experiments, code snippets and projects</b></li>
+<li><b>Single Board Computer exploration</b></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org13c8fdd" class="outline-2">
+<h2 id="org13c8fdd"><span class="section-number-2">2.</span> Current Book(s) <i class="fa-solid fa-book"></i></h2>
+<div class="outline-text-2" id="text-2">
+<p>
+On rotation this month:
+</p>
+</div>
+<div id="outline-container-orgc835f9e" class="outline-3">
+<h3 id="orgc835f9e"><span class="section-number-3">2.1.</span> How Bluegrass Music Destroyed My Life</h3>
+<div class="outline-text-3" id="text-2-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Author</td>
+<td class="org-right">John Fahey</td>
+</tr>
+
+<tr>
+<td class="org-left">Publication date</td>
+<td class="org-right">24-04-2010</td>
+</tr>
+</tbody>
+</table>
+
+
+<div id="orga064d29" class="figure">
+<p><img src="https://m.media-amazon.com/images/I/712DzUtij-L._AC_UF894,1000_QL80_.jpg" alt="712DzUtij-L._AC_UF894,1000_QL80_.jpg" />
+</p>
+</div>
+
+<p>
+Second time reading. Love this book - collection of short stories written by the legend himself.
+</p>
+
+<p>
+<div style="clear: both;"></div>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgaaa8861" class="outline-2">
+<h2 id="orgaaa8861"><span class="section-number-2">3.</span> Previous Books <i class="fa-solid fa-book"></i></h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Ongoing reads/ last completed book:
+</p>
+</div>
+<div id="outline-container-org2bb6b5e" class="outline-3">
+<h3 id="org2bb6b5e"><span class="section-number-3">3.1.</span> Enshittification: Why Everything Suddenly Got Worse and What To Do About It</h3>
+<div class="outline-text-3" id="text-3-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Author</td>
+<td class="org-left">Cory Doctorow</td>
+</tr>
+
+<tr>
+<td class="org-left">Publication date</td>
+<td class="org-left">14/10/2025</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Terrifying at times, and very informative. If you want to know how the world became enshittified then get the book (or audio book read by the author)
+</p>
+
+<p>
+<a href="https://blog.mbrig.nl/./books.html">Read More&#x2026;</a>
+</p>
+
+
+<p>
+<div style="clear: both;"></div>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf67f876" class="outline-2">
+<h2 id="orgf67f876"><span class="section-number-2">4.</span> Contact <i class="fa-solid fa-house"></i></h2>
+<div class="outline-text-2" id="text-4">
+<p>
+Feel free to reach out via email or GitHub:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><a href="mailto:hello@mbrig.nl">email me</a></td>
+<td class="org-left"><i class="fa fa-envelope"></i></td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://github.com/mbrignall">github/mbrignall</a></td>
+<td class="org-left"><i class="fa-brands fa-github-alt"></i></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org090605f" class="outline-2">
+<h2 id="org090605f"><span class="section-number-2">5.</span> Post Archive <i class="fa-solid fa-box-archive"></i></h2>
+<div class="outline-text-2" id="text-5">
+<p>
+<a href="https://blog.mbrig.nl/archive.html">All Posts</a>
+</p>
+</div>
+</div>
+]]>
+</description></item>
+<item>
+<title>Terraform and Terrascan with AWS (Immersive Labs)</title>
+<link>https://blog.mbrig.nl/posts/terraform-and-terrascan.html</link>
+<pubDate>Fri, 11 Oct 2024 00:00:00 +0100</pubDate>
+<guid>https://blog.mbrig.nl/posts/terraform-and-terrascan.html</guid>
+<description>
+<![CDATA[<div id="outline-container-orge347930" class="outline-2">
+<h2 id="orge347930"><span class="section-number-2">1.</span> Immersive Labs</h2>
+<div class="outline-text-2" id="text-1">
+
+<div id="orgc0f4c8d" class="figure">
+<p><img src="https://icon.icepanel.io/Technology/svg/HashiCorp-Terraform.svg" alt="HashiCorp-Terraform.svg" class="org-svg" />
+</p>
+</div>
+
+<div class="PREVIEW" id="org73a0c35">
+<p>
+This post is going to cover my most recent lab "Secure Terraform for AWS". I wanted to present my personal approach on the lab and my experience in general. I'm going to try not to give away too much, just some hints and what to expect if you're considering purchasing licences or you're a learner considering which labs to do next.
+</p>
+
+</div>
+
+<p>
+For some time now I've been working through the Immersive Labs career pathways. My focus has been on Incident Response, Malicious File Analysis and Windows Malware, SIEM/Elastic and Event/Log Analysis. I've also completed a lot of the introductory labs that covers Security/Cyber Professional basics.
+</p>
+
+<p>
+Having used some similar platforms like Hack the Box and the likes, I can say that the Immersive Labs are well designed with content that is thorough and excellent. If I find myself a bit lost at any point, I can easily flip to the guidance tab and after some perseverance manage to finish the labs with little frustration.
+</p>
+</div>
+</div>
+<div id="outline-container-org4d62156" class="outline-2">
+<h2 id="org4d62156"><span class="section-number-2">2.</span> Terraform for AWS</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+A quick reminder of what Terraform does:
+</p>
+
+<blockquote>
+<p>
+Terraform is an open-source tool developed by HashiCorp. Infrastructure is defined in a human-readable format in HashiCorp Language (HCL) or JSON which is processed by Terraform and then deployed into the appropriate target – typically cloud. It's a popular way for companies to manage their infrastructure as code (IaC) and can be used in conjunction with most existing cloud providers. In this lab, we take a look at Terraform in the context of AWS.
+</p>
+</blockquote>
+
+<p>
+When you start the lab you'll get an overview of both Terraform and Terrascan. Make sure that you read through the information in order to become accustomed as to how they both work and integrate.
+</p>
+
+
+
+<div id="org6d5a2c1" class="figure">
+<p><img src="https://blog.mbrig.nl/posts/../img/tfexample.png" alt="tfexample.png" style="margin:auto; display:block; width:100%" />
+</p>
+<p><span class="figure-number">Figure 1: </span>What the console looks like</p>
+</div>
+</div>
+<div id="outline-container-org1fdf7e7" class="outline-3">
+<h3 id="org1fdf7e7"><span class="section-number-3">2.1.</span> Episode 1</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+The first labs starts with a simple S3 bucket configuration with some missing scopes/resources. Your job is to make sure that the Terraform HCL passes the Terrascan expected configuration so that the bucket is secure and meets the following expectations:
+</p>
+
+<ul class="org-ul">
+<li>Server-side encryption should be enabled</li>
+<li>Public access should not be granted</li>
+<li>Buckets should be private</li>
+<li>Access logging should be enabled and configured to log to another bucket</li>
+<li>Objects should be owned by the bucket owner if they have been uploaded with the bucket-owner-full-control canned ACL</li>
+</ul>
+
+
+<div id="org7155b22" class="figure">
+<p><img src="https://blog.mbrig.nl/posts/../img/tfexample3.png" alt="tfexample3.png" style="margin:auto; display:block; width:100%" />
+</p>
+<p><span class="figure-number">Figure 2: </span>The auto-complete chooser is going to be your friend here 😉</p>
+</div>
+
+<p>
+You're going to want to try a validate first in order to get feedback from Terrascan as to what's missing, unless you can tell off the bat and have previous experience in TF. The terminal response is really useful and I used the pointers to look at the official docs in order to work out which Key Value pair was needed.
+</p>
+
+
+<div id="org8cb80ab" class="figure">
+<p><img src="https://blog.mbrig.nl/posts/../img/tfexample1.png" alt="tfexample1.png" style="margin:auto; display:block; width:100%" />
+</p>
+<p><span class="figure-number">Figure 3: </span>Example of Terrascan in action</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbbb18fb" class="outline-3">
+<h3 id="orgbbb18fb"><span class="section-number-3">2.2.</span> Episode 2</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+Covers KMS keys which are cryptographic keys that can be used to encrypt and secure AWS resources. EBS is also covered in this session which is for scalable block storage and is used as the default when creating volumes for EC2.
+</p>
+
+<p>
+As above, I went with the terminal feedback first, by running validate. This gave me the missing resources and configurations I needed to target. The Terraform documents are very clear, respect to Hashicorp for that.
+</p>
+
+
+<div id="org8000472" class="figure">
+<p><img src="https://blog.mbrig.nl/posts/../img/tfexample2.png" alt="tfexample2.png" style="margin:auto; display:block; width:100%" />
+</p>
+<p><span class="figure-number">Figure 4: </span>More action</p>
+</div>
+
+<p>
+In summary:
+</p>
+
+<ul class="org-ul">
+<li>Run <code>terraform validate</code> to ensure that declarations are not missing arguments</li>
+<li>Use Terrascan to identify potential security issues and syntax errors</li>
+</ul>
+
+<p>
+I feel this episode was slightly easier and definitely had less points to address.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd8f10d6" class="outline-3">
+<h3 id="orgd8f10d6"><span class="section-number-3">2.3.</span> Episode 3</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+This episode touches on the Aurora and Relational Database Services (RDS) in AWS. The brief covers the basics of the services and what to look out for in the lab. The goal is to correct the errors and update the resources to securely deploy infrastructure associated with the AWS Aurora service for relational databases (DBs).
+</p>
+
+<p>
+This lab has a high and medium alert reported in Terrascan:
+</p>
+
+<ul class="org-ul">
+<li><b>High</b> <code>aws_rds_cluster.aurora:#36</code></li>
+<li><b>Medium</b> <code>aws_rds_cluster_instance.aurora:#49</code></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb1d68dc" class="outline-3">
+<h3 id="orgb1d68dc"><span class="section-number-3">2.4.</span> Episode 4 - the finale</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+We reach the final episode which brings some more general security fundamentals and enabling detailed monitoring. Here we learn about how we restrict AWS VPC traffic to EC2 instances by using security groups and custom rules. EC2’s instance metadata service (IMDS) can be used to retrieve metadata about running EC2 instances from within the instance.
+</p>
+
+<blockquote>
+<p>
+This allows applications running within the instance to access temporary, rotated credentials, avoiding the need for developers to hardcode credentials. However, this metadata should not be available from outside the instance. IMDSv2 ensures that every request to the service is protected by session authentication where session tokens, unusable from outside the instance, are used to create temporary passwords for requests to the metadata service.
+</p>
+</blockquote>
+
+<p>
+I found this lab slightly more tricky as it was dealing with areas of AWS and resources, data blocks and configuration I'm less familiar with. However the terminal response of Terrascan made the experience fairly straight forward and that paired with using the excellent documentation offered made the Lab enjoyable, informative and filled in some blanks.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgaf81e41" class="outline-2">
+<h2 id="orgaf81e41"><span class="section-number-2">3.</span> Terrascan by Tenable</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+<a href="https://github.com/tenable/terrascanlink">Terrascan GitHub</a>
+</p>
+</div>
+</div>
+]]>
+</description></item>
+<item>
+<title>Emacs with aspell/ispell on Nix Darwin</title>
+<link>https://blog.mbrig.nl/posts/emacs-ispell-aspell.html</link>
+<pubDate>Fri, 04 Oct 2024 00:00:00 +0100</pubDate>
+<guid>https://blog.mbrig.nl/posts/emacs-ispell-aspell.html</guid>
+<description>
+<![CDATA[<div id="outline-container-org35b7c05" class="outline-2">
+<h2 id="org35b7c05"><span class="section-number-2">1.</span> British English and Emacs</h2>
+<div class="outline-text-2" id="text-1">
+<div class="PREVIEW" id="org695720d">
+<p>
+I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Ispell is built in to the current version I'm using (29.1). However it was locked to the default US dictionary. Easy fix right?
+</p>
+
+</div>
+</div>
+<div id="outline-container-org46eff69" class="outline-3">
+<h3 id="org46eff69"><span class="section-number-3">1.1.</span> Discoveries</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Out the box the latest version of ispell on Nix Packages and built in Emacs does not have UK/British English default. So I started looking on Reddit and Googled ispell and Nix to see where I could go.
+</p>
+</div>
+</div>
+<div id="outline-container-org9a9ba8d" class="outline-3">
+<h3 id="org9a9ba8d"><span class="section-number-3">1.2.</span> Emacs philosophy and approach</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+I am a strong believer in keeping things simple and with the introduction of 'use-package' and the extra features in 29.1 I was keen to rewrite my config and use as close to vanilla setup as possible. I took the very base of what was needed and started from scratch building outward and exploring built-in packages. My config file is available here: <a href="https://github.com/mbrignall/nix-darwin">nix-darwin repo</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org9054569" class="outline-3">
+<h3 id="org9054569"><span class="section-number-3">1.3.</span> Emacs Aspell/Ispell config</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+Add this to your <code>init.el</code>:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp"><span class="org-comment-delimiter">;; </span><span class="org-comment">Spellcheck
+</span>(<span class="org-keyword">require</span> '<span class="org-constant">ispell</span>)
+(<span class="org-keyword">setq</span> ispell-program-name <span class="org-string">"aspell"</span>)
+
+(<span class="org-keyword">dolist</span> (hook '(text-mode-hook))
+  (add-hook hook (<span class="org-keyword">lambda</span> () (flyspell-mode 1))))
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org25d8ce6" class="outline-3">
+<h3 id="org25d8ce6"><span class="section-number-3">1.4.</span> NixOS/ Nix Darwin</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+With the emphasis on declarative, reproducible systems, I've been using Nix for some time now. I have a config for Linux/NixOS outside of work, when at work I use a Macbook so have a Nix Darwin build for that. The addition of <code>aspell</code> with dictionaries was surprisingly simple once I'd worked out how to declare it in my configuration file:
+</p>
+
+<p>
+<pre class="src src-nix">
+<span class="org-comment-delimiter"># </span><span class="org-comment">System Packages</span>
+<span class="org-keyword">environment.systemPackages</span> = with <span class="org-constant">pkgs</span>; [
+<span class="org-comment-delimiter">  # </span><span class="org-comment">Applications</span>
+  (<span class="org-keyword">aspellWithDicts</span> (<span class="org-constant">dicts:</span> with dicts; <span class="org-string">[ en en-computers en-science ]</span>))
+<span class="org-constant">  ispell</span>
+<span class="org-comment-delimiter">  # </span><span class="org-comment">Other Packages</span>
+];</pre>
+</p>
+</div>
+</div>
+</div>
+]]>
+</description></item>
+<item>
+<title>KOReader on Kobo</title>
+<link>https://blog.mbrig.nl/posts/koreader-on-kobo.html</link>
+<pubDate>Mon, 09 Feb 2026 18:01:13 +0000</pubDate>
+<guid>https://blog.mbrig.nl/posts/koreader-on-kobo.html</guid>
+<description>
+<![CDATA[<div id="outline-container-orgfa464ec" class="outline-2">
+<h2 id="orgfa464ec"><span class="section-number-2">1.</span> Another e-cycled device Martin?</h2>
+<div class="outline-text-2" id="text-1">
+<div class="PREVIEW" id="org0cd800c">
+<p>
+So I found an old Kobo Glo in a charity shop for 10 recently and was not too sure what to do with it. The intention was to read
+more, but&#x2026;
+</p>
+
+</div>
+
+<p>
+So I found an old Kobo Glo in a charity shop for 10 recently and was not too sure what to do with it. The intention was to read
+more, but&#x2026;
+</p>
+
+<ul class="org-ul">
+<li>How does the e-reader ecosystem work?</li>
+<li>How does it work for me?</li>
+<li>What fun things can I do with it?</li>
+</ul>
+
+<p>
+I was aware of Calibre and ebook management software already. I planned to utilise this and manage my personal
+library but this project quickly became so much more than just obtaining a tablet with an eInk screen!
+</p>
+</div>
+</div>
+<div id="outline-container-orgdc45735" class="outline-2">
+<h2 id="orgdc45735"><span class="section-number-2">2.</span> Getting to a usable state</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Unfortunately the device appeared to be locked to the account of the previous owner. This wasn't an issue, but there was no
+books I wanted to read and I didn't want their personal details. I factory reset the device which left me at the setup screen.
+</p>
+
+<p>
+As with all devices like this, the online set up requires an account. Unfortunately, which took some time to debug,
+I realised that the software version I was on was causing the WiFi connection to fail. There was no error
+as such just a timeout when connecting to WiFi. I tried hot-spotting and also setup a 2.5g guest network in the case this device
+needed it.
+</p>
+
+<p>
+<b>Nothing was working</b>
+</p>
+
+<p>
+From some research online I realised this had a lot to do with the version software that was on the Kobo. It was around 2.5 version
+whereas the latest is 4.38 (at time of writing). See the <a href="https://pgaskin.net/KoboStuff/kobofirmware.html">link</a> for available software updates.
+</p>
+
+<p>
+The steps for upgrading:
+</p>
+</div>
+<div id="outline-container-org82255d4" class="outline-3">
+<h3 id="org82255d4"><span class="section-number-3">2.1.</span> How to sideload an upgrade onto a Kobo eReader:</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li>Download <code>Kobo-update-&lt;release number&gt;-.zip</code> from one of the links below for your specific Kobo eReader model.
+
+<ul class="org-ul">
+<li><b>Important:</b> If there are multiple names listed, double check your Kobo and match the serial number. X means the character can be different.</li>
+</ul></li>
+
+<li>Connect your Kobo eReader device to your computer using its USB cable and your computer will recognise its as a new drive.</li>
+
+<li>Locate the Kobo#-update.zip file on your computer, then right click and Extract all ( Windows ) or double click (Mac) to unzip its contents,
+revealing an "upgrade" folder, <code>KoboRoots.tgz</code> file, and <code>manifest.md5sum</code> file.</li>
+
+<li>Drag and drop the unzipped contents into the device's <code>.Kobo</code> directory (you will need to set show hidden "folders" on your computer)</li>
+
+<li>Safely eject your Kobo eReader device from your computer.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org30edec9" class="outline-3">
+<h3 id="org30edec9"><span class="section-number-3">2.2.</span> Bypassing user login</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+Just to be clear the only reason this was necessary was to fix the connect to WiFi option. I don't condone jailbreaking/hacking devices
+unless absolutely necessary but it is a lot of fun and you will <i>always</i> learn new things.
+</p>
+
+<p>
+What we're going to do in this instance is remove the user/id entry in the sqlite database that is stopping us from using the device.
+The steps below are what worked for me, the end result was to get the device into a usable state, update the software/firmware, and get KOReader
+on there.
+</p>
+
+<ul class="org-ul">
+<li>Choose 'computer setup' option</li>
+<li><p>
+Attach to computer and the device should auto mount to <code>/mnt/$USER/KOBOReader</code> or something like that. A good way to check is using
+a file browser and find the device location, right click, and choose the 'open in Terminal' option.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-bash"><span class="org-builtin">cd</span> /mnt/$<span class="org-variable-name">USER</span>/KOBOReader/.kobo/
+sqlite3 KoboReader.sqlite
+</pre>
+</div></li>
+</ul>
+
+<p>
+You'll then be on the sqlite command prompt. From here you can do the following:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-sql"><span class="org-keyword">INSERT</span> <span class="org-keyword">INTO</span> <span class="org-builtin">user</span>(UserID,UserKey,___DeviceID) <span class="org-keyword">VALUES</span>(<span class="org-string">'1'</span>,<span class="org-string">''</span>,<span class="org-string">'N905C'</span>);
+</pre>
+</div>
+
+<p>
+Eject and restart ereader.
+</p>
+
+<p>
+After this when you should be able to bypass the setup steps and see the home screen.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org28506b2" class="outline-2">
+<h2 id="org28506b2"><span class="section-number-2">3.</span> KOReader Software</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+So having the device back to factory settings and loading pdf's and ebooks via Calibre felt <i>ok</i> but&#x2026;
+</p>
+
+<ul class="org-ul">
+<li>Where is the customisation and user control I knew from using Linux?</li>
+</ul>
+
+<p>
+I distro hopped continuously until finding Nixos, and that became my go to, but I still flit around trying new
+desktop environments when interesting ones pop up in sub-reddits, or are recommended by friends. What draws me to
+Linux is the strong community and focus on customisation.
+</p>
+
+<p>
+My curiosity is what powers me day-to-day and if I have a device, regardless of the architecture, I always think:
+</p>
+
+<ul class="org-ul">
+<li><b>'how can I make this more my own?'</b></li>
+<li><b>'how can I imprint myself on this device?'</b></li>
+</ul>
+
+<p>
+<a href="https://koreader.rocks/">KOReader</a> scratches this itch.
+</p>
+
+<p>
+From the homepage:
+</p>
+
+<p>
+KOReader is a document viewer for E Ink devices.
+</p>
+
+<p>
+This description is a painful understatement of the capabilities and powerful extras (plugins and patches) that the software provides.
+</p>
+
+<p>
+I used the install <a href="https://github.com/koreader/koreader/wiki/Installation-on-Kobo-devices">instructions</a> to get KOReader, KFMon and Nickelmenu on the device. The instructions are straight forward for the shell scripted
+install. Within a few seconds the script was finished and the device rebooted. A new option on the settings bar appeared for Nickelmenu and I chose
+'launch KOReader' and I was in.
+</p>
+
+<p>
+The first thing I noticed was the interface was really clean, intuitive and easy on the eyes. No adverts, no book suggestions, this is what
+I needed.
+</p>
+
+<p>
+From here I went through my smallish library of books checking out the different file formats (according to the KOReader homepage:
+supported fileformats include EPUB, PDF, DjVu, XPS, CBT, CBZ, FB2, PDB, TXT, HTML, RTF, CHM, DOC, MOBI and ZIP files).
+</p>
+</div>
+</div>
+<div id="outline-container-orged2f9a1" class="outline-2">
+<h2 id="orged2f9a1"><span class="section-number-2">4.</span> Where next?</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+With my new found love for ereaders and KOReader I plan to read more books. I have a collection of books I've been trying to finish,
+also plenty of technical books on the back burner that, with this new format, should enable me to read more regularly and efficiently.
+</p>
+
+<p>
+On top of the ereader features KOReader also provides a RSS/Atom feed manager, ssh session and a TERMINAL EMULATOR!
+</p>
+
+<p>
+I would also like to explore the community maintained plugins and patches for added customisation. Some people have made their
+UX look so fancy. One of the top results on search is <a href="https://github.com/sebdelsol/KOReader.patches">this one</a> from <code>sebdelsol</code> for rounded corners, badges and progress status
+icons on the home screen and other tweaks and visual improvements that are always appreciated.
+</p>
+
+<p>
+All the magic appears to be a combination of shell scripts and lua, both of which I have a bit of experience with.
+</p>
+
+<p>
+So who knows, maybe I'll be putting together a neat plugin shortly?
+</p>
+</div>
+</div>
+]]>
+</description></item>
+<item>
+<title>Exploring 9front and Plan 9</title>
+<link>https://blog.mbrig.nl/posts/exploring-9front.html</link>
+<pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
+<guid>https://blog.mbrig.nl/posts/exploring-9front.html</guid>
+<description>
+<![CDATA[<div class="PREVIEW" id="org4a56c78">
+<p>
+Checking out 9front/Plan 9 and some cool Thinkpad hardware.
+</p>
+
+</div>
+<div id="outline-container-org10b6ef7" class="outline-2">
+<h2 id="org10b6ef7"><span class="section-number-2">1.</span> Why 9front?</h2>
+<div class="outline-text-2" id="text-1">
+
+<div id="org15a4da7" class="figure">
+<p><img src="http://9front.org/img/thistimedefinitely.front.png" alt="thistimedefinitely.front.png" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px" />
+</p>
+</div>
+
+<p>
+Over the holiday period I took the steps towards fully exploring the 9front/Plan 9 ecosystem. It has turned up on the radar for some time now, however if my memory treats me correctly, the first exposure I was overwhelmed. Recently I discovered <a href="https://www.youtube.com/channel/UC7qFfPYl0t8Cq7auyblZqxA">adventuresin9</a> YouTube channel randomly which sprouted the interest again. After trying out 9front on VM via Proxmox I decided that I needed to experience it on bare metal.
+</p>
+
+<p>
+This led to a couple of quests with older laptops to bring them back to life in order to get them running this lesser known OS.
+</p>
+
+<p>
+There was something about the stark, minimalist approach, the art on the cover of the purchased manual, and the general demeanour of the contributors that hooked me. It's hard to explain but I liken it to finding a band you'd never heard of from a past era and then finding out they have a sprawling back catalogue to digest.
+</p>
+
+<p>
+Also, with my interest in the C language, finding out that 9front has it's own dialect and that the whole OS is written in less than 6000 lines I felt this may be a place to learn about operating system architecture and kernels etc
+This space will evolve as I experiment, explore, and expand my knowledge.
+</p>
+</div>
+</div>
+<div id="outline-container-org389dc15" class="outline-2">
+<h2 id="org389dc15"><span class="section-number-2">2.</span> What have I done so far?</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Here is a list of the hardware I've managed to get 9front to run on:
+</p>
+</div>
+<div id="outline-container-orga38af34" class="outline-3">
+<h3 id="orga38af34"><span class="section-number-3">2.1.</span> Thinkpad T420:</h3>
+<div class="outline-text-3" id="text-2-1">
+
+<div id="org4b60ab4" class="figure">
+<p><img src="https://blog.mbrig.nl/posts/../img/thinkpad.jpg" alt="thinkpad.jpg" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px" />
+</p>
+</div>
+
+<p>
+I found one of these laptops on Facebook marketplace for £10 including the power adaptor. Initial thoughts was that the hardware was in pretty good condition given the age. However the laptop did not boot. I would get the initial green power led but then nothing. After searching online and diving into a variety of vintage posts I came to the conclusion that the system board must be kaput.
+</p>
+
+<p>
+Luckily replacement parts for this model is still readily available on eBay etc. so I ordered a new motherboard from Latvia. This took a couple of weeks to arrive and once received I was eager to give it a crack
+</p>
+
+<p>
+I have experience in fixing 'things' but this was my first laptop motherboard replacement. Once observation that really sticks out is the ease of replacing components in these devices. In more recent laptops I've opened up they seem difficult to get to the 'guts'. The whole replacement took about an hour from scratch and I only had 2 leftover screws!
+</p>
+
+<p>
+The laptop understandably was missing a sdd so I added my own Kingston 120gb. There was an extra 4gb RAM in the 2nd port which gives the laptop 8gb in total.
+</p>
+
+<p>
+The install is covered below and mostly I followed <a href="https://9lab.org/plan9/thinkpad-t420s/">9lab Thinkpad T420 guide</a> this helped with the wifi firmware and getting the initial boot working. Key benefit was getting the firmware:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-nil">% ramfs ; cd /tmp
+% hget -o iwn-firmware-5.11p1.tgz \
+  http://firmware.openbsd.org/firmware/6.9/iwn-firmware-5.11p1.tgz
+% tar xzf iwn-firmware-5.11p1.tgz
+% cp firmware/iwn-6005 /lib/firmware
+</pre>
+</div>
+
+<p>
+Once booted and I followed the install guide, running <code>inst/start</code> and following the prompts, it was pretty straightforward. I didn't sway from the defaults for this laptop, using the default fs and partition suggestions.
+</p>
+</div>
+</div>
+<div id="outline-container-org7fb8390" class="outline-3">
+<h3 id="org7fb8390"><span class="section-number-3">2.2.</span> Raspberry Pi 3b</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+I installed 9front on a Raspberry Pi 3b which is running 9front successfully. There was a couple of guides that helped along the way:
+</p>
+
+<ul class="org-ul">
+<li><a href="https://luksamuk.codes/posts/plan9-setup-rpi.html">Plan 9: Setting up 9front on a Raspberry Pi</a></li>
+<li><a href="https://julienblanchard.com/posts/setting-up-a-9front-cpu-server-on-a-raspberry-pi-4.html">Setting up a 9front CPU server on a Raspberry Pi 4</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orge1f0412" class="outline-2">
+<h2 id="orge1f0412"><span class="section-number-2">3.</span> Next Steps</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org8f03f29" class="outline-3">
+<h3 id="org8f03f29"><span class="section-number-3">3.1.</span> Connect to wifi</h3>
+<div class="outline-text-3" id="text-3-1">
+<div class="org-src-container">
+<pre class="src src-rc">bind -a <span class="org-string">'#l1'</span> /net
+aux/wpa -s &lt;SSID&gt; -p /net/ether1
+<span class="org-comment-delimiter"># </span><span class="org-comment">Enter password when prompted...
+</span>ip/ipconfig
+</pre>
+</div>
+
+<p>
+To test connectivity you can try: <code>ip/ping 8.8.8.8</code> for example and you should get a positive response.
+</p>
+
+<p>
+I then moved to something more reliable that I got from the 9lab guide above. The script runs on boot and you can choose to fix to an SSID or skip to desktop.
+</p>
+
+<p>
+Note: If you get the password incorrect you're going to see a DHCP error. So far my only way to reset this is to <code>fshalt -r</code> reboot the system and try again, this is super annoying when you have a dodgy key char in the password. 🫠
+</p>
+</div>
+</div>
+<div id="outline-container-orgb36eeab" class="outline-3">
+<h3 id="orgb36eeab"><span class="section-number-3">3.2.</span> Man Pages</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+<a href="https://man.9front.org/">man.9front.org</a>
+</p>
+
+<p>
+This is the way to read about built in functions, commands and applications. I use <code>lookman</code> a lot to find words in man pages and then load the page by <code>man &lt;subject&gt;</code> for example:
+</p>
+
+<p>
+<code>man wpa</code>
+</p>
+
+<p>
+returns:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-nil">WPA(8)                                                     WPA(8)
+
+NAME
+     wpa - Wi-Fi Protected Access setup
+
+SYNOPSIS
+     aux/wpa [ -dp12 ] [ -s essid ] dev
+
+DESCRIPTION
+     Wpa handles the authentication and key exchange with WPA
+     protected wireless networks.
+
+     The dev parameter specifies the network interface that needs
+     to be setup with WPA.  The essid can be set with the -s
+     option. Otherwise, the previously configured essid on the
+     interface will be used.  The -p option will prompt and
+     install the preshared key or pap/chap credentials into fac-
+     totum, otherwise the key has to be already present in facto-
+     tum or an interactive key prompter like auth/fgui (see
+     factotum(4)) needs to provide it.
+
+     The authentication protocol is initiated by the wireless
+     access point so wpa will background itself after the
+     keyprompt and establish the encryption automatically as
+     needed.  The optional -1 or -2 arguments can be used to
+     select between WPA1/TKIP (default) or WPA2/CCMP encryption
+     with WPA PSK.
+
+     The -d option enables debugging and causes wpa to stay in
+     foreground writing protocol messages to standard error.
+
+EXAMPLES
+     Setup wireless encryption:
+     % bind -a '#l1' /net
+     % aux/wpa -s 9HAL -p /net/ether1
+     !Adding key: proto=wpapsk essid=9HAL
+     password: *****
+     !
+     % ip/ipconfig ether /net/ether1
+
+SOURCE
+     /sys/src/cmd/aux/wpa.c
+
+SEE ALSO
+     factotum(4), ipconfig(8)
+
+HISTORY
+     Wpa first appeared in 9front (March, 2013).
+</pre>
+</div>
+
+<p>
+As you can see, the man pages are well structured and thorough.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd07c128" class="outline-3">
+<h3 id="orgd07c128"><span class="section-number-3">3.3.</span> USB Storage</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+The USB storage mounts on <code>/shr/&lt;device-name&gt;</code> and I moved the files straight from there. I think there may be mount option just like Linux/Unix but I've not worked that out but there is a man mapge.
+</p>
+</div>
+</div>
+<div id="outline-container-org0a3d9ae" class="outline-3">
+<h3 id="org0a3d9ae"><span class="section-number-3">3.4.</span> Uxn</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+I wanted to explore that ecosystem from within 9front. If you've not come across Uxn/HundredRabbits please check them out.
+</p>
+</div>
+</div>
+<div id="outline-container-orgaad086a" class="outline-3">
+<h3 id="orgaad086a"><span class="section-number-3">3.5.</span> Web Browsing</h3>
+<div class="outline-text-3" id="text-3-5">
+<p>
+I have installed <a href="https://github.com/netsurf-plan9/nsport">Netsurf</a> (the alternative browser) and there is also Mothra which is really cool. Both provide very minimal web experiences, with Mothra not supporting any JS or 'modern' browsing experiences. To be fair, most of my browsing is reading code or docs/blogs which render fine. I even checked out this blog which translates really well.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8407161" class="outline-2">
+<h2 id="org8407161"><span class="section-number-2">4.</span> Future</h2>
+</div>
+
+<div id="outline-container-org21147c6" class="outline-2">
+<h2 id="org21147c6"><span class="section-number-2">5.</span> Useful Resources</h2>
+<div class="outline-text-2" id="text-5">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/channel/UC7qFfPYl0t8Cq7auyblZqxA">adventuresin9</a> (YouTube)</li>
+<li><a href="https://9p.io/wiki/plan9/plan_9_wiki/">Plan 9 wiki</a></li>
+<li><a href="https://9front.org/">9 front</a></li>
+<li><a href="https://www.amazon.co.uk/s?k=9front&amp;crid=132YLI7HQ5LJN&amp;sprefix=9front%2Caps%2C88&amp;ref=nb_sb_noss">Amazon 9front manuals</a></li>
+</ul>
+</div>
+</div>
+]]>
+</description></item>
+<item>
+<title>Release Monitoring with Automation for Jira</title>
+<link>https://blog.mbrig.nl/posts/release-monitoring-in-jira.html</link>
+<pubDate>Fri, 11 Oct 2024 00:00:00 +0100</pubDate>
+<guid>https://blog.mbrig.nl/posts/release-monitoring-in-jira.html</guid>
+<description>
+<![CDATA[<div id="outline-container-org7bd9a49" class="outline-2">
+<h2 id="org7bd9a49"><span class="section-number-2">1.</span> We like automation, we like monitoring releases <i class="fa-regular fa-heart"></i></h2>
+<div class="outline-text-2" id="text-1">
+<div class="PREVIEW" id="org719fd80">
+<p>
+So your organisation has decided to build a Internal Developer Portal (IDP) using Backstage. All of a sudden you're responsible for looking after a quickly growing, forever updating production environment, as well as an IDP?
+</p>
+
+</div>
+
+<p>
+You may even have a request from your SEM along the lines of this:
+</p>
+
+<blockquote>
+<p>
+Monthly there is a version bump of Backstage (i.e 1.14.x -&gt; 1.15.0)
+We need to keep up with these releases as this reduces issues with security etc - however with this release we also need to update the plugin dependencies.
+</p>
+</blockquote>
+
+<p>
+What do you do about:
+</p>
+
+<ul class="org-ul">
+<li>Monitoring new releases</li>
+<li>Making decisions about new features</li>
+<li>Breaking changes</li>
+<li>Plugins breaking</li>
+</ul>
+
+<p>
+You monitor the releases in a Jira project backlog of course!
+</p>
+</div>
+</div>
+<div id="outline-container-org03ece6f" class="outline-2">
+<h2 id="org03ece6f"><span class="section-number-2">2.</span> Here is how I did it with automation&#x2026; <i class="fa-solid fa-robot"></i></h2>
+<div class="outline-text-2" id="text-2">
+<p>
+I wanted to create a new task whenever a new release of Backstage is rolled out on the main Github page <i class="fa-brands fa-github-alt"></i> <a href="https://github.com/backstage/backstage">backstage/backstage</a>. The task could then be broken down into smaller pieces of work or spikes so I could monitor builds or raise pull requests directly from Jira using the GitHub integration.
+</p>
+</div>
+</div>
+<div id="outline-container-org464cc4f" class="outline-2">
+<h2 id="org464cc4f"><span class="section-number-2">3.</span> Setting up the Schedule <i class="fa-regular fa-calendar"></i></h2>
+<div class="outline-text-2" id="text-3">
+<p>
+For the scheduled automation to work I created a custom field in Jira called 'Release Tag', which is where the release tag will be stored.
+</p>
+
+<p>
+The specifics of the JQL might need adjusting depending on your circumstances but an example may go like:
+</p>
+
+<p>
+<code>issuetype = epic and 'Release Tag' is not EMPTY</code>
+</p>
+
+<p>
+Because the scheduled automation requires a ticket to be present I had to make a 'dummy' ticket with the release tag of a previous release added to it, so when the schedule runs the JQL can find a ticket and trigger the subsequent automation. There is a space at the bottom of the following example when you're creating a scheduled automation to add JQL.
+</p>
+
+
+<div id="orgcdf0ace" class="figure">
+<p><img src="https://blog.mbrig.nl/posts/../img/afj-release.png" alt="afj-release.png" style="margin:auto; display:block; width:400px" />
+</p>
+<p><span class="figure-number">Figure 1: </span>Schedule the Automation</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc00597d" class="outline-2">
+<h2 id="orgc00597d"><span class="section-number-2">4.</span> The Web Request <i class="fa-solid fa-globe"></i></h2>
+<div class="outline-text-2" id="text-4">
+<p>
+The automation will make a request to a public endpoint, so there was need for a Personal Access Token (PAT). Since the request frequency is once a day, it remains within rate limits. The request is made to the following URL:
+</p>
+
+<p>
+<a href="https://api.github.com/repos/backstage/backstage/releases/latest">API for Latest Release</a>
+</p>
+
+<p>
+Then I added optional headers to ensure the content type is correctly interpreted:
+</p>
+
+<p>
+<code>Content-Type: application/json</code>
+</p>
+
+<p>
+This is a GET HTTP method, and I didn't anticipate any issue references in the body, simply can choose 'Empty'.
+</p>
+
+<p>
+<b>It's crucial to delay execution until we receive a response from this web request!</b>
+</p>
+
+
+<div id="org8d327bc" class="figure">
+<p><img src="https://blog.mbrig.nl/posts/../img/afj-release-3.png" alt="afj-release-3.png" style="margin:auto; display:block; width:400px" />
+</p>
+<p><span class="figure-number">Figure 2: </span>Web Request Example</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcede4c1" class="outline-2">
+<h2 id="orgcede4c1"><span class="section-number-2">5.</span> Create Variable <i class="fa-solid fa-check"></i></h2>
+<div class="outline-text-2" id="text-5">
+<p>
+The web response body will look a bit like the snipped example:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-js">}
+  <span class="org-comment-delimiter">// </span><span class="org-comment">...
+</span>  <span class="org-string">"node_id"</span>: <span class="org-string">"RE_kwDODhKIWM4Gb0sX"</span>,
+  <span class="org-string">"tag_name"</span>: <span class="org-string">"v1.14.2"</span>,
+  <span class="org-string">"target_commitish"</span>: <span class="org-string">"master"</span>,
+  <span class="org-string">"name"</span>: <span class="org-string">"v1.14.2"</span>,
+  <span class="org-string">"draft"</span>: <span class="org-constant">false</span>,
+  <span class="org-string">"prerelease"</span>: <span class="org-constant">false</span>,
+  <span class="org-string">"created_at"</span>: <span class="org-string">"2023-06-09T09:30:18Z"</span>,
+  <span class="org-string">"published_at"</span>: <span class="org-string">"2023-06-09T09:30:19Z"</span>,
+  <span class="org-string">"assets"</span>: [
+
+  ],
+  <span class="org-string">"tarball_url"</span>: <span class="org-string">"https://api.github.com/repos/backstage/backstage/tarball/v1.14.2"</span>,
+  <span class="org-string">"zipball_url"</span>: <span class="org-string">"https://api.github.com/repos/backstage/backstage/zipball/v1.14.2"</span>,
+  <span class="org-string">"body"</span>: <span class="org-string">"This release fixes an issue where the search bar styling would break."</span>,
+ <span class="org-comment-delimiter">// </span><span class="org-comment">...
+</span>}
+</pre>
+</div>
+
+<p>
+To extract the <code>tag_name</code>, I created a variable using the newer feature, referring to the <code>{{webResponse.body}}</code> (the curly brackets are to use Jira smart values) to retrieve the response body, and then pointing to the <code>tag_name</code>. This creates a variable named <code>backstageLatest</code> that can be referenced in subsequent actions.
+</p>
+
+
+<div id="orgc2aef6a" class="figure">
+<p><img src="https://blog.mbrig.nl/posts/../img/afj-release-1.png" alt="afj-release-1.png" style="margin:auto; display:block; width:400px" />
+</p>
+<p><span class="figure-number">Figure 3: </span>Release Tag Variable</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org6b028f7" class="outline-2">
+<h2 id="org6b028f7"><span class="section-number-2">6.</span> Create a new ticket <i class="fa-solid fa-ticket"></i></h2>
+<div class="outline-text-2" id="text-6">
+<p>
+I then used the 'If: Matches' conditional module to verify if <code>backstageLatest</code> is greater than the release number in the custom release field. If it is, then I want to create a new ticket in the backlog with:
+</p>
+
+<ul class="org-ul">
+<li>Summary: Backstage <code>{{backstageLatest}}</code> New Release</li>
+
+<li>Description: <code>{{webResponse.body.body}}</code></li>
+
+<li>Label: On-going Backstage Maintenance</li>
+</ul>
+
+<p>
+If the conditions don't match, the automation doesn't perform any actions.
+</p>
+
+
+<div id="orgba0a737" class="figure">
+<p><img src="https://blog.mbrig.nl/posts/../img/afj-release-2.png" alt="afj-release-2.png" style="margin:auto; display:block; width:400px" />
+</p>
+<p><span class="figure-number">Figure 4: </span>Backstage Latest Variable</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdec8872" class="outline-2">
+<h2 id="orgdec8872"><span class="section-number-2">7.</span> Conclusion <i class="fa-solid fa-flag-checkered"></i></h2>
+<div class="outline-text-2" id="text-7">
+<p>
+By following the above steps, you can set up a process to automatically monitor GitHub releases and track your dependencies. This will save you time and effort to manually check for new releases.
+</p>
+
+<p>
+Future suggestions/ideas:
+</p>
+
+<ul class="org-ul">
+<li>Trigger builds in your CI/CD if conditionals pass, or a status matches 'release'</li>
+
+<li>Enrich tickets but using Key Values from the json response to further automate the process</li>
+
+<li><p>
+Use this idea for other dependencies
+</p>
+
+<p>
+If you have any other ideas or questions please reach out. <i class="fa-regular fa-heart"></i>
+</p></li>
+</ul>
+</div>
+</div>
+]]>
+</description></item>
+<item>
+<title>Notes and Drafts</title>
+<link>https://blog.mbrig.nl/notes.html</link>
+<pubDate>Mon, 09 Feb 2026 10:49:11 +0000</pubDate>
+<guid>https://blog.mbrig.nl/notes.html</guid>
+<description>
+<![CDATA[<p>
+Notes and drafts live here and the occasional pontification.
+</p>
+<div id="outline-container-orgddc07e8" class="outline-2">
+<h2 id="orgddc07e8"><span class="section-number-2">1.</span> <a href="https://blog.mbrig.nl/notes/notes.html">2026-02-09 — Notes - a place to store</a></h2>
+<div class="outline-text-2" id="text-1">
+<p>
+(No preview)
+</p>
+</div>
+</div>
+]]>
+</description></item>
+<item>
+<title>Book Reviews</title>
+<link>https://blog.mbrig.nl/books.html</link>
+<pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
+<guid>https://blog.mbrig.nl/books.html</guid>
+<description>
+<![CDATA[<div id="outline-container-orgb2eabc5" class="outline-2">
+<h2 id="orgb2eabc5"><span class="section-number-2">1.</span> To Anyone Who Ever Asks: The Life, Music, and Mystery of Connie Converse&#xa0;&#xa0;&#xa0;<span class="tag"><span class="music">music</span>&#xa0;<span class="folklore">folklore</span></span></h2>
+<div class="outline-text-2" id="text-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Author</td>
+<td class="org-right">Howard Fishman</td>
+</tr>
+
+<tr>
+<td class="org-left">Publication date</td>
+<td class="org-right">2024-05-02</td>
+</tr>
+</tbody>
+</table>
+
+
+<div id="orga2159c8" class="figure">
+<p><img src="https://m.media-amazon.com/images/I/616XekvMCTL._AC_UF894,1000_QL80_.jpg" alt="616XekvMCTL._AC_UF894,1000_QL80_.jpg" />
+</p>
+</div>
+
+<p>
+Connie Converse is an very interesting character, and this book gives a really details backstory of both her early life up to her strange disappearance. If you've
+not heard Connie's music I recommend starting with 'How Sad, How Lovely'. Her songwriting was miles ahead of her peers, those 'folky' types shackled by tradition.
+</p>
+
+<p>
+There are some surprising moments and a few theories on her disappearance that leaves you with questions. Overall I thought the book was well researched and
+is a great introduction to the world of Connie Converse.
+</p>
+
+<p>
+<div style="clear: both;"></div>
+</p>
+</div>
+</div>
+<div id="outline-container-orgd9d8acf" class="outline-2">
+<h2 id="orgd9d8acf"><span class="section-number-2">2.</span> Code: The Hidden Language of Computer Hardware and Software&#xa0;&#xa0;&#xa0;<span class="tag"><span class="computer">computer</span>&#xa0;<span class="science">science</span>&#xa0;<span class="technology">technology</span></span></h2>
+<div class="outline-text-2" id="text-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Author</td>
+<td class="org-right">Charles Petzold</td>
+</tr>
+
+<tr>
+<td class="org-left">Publication date</td>
+<td class="org-right">1999-09-29</td>
+</tr>
+</tbody>
+</table>
+
+
+<div id="org34f04d2" class="figure">
+<p><img src="https://m.media-amazon.com/images/I/61Hc-9h+-XL.jpg" alt="61Hc-9h+-XL.jpg" />
+</p>
+</div>
+
+<p>
+I am half way through this book so far, it's fascinating. Covering the beginning of code/bits/bytes up to modern computing. It has illuminated some points of computing that I have not covered for some time. More on that soon.
+</p>
+
+<p>
+I think I hit a bit of a roof on this one when it started to get super techincal, I decided to take the second half a bit slower.
+</p>
+
+<p>
+In Progress&#x2026; Still in progress.
+</p>
+</div>
+</div>
+<div id="outline-container-orge31c53a" class="outline-2">
+<h2 id="orge31c53a"><span class="section-number-2">3.</span> A Trading Game&#xa0;&#xa0;&#xa0;<span class="tag"><span class="finance">finance</span>&#xa0;<span class="economics">economics</span>&#xa0;<span class="currentaffairs">currentaffairs</span></span></h2>
+<div class="outline-text-2" id="text-3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Author</td>
+<td class="org-right">Gary Stephenson</td>
+</tr>
+
+<tr>
+<td class="org-left">Published date</td>
+<td class="org-right">2025-01-30</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+<p>
+The rich get the assets, the poor get the debt, and then the poor have to pay their whole salary to the rich every year just to live in a house. The rich use that money to buy the rest of the assets from the middle class and then the problem gets worse every year.
+</p>
+
+<p>
+<b>Gary Stephenson</b>
+</p>
+</blockquote>
+
+
+<div id="org15782dd" class="figure">
+<p><img src="https://cdn.waterstones.com/bookjackets/large/9781/8020/9781802062731.jpg" alt="9781802062731.jpg" />
+</p>
+</div>
+
+<p>
+Gary's take on economics really helped me understand how economics and trading works both in the UK and internationally. Before reading this I had no idea and hadn't thought too deeply about the topic. Since reading I've also been watching a few channels (including his own) on the topic/current affairs/economics and it has sparked interest in me. I particularly liked hearing about his rise to success in a field dominated by people from privileged backgrounds and how he navigated those relationships.
+I listened to this as an audiobook read by Gary himself and this made the connection more personal. Hearing about his early life going through school and early jobs around Essex helped set the scene.
+</p>
+
+<p>
+Gary is clearly a very smart person. Someone who not only can convey complex ideas and trading insider techniques but also how traditional economists do not often see how the economy affect people and social impacts on the economy.
+</p>
+</div>
+</div>
+<div id="outline-container-org28860a8" class="outline-2">
+<h2 id="org28860a8"><span class="section-number-2">4.</span> America Over Water&#xa0;&#xa0;&#xa0;<span class="tag"><span class="folklore">folklore</span>&#xa0;<span class="music">music</span>&#xa0;<span class="america">america</span></span></h2>
+<div class="outline-text-2" id="text-4">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Author</td>
+<td class="org-right">Shirley Collins</td>
+</tr>
+
+<tr>
+<td class="org-left">Published date</td>
+<td class="org-right">2022-01-20</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+<p>
+If people don't like folk music, they haven't heard the real thing.
+</p>
+
+
+<p>
+<b>Shirley Collins</b>
+</p>
+</blockquote>
+
+
+<div id="org23e8552" class="figure">
+<p><img src="https://m.media-amazon.com/images/I/71IYBIjH1gL._SY522_.jpg" alt="71IYBIjH1gL._SY522_.jpg" />
+</p>
+</div>
+
+<p>
+Shirley Collins writes her early days and travels with Folklorist, Alan Lomax as the record audio and document the music of Americas heartland. Split in chapters between Collins' early life in &#x2013; and their professional and emotional relationship with Lomax,
+</p>
+
+<p>
+<div style="clear: both;"></div>
+</p>
+</div>
+</div>
+<div id="outline-container-org1072fd9" class="outline-2">
+<h2 id="org1072fd9"><span class="section-number-2">5.</span> The Cuckoo's Egg&#xa0;&#xa0;&#xa0;<span class="tag"><span class="cybersecurity">cybersecurity</span>&#xa0;<span class="truecrime">truecrime</span></span></h2>
+<div class="outline-text-2" id="text-5">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Author</td>
+<td class="org-right">Clifford Stoll</td>
+</tr>
+
+<tr>
+<td class="org-left">Published date</td>
+<td class="org-right">2005-09-13</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+<p>
+The hacker didn't succeed through sophistication. Rather he poked at obvious places, trying to enter through unlock doors. Persistence, not wizardry, let him through.
+</p>
+
+<p>
+<b>Clifford Stoll</b>
+</p>
+</blockquote>
+
+
+<div id="orgd8dbca2" class="figure">
+<p><img src="https://m.media-amazon.com/images/I/71KvXfFyi4L._SL1500_.jpg" alt="71KvXfFyi4L._SL1500_.jpg" />
+</p>
+</div>
+
+<p>
+This book is an excellent dive into the cyber security field during the late 80's. Cliff Stoll depicts the challenges and excitement around identifying a person with unauthorised access inside their network.
+</p>
+
+<p>
+One day in 1986 Stolls' supervisor asks him to resolve an accounting error of 75 cents in the computer usage accounts. This event triggers a chase that spans the entire book, with Cliff at the forefront, tracking the hackers every move.
+</p>
+
+<p>
+Ultimately exploiting a vulnerability in the GNU Emacs package 'movemail', the hacker was able to traverse the network and other neighbouring networks of various government and military facilities, stealing documents, files, passwords and other data. 
+</p>
+
+<p>
+Not only does the story detail everything from the key strokes to the tools/programs used (including key loggers and trojan horses), Stoll also covers tricky it was to monitor the hacker across multiple continents.
+</p>
+
+<p>
+Stoll welcomes the reader into not just his professional life but also the personal relationship between him and his partner, Martha. The rushing off from dates during the chase, building the tension between them, adds a great layer to the story. 
+</p>
+
+<p>
+On occasion the book felt a little like groundhog day due to the repetitive events of the hacker appearing and then disappearing again in short succession. Stolls' frustration expressed of the authorities and policing of cyber crime during the time shows just how far the field has come.
+</p>
+
+<p>
+<code>finished 05/12/2024</code>
+</p>
+
+<p>
+<div style="clear: both;"></div>
+</p>
+</div>
+</div>
+<div id="outline-container-org98943c2" class="outline-2">
+<h2 id="org98943c2"><span class="section-number-2">6.</span> Cult of the Dead Cow&#xa0;&#xa0;&#xa0;<span class="tag"><span class="cybersecurity">cybersecurity</span>&#xa0;<span class="truecrime">truecrime</span>&#xa0;<span class="hacking">hacking</span>&#xa0;<span class="tech">tech</span></span></h2>
+<div class="outline-text-2" id="text-6">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Author</td>
+<td class="org-right">Joseph Menn</td>
+</tr>
+
+<tr>
+<td class="org-left">Published date</td>
+<td class="org-right">2020-06-02</td>
+</tr>
+</tbody>
+</table>
+
+
+<div id="org286161f" class="figure">
+<p><img src="https://www.littlebrown.co.uk/wp-content/uploads/2019/05/hbg-title-9781541724426-49.jpg?w=436" alt="hbg-title-9781541724426-49.jpg?w=436" />
+</p>
+</div>
+
+<p>
+<div style="clear: both;"></div>
+</p>
+</div>
+</div>
+<div id="outline-container-orgbd6401e" class="outline-2">
+<h2 id="orgbd6401e"><span class="section-number-2">7.</span> Going Dark: The Secret Social Lives of Extremists&#xa0;&#xa0;&#xa0;<span class="tag"><span class="extremism">extremism</span>&#xa0;<span class="radicalisation">radicalisation</span>&#xa0;<span class="politics">politics</span></span></h2>
+<div class="outline-text-2" id="text-7">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Author</td>
+<td class="org-right">Julia Ebner</td>
+</tr>
+
+<tr>
+<td class="org-left">Published date</td>
+<td class="org-right">2020-02-20</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+<p>
+Like the coronavirus pandemic, the current infodemic is a global phenomenon. We need to tackle it on an international level to avoid adding a third layer to this worldwide crisis: a societal one.
+</p>
+
+<p>
+<b>Julia Ebner</b>
+</p>
+</blockquote>
+
+
+<div id="org7873831" class="figure">
+<p><img src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale,dpr_1.5/jackets/9781526616791.jpg" alt="9781526616791.jpg" />
+</p>
+</div>
+
+<p>
+Dr. Julie Ebner specialises in radicalisation, extremism and terrorism studies. In this book she bravely infiltrates groups from far-right nationalists, Islamic terrorists to trad-wives and ISIS brides. She goes to festivals and lurks online in forums/ chat rooms probing the people she encounters looking to understand and explore. A few moments in the book magnify how close Julie gets to danger and the risks she takes to expose methods and approaches of these groups to gain control over members. I agree with some other reviewers online that this book has short sections and uses an investigative journalists tone. It does not mean it is not an informative or, dare I say, an entertaining(?) read in places. The book leaves you wanting more, to understand deeper, and to hopefully be able to recognise family or friends on the precipice of the online rabbit holes covered.
+</p>
+
+<p>
+Towards the end specialists are given space to make their predictions for 2025, they cover cyber crimes and mention various groups to be wary of. Living in 2025 and based on what has happened so far in the US and further afield, I get the impression that they vastly underestimated how terrifying the reality could be.
+</p>
+
+<p>
+Additional content: <a href="https://www.youtube.com/watch?v=fAFV49e2W5M">Going Dark: The Secret Social Lives of Extremists | Julia Ebner | Talks at Google</a>
+</p>
+
+<p>
+<div style="clear: both;"></div>
+</p>
+</div>
+</div>
+<div id="outline-container-orgde3890d" class="outline-2">
+<h2 id="orgde3890d"><span class="section-number-2">8.</span> Rinsed: From Cartels to Crypto&#xa0;&#xa0;&#xa0;<span class="tag"><span class="truecrime">truecrime</span>&#xa0;<span class="financial">financial</span>&#xa0;<span class="technology">technology</span></span></h2>
+<div class="outline-text-2" id="text-8">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Author</td>
+<td class="org-right">Geoff White</td>
+</tr>
+
+<tr>
+<td class="org-left">Published date</td>
+<td class="org-right">2024-06-13</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+<p>
+Rinsed is a triumph. If you want to understand how the chaotic world around us really works, read this book!
+</p>
+
+<p>
+<b>Miles Johnson, author of Chasing Shadows</b>
+</p>
+</blockquote>
+
+
+<div id="orgc15371b" class="figure">
+<p><img src="https://m.media-amazon.com/images/I/71n9FOWUzkL.jpg" alt="71n9FOWUzkL.jpg" />
+</p>
+</div>
+
+<p>
+Currently listening to the book during my commute. From the opening chapter about Pablo Escobar laundering physical, hard cash to the later chapters covering crypto/blockchain game coins it's a wild ride start to finish. A few key factors and personal observations:
+</p>
+
+<p>
+Business Email Compromise (BEC) is unlikely to go anywhere! The email inbox is still a highly effective attack surface for any business or individual. It's also the easiest method to be compromised.
+</p>
+
+<p>
+Money laundering and Cyber crime in general are mutually exclusive. Even the most intelligent, highly operative Cyber criminals who can hack systems, compromise organisations and individuals are reliant on the specialists that head up the money laundering industry for their services.
+</p>
+
+<p>
+<div style="clear: both;"></div>
+</p>
+</div>
+</div>
+<div id="outline-container-org2f9e24e" class="outline-2">
+<h2 id="org2f9e24e"><span class="section-number-2">9.</span> Podcasts:</h2>
+<div class="outline-text-2" id="text-9">
+<p>
+Here is a list of podcasts I regularly listen to about a variety of topics:
+</p>
+
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><a href="https://darknetdiaries.com/">Darknet Diaries</a></td>
+<td class="org-left">cybersecurity, hacking, fraud, technology</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.qanonanonymous.com/">QAA Podcast</a></td>
+<td class="org-left">debunked conspiracy theories, current affairs, politics</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://opensourcesecurity.io/category/podcast/">Open Source Security</a></td>
+<td class="org-left">cyber security, current affairs, technology</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.otherworldpod.com/en-gb">Other World</a></td>
+<td class="org-left">paranormal, ghost/hauntings, unexplained experiences</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://risky.biz/">Risky Biz</a></td>
+<td class="org-left">Cyber Security, Current Affairs, Threat Intelligence</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+]]>
+</description></item>
+<item>
+<title>Notes - a place to store</title>
+<link>https://blog.mbrig.nl/notes/notes.html</link>
+<pubDate>Mon, 09 Feb 2026 10:49:11 +0000</pubDate>
+<guid>https://blog.mbrig.nl/notes/notes.html</guid>
+<description>
+<![CDATA[]]>
+</description></item>
+<item>
+<title>About Me</title>
+<link>https://blog.mbrig.nl/about.html</link>
+<pubDate>Tue, 10 Feb 2026 09:46:09 +0000</pubDate>
+<guid>https://blog.mbrig.nl/about.html</guid>
+<description>
+<![CDATA[<div id="outline-container-orgd266524" class="outline-2">
+<h2 id="orgd266524"><span class="section-number-2">1.</span> General <i class="fa-regular fa-address-card"></i></h2>
+<div class="outline-text-2" id="text-1">
+
+<div id="orgcc3c23c" class="figure">
+<p><img src="https://blog.mbrig.nl/./img/mbrignl.jpg" alt="mbrignl.jpg" />
+</p>
+</div>
+
+<p>
+During the day I work as a Security engineer in an Incident Response team. When not blocking attackers and analysing threats I can be found playing guitar.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbe340a5" class="outline-2">
+<h2 id="orgbe340a5"><span class="section-number-2">2.</span> Music things <i class="fa-solid fa-music"></i></h2>
+<div class="outline-text-2" id="text-2">
+<p>
+I am working on music for live performance hopefully before the end of the year (more on that soon).
+</p>
+
+<p>
+My musical influences include:
+</p>
+
+<ul class="org-ul">
+<li>Jim O’Rourke</li>
+<li>John Fahey</li>
+<li>Converge/Botch</li>
+<li>Death</li>
+</ul>
+
+<p>
+I enjoy exploring blues and post-rock, metal and sub-genres of. I have a background in Music Tech and spent many hours building devices and instruments using Raspberry Pi, <a href="https://puredata.info/">Pure Data</a> and the fun music communities I discovered along the way. Maybe I'll cover those here at some point 🤔
+</p>
+
+<p>
+Here is a neat (I think) playlist of some of my faves:
+</p>
+
+<p>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0NarSJ8utPoOog9nIDMN2n?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</p>
+</div>
+</div>
+<div id="outline-container-org4e15ff8" class="outline-2">
+<h2 id="org4e15ff8"><span class="section-number-2">3.</span> Linux things <i class="fa-regular fa-file-code"></i></h2>
+<div class="outline-text-2" id="text-3">
+<p>
+For some time now I've been obsessed with Linux, more specifically NixOS and most recently Guix SD. I discovered a rich world of possibilities upon realising that I could craft my systems declaritively.
+</p>
+
+<p>
+At work I'm using MacOS so am using Nix Darwin as a Flake for that:
+</p>
+
+<ul class="org-ul">
+<li><a href="https://github.com/mbrignall/nix-darwin">nix-darwin on GitHub</a></li>
+</ul>
+
+<p>
+A more recent edition is Guix SD and I've taken inspiration from a variety of sources which I'll cover in a post shortly:
+</p>
+
+<ul class="org-ul">
+<li><a href="https://github.com/mbrignall/guix-system">guix-system on GitHub</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org0e4b8bd" class="outline-2">
+<h2 id="org0e4b8bd"><span class="section-number-2">4.</span> Other stuff <i class="fa-regular fa-file-code"></i></h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org59b3995" class="outline-4">
+<h4 id="org59b3995"><span class="section-number-4">4.0.1.</span> <span class="todo STARTED">STARTED</span> Plan 9/ 9front</h4>
+<div class="outline-text-4" id="text-4-0-1">
+<p>
+Just started using 9front over the holiday period, I'll record findings, so far I love it. I am looking for old laptops to run the OS on bare metal. I have two running machines I've been playing with:
+</p>
+
+<ul class="org-ul">
+<li>Raspberry Pi 3b: Running 9front successfully.</li>
+<li><p>
+Thinkpad T420: Fully working, click the link below for the post.
+</p>
+
+<p>
+After some diagnosis and testing it turned out the system board was gone, so a replacement was ordered and fitted successfully. With some cosmetic care, like replacing the touchpad stickers, it's now in great condition.
+</p></li>
+</ul>
+
+<p>
+<a href="https://blog.mbrig.nl/./posts/exploring-9front.html">&#x2026;read more</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org5344455" class="outline-4">
+<h4 id="org5344455"><span class="section-number-4">4.0.2.</span> <span class="todo TODO">TODO</span> Other stuff</h4>
+</div>
+</div>
+]]>
+</description></item>
+</channel>
+</rss>
