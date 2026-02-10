@@ -15,7 +15,7 @@
 <link>https://blog.mbrig.nl</link>
 <description><![CDATA[mblognl | mbrig.nl]]></description>
 <language>en</language>
-<lastBuildDate>Tue, 10 Feb 2026 11:31:36 +0000</lastBuildDate>
+<lastBuildDate>Tue, 10 Feb 2026 16:21:17 +0000</lastBuildDate>
 <generator>Emacs 30.1 org-publish-rss.el 0.8</generator>
 <item>
 <title>Exploring 9front and Plan 9</title>
@@ -23,17 +23,17 @@
 <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
 <guid>https://blog.mbrig.nl/posts/exploring-9front.html</guid>
 <description>
-<![CDATA[<div class="PREVIEW" id="org9981902">
+<![CDATA[<div class="PREVIEW" id="org436f74c">
 <p>
 Checking out 9front/Plan 9 and some cool Thinkpad hardware.
 </p>
 
 </div>
-<div id="outline-container-orgba9b647" class="outline-2">
-<h2 id="orgba9b647"><span class="section-number-2">1.</span> Why 9front?</h2>
+<div id="outline-container-orgfb6e4d5" class="outline-2">
+<h2 id="orgfb6e4d5"><span class="section-number-2">1.</span> Why 9front?</h2>
 <div class="outline-text-2" id="text-1">
 
-<div id="org94d2ccc" class="figure">
+<div id="org2531c28" class="figure">
 <p><img src="http://9front.org/img/thistimedefinitely.front.png" alt="thistimedefinitely.front.png" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px" />
 </p>
 </div>
@@ -56,18 +56,18 @@ This space will evolve as I experiment, explore, and expand my knowledge.
 </p>
 </div>
 </div>
-<div id="outline-container-org090fe12" class="outline-2">
-<h2 id="org090fe12"><span class="section-number-2">2.</span> What have I done so far?</h2>
+<div id="outline-container-org31a1cda" class="outline-2">
+<h2 id="org31a1cda"><span class="section-number-2">2.</span> What have I done so far?</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 Here is a list of the hardware I've managed to get 9front to run on:
 </p>
 </div>
-<div id="outline-container-org3bb00a6" class="outline-3">
-<h3 id="org3bb00a6"><span class="section-number-3">2.1.</span> Thinkpad T420:</h3>
+<div id="outline-container-org9784efb" class="outline-3">
+<h3 id="org9784efb"><span class="section-number-3">2.1.</span> Thinkpad T420:</h3>
 <div class="outline-text-3" id="text-2-1">
 
-<div id="org60dc676" class="figure">
+<div id="org05b1296" class="figure">
 <p><img src="https://blog.mbrig.nl/posts/../img/thinkpad.jpg" alt="thinkpad.jpg" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px" />
 </p>
 </div>
@@ -106,8 +106,8 @@ Once booted and I followed the install guide, running <code>inst/start</code> an
 </p>
 </div>
 </div>
-<div id="outline-container-org55a382f" class="outline-3">
-<h3 id="org55a382f"><span class="section-number-3">2.2.</span> Raspberry Pi 3b</h3>
+<div id="outline-container-org8ba0911" class="outline-3">
+<h3 id="org8ba0911"><span class="section-number-3">2.2.</span> Raspberry Pi 3b</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 I installed 9front on a Raspberry Pi 3b which is running 9front successfully. There was a couple of guides that helped along the way:
@@ -120,12 +120,12 @@ I installed 9front on a Raspberry Pi 3b which is running 9front successfully. Th
 </div>
 </div>
 </div>
-<div id="outline-container-orgab29ff6" class="outline-2">
-<h2 id="orgab29ff6"><span class="section-number-2">3.</span> Next Steps</h2>
+<div id="outline-container-orgadb0b2c" class="outline-2">
+<h2 id="orgadb0b2c"><span class="section-number-2">3.</span> Next Steps</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org154f341" class="outline-3">
-<h3 id="org154f341"><span class="section-number-3">3.1.</span> Connect to wifi</h3>
+<div id="outline-container-orgcd1b17b" class="outline-3">
+<h3 id="orgcd1b17b"><span class="section-number-3">3.1.</span> Connect to wifi</h3>
 <div class="outline-text-3" id="text-3-1">
 <div class="org-src-container">
 <pre class="src src-rc"><span class="org-builtin">bind</span> -a <span class="org-string">'#l1'</span> /net
@@ -148,8 +148,8 @@ Note: If you get the password incorrect you're going to see a DHCP error. So far
 </p>
 </div>
 </div>
-<div id="outline-container-orgd547a5c" class="outline-3">
-<h3 id="orgd547a5c"><span class="section-number-3">3.2.</span> Man Pages</h3>
+<div id="outline-container-org93e886b" class="outline-3">
+<h3 id="org93e886b"><span class="section-number-3">3.2.</span> Man Pages</h3>
 <div class="outline-text-3" id="text-3-2">
 <p>
 <a href="https://man.9front.org/">man.9front.org</a>
@@ -224,24 +224,24 @@ As you can see, the man pages are well structured and thorough.
 </p>
 </div>
 </div>
-<div id="outline-container-orgf6cca70" class="outline-3">
-<h3 id="orgf6cca70"><span class="section-number-3">3.3.</span> USB Storage</h3>
+<div id="outline-container-org6b99844" class="outline-3">
+<h3 id="org6b99844"><span class="section-number-3">3.3.</span> USB Storage</h3>
 <div class="outline-text-3" id="text-3-3">
 <p>
 The USB storage mounts on <code>/shr/&lt;device-name&gt;</code> and I moved the files straight from there. I think there may be mount option just like Linux/Unix but I've not worked that out but there is a man mapge.
 </p>
 </div>
 </div>
-<div id="outline-container-orge014200" class="outline-3">
-<h3 id="orge014200"><span class="section-number-3">3.4.</span> Uxn</h3>
+<div id="outline-container-orgf1695e2" class="outline-3">
+<h3 id="orgf1695e2"><span class="section-number-3">3.4.</span> Uxn</h3>
 <div class="outline-text-3" id="text-3-4">
 <p>
 I wanted to explore that ecosystem from within 9front. If you've not come across Uxn/HundredRabbits please check them out.
 </p>
 </div>
 </div>
-<div id="outline-container-org8b54c6f" class="outline-3">
-<h3 id="org8b54c6f"><span class="section-number-3">3.5.</span> Web Browsing</h3>
+<div id="outline-container-orga0ad9d8" class="outline-3">
+<h3 id="orga0ad9d8"><span class="section-number-3">3.5.</span> Web Browsing</h3>
 <div class="outline-text-3" id="text-3-5">
 <p>
 I have installed <a href="https://github.com/netsurf-plan9/nsport">Netsurf</a> (the alternative browser) and there is also Mothra which is really cool. Both provide very minimal web experiences, with Mothra not supporting any JS or 'modern' browsing experiences. To be fair, most of my browsing is reading code or docs/blogs which render fine. I even checked out this blog which translates really well.
@@ -249,12 +249,12 @@ I have installed <a href="https://github.com/netsurf-plan9/nsport">Netsurf</a> (
 </div>
 </div>
 </div>
-<div id="outline-container-org4371c79" class="outline-2">
-<h2 id="org4371c79"><span class="section-number-2">4.</span> Future</h2>
+<div id="outline-container-org9f505f7" class="outline-2">
+<h2 id="org9f505f7"><span class="section-number-2">4.</span> Future</h2>
 </div>
 
-<div id="outline-container-org3920b74" class="outline-2">
-<h2 id="org3920b74"><span class="section-number-2">5.</span> Useful Resources</h2>
+<div id="outline-container-orga27f175" class="outline-2">
+<h2 id="orga27f175"><span class="section-number-2">5.</span> Useful Resources</h2>
 <div class="outline-text-2" id="text-5">
 <ul class="org-ul">
 <li><a href="https://www.youtube.com/channel/UC7qFfPYl0t8Cq7auyblZqxA">adventuresin9</a> (YouTube)</li>
@@ -269,13 +269,13 @@ I have installed <a href="https://github.com/netsurf-plan9/nsport">Netsurf</a> (
 <item>
 <title>KOReader on Kobo</title>
 <link>https://blog.mbrig.nl/posts/koreader-on-kobo.html</link>
-<pubDate>Tue, 10 Feb 2026 11:31:06 +0000</pubDate>
+<pubDate>Tue, 10 Feb 2026 16:20:47 +0000</pubDate>
 <guid>https://blog.mbrig.nl/posts/koreader-on-kobo.html</guid>
 <description>
-<![CDATA[<div id="outline-container-org0d51afb" class="outline-2">
-<h2 id="org0d51afb"><span class="section-number-2">1.</span> Another e-cycled device Martin?</h2>
+<![CDATA[<div id="outline-container-org286933d" class="outline-2">
+<h2 id="org286933d"><span class="section-number-2">1.</span> Another e-cycled device Martin?</h2>
 <div class="outline-text-2" id="text-1">
-<div class="PREVIEW" id="org06d99f4">
+<div class="PREVIEW" id="org0a06095">
 <p>
 So I found an old Kobo Glo in a charity shop for 10 recently and was not too sure what to do with it. The intention was to read more, but&#x2026;
 </p>
@@ -298,8 +298,8 @@ library but this project quickly became so much more than just obtaining a table
 </p>
 </div>
 </div>
-<div id="outline-container-orgff07850" class="outline-2">
-<h2 id="orgff07850"><span class="section-number-2">2.</span> Getting to a usable state</h2>
+<div id="outline-container-org917b38d" class="outline-2">
+<h2 id="org917b38d"><span class="section-number-2">2.</span> Getting to a usable state</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 Unfortunately the device appeared to be locked to the account of the previous owner. This wasn't an issue, but there was no books I wanted to read and I didn't want their personal details. I factory reset the device which left me at the setup screen.
@@ -322,8 +322,8 @@ whereas the latest is 4.38 (at time of writing). See the <a href="https://pgaski
 The steps for upgrading:
 </p>
 </div>
-<div id="outline-container-org900fff6" class="outline-3">
-<h3 id="org900fff6"><span class="section-number-3">2.1.</span> How to sideload an upgrade onto a Kobo eReader:</h3>
+<div id="outline-container-org7e96dd9" class="outline-3">
+<h3 id="org7e96dd9"><span class="section-number-3">2.1.</span> How to sideload an upgrade onto a Kobo eReader:</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li>Download <code>Kobo-update-&lt;release number&gt;-.zip</code> from one of the links below for your specific Kobo eReader model.
@@ -343,8 +343,8 @@ revealing an "upgrade" folder, <code>KoboRoots.tgz</code> file, and <code>manife
 </ul>
 </div>
 </div>
-<div id="outline-container-org1722af0" class="outline-3">
-<h3 id="org1722af0"><span class="section-number-3">2.2.</span> Bypassing user login</h3>
+<div id="outline-container-org2843602" class="outline-3">
+<h3 id="org2843602"><span class="section-number-3">2.2.</span> Bypassing user login</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 Just to be clear the only reason this was necessary was to fix the connect to WiFi option. I don't condone jailbreaking/hacking devices unless absolutely necessary but it is a lot of fun and you will <i>always</i> learn new things.
@@ -391,8 +391,8 @@ After this when you should be able to bypass the setup steps and see the home sc
 </div>
 </div>
 </div>
-<div id="outline-container-org2bad9eb" class="outline-2">
-<h2 id="org2bad9eb"><span class="section-number-2">3.</span> KOReader Software</h2>
+<div id="outline-container-org1a8be12" class="outline-2">
+<h2 id="org1a8be12"><span class="section-number-2">3.</span> KOReader Software</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 So having the device back to factory settings and loading pdf's and ebooks via Calibre felt <i>ok</i> but&#x2026;
@@ -450,8 +450,8 @@ supported fileformats include EPUB, PDF, DjVu, XPS, CBT, CBZ, FB2, PDB, TXT, HTM
 </p>
 </div>
 </div>
-<div id="outline-container-orgf21b096" class="outline-2">
-<h2 id="orgf21b096"><span class="section-number-2">4.</span> Where next?</h2>
+<div id="outline-container-orgca6cdff" class="outline-2">
+<h2 id="orgca6cdff"><span class="section-number-2">4.</span> Where next?</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 With my new found love for ereaders and KOReader I plan to read more books. I have a collection of books I've been trying to finish, also plenty of technical books on the back burner that, with this new format, should enable me to read more regularly and efficiently.
@@ -482,10 +482,10 @@ So who knows, maybe I'll be putting together a neat plugin shortly?
 <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
 <guid>https://blog.mbrig.nl/posts/release-monitoring-in-jira.html</guid>
 <description>
-<![CDATA[<div id="outline-container-org56a7deb" class="outline-2">
-<h2 id="org56a7deb"><span class="section-number-2">1.</span> We like automation, we like monitoring releases <i class="fa-regular fa-heart"></i></h2>
+<![CDATA[<div id="outline-container-orgc4970cb" class="outline-2">
+<h2 id="orgc4970cb"><span class="section-number-2">1.</span> We like automation, we like monitoring releases <i class="fa-regular fa-heart"></i></h2>
 <div class="outline-text-2" id="text-1">
-<div class="PREVIEW" id="org3414138">
+<div class="PREVIEW" id="org39b190a">
 <p>
 So your organisation has decided to build a Internal Developer Portal (IDP) using Backstage. All of a sudden you're responsible for looking after a quickly growing, forever updating production environment, as well as an IDP?
 </p>
@@ -519,16 +519,16 @@ You monitor the releases in a Jira project backlog of course!
 </p>
 </div>
 </div>
-<div id="outline-container-org568ac68" class="outline-2">
-<h2 id="org568ac68"><span class="section-number-2">2.</span> Here is how I did it with automation&#x2026; <i class="fa-solid fa-robot"></i></h2>
+<div id="outline-container-orgac19ba5" class="outline-2">
+<h2 id="orgac19ba5"><span class="section-number-2">2.</span> Here is how I did it with automation&#x2026; <i class="fa-solid fa-robot"></i></h2>
 <div class="outline-text-2" id="text-2">
 <p>
 I wanted to create a new task whenever a new release of Backstage is rolled out on the main Github page <i class="fa-brands fa-github-alt"></i> <a href="https://github.com/backstage/backstage">backstage/backstage</a>. The task could then be broken down into smaller pieces of work or spikes so I could monitor builds or raise pull requests directly from Jira using the GitHub integration.
 </p>
 </div>
 </div>
-<div id="outline-container-orgfdeca1f" class="outline-2">
-<h2 id="orgfdeca1f"><span class="section-number-2">3.</span> Setting up the Schedule <i class="fa-regular fa-calendar"></i></h2>
+<div id="outline-container-orgc4f6082" class="outline-2">
+<h2 id="orgc4f6082"><span class="section-number-2">3.</span> Setting up the Schedule <i class="fa-regular fa-calendar"></i></h2>
 <div class="outline-text-2" id="text-3">
 <p>
 For the scheduled automation to work I created a custom field in Jira called 'Release Tag', which is where the release tag will be stored.
@@ -547,15 +547,15 @@ Because the scheduled automation requires a ticket to be present I had to make a
 </p>
 
 
-<div id="org953a68b" class="figure">
+<div id="org0af13e0" class="figure">
 <p><img src="https://blog.mbrig.nl/posts/../img/afj-release.png" alt="afj-release.png" style="margin:auto; display:block; width:400px" />
 </p>
 <p><span class="figure-number">Figure 1: </span>Schedule the Automation</p>
 </div>
 </div>
 </div>
-<div id="outline-container-org4b646d3" class="outline-2">
-<h2 id="org4b646d3"><span class="section-number-2">4.</span> The Web Request <i class="fa-solid fa-globe"></i></h2>
+<div id="outline-container-orged0d40a" class="outline-2">
+<h2 id="orged0d40a"><span class="section-number-2">4.</span> The Web Request <i class="fa-solid fa-globe"></i></h2>
 <div class="outline-text-2" id="text-4">
 <p>
 The automation will make a request to a public endpoint, so there was need for a Personal Access Token (PAT). Since the request frequency is once a day, it remains within rate limits. The request is made to the following URL:
@@ -582,15 +582,15 @@ This is a GET HTTP method, and I didn't anticipate any issue references in the b
 </p>
 
 
-<div id="org7a26cef" class="figure">
+<div id="org2c2ec8e" class="figure">
 <p><img src="https://blog.mbrig.nl/posts/../img/afj-release-3.png" alt="afj-release-3.png" style="margin:auto; display:block; width:400px" />
 </p>
 <p><span class="figure-number">Figure 2: </span>Web Request Example</p>
 </div>
 </div>
 </div>
-<div id="outline-container-org99e7f8f" class="outline-2">
-<h2 id="org99e7f8f"><span class="section-number-2">5.</span> Create Variable <i class="fa-solid fa-check"></i></h2>
+<div id="outline-container-orge91d83d" class="outline-2">
+<h2 id="orge91d83d"><span class="section-number-2">5.</span> Create Variable <i class="fa-solid fa-check"></i></h2>
 <div class="outline-text-2" id="text-5">
 <p>
 The web response body will look a bit like the snipped example:
@@ -623,15 +623,15 @@ To extract the <code>tag_name</code>, I created a variable using the newer featu
 </p>
 
 
-<div id="org84dbb91" class="figure">
+<div id="org7b340d7" class="figure">
 <p><img src="https://blog.mbrig.nl/posts/../img/afj-release-1.png" alt="afj-release-1.png" style="margin:auto; display:block; width:400px" />
 </p>
 <p><span class="figure-number">Figure 3: </span>Release Tag Variable</p>
 </div>
 </div>
 </div>
-<div id="outline-container-org89f6290" class="outline-2">
-<h2 id="org89f6290"><span class="section-number-2">6.</span> Create a new ticket <i class="fa-solid fa-ticket"></i></h2>
+<div id="outline-container-org063508c" class="outline-2">
+<h2 id="org063508c"><span class="section-number-2">6.</span> Create a new ticket <i class="fa-solid fa-ticket"></i></h2>
 <div class="outline-text-2" id="text-6">
 <p>
 I then used the 'If: Matches' conditional module to verify if <code>backstageLatest</code> is greater than the release number in the custom release field. If it is, then I want to create a new ticket in the backlog with:
@@ -650,15 +650,15 @@ If the conditions don't match, the automation doesn't perform any actions.
 </p>
 
 
-<div id="orgfa01647" class="figure">
+<div id="org451cea3" class="figure">
 <p><img src="https://blog.mbrig.nl/posts/../img/afj-release-2.png" alt="afj-release-2.png" style="margin:auto; display:block; width:400px" />
 </p>
 <p><span class="figure-number">Figure 4: </span>Backstage Latest Variable</p>
 </div>
 </div>
 </div>
-<div id="outline-container-org2e055e9" class="outline-2">
-<h2 id="org2e055e9"><span class="section-number-2">7.</span> Conclusion <i class="fa-solid fa-flag-checkered"></i></h2>
+<div id="outline-container-orgce06d7f" class="outline-2">
+<h2 id="orgce06d7f"><span class="section-number-2">7.</span> Conclusion <i class="fa-solid fa-flag-checkered"></i></h2>
 <div class="outline-text-2" id="text-7">
 <p>
 By following the above steps, you can set up a process to automatically monitor GitHub releases and track your dependencies. This will save you time and effort to manually check for new releases.
@@ -691,16 +691,16 @@ If you have any other ideas or questions please reach out. <i class="fa-regular 
 <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
 <guid>https://blog.mbrig.nl/posts/terraform-and-terrascan.html</guid>
 <description>
-<![CDATA[<div id="outline-container-org294c988" class="outline-2">
-<h2 id="org294c988"><span class="section-number-2">1.</span> Immersive Labs</h2>
+<![CDATA[<div id="outline-container-org546d956" class="outline-2">
+<h2 id="org546d956"><span class="section-number-2">1.</span> Immersive Labs</h2>
 <div class="outline-text-2" id="text-1">
 
-<div id="org3848283" class="figure">
+<div id="org304da8d" class="figure">
 <p><img src="https://icon.icepanel.io/Technology/svg/HashiCorp-Terraform.svg" alt="HashiCorp-Terraform.svg" class="org-svg" />
 </p>
 </div>
 
-<div class="PREVIEW" id="org39e9e87">
+<div class="PREVIEW" id="org34a84da">
 <p>
 This post is going to cover my most recent lab "Secure Terraform for AWS". I wanted to present my personal approach on the lab and my experience in general. I'm going to try not to give away too much, just some hints and what to expect if you're considering purchasing licences or you're a learner considering which labs to do next.
 </p>
@@ -716,8 +716,8 @@ Having used some similar platforms like Hack the Box and the likes, I can say th
 </p>
 </div>
 </div>
-<div id="outline-container-org0151737" class="outline-2">
-<h2 id="org0151737"><span class="section-number-2">2.</span> Terraform for AWS</h2>
+<div id="outline-container-org6aab40f" class="outline-2">
+<h2 id="org6aab40f"><span class="section-number-2">2.</span> Terraform for AWS</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 A quick reminder of what Terraform does:
@@ -735,14 +735,14 @@ When you start the lab you'll get an overview of both Terraform and Terrascan. M
 
 
 
-<div id="orga0c7a56" class="figure">
+<div id="orgd36de8f" class="figure">
 <p><img src="https://blog.mbrig.nl/posts/../img/tfexample.png" alt="tfexample.png" style="margin:auto; display:block; width:100%" />
 </p>
 <p><span class="figure-number">Figure 1: </span>What the console looks like</p>
 </div>
 </div>
-<div id="outline-container-orgfe046a8" class="outline-3">
-<h3 id="orgfe046a8"><span class="section-number-3">2.1.</span> Episode 1</h3>
+<div id="outline-container-org28de6fe" class="outline-3">
+<h3 id="org28de6fe"><span class="section-number-3">2.1.</span> Episode 1</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 The first labs starts with a simple S3 bucket configuration with some missing scopes/resources. Your job is to make sure that the Terraform HCL passes the Terrascan expected configuration so that the bucket is secure and meets the following expectations:
@@ -757,7 +757,7 @@ The first labs starts with a simple S3 bucket configuration with some missing sc
 </ul>
 
 
-<div id="org49dd845" class="figure">
+<div id="org1324b83" class="figure">
 <p><img src="https://blog.mbrig.nl/posts/../img/tfexample3.png" alt="tfexample3.png" style="margin:auto; display:block; width:100%" />
 </p>
 <p><span class="figure-number">Figure 2: </span>The auto-complete chooser is going to be your friend here 😉</p>
@@ -768,15 +768,15 @@ You're going to want to try a validate first in order to get feedback from Terra
 </p>
 
 
-<div id="org038792b" class="figure">
+<div id="orgb0f9f42" class="figure">
 <p><img src="https://blog.mbrig.nl/posts/../img/tfexample1.png" alt="tfexample1.png" style="margin:auto; display:block; width:100%" />
 </p>
 <p><span class="figure-number">Figure 3: </span>Example of Terrascan in action</p>
 </div>
 </div>
 </div>
-<div id="outline-container-org542b015" class="outline-3">
-<h3 id="org542b015"><span class="section-number-3">2.2.</span> Episode 2</h3>
+<div id="outline-container-orgd52f97f" class="outline-3">
+<h3 id="orgd52f97f"><span class="section-number-3">2.2.</span> Episode 2</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 Covers KMS keys which are cryptographic keys that can be used to encrypt and secure AWS resources. EBS is also covered in this session which is for scalable block storage and is used as the default when creating volumes for EC2.
@@ -787,7 +787,7 @@ As above, I went with the terminal feedback first, by running validate. This gav
 </p>
 
 
-<div id="orge083001" class="figure">
+<div id="org47ae0b4" class="figure">
 <p><img src="https://blog.mbrig.nl/posts/../img/tfexample2.png" alt="tfexample2.png" style="margin:auto; display:block; width:100%" />
 </p>
 <p><span class="figure-number">Figure 4: </span>More action</p>
@@ -807,8 +807,8 @@ I feel this episode was slightly easier and definitely had less points to addres
 </p>
 </div>
 </div>
-<div id="outline-container-org06e9b66" class="outline-3">
-<h3 id="org06e9b66"><span class="section-number-3">2.3.</span> Episode 3</h3>
+<div id="outline-container-orgc0d3236" class="outline-3">
+<h3 id="orgc0d3236"><span class="section-number-3">2.3.</span> Episode 3</h3>
 <div class="outline-text-3" id="text-2-3">
 <p>
 This episode touches on the Aurora and Relational Database Services (RDS) in AWS. The brief covers the basics of the services and what to look out for in the lab. The goal is to correct the errors and update the resources to securely deploy infrastructure associated with the AWS Aurora service for relational databases (DBs).
@@ -824,8 +824,8 @@ This lab has a high and medium alert reported in Terrascan:
 </ul>
 </div>
 </div>
-<div id="outline-container-org29aff0a" class="outline-3">
-<h3 id="org29aff0a"><span class="section-number-3">2.4.</span> Episode 4 - the finale</h3>
+<div id="outline-container-orge7b7b1b" class="outline-3">
+<h3 id="orge7b7b1b"><span class="section-number-3">2.4.</span> Episode 4 - the finale</h3>
 <div class="outline-text-3" id="text-2-4">
 <p>
 We reach the final episode which brings some more general security fundamentals and enabling detailed monitoring. Here we learn about how we restrict AWS VPC traffic to EC2 instances by using security groups and custom rules. EC2’s instance metadata service (IMDS) can be used to retrieve metadata about running EC2 instances from within the instance.
@@ -843,8 +843,8 @@ I found this lab slightly more tricky as it was dealing with areas of AWS and re
 </div>
 </div>
 </div>
-<div id="outline-container-orgdbe9f41" class="outline-2">
-<h2 id="orgdbe9f41"><span class="section-number-2">3.</span> Terrascan by Tenable</h2>
+<div id="outline-container-orga7143ce" class="outline-2">
+<h2 id="orga7143ce"><span class="section-number-2">3.</span> Terrascan by Tenable</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 <a href="https://github.com/tenable/terrascanlink">Terrascan GitHub</a>
@@ -859,34 +859,34 @@ I found this lab slightly more tricky as it was dealing with areas of AWS and re
 <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
 <guid>https://blog.mbrig.nl/posts/emacs-ispell-aspell.html</guid>
 <description>
-<![CDATA[<div id="outline-container-org5f3fb91" class="outline-2">
-<h2 id="org5f3fb91"><span class="section-number-2">1.</span> British English and Emacs</h2>
+<![CDATA[<div id="outline-container-org4fc9ae9" class="outline-2">
+<h2 id="org4fc9ae9"><span class="section-number-2">1.</span> British English and Emacs</h2>
 <div class="outline-text-2" id="text-1">
-<div class="PREVIEW" id="orge4c543a">
+<div class="PREVIEW" id="org993fd5d">
 <p>
 I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Ispell is built in to the current version I'm using (29.1). However it was locked to the default US dictionary. Easy fix right?
 </p>
 
 </div>
 </div>
-<div id="outline-container-orgbc6cb83" class="outline-3">
-<h3 id="orgbc6cb83"><span class="section-number-3">1.1.</span> Discoveries</h3>
+<div id="outline-container-org30dd5f0" class="outline-3">
+<h3 id="org30dd5f0"><span class="section-number-3">1.1.</span> Discoveries</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 Out the box the latest version of ispell on Nix Packages and built in Emacs does not have UK/British English default. So I started looking on Reddit and Googled ispell and Nix to see where I could go.
 </p>
 </div>
 </div>
-<div id="outline-container-orgdb4bce6" class="outline-3">
-<h3 id="orgdb4bce6"><span class="section-number-3">1.2.</span> Emacs philosophy and approach</h3>
+<div id="outline-container-org5e8d563" class="outline-3">
+<h3 id="org5e8d563"><span class="section-number-3">1.2.</span> Emacs philosophy and approach</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
 I am a strong believer in keeping things simple and with the introduction of 'use-package' and the extra features in 29.1 I was keen to rewrite my config and use as close to vanilla setup as possible. I took the very base of what was needed and started from scratch building outward and exploring built-in packages. My config file is available here: <a href="https://github.com/mbrignall/nix-darwin">nix-darwin repo</a>
 </p>
 </div>
 </div>
-<div id="outline-container-org5ac09f8" class="outline-3">
-<h3 id="org5ac09f8"><span class="section-number-3">1.3.</span> Emacs Aspell/Ispell config</h3>
+<div id="outline-container-org272a2a2" class="outline-3">
+<h3 id="org272a2a2"><span class="section-number-3">1.3.</span> Emacs Aspell/Ispell config</h3>
 <div class="outline-text-3" id="text-1-3">
 <p>
 Add this to your <code>init.el</code>:
@@ -903,8 +903,8 @@ Add this to your <code>init.el</code>:
 </div>
 </div>
 </div>
-<div id="outline-container-orgc04db2c" class="outline-3">
-<h3 id="orgc04db2c"><span class="section-number-3">1.4.</span> NixOS/ Nix Darwin</h3>
+<div id="outline-container-org29355fd" class="outline-3">
+<h3 id="org29355fd"><span class="section-number-3">1.4.</span> NixOS/ Nix Darwin</h3>
 <div class="outline-text-3" id="text-1-4">
 <p>
 With the emphasis on declarative, reproducible systems, I've been using Nix for some time now. I have a config for Linux/NixOS outside of work, when at work I use a Macbook so have a Nix Darwin build for that. The addition of <code>aspell</code> with dictionaries was surprisingly simple once I'd worked out how to declare it in my configuration file:
@@ -931,8 +931,8 @@ With the emphasis on declarative, reproducible systems, I've been using Nix for 
 <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
 <guid>https://blog.mbrig.nl/books.html</guid>
 <description>
-<![CDATA[<div id="outline-container-org0e5bb28" class="outline-2">
-<h2 id="org0e5bb28"><span class="section-number-2">1.</span> To Anyone Who Ever Asks: The Life, Music, and Mystery of Connie Converse&#xa0;&#xa0;&#xa0;<span class="tag"><span class="music">music</span>&#xa0;<span class="folklore">folklore</span></span></h2>
+<![CDATA[<div id="outline-container-orgf15ba41" class="outline-2">
+<h2 id="orgf15ba41"><span class="section-number-2">1.</span> To Anyone Who Ever Asks: The Life, Music, and Mystery of Connie Converse&#xa0;&#xa0;&#xa0;<span class="tag"><span class="music">music</span>&#xa0;<span class="folklore">folklore</span></span></h2>
 <div class="outline-text-2" id="text-1">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -956,7 +956,7 @@ With the emphasis on declarative, reproducible systems, I've been using Nix for 
 </table>
 
 
-<div id="org3e4e9f2" class="figure">
+<div id="org7aee589" class="figure">
 <p><img src="https://m.media-amazon.com/images/I/616XekvMCTL._AC_UF894,1000_QL80_.jpg" alt="616XekvMCTL._AC_UF894,1000_QL80_.jpg" />
 </p>
 </div>
@@ -974,8 +974,8 @@ There are some surprising moments and a few theories on her disappearance that l
 </p>
 </div>
 </div>
-<div id="outline-container-orgd12c28a" class="outline-2">
-<h2 id="orgd12c28a"><span class="section-number-2">2.</span> Code: The Hidden Language of Computer Hardware and Software&#xa0;&#xa0;&#xa0;<span class="tag"><span class="computer">computer</span>&#xa0;<span class="science">science</span>&#xa0;<span class="technology">technology</span></span></h2>
+<div id="outline-container-orga9e674d" class="outline-2">
+<h2 id="orga9e674d"><span class="section-number-2">2.</span> Code: The Hidden Language of Computer Hardware and Software&#xa0;&#xa0;&#xa0;<span class="tag"><span class="computer">computer</span>&#xa0;<span class="science">science</span>&#xa0;<span class="technology">technology</span></span></h2>
 <div class="outline-text-2" id="text-2">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -999,7 +999,7 @@ There are some surprising moments and a few theories on her disappearance that l
 </table>
 
 
-<div id="org605eba3" class="figure">
+<div id="org8b87fd1" class="figure">
 <p><img src="https://m.media-amazon.com/images/I/61Hc-9h+-XL.jpg" alt="61Hc-9h+-XL.jpg" />
 </p>
 </div>
@@ -1017,8 +1017,8 @@ In Progress&#x2026; Still in progress.
 </p>
 </div>
 </div>
-<div id="outline-container-orgb9b0f95" class="outline-2">
-<h2 id="orgb9b0f95"><span class="section-number-2">3.</span> A Trading Game&#xa0;&#xa0;&#xa0;<span class="tag"><span class="finance">finance</span>&#xa0;<span class="economics">economics</span>&#xa0;<span class="currentaffairs">currentaffairs</span></span></h2>
+<div id="outline-container-org1837ac5" class="outline-2">
+<h2 id="org1837ac5"><span class="section-number-2">3.</span> A Trading Game&#xa0;&#xa0;&#xa0;<span class="tag"><span class="finance">finance</span>&#xa0;<span class="economics">economics</span>&#xa0;<span class="currentaffairs">currentaffairs</span></span></h2>
 <div class="outline-text-2" id="text-3">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -1052,7 +1052,7 @@ The rich get the assets, the poor get the debt, and then the poor have to pay th
 </blockquote>
 
 
-<div id="org02c5255" class="figure">
+<div id="org7172640" class="figure">
 <p><img src="https://cdn.waterstones.com/bookjackets/large/9781/8020/9781802062731.jpg" alt="9781802062731.jpg" />
 </p>
 </div>
@@ -1070,8 +1070,8 @@ Gary is clearly a very smart person. Someone who not only can convey complex ide
 </p>
 </div>
 </div>
-<div id="outline-container-org575fed9" class="outline-2">
-<h2 id="org575fed9"><span class="section-number-2">4.</span> IN-PROGRESS America Over Water&#xa0;&#xa0;&#xa0;<span class="tag"><span class="folklore">folklore</span>&#xa0;<span class="music">music</span>&#xa0;<span class="america">america</span></span></h2>
+<div id="outline-container-org6a0a21e" class="outline-2">
+<h2 id="org6a0a21e"><span class="section-number-2">4.</span> IN-PROGRESS America Over Water&#xa0;&#xa0;&#xa0;<span class="tag"><span class="folklore">folklore</span>&#xa0;<span class="music">music</span>&#xa0;<span class="america">america</span></span></h2>
 <div class="outline-text-2" id="text-4">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -1106,7 +1106,7 @@ If people don't like folk music, they haven't heard the real thing.
 </blockquote>
 
 
-<div id="org49dd217" class="figure">
+<div id="org1a0b151" class="figure">
 <p><img src="https://m.media-amazon.com/images/I/71IYBIjH1gL._SY522_.jpg" alt="71IYBIjH1gL._SY522_.jpg" />
 </p>
 </div>
@@ -1120,8 +1120,8 @@ Shirley Collins writes her early days and travels with Folklorist, Alan Lomax as
 </p>
 </div>
 </div>
-<div id="outline-container-orga2a3284" class="outline-2">
-<h2 id="orga2a3284"><span class="section-number-2">5.</span> The Cuckoo's Egg&#xa0;&#xa0;&#xa0;<span class="tag"><span class="cybersecurity">cybersecurity</span>&#xa0;<span class="truecrime">truecrime</span></span></h2>
+<div id="outline-container-orgdb9c6d8" class="outline-2">
+<h2 id="orgdb9c6d8"><span class="section-number-2">5.</span> The Cuckoo's Egg&#xa0;&#xa0;&#xa0;<span class="tag"><span class="cybersecurity">cybersecurity</span>&#xa0;<span class="truecrime">truecrime</span></span></h2>
 <div class="outline-text-2" id="text-5">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -1155,7 +1155,7 @@ The hacker didn't succeed through sophistication. Rather he poked at obvious pla
 </blockquote>
 
 
-<div id="org37e4ec2" class="figure">
+<div id="orgcb6bacc" class="figure">
 <p><img src="https://m.media-amazon.com/images/I/71KvXfFyi4L._SL1500_.jpg" alt="71KvXfFyi4L._SL1500_.jpg" />
 </p>
 </div>
@@ -1193,8 +1193,8 @@ On occasion the book felt a little like groundhog day due to the repetitive even
 </p>
 </div>
 </div>
-<div id="outline-container-orgc358912" class="outline-2">
-<h2 id="orgc358912"><span class="section-number-2">6.</span> Cult of the Dead Cow&#xa0;&#xa0;&#xa0;<span class="tag"><span class="cybersecurity">cybersecurity</span>&#xa0;<span class="truecrime">truecrime</span>&#xa0;<span class="hacking">hacking</span>&#xa0;<span class="tech">tech</span></span></h2>
+<div id="outline-container-org9aa19be" class="outline-2">
+<h2 id="org9aa19be"><span class="section-number-2">6.</span> Cult of the Dead Cow&#xa0;&#xa0;&#xa0;<span class="tag"><span class="cybersecurity">cybersecurity</span>&#xa0;<span class="truecrime">truecrime</span>&#xa0;<span class="hacking">hacking</span>&#xa0;<span class="tech">tech</span></span></h2>
 <div class="outline-text-2" id="text-6">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -1218,7 +1218,7 @@ On occasion the book felt a little like groundhog day due to the repetitive even
 </table>
 
 
-<div id="org0e4ab76" class="figure">
+<div id="orgfc78f5b" class="figure">
 <p><img src="https://www.littlebrown.co.uk/wp-content/uploads/2019/05/hbg-title-9781541724426-49.jpg?w=436" alt="hbg-title-9781541724426-49.jpg?w=436" />
 </p>
 </div>
@@ -1228,8 +1228,8 @@ On occasion the book felt a little like groundhog day due to the repetitive even
 </p>
 </div>
 </div>
-<div id="outline-container-org8e4baa6" class="outline-2">
-<h2 id="org8e4baa6"><span class="section-number-2">7.</span> Going Dark: The Secret Social Lives of Extremists&#xa0;&#xa0;&#xa0;<span class="tag"><span class="extremism">extremism</span>&#xa0;<span class="radicalisation">radicalisation</span>&#xa0;<span class="politics">politics</span></span></h2>
+<div id="outline-container-orga1ee67d" class="outline-2">
+<h2 id="orga1ee67d"><span class="section-number-2">7.</span> Going Dark: The Secret Social Lives of Extremists&#xa0;&#xa0;&#xa0;<span class="tag"><span class="extremism">extremism</span>&#xa0;<span class="radicalisation">radicalisation</span>&#xa0;<span class="politics">politics</span></span></h2>
 <div class="outline-text-2" id="text-7">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -1263,7 +1263,7 @@ Like the coronavirus pandemic, the current infodemic is a global phenomenon. We 
 </blockquote>
 
 
-<div id="orge705743" class="figure">
+<div id="org532ee7b" class="figure">
 <p><img src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale,dpr_1.5/jackets/9781526616791.jpg" alt="9781526616791.jpg" />
 </p>
 </div>
@@ -1285,8 +1285,8 @@ Additional content: <a href="https://www.youtube.com/watch?v=fAFV49e2W5M">Going 
 </p>
 </div>
 </div>
-<div id="outline-container-org70e8175" class="outline-2">
-<h2 id="org70e8175"><span class="section-number-2">8.</span> Rinsed: From Cartels to Crypto&#xa0;&#xa0;&#xa0;<span class="tag"><span class="truecrime">truecrime</span>&#xa0;<span class="financial">financial</span>&#xa0;<span class="technology">technology</span></span></h2>
+<div id="outline-container-orgb21c466" class="outline-2">
+<h2 id="orgb21c466"><span class="section-number-2">8.</span> Rinsed: From Cartels to Crypto&#xa0;&#xa0;&#xa0;<span class="tag"><span class="truecrime">truecrime</span>&#xa0;<span class="financial">financial</span>&#xa0;<span class="technology">technology</span></span></h2>
 <div class="outline-text-2" id="text-8">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -1320,7 +1320,7 @@ Rinsed is a triumph. If you want to understand how the chaotic world around us r
 </blockquote>
 
 
-<div id="org8a7991e" class="figure">
+<div id="org8699f5b" class="figure">
 <p><img src="https://m.media-amazon.com/images/I/71n9FOWUzkL.jpg" alt="71n9FOWUzkL.jpg" />
 </p>
 </div>
@@ -1342,8 +1342,8 @@ Money laundering and Cyber crime in general are mutually exclusive. Even the mos
 </p>
 </div>
 </div>
-<div id="outline-container-orgd6649dc" class="outline-2">
-<h2 id="orgd6649dc"><span class="section-number-2">9.</span> Podcasts:</h2>
+<div id="outline-container-org6edc6cb" class="outline-2">
+<h2 id="org6edc6cb"><span class="section-number-2">9.</span> Podcasts:</h2>
 <div class="outline-text-2" id="text-9">
 <p>
 Here is a list of podcasts I regularly listen to about a variety of topics:
@@ -1392,43 +1392,43 @@ Here is a list of podcasts I regularly listen to about a variety of topics:
 <item>
 <title>Posts Archive</title>
 <link>https://blog.mbrig.nl/archive.html</link>
-<pubDate>Tue, 10 Feb 2026 11:31:06 +0000</pubDate>
+<pubDate>Tue, 10 Feb 2026 16:20:47 +0000</pubDate>
 <guid>https://blog.mbrig.nl/archive.html</guid>
 <description>
-<![CDATA[<div id="outline-container-org8ff1e48" class="outline-2">
-<h2 id="org8ff1e48"><span class="section-number-2">1.</span> <a href="https://blog.mbrig.nl/posts/koreader-on-kobo.html">2026-02-10 — KOReader on Kobo</a></h2>
+<![CDATA[<div id="outline-container-org62ca1d9" class="outline-2">
+<h2 id="org62ca1d9"><span class="section-number-2">1.</span> <a href="https://blog.mbrig.nl/posts/koreader-on-kobo.html">2026-02-10 — KOReader on Kobo</a></h2>
 <div class="outline-text-2" id="text-1">
 <p>
 So I found an old Kobo Glo in a charity shop for 10 recently and was not too sure what to do with it. The intention was to read more, but&#x2026;
 </p>
 </div>
 </div>
-<div id="outline-container-org7b5cd1d" class="outline-2">
-<h2 id="org7b5cd1d"><span class="section-number-2">2.</span> <a href="https://blog.mbrig.nl/posts/exploring-9front.html">2025-02-15 — Exploring 9front and Plan 9</a></h2>
+<div id="outline-container-org3a79102" class="outline-2">
+<h2 id="org3a79102"><span class="section-number-2">2.</span> <a href="https://blog.mbrig.nl/posts/exploring-9front.html">2025-02-15 — Exploring 9front and Plan 9</a></h2>
 <div class="outline-text-2" id="text-2">
 <p>
 Checking out 9front/Plan 9 and some cool Thinkpad hardware.
 </p>
 </div>
 </div>
-<div id="outline-container-org2e7f4f5" class="outline-2">
-<h2 id="org2e7f4f5"><span class="section-number-2">3.</span> <a href="https://blog.mbrig.nl/posts/terraform-and-terrascan.html">2024-10-11 — Terraform and Terrascan with AWS (Immersive Labs)</a></h2>
+<div id="outline-container-orgaa9cb38" class="outline-2">
+<h2 id="orgaa9cb38"><span class="section-number-2">3.</span> <a href="https://blog.mbrig.nl/posts/terraform-and-terrascan.html">2024-10-11 — Terraform and Terrascan with AWS (Immersive Labs)</a></h2>
 <div class="outline-text-2" id="text-3">
 <p>
 This post is going to cover my most recent lab "Secure Terraform for AWS". I wanted to present my personal approach on the lab and my experience in general. I'm going to try not to give away too much, just some hints and what to expect if you're considering purchasing licences or you're a learner considering which labs to do next.
 </p>
 </div>
 </div>
-<div id="outline-container-org1dce37d" class="outline-2">
-<h2 id="org1dce37d"><span class="section-number-2">4.</span> <a href="https://blog.mbrig.nl/posts/release-monitoring-in-jira.html">2024-10-11 — Release Monitoring with Automation for Jira</a></h2>
+<div id="outline-container-org5aa7188" class="outline-2">
+<h2 id="org5aa7188"><span class="section-number-2">4.</span> <a href="https://blog.mbrig.nl/posts/release-monitoring-in-jira.html">2024-10-11 — Release Monitoring with Automation for Jira</a></h2>
 <div class="outline-text-2" id="text-4">
 <p>
 So your organisation has decided to build a Internal Developer Portal (IDP) using Backstage. All of a sudden you're responsible for looking after a quickly growing, forever updating production environment, as well as an IDP?
 </p>
 </div>
 </div>
-<div id="outline-container-orga588f9f" class="outline-2">
-<h2 id="orga588f9f"><span class="section-number-2">5.</span> <a href="https://blog.mbrig.nl/posts/emacs-ispell-aspell.html">2024-10-04 — Emacs with aspell/ispell on Nix Darwin</a></h2>
+<div id="outline-container-orgb0a182a" class="outline-2">
+<h2 id="orgb0a182a"><span class="section-number-2">5.</span> <a href="https://blog.mbrig.nl/posts/emacs-ispell-aspell.html">2024-10-04 — Emacs with aspell/ispell on Nix Darwin</a></h2>
 <div class="outline-text-2" id="text-5">
 <p>
 I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Ispell is built in to the current version I'm using (29.1). However it was locked to the default US dictionary. Easy fix right?
@@ -1443,15 +1443,15 @@ I like writing and was keen to introduce an on-the-fly spellchecker in Emacs. Is
 <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
 <guid>https://blog.mbrig.nl/index.html</guid>
 <description>
-<![CDATA[<div id="outline-container-orgfce4087" class="outline-2">
-<h2 id="orgfce4087"><span class="section-number-2">1.</span> &#x2026;a blog you say? <i class="fa-regular fa-circle-question"></i></h2>
+<![CDATA[<div id="outline-container-orgc68f4bb" class="outline-2">
+<h2 id="orgc68f4bb"><span class="section-number-2">1.</span> &#x2026;a blog you say? <i class="fa-regular fa-circle-question"></i></h2>
 <div class="outline-text-2" id="text-1">
 <p>
 I use this space so I can personally revisit items of interest, store knowledge and maybe achievements.
 </p>
 </div>
-<div id="outline-container-org963040b" class="outline-3">
-<h3 id="org963040b"><span class="section-number-3">1.1.</span> What to expect</h3>
+<div id="outline-container-orge9570c9" class="outline-3">
+<h3 id="orge9570c9"><span class="section-number-3">1.1.</span> What to expect</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 You'll likely find me talking about my favourite technologies. I may, from time to time, speak of other interests. I may even cover topics that overlap with creative and otherworldly interests.
@@ -1475,15 +1475,15 @@ Some topics, themes, and subjects:
 </div>
 </div>
 </div>
-<div id="outline-container-org35694ba" class="outline-2">
-<h2 id="org35694ba"><span class="section-number-2">2.</span> Current Book(s) <i class="fa-solid fa-book"></i></h2>
+<div id="outline-container-org9fe8fc8" class="outline-2">
+<h2 id="org9fe8fc8"><span class="section-number-2">2.</span> Current Book(s) <i class="fa-solid fa-book"></i></h2>
 <div class="outline-text-2" id="text-2">
 <p>
 On rotation this month:
 </p>
 </div>
-<div id="outline-container-org0a71758" class="outline-3">
-<h3 id="org0a71758"><span class="section-number-3">2.1.</span> How Bluegrass Music Destroyed My Life</h3>
+<div id="outline-container-org6de7695" class="outline-3">
+<h3 id="org6de7695"><span class="section-number-3">2.1.</span> How Bluegrass Music Destroyed My Life</h3>
 <div class="outline-text-3" id="text-2-1">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -1507,7 +1507,7 @@ On rotation this month:
 </table>
 
 
-<div id="org6a8be38" class="figure">
+<div id="org20b2530" class="figure">
 <p><img src="https://m.media-amazon.com/images/I/712DzUtij-L._AC_UF894,1000_QL80_.jpg" alt="712DzUtij-L._AC_UF894,1000_QL80_.jpg" />
 </p>
 </div>
@@ -1522,15 +1522,15 @@ Second time reading. Love this book - collection of short stories written by the
 </div>
 </div>
 </div>
-<div id="outline-container-orgd1600d4" class="outline-2">
-<h2 id="orgd1600d4"><span class="section-number-2">3.</span> Previous Books <i class="fa-solid fa-book"></i></h2>
+<div id="outline-container-orgf33298b" class="outline-2">
+<h2 id="orgf33298b"><span class="section-number-2">3.</span> Previous Books <i class="fa-solid fa-book"></i></h2>
 <div class="outline-text-2" id="text-3">
 <p>
 Ongoing reads/ last completed book:
 </p>
 </div>
-<div id="outline-container-org7831079" class="outline-3">
-<h3 id="org7831079"><span class="section-number-3">3.1.</span> Enshittification: Why Everything Suddenly Got Worse and What To Do About It</h3>
+<div id="outline-container-orga5503b2" class="outline-3">
+<h3 id="orga5503b2"><span class="section-number-3">3.1.</span> Enshittification: Why Everything Suddenly Got Worse and What To Do About It</h3>
 <div class="outline-text-3" id="text-3-1">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -1568,8 +1568,8 @@ Terrifying at times, and very informative. If you want to know how the world bec
 </div>
 </div>
 </div>
-<div id="outline-container-org278c00d" class="outline-2">
-<h2 id="org278c00d"><span class="section-number-2">4.</span> Contact <i class="fa-solid fa-house"></i></h2>
+<div id="outline-container-org7a6b1d3" class="outline-2">
+<h2 id="org7a6b1d3"><span class="section-number-2">4.</span> Contact <i class="fa-solid fa-house"></i></h2>
 <div class="outline-text-2" id="text-4">
 <p>
 Feel free to reach out via email or GitHub:
@@ -1597,8 +1597,8 @@ Feel free to reach out via email or GitHub:
 </table>
 </div>
 </div>
-<div id="outline-container-org56337e8" class="outline-2">
-<h2 id="org56337e8"><span class="section-number-2">5.</span> Post Archive <i class="fa-solid fa-box-archive"></i></h2>
+<div id="outline-container-org73dac0d" class="outline-2">
+<h2 id="org73dac0d"><span class="section-number-2">5.</span> Post Archive <i class="fa-solid fa-box-archive"></i></h2>
 <div class="outline-text-2" id="text-5">
 <p>
 <a href="https://blog.mbrig.nl/archive.html">All Posts</a>
@@ -1610,14 +1610,14 @@ Feel free to reach out via email or GitHub:
 <item>
 <title>Notes and Drafts</title>
 <link>https://blog.mbrig.nl/notes.html</link>
-<pubDate>Tue, 10 Feb 2026 11:31:06 +0000</pubDate>
+<pubDate>Tue, 10 Feb 2026 16:20:47 +0000</pubDate>
 <guid>https://blog.mbrig.nl/notes.html</guid>
 <description>
 <![CDATA[<p>
 Notes and drafts live here and the occasional pontification.
 </p>
-<div id="outline-container-org618c97b" class="outline-2">
-<h2 id="org618c97b"><span class="section-number-2">1.</span> <a href="https://blog.mbrig.nl/notes/notes.html">2026-02-10 — Notes - a place to store</a></h2>
+<div id="outline-container-org40b924b" class="outline-2">
+<h2 id="org40b924b"><span class="section-number-2">1.</span> <a href="https://blog.mbrig.nl/notes/notes.html">2026-02-10 — Notes - a place to store</a></h2>
 <div class="outline-text-2" id="text-1">
 <p>
 (No preview)
@@ -1629,14 +1629,14 @@ Notes and drafts live here and the occasional pontification.
 <item>
 <title>About Me</title>
 <link>https://blog.mbrig.nl/about.html</link>
-<pubDate>Tue, 10 Feb 2026 11:31:06 +0000</pubDate>
+<pubDate>Tue, 10 Feb 2026 16:20:47 +0000</pubDate>
 <guid>https://blog.mbrig.nl/about.html</guid>
 <description>
-<![CDATA[<div id="outline-container-org1e70dae" class="outline-2">
-<h2 id="org1e70dae"><span class="section-number-2">1.</span> General <i class="fa-regular fa-address-card"></i></h2>
+<![CDATA[<div id="outline-container-orgef095b1" class="outline-2">
+<h2 id="orgef095b1"><span class="section-number-2">1.</span> General <i class="fa-regular fa-address-card"></i></h2>
 <div class="outline-text-2" id="text-1">
 
-<div id="org7bad13a" class="figure">
+<div id="org86b597f" class="figure">
 <p><img src="https://blog.mbrig.nl/./img/mbrignl.jpg" alt="mbrignl.jpg" />
 </p>
 </div>
@@ -1646,8 +1646,8 @@ During the day I work as a Security engineer in an incident response team. When 
 </p>
 </div>
 </div>
-<div id="outline-container-orgdb0ee08" class="outline-2">
-<h2 id="orgdb0ee08"><span class="section-number-2">2.</span> Music things <i class="fa-solid fa-music"></i></h2>
+<div id="outline-container-orgf12f149" class="outline-2">
+<h2 id="orgf12f149"><span class="section-number-2">2.</span> Music things <i class="fa-solid fa-music"></i></h2>
 <div class="outline-text-2" id="text-2">
 <p>
 I am working on music for live performance hopefully before the end of the year (more on that soon).
@@ -1677,8 +1677,8 @@ Here is a neat (I think) playlist of some of my faves:
 </p>
 </div>
 </div>
-<div id="outline-container-org25f844d" class="outline-2">
-<h2 id="org25f844d"><span class="section-number-2">3.</span> Linux things <i class="fa-regular fa-file-code"></i></h2>
+<div id="outline-container-org681696f" class="outline-2">
+<h2 id="org681696f"><span class="section-number-2">3.</span> Linux things <i class="fa-regular fa-file-code"></i></h2>
 <div class="outline-text-2" id="text-3">
 <p>
 For some time now I've been obsessed with Linux, more specifically NixOS and most recently Guix SD. I discovered a rich world of possibilities upon realising that I could craft my systems declaritively.
@@ -1701,12 +1701,12 @@ A more recent edition is Guix SD and I've taken inspiration from a variety of so
 </ul>
 </div>
 </div>
-<div id="outline-container-orge02f1bd" class="outline-2">
-<h2 id="orge02f1bd"><span class="section-number-2">4.</span> Other stuff <i class="fa-regular fa-file-code"></i></h2>
+<div id="outline-container-orgef2a054" class="outline-2">
+<h2 id="orgef2a054"><span class="section-number-2">4.</span> Other stuff <i class="fa-regular fa-file-code"></i></h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-orge0d0bf6" class="outline-4">
-<h4 id="orge0d0bf6"><span class="section-number-4">4.0.1.</span> <span class="todo STARTED">STARTED</span> Plan 9/ 9front</h4>
+<div id="outline-container-org938d2a3" class="outline-4">
+<h4 id="org938d2a3"><span class="section-number-4">4.0.1.</span> <span class="todo STARTED">STARTED</span> Plan 9/ 9front</h4>
 <div class="outline-text-4" id="text-4-0-1">
 <p>
 Just started using 9front over the holiday period, I'll record findings, so far I love it. I am looking for old laptops to run the OS on bare metal. I have two running machines I've been playing with:
@@ -1726,8 +1726,8 @@ After some diagnosis and testing it turned out the system board was gone, so a r
 </p>
 </div>
 </div>
-<div id="outline-container-org6abd871" class="outline-4">
-<h4 id="org6abd871"><span class="section-number-4">4.0.2.</span> <span class="todo TODO">TODO</span> Other stuff</h4>
+<div id="outline-container-org2973f06" class="outline-4">
+<h4 id="org2973f06"><span class="section-number-4">4.0.2.</span> <span class="todo TODO">TODO</span> Other stuff</h4>
 </div>
 </div>
 ]]>
@@ -1735,7 +1735,7 @@ After some diagnosis and testing it turned out the system board was gone, so a r
 <item>
 <title>Notes - a place to store</title>
 <link>https://blog.mbrig.nl/notes/notes.html</link>
-<pubDate>Tue, 10 Feb 2026 11:31:06 +0000</pubDate>
+<pubDate>Tue, 10 Feb 2026 16:20:47 +0000</pubDate>
 <guid>https://blog.mbrig.nl/notes/notes.html</guid>
 <description>
 <![CDATA[]]>
