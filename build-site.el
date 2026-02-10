@@ -69,6 +69,7 @@ https://ogbe.net/blog/blogging_with_org.html"
 (use-package org-publish-rss
   :vc (:url "https://git.sr.ht/~taingram/org-publish-rss"
             :rev :newest))
+(setq org-publish-rss-publish-immediately t)
 
 (setq org-html-postamble-format
       '(("en" "<div class=\"postamble\">
@@ -153,6 +154,6 @@ https://ogbe.net/blog/blogging_with_org.html"
 ;; Generate the site output
 
 (org-publish-all t)
-(rename-file "./content/rss.xml" "./public/")
+;; (rename-file "./content/rss.xml" "./public/")
 (message "Build Complete!")
 
