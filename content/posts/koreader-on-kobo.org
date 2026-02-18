@@ -103,6 +103,16 @@ From here I went through my smallish library of books checking out the different
 
 supported fileformats include EPUB, PDF, DjVu, XPS, CBT, CBZ, FB2, PDB, TXT, HTML, RTF, CHM, DOC, MOBI and ZIP files).
 
+** What do I like about KOReader?
+
+I've put my fingerprint on the device. I've created a space that's free of the proprietary bloat, ads and other junk that ships with these devices.
+
+In addition to these wins I also gained some neat unexpected bonuses:
+
+- SSH and connection over wifi (file sharing)
+- Atom/RSS reader (not sure if this is available on Kobo base software) but this is neat!
+- Wallabag sync
+
 * Where next?
 
 With my new found love for ereaders and KOReader I plan to read more books. I have a collection of books I've been trying to finish, also plenty of technical books on the back burner that, with this new format, should enable me to read more regularly and efficiently.
@@ -113,4 +123,4 @@ I would also like to explore the community maintained plugins and patches for ad
 
 All the magic appears to be a combination of shell scripts and lua, both of which I have a bit of experience with.
 
-So who knows, maybe I'll be putting together a neat plugin shortly?
+So who knows, maybe I'll be putting together my own neat plugin?
