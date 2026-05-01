@@ -53,6 +53,7 @@ div.top {
 
 h1.logo {
     margin: 0 0 0 0;
+    color: black !important;
 }
 
 /* --- Postamble/Footer Styling --- */
@@ -237,33 +238,23 @@ ul {
      margin-bottom: 1em;
  }
 
-
 .todo.TODO {
     background-color: #ccddcd;
-    color: #3b4252 !important;
-    font-weight: bold;
     border: 1px solid #dcdccc;
-    padding: 1px;
-    border-radius: 4px;
-    font-size: 0.6em;
+    font-size: 80%;
+    margin: auto;
 }
-  
+
 .todo.STARTED {
     background-color: #ebcb8b;
-    color: #3b4252 !important;
-    font-weight: bold;
     border: 1px solid #dcdccc;
-    padding: 1px;
-    border-radius: 4px;
-    font-size: 0.6em;
+    font-size: 80%;
+    margin: auto;
 }
 
 .todo.DONE {
     background-color: #a3be8c;
-    color: #3b4252 !important;
-    font-weight: bold;
     border: 1px solid #dcdccc;
-    padding: 1px;
-    border-radius: 4px;
-    font-size: 0.6em;
+    font-size: 80%;
+    margin: auto;
 }
