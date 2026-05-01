@@ -8,6 +8,8 @@
 
 During the day I work as a Security engineer in an incident response team. When not blocking attackers and analysing threats I can be found playing guitar.
 
+@@html:<div style="clear: both;"></div>@@
+
 * Music things
 
  I am working on music for live performance hopefully before the end of the year (more on that soon).
