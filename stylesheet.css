@@ -1,118 +1,92 @@
 /* Base Styles */
  html, body {
-     background-color: #1c1e26;
-     font-size: 0.8;
-     line-height: 1.5;
-     color: #dcdccc;
      font-family: 'Fira Mono', monospace;
+     background-color: #F0E8DA;
+     margin: 0 auto;
+     padding: 20px;
  }
 
- /* For Larger Screens */
- @media screen and (min-width: 680px) {
+/* Mobile Devices */
+@media (max-width: 480px) {
+     body {
+         width: 32rem;
+     }
+}
+
+/* Low resolution Tablets and iPads */
+@media (min-width: 481px) and (max-width: 767px) {
+     body {
+         width: 42rem;
+
+     }
+}
+
+/* Tablets iPads (Portrait) */
+@media (min-width: 768px) and (max-width: 1024px){
+     body {
+         width: 46rem;
+
+     }
+}
+
+ /* Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
      body {
          width: 48rem;
-         margin: 0 auto;
-         padding: 20px;
-     }
- }
 
- /* For Mobile */
- @media screen and (max-width: 430px) {
+     }
+}
+
+/* Big boi Monitors */
+@media (min-width: 1281px) {
      body {
-         width: 90%;
-         margin: 0 auto;
-         padding: 10px;
+         width: 58rem;
+
      }
- }
-
- h1.title {
-    width: 100%;
- }
- 
- /* Headings */ 
- h1 { 
-     color: #e79686; 
-     font-size: 1em; 
-     text-align: center; 
-     width: 100% !important;
- }
-
- h1.logo:hover {
-     color: #7ec98f;
- }
-
- a.areas:hover {
-     color: #e79686;
- }
-
- /* h2 { */
- /*     margin-bottom: 10px; */
- /*     border-bottom: 1px solid #7ec98f; */
- /*     display: flex; */
- /*     justify-content: space-between; */
- /* } */
-
- /* Allow the flex container to wrap */
-h2 {
-    color: #7ec98f;
-    font-size: 1em;
-    margin-top: 0px;
-    margin-bottom: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; /* Good for vertical alignment */
-    flex-wrap: wrap;      /* This is the key change */
-    border-top: 2px solid #7ec98f;
-    padding-top: 0.5em;
 }
 
-/* This rule controls the LAYOUT of the tag container */
-.tag {
-  flex-basis: 100%;      /* Make the container take up the full width */
-  text-align: left;       /* Push the tag to the right on its new line */
-  margin-bottom: 0.5em;    /* Add space between the tag and the bottom border */
+.status {
+     background-color: #D5E2E7;
 }
 
-/* This rule controls the APPEARANCE of the tag itself */
+h2, h3 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #D5E2E7;
+    font-size: 80%;
+}
+
+figure {
+    margin: auto;
+}
+
+img {
+    width: 75px;
+    display: inline-block;
+    float: left;
+    margin: 0 15px 0 0;
+    padding-top: 1rem;
+
+}
+
 .tag span {
-  background-color: #1c1e26;
-  color: #dcdccc;
-  border: 1px solid #dcdccc;
-  padding: 2px;
-  font-size: 0.6em;
+    border: 1px solid #dcdccc;
+    font-style: italic;
+    font-size: 80%;
 }
 
 .tag span:hover {
-    background-color: #dcdccc;
+    background-color: #bccccd;
     color:  #1c1e26;
 }
 
- h3 { 
-     color: #a89bb9; 
-     font-size: 0.8em; 
-     margin-top: 0px;
-     margin-bottom: 0;
-     border-top: 2px solid #7ec98f; 
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     padding-top: 0.5em;
- } 
-
- h4 { 
-     color: #a89bb9; 
-     font-size: 0.8em; 
-     margin-top: 10px; 
-     margin-bottom: 5px; 
- } 
-
- /* Paragraphs and Lists */ 
- p { 
-     text-align: justify; 
+ /* Paragraphs and Lists */
+ p {
+     text-align: justify;
      margin-bottom: 1.5em;
+     padding: 5px;
  }
 
- /* --- Org Mode Table Styling (Refined) --- */
 
 /* Main table container (no changes here) */
 table {
@@ -131,200 +105,143 @@ tr {
   border-bottom: 1px solid #4c566a;
 }
 
-tr:last-child {
-  border-bottom: none;
-}
-tr:hover {
-  background-color: #3b4252;
-}
-
 /* General cell styling (no changes here) */
 th, td {
   padding: 8px 8px;
   text-align: left;
+  border-right: 1px solid black;
 }
 
 /* --- THIS IS THE UPDATED RULE --- */
 /* Specific styling for the "Key" column using its class */
 td.org-left {
   font-weight: bold;
-  color: #a89bb9;
 }
 
- ul { 
-     padding-left: 30px;
-     font-size: 0.8em;
-     margin-top: 0;
- } 
+ul {
+    padding-left: 30px;
+    font-size: 0.8em;
+    margin-top: 0;
+}
 
- /* Links */ 
- a { 
-     color: #7ec98f; 
- } 
+/*  a:hover { */
+/*      text-decoration: underline; */
+/*  } */
 
- a:hover { 
-     text-decoration: underline; 
- } 
-
- /* Centering Elements */ 
- .center { 
-     text-align: center; 
- } 
-
- /* Block Quote */ 
- blockquote{ 
-   font-size: 0.8em; 
-   /* width: 90%; */
-   font-style: italic; 
-   color: #555555; 
-   padding: 1em 50px 1em 50px; 
+ /* Block Quote */
+ blockquote{
+   font-size: 0.8em;
+   font-style: italic;
+   color: #555555;
+   padding: 1em 50px 1em 50px;
    border-left: 8px solid #78C0A8;
-   border-right: 8px solid #a89bb9; 
-   line-height: 1; 
+   border-right: 8px solid #a89bb9;
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+   line-height: 1;
    position: relative;
-   background: #a89bb9;
    margin-right: 0px;
    margin-left: 0px;
- } 
-
- blockquote::before{ 
-   content: "\201C"; 
-   color: #78C0A8; 
-   font-size: 4em; 
-   float: left;
-   left: 10px; 
-   top: 10px;
-   padding-bottom: 5px;
- } 
-
- blockquote::after{ 
-   content: ''; 
- } 
-
- blockquote span{ 
-   display: block; 
-   color: #333333; 
-   font-style: normal; 
-   font-weight: bold; 
-   margin-top: 1em; 
- } 
-
- /* Code Block - Inline Code */ 
- code { 
-     background-color: #2e3440; 
-     color: #dcdccc; 
-     padding: 2px 4px; 
-     border-radius: 4px; 
-     font-family: 'Fira Mono', monospace; 
  }
 
- figure {
-     margin-left: 10px;
-     margin-right: 15px;
-     margin-top: 10pxxs;
+/* Code Block - Inline Code */
+ code {
+     background-color:  #a89bb9;
+     padding: 2px 2px;
+     border-radius: 4px;
  }
 
- img {
-     float: inline-start;
-     margin-right: 15px;
-     vertical-align: bottom;
-     width: 75px;
- }
- 
- /* Block Code - Preformatted Code Block */ 
- pre { 
-     background-color: #2e3440; 
-     color: #dcdccc; 
-     padding: 10px; 
-     border-radius: 8px; 
-     overflow: auto; 
-     font-family: 'Fira Mono', monospace; 
-     font-size: 0.9em; 
+/* Code Block */
+ pre {
+     background-color: #2e3440;
+     color: #dcdccc;
+     padding: 10px;
+     border-radius: 8px;
+     overflow: auto;
+     font-family: 'Fira Mono', monospace;
+     font-size: 0.9em;
      line-height: 1.4;
- } 
+ }
 
- /* Highlighted Code Block */ 
- pre.src { 
-     background-color: #3b4252; 
-     border: 1px solid #4c566a; 
-     padding: 10px; 
-     border-radius: 8px; 
-     overflow: auto; 
-     white-space: pre-wrap; 
-     word-wrap: break-word;     
- } 
+/* Highlighted Code Block */
+ pre.src {
+     background-color: #3b4252;
+     border: 1px solid #4c566a;
+     padding: 10px;
+     border-radius: 8px;
+     overflow: auto;
+     white-space: pre-wrap;
+     word-wrap: break-word;
+ }
 
- pre { 
-     overflow-x: auto; 
- } 
+ pre {
+     overflow-x: auto;
+ }
 
- /* Org-mode Syntax Highlighting for src blocks */ 
- pre.src span { 
-     color: #dcdccc; 
- } 
+/* Org-mode Syntax Highlighting for src blocks */
+ pre.src span {
+     color: #dcdccc;
+ }
 
- pre.src .org-keyword { 
-     color: #81a1c1; 
- } 
+ pre.src .org-keyword {
+     color: #81a1c1;
+ }
 
- pre.src .org-comment { 
-     color: #616e88; 
- } 
+ pre.src .org-comment {
+     color: #FE9F80;
+ }
 
- pre.src .org-string { 
-     color: #a3be8c; 
- } 
+ pre.src .org-string {
+     color: #a3be8c;
+ }
 
- pre.src .org-constant { 
-     color: #ebcb8b; 
- } 
+ pre.src .org-constant {
+     color: #ebcb8b;
+ }
 
- /* Org-mode SRC container */ 
- .org-src-container { 
-     margin-bottom: 1em; 
- } 
+/* Org-mode SRC container  */
+ .org-src-container {
+     margin-bottom: 1em;
+ }
 
- /* --- Postamble/Footer Styling --- */
+/* --- Postamble/Footer Styling --- */
 .postamble {
-    margin-top: 3em;
-    padding-top: 1.5em;
     border-top: 1px solid #4c566a;
     font-size: 0.9em;
     color: #616e88;
 }
 
-/* You can also style the paragraph inside it if needed */
 .postamble p {
     margin: 0;
     text-align: center !important;
 }
 
- .todo.TODO { 
-     background-color: #e79686; 
-     color: #3b4252 !important; 
-     font-weight: bold; 
-     border: 1px solid #dcdccc; 
-     padding: 1px; 
-     border-radius: 4px; 
-     font-size: 0.6em; 
- } 
-
- .todo.STARTED { 
-     background-color: #ebcb8b; 
+ .todo.TODO {
+     background-color: #e79686;
      color: #3b4252 !important;
-     font-weight: bold; 
-     border: 1px solid #dcdccc; 
-     padding: 1px; 
-     border-radius: 4px; 
-     font-size: 0.6em; 
- } 
+     font-weight: bold;
+     border: 1px solid #dcdccc;
+     padding: 1px;
+     border-radius: 4px;
+     font-size: 0.6em;
+ }
 
- .todo.DONE { 
-     background-color: #a3be8c; 
+ .todo.STARTED {
+     background-color: #ebcb8b;
      color: #3b4252 !important;
-     font-weight: bold; 
-     border: 1px solid #dcdccc; 
-     padding: 1px; 
-     border-radius: 4px; 
-     font-size: 0.6em; 
+     font-weight: bold;
+     border: 1px solid #dcdccc;
+     padding: 1px;
+     border-radius: 4px;
+     font-size: 0.6em;
+ }
+
+ .todo.DONE {
+     background-color: #a3be8c;
+     color: #3b4252 !important;
+     font-weight: bold;
+     border: 1px solid #dcdccc;
+     padding: 1px;
+     border-radius: 4px;
+     font-size: 0.6em;
  }
