@@ -3,7 +3,7 @@
 #+date: <2024-10-03>
 #+TODO: TODO STARTED | DONE
 
-* ...a blog you say? @@html:<i class="fa-regular fa-circle-question"></i>@@
+* ...a blog you say?
 
 I use this space so I can personally revisit items of interest, store knowledge and maybe achievements.
 
@@ -21,7 +21,7 @@ Some topics, themes, and subjects:
 - *Experiments, code snippets and projects*
 - *Single Board Computer exploration*
 
-* Current Book(s) @@html:<i class="fa-solid fa-book"></i>@@
+* Current Book(s)
 
 On rotation this month:
 
@@ -36,7 +36,7 @@ Second time reading. Love this book - collection of short stories written by the
 
 @@html:<div style="clear: both;"></div>@@
 
-* Previous Books @@html:<i class="fa-solid fa-book"></i>@@
+* Previous Books
 
 Ongoing reads/ last completed book:
 
@@ -52,13 +52,13 @@ Terrifying at times, and very informative. If you want to know how the world bec
 
 @@html:<div style="clear: both;"></div>@@
 
-* Contact @@html:<i class="fa-solid fa-house"></i>@@
+* Contact
 
 Feel free to reach out via email or GitHub:
 
-| [[mailto:hello@mbrig.nl][email me]]         | @@html:<i class="fa fa-envelope"></i>@@          |
-| [[https://github.com/mbrignall][github/mbrignall]] | @@html:<i class="fa-brands fa-github-alt"></i>@@ |
+| @@html:<i class="fa fa-envelope"></i>@@          | [[mailto:hello@mbrig.nl][email me]]         |
+| @@html:<i class="fa-brands fa-github-alt"></i>@@ | [[https://github.com/mbrignall][github/mbrignall]] |
 
-* Post Archive @@html:<i class="fa-solid fa-box-archive"></i>@@
+* Post Archive
 
 [[file:archive.org][All Posts]]
