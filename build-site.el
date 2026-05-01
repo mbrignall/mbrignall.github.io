@@ -76,6 +76,19 @@ https://ogbe.net/blog/blogging_with_org.html"
                <p> Created by %c %s </p>
                </div>")))
 
+(setq org-html-preamble-format
+      '(("en" "<div class=\"top\">
+               <a href=\"/index.html\">
+               <h1 class=\"logo\">mblognl</h1>
+               </a>
+               <div>
+                   <a href='/about.html'>About Me</a> |
+                   <a href='/archive.html'>Blog</a> |
+                   <a href='/books.html'>Books</a> |
+                   <a href='/rss.xml'>RSS</a>
+               </div>
+               </div>")))
+
 (defun file-contents (file)
   "Return the contents of FILE as a string, or nil if the file does not exist."
   (if (file-readable-p file)
@@ -87,7 +100,8 @@ https://ogbe.net/blog/blogging_with_org.html"
 (setq org-publish-project-alist
       `(("mblognl"
          :base-directory "./content"
-         :html-preamble ,(file-contents "assets/html_preamble.html")
+         :html-preamble t
+         ;;:html-preamble ,(file-contents "assets/html_preamble.html")
          :html-postamble t
          :recursive t
 
