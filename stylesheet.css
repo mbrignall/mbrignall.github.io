@@ -3,7 +3,7 @@
      font-family: 'Fira Mono', monospace;
      background-color: #F0E8DA;
      margin: 0 auto;
-     padding: 20px;
+     padding: 10px;
  }
 
 /* Mobile Devices */
@@ -50,7 +50,8 @@ h2, h3 {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     background-color: #D5E2E7;
-    font-size: 80%;
+    font-size: 90%;
+    text-align: center;
 }
 
 figure {
@@ -112,7 +113,7 @@ th, td {
 /* --- THIS IS THE UPDATED RULE --- */
 /* Specific styling for the "Key" column using its class */
 td.org-left {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 ul {
@@ -201,12 +202,24 @@ ul {
      margin-bottom: 1em;
  }
 
+div.top {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+h1.logo {
+    margin: 0 0 0 0;
+}
+
 /* --- Postamble/Footer Styling --- */
 .postamble {
     border-top: 1px solid #4c566a;
     font-size: 0.9em;
     color: #616e88;
 }
+
 
 .postamble p {
     margin: 0;
