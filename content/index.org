@@ -34,8 +34,6 @@ https://m.media-amazon.com/images/I/712DzUtij-L._AC_UF894,1000_QL80_.jpg
 
 Second time reading. Love this book - collection of short stories written by the legend himself.
 
-@@html:<div style="clear: both;"></div>@@
-
 * Previous Books
 
 Ongoing reads/ last completed book:
@@ -48,9 +46,6 @@ Ongoing reads/ last completed book:
 Terrifying at times, and very informative. If you want to know how the world became enshittified then get the book (or audio book read by the author)
 
 [[./books.html][Read More...]]
-
-
-@@html:<div style="clear: both;"></div>@@
 
 * Contact
 

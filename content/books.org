@@ -1,6 +1,7 @@
 #+title: Book Reviews
 #+author: mbrignall
 #+date: <2024-12-31>
+#+todo: TODO STARTED | DONE
 
 * To Anyone Who Ever Asks: The Life, Music, and Mystery of Connie Converse :music:folklore:
 
@@ -12,8 +13,6 @@ https://m.media-amazon.com/images/I/616XekvMCTL._AC_UF894,1000_QL80_.jpg
 Connie Converse is an very interesting character, and this book gives a really details backstory of both her early life up to her strange disappearance. If you've not heard Connie's music I recommend starting with 'How Sad, How Lovely'. Her songwriting was miles ahead of her peers, those 'folky' types shackled by tradition.
 
 There are some surprising moments and a few theories on her disappearance that leaves you with questions. Overall I thought the book was well researched and is a great introduction to the world of Connie Converse.
-
-@@html:<div style="clear: both;"></div>@@
 
 * Code: The Hidden Language of Computer Hardware and Software :computer:science:technology:
 
@@ -47,7 +46,7 @@ I listened to this as an audiobook read by Gary himself and this made the connec
 
 Gary is clearly a very smart person. Someone who not only can convey complex ideas and trading insider techniques but also how traditional economists do not often see how the economy affect people and social impacts on the economy.
 
-* IN-PROGRESS America Over Water                     :folklore:music:america:
+* STARTED America Over Water                         :folklore:music:america:
 
 | Author         | Shirley Collins |
 | Published date |      2022-01-20 |
@@ -63,15 +62,13 @@ https://m.media-amazon.com/images/I/71IYBIjH1gL._SY522_.jpg
 
 Shirley Collins writes her early days and travels with Folklorist, Alan Lomax as the record audio and document the music of Americas heartland. Split in chapters between Collins' early life in -- and their professional and emotional relationship with Lomax, 
 
-@@html:<div style="clear: both;"></div>@@
-
 #+keywords: folk
 
 * The Cuckoo's Egg                                  :cybersecurity:truecrime:
 
 | Author         | Clifford Stoll |
 | Published date |     2005-09-13 |
-  
+
 #+begin_quote
 The hacker didn't succeed through sophistication. Rather he poked at obvious places, trying to enter through unlock doors. Persistence, not wizardry, let him through.
 
@@ -92,9 +89,6 @@ Stoll welcomes the reader into not just his professional life but also the perso
 
 On occasion the book felt a little like groundhog day due to the repetitive events of the hacker appearing and then disappearing again in short succession. Stolls' frustration expressed of the authorities and policing of cyber crime during the time shows just how far the field has come.
 
-~finished 05/12/2024~
-
-@@html:<div style="clear: both;"></div>@@
 
 * Cult of the Dead Cow                 :cybersecurity:truecrime:hacking:tech:
 
@@ -109,7 +103,7 @@ On occasion the book felt a little like groundhog day due to the repetitive even
 
 | Author         | Julia Ebner |
 | Published date |  2020-02-20 |
-  
+
 #+begin_quote
 Like the coronavirus pandemic, the current infodemic is a global phenomenon. We need to tackle it on an international level to avoid adding a third layer to this worldwide crisis: a societal one.
 
@@ -123,8 +117,6 @@ Dr. Julie Ebner specialises in radicalisation, extremism and terrorism studies. 
 Towards the end specialists are given space to make their predictions for 2025, they cover cyber crimes and mention various groups to be wary of. Living in 2025 and based on what has happened so far in the US and further afield, I get the impression that they vastly underestimated how terrifying the reality could be.
 
 Additional content: [[https://www.youtube.com/watch?v=fAFV49e2W5M][Going Dark: The Secret Social Lives of Extremists | Julia Ebner | Talks at Google]]
-
-@@html:<div style="clear: both;"></div>@@
 
 * Rinsed: From Cartels to Crypto             :truecrime:financial:technology:
 
@@ -145,9 +137,7 @@ Business Email Compromise (BEC) is unlikely to go anywhere! The email inbox is s
 
 Money laundering and Cyber crime in general are mutually exclusive. Even the most intelligent, highly operative Cyber criminals who can hack systems, compromise organisations and individuals are reliant on the specialists that head up the money laundering industry for their services.
 
-@@html:<div style="clear: both;"></div>@@
-
-* Podcasts:
+* Podcasts
 
 Here is a list of podcasts I regularly listen to about a variety of topics:
 

@@ -8,8 +8,6 @@
 
 During the day I work as a Security engineer in an incident response team. When not blocking attackers and analysing threats I can be found playing guitar.
 
-@@html:<div style="clear: both;"></div>@@
-
 * Music things
 
  I am working on music for live performance hopefully before the end of the year (more on that soon).
@@ -25,7 +23,7 @@ I enjoy exploring blues and post-rock, metal and sub-genres of. I have a backgro
 
 Here is a neat (I think) playlist of some of my faves:
 
- @@html:<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0NarSJ8utPoOog9nIDMN2n?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>@@
+ @@html:<iframe src="https://open.spotify.com/embed/playlist/0NarSJ8utPoOog9nIDMN2n?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>@@
 
 * Linux things
 

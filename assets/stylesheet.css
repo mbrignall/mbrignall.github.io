@@ -2,14 +2,14 @@
  html, body {
      font-family: 'Fira Mono', monospace;
      background-color: #F0E8DA;
-     margin: 0 auto;
-     padding: 10px;
+     margin: auto;
  }
 
 /* Mobile Devices */
 @media (max-width: 480px) {
      body {
          width: 90%;
+         padding: 0px;
      }
 }
 
@@ -17,6 +17,7 @@
 @media (min-width: 481px) and (max-width: 767px) {
      body {
          width: 90%;
+         padding: 0px;
      }
 }
 
@@ -24,6 +25,7 @@
 @media (min-width: 768px) and (max-width: 1024px){
      body {
          width: 90%;
+         padding: 0px;
      }
 }
 
@@ -31,6 +33,7 @@
 @media (min-width: 1025px) and (max-width: 1280px){
      body {
          width: 80%;
+         padding: 10px;
      }
 }
 
@@ -38,9 +41,42 @@
 @media (min-width: 1281px) {
      body {
          width: 70%;
-
+         padding: 10px;
      }
 }
+
+div.top {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+h1.logo {
+    margin: 0 0 0 0;
+}
+
+/* --- Postamble/Footer Styling --- */
+.postamble {
+    border-top: 1px solid #4c566a;
+    font-size: 0.9em;
+    color: #616e88;
+}
+
+
+.postamble p {
+    margin: 0;
+    text-align: center !important;
+}
+
+ .todo.TODO {
+     background-color: #e79686;
+     color: #3b4252 !important;
+     font-weight: bold;
+     border: 1px solid #dcdccc;
+     padding: 1px;
+     border-radius: 4px;
+     font-size: 0.6em;
+ }
 
 .status {
      background-color: #D5E2E7;
@@ -146,7 +182,6 @@ ul {
  code {
      background-color:  #a89bb9;
      padding: 2px 2px;
-     border-radius: 4px;
  }
 
 /* Code Block */
@@ -154,7 +189,7 @@ ul {
      background-color: #2e3440;
      color: #dcdccc;
      padding: 10px;
-     border-radius: 8px;
+     border-radius: 0px;
      overflow: auto;
      font-family: 'Fira Mono', monospace;
      font-size: 0.9em;
@@ -166,7 +201,7 @@ ul {
      background-color: #3b4252;
      border: 1px solid #4c566a;
      padding: 10px;
-     border-radius: 8px;
+     border-radius: 0px;
      overflow: auto;
      white-space: pre-wrap;
      word-wrap: break-word;
@@ -202,56 +237,33 @@ ul {
      margin-bottom: 1em;
  }
 
-div.top {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 10px;
-    text-align: center;
+
+.todo.TODO {
+    background-color: #ccddcd;
+    color: #3b4252 !important;
+    font-weight: bold;
+    border: 1px solid #dcdccc;
+    padding: 1px;
+    border-radius: 4px;
+    font-size: 0.6em;
+}
+  
+.todo.STARTED {
+    background-color: #ebcb8b;
+    color: #3b4252 !important;
+    font-weight: bold;
+    border: 1px solid #dcdccc;
+    padding: 1px;
+    border-radius: 4px;
+    font-size: 0.6em;
 }
 
-h1.logo {
-    margin: 0 0 0 0;
+.todo.DONE {
+    background-color: #a3be8c;
+    color: #3b4252 !important;
+    font-weight: bold;
+    border: 1px solid #dcdccc;
+    padding: 1px;
+    border-radius: 4px;
+    font-size: 0.6em;
 }
-
-/* --- Postamble/Footer Styling --- */
-.postamble {
-    border-top: 1px solid #4c566a;
-    font-size: 0.9em;
-    color: #616e88;
-}
-
-
-.postamble p {
-    margin: 0;
-    text-align: center !important;
-}
-
- .todo.TODO {
-     background-color: #e79686;
-     color: #3b4252 !important;
-     font-weight: bold;
-     border: 1px solid #dcdccc;
-     padding: 1px;
-     border-radius: 4px;
-     font-size: 0.6em;
- }
-
- .todo.STARTED {
-     background-color: #ebcb8b;
-     color: #3b4252 !important;
-     font-weight: bold;
-     border: 1px solid #dcdccc;
-     padding: 1px;
-     border-radius: 4px;
-     font-size: 0.6em;
- }
-
- .todo.DONE {
-     background-color: #a3be8c;
-     color: #3b4252 !important;
-     font-weight: bold;
-     border: 1px solid #dcdccc;
-     padding: 1px;
-     border-radius: 4px;
-     font-size: 0.6em;
- }
