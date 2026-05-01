@@ -124,7 +124,8 @@ img {
 table {
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid #4c566a;
+  border-top: 1px solid #4c566a;
+  border-bottom: 1px solid #4c566a;
   border-radius: 0px;
   overflow: hidden;
   font-size: 0.8em;
@@ -133,20 +134,18 @@ table {
 }
 
 tr {
-  border-bottom: 1px solid #4c566a;
+    border-bottom: 1px solid #4c566a;
 }
 
 th {
     background-color: #D5E2E7;
     padding: 8px 8px;
     text-align: left;
-    border-right: 1px solid #0D0E1C;
 }
 
 td {
     padding: 8px 8px;
     text-align: left;
-    border-right: 1px solid #0D0E1C;
 }
 
 ul {
