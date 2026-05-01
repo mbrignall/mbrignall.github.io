@@ -9,38 +9,35 @@
 /* Mobile Devices */
 @media (max-width: 480px) {
      body {
-         width: 32rem;
+         width: 90%;
      }
 }
 
 /* Low resolution Tablets and iPads */
 @media (min-width: 481px) and (max-width: 767px) {
      body {
-         width: 42rem;
-
+         width: 90%;
      }
 }
 
 /* Tablets iPads (Portrait) */
 @media (min-width: 768px) and (max-width: 1024px){
      body {
-         width: 46rem;
-
+         width: 90%;
      }
 }
 
  /* Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1280px){
      body {
-         width: 48rem;
-
+         width: 80%;
      }
 }
 
 /* Big boi Monitors */
 @media (min-width: 1281px) {
      body {
-         width: 58rem;
+         width: 70%;
 
      }
 }
