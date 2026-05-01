@@ -27,10 +27,10 @@
 <div id="content" class="content">
 <header>
 <h1 class="title">Release Monitoring with Automation for Jira</h1>
-</header><div id="outline-container-org0e8b8dc" class="outline-2">
-<h2 id="org0e8b8dc">We like automation, we like monitoring releases <i class="fa-regular fa-heart"></i></h2>
-<div class="outline-text-2" id="text-org0e8b8dc">
-<div class="PREVIEW" id="org1698214">
+</header><div id="outline-container-orgc6c922b" class="outline-2">
+<h2 id="orgc6c922b">We like automation, we like monitoring releases <i class="fa-regular fa-heart"></i></h2>
+<div class="outline-text-2" id="text-orgc6c922b">
+<div class="PREVIEW" id="orgb44867c">
 <p>
 So your organisation has decided to build a Internal Developer Portal (IDP) using Backstage. All of a sudden you're responsible for looking after a quickly growing, forever updating production environment, as well as an IDP?
 </p>
@@ -64,17 +64,17 @@ You monitor the releases in a Jira project backlog of course!
 </p>
 </div>
 </div>
-<div id="outline-container-orgec3a1da" class="outline-2">
-<h2 id="orgec3a1da">Here is how I did it with automation&#x2026; <i class="fa-solid fa-robot"></i></h2>
-<div class="outline-text-2" id="text-orgec3a1da">
+<div id="outline-container-orgfeca7ea" class="outline-2">
+<h2 id="orgfeca7ea">Here is how I did it with automation&#x2026; <i class="fa-solid fa-robot"></i></h2>
+<div class="outline-text-2" id="text-orgfeca7ea">
 <p>
 I wanted to create a new task whenever a new release of Backstage is rolled out on the main Github page <i class="fa-brands fa-github-alt"></i> <a href="https://github.com/backstage/backstage">backstage/backstage</a>. The task could then be broken down into smaller pieces of work or spikes so I could monitor builds or raise pull requests directly from Jira using the GitHub integration.
 </p>
 </div>
 </div>
-<div id="outline-container-org4ac5cb9" class="outline-2">
-<h2 id="org4ac5cb9">Setting up the Schedule <i class="fa-regular fa-calendar"></i></h2>
-<div class="outline-text-2" id="text-org4ac5cb9">
+<div id="outline-container-orgcf5389d" class="outline-2">
+<h2 id="orgcf5389d">Setting up the Schedule <i class="fa-regular fa-calendar"></i></h2>
+<div class="outline-text-2" id="text-orgcf5389d">
 <p>
 For the scheduled automation to work I created a custom field in Jira called 'Release Tag', which is where the release tag will be stored.
 </p>
@@ -92,16 +92,16 @@ Because the scheduled automation requires a ticket to be present I had to make a
 </p>
 
 
-<figure id="org3a3fee1">
+<figure id="org689d7fa">
 <img src="../img/afj-release.png" alt="afj-release.png" style="margin:auto; display:block; width:400px">
 
 <figcaption><span class="figure-number">Figure 1: </span>Schedule the Automation</figcaption>
 </figure>
 </div>
 </div>
-<div id="outline-container-orgb8e8245" class="outline-2">
-<h2 id="orgb8e8245">The Web Request <i class="fa-solid fa-globe"></i></h2>
-<div class="outline-text-2" id="text-orgb8e8245">
+<div id="outline-container-orgb6b19a6" class="outline-2">
+<h2 id="orgb6b19a6">The Web Request <i class="fa-solid fa-globe"></i></h2>
+<div class="outline-text-2" id="text-orgb6b19a6">
 <p>
 The automation will make a request to a public endpoint, so there was need for a Personal Access Token (PAT). Since the request frequency is once a day, it remains within rate limits. The request is made to the following URL:
 </p>
@@ -127,16 +127,16 @@ This is a GET HTTP method, and I didn't anticipate any issue references in the b
 </p>
 
 
-<figure id="orgad008fa">
+<figure id="org34f5e9b">
 <img src="../img/afj-release-3.png" alt="afj-release-3.png" style="margin:auto; display:block; width:400px">
 
 <figcaption><span class="figure-number">Figure 2: </span>Web Request Example</figcaption>
 </figure>
 </div>
 </div>
-<div id="outline-container-org0c0bb65" class="outline-2">
-<h2 id="org0c0bb65">Create Variable <i class="fa-solid fa-check"></i></h2>
-<div class="outline-text-2" id="text-org0c0bb65">
+<div id="outline-container-org0a60f25" class="outline-2">
+<h2 id="org0a60f25">Create Variable <i class="fa-solid fa-check"></i></h2>
+<div class="outline-text-2" id="text-org0a60f25">
 <p>
 The web response body will look a bit like the snipped example:
 </p>
@@ -168,16 +168,16 @@ To extract the <code>tag_name</code>, I created a variable using the newer featu
 </p>
 
 
-<figure id="org51165b4">
+<figure id="orgc74b00e">
 <img src="../img/afj-release-1.png" alt="afj-release-1.png" style="margin:auto; display:block; width:400px">
 
 <figcaption><span class="figure-number">Figure 3: </span>Release Tag Variable</figcaption>
 </figure>
 </div>
 </div>
-<div id="outline-container-org7ad8870" class="outline-2">
-<h2 id="org7ad8870">Create a new ticket <i class="fa-solid fa-ticket"></i></h2>
-<div class="outline-text-2" id="text-org7ad8870">
+<div id="outline-container-org0c6954c" class="outline-2">
+<h2 id="org0c6954c">Create a new ticket <i class="fa-solid fa-ticket"></i></h2>
+<div class="outline-text-2" id="text-org0c6954c">
 <p>
 I then used the 'If: Matches' conditional module to verify if <code>backstageLatest</code> is greater than the release number in the custom release field. If it is, then I want to create a new ticket in the backlog with:
 </p>
@@ -195,16 +195,16 @@ If the conditions don't match, the automation doesn't perform any actions.
 </p>
 
 
-<figure id="org4522a25">
+<figure id="orga96bbf3">
 <img src="../img/afj-release-2.png" alt="afj-release-2.png" style="margin:auto; display:block; width:400px">
 
 <figcaption><span class="figure-number">Figure 4: </span>Backstage Latest Variable</figcaption>
 </figure>
 </div>
 </div>
-<div id="outline-container-orgdd3df27" class="outline-2">
-<h2 id="orgdd3df27">Conclusion <i class="fa-solid fa-flag-checkered"></i></h2>
-<div class="outline-text-2" id="text-orgdd3df27">
+<div id="outline-container-org48f55bb" class="outline-2">
+<h2 id="org48f55bb">Conclusion <i class="fa-solid fa-flag-checkered"></i></h2>
+<div class="outline-text-2" id="text-org48f55bb">
 <p>
 By following the above steps, you can set up a process to automatically monitor GitHub releases and track your dependencies. This will save you time and effort to manually check for new releases.
 </p>

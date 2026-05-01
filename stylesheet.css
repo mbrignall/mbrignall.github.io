@@ -45,18 +45,26 @@
      }
 }
 
+a {
+    color: #B6A0FF;
+}
+
+a:hover {
+    color: #236DFF;
+}
+
 div.top {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #0D0E1C;
     padding: 10px;
     text-align: center;
 }
 
 h1.logo {
     margin: 0 0 0 0;
-    color: black !important;
+    color: #0D0E1C !important;
 }
 
-/* --- Postamble/Footer Styling --- */
+/* Postamble/Footer Styling */
 .postamble {
     border-top: 1px solid #4c566a;
     font-size: 0.9em;
@@ -69,23 +77,13 @@ h1.logo {
     text-align: center !important;
 }
 
- .todo.TODO {
-     background-color: #e79686;
-     color: #3b4252 !important;
-     font-weight: bold;
-     border: 1px solid #dcdccc;
-     padding: 1px;
-     border-radius: 4px;
-     font-size: 0.6em;
- }
-
 .status {
      background-color: #D5E2E7;
 }
 
 h2, h3 {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid #0D0E1C;
+    border-bottom: 1px solid #0D0E1C;
     background-color: #D5E2E7;
     font-size: 90%;
     text-align: center;
@@ -122,8 +120,7 @@ img {
      padding: 5px;
  }
 
-
-/* Main table container (no changes here) */
+/* Tables */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -135,22 +132,21 @@ table {
   margin-top: 0.5em;
 }
 
-/* Table row styling (no changes here) */
 tr {
   border-bottom: 1px solid #4c566a;
 }
 
-/* General cell styling (no changes here) */
-th, td {
-  padding: 8px 8px;
-  text-align: left;
-  border-right: 1px solid black;
+th {
+    background-color: #D5E2E7;
+    padding: 8px 8px;
+    text-align: left;
+    border-right: 1px solid #0D0E1C;
 }
 
-/* --- THIS IS THE UPDATED RULE --- */
-/* Specific styling for the "Key" column using its class */
-td.org-left {
-    font-weight: bold;
+td {
+    padding: 8px 8px;
+    text-align: left;
+    border-right: 1px solid #0D0E1C;
 }
 
 ul {
@@ -170,9 +166,9 @@ ul {
    color: #555555;
    padding: 1em 50px 1em 50px;
    border-left: 8px solid #78C0A8;
-   border-right: 8px solid #a89bb9;
-   border-top: 1px solid black;
-   border-bottom: 1px solid black;
+   border-right: 8px solid #B6A0FF;
+   border-top: 1px solid #0D0E1C;
+   border-bottom: 1px solid #0D0E1C;
    line-height: 1;
    position: relative;
    margin-right: 0px;
@@ -181,7 +177,7 @@ ul {
 
 /* Code Block - Inline Code */
  code {
-     background-color:  #a89bb9;
+     background-color: #B6A0FF;
      padding: 2px 2px;
  }
 
@@ -226,7 +222,7 @@ ul {
  }
 
  pre.src .org-string {
-     color: #a3be8c;
+     color:  #78C0A8;
  }
 
  pre.src .org-constant {
@@ -253,7 +249,7 @@ ul {
 }
 
 .todo.DONE {
-    background-color: #a3be8c;
+    background-color: #78C0A8;
     border: 1px solid #dcdccc;
     font-size: 80%;
     margin: auto;

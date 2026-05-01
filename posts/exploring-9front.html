@@ -27,17 +27,17 @@
 <div id="content" class="content">
 <header>
 <h1 class="title">Exploring 9front and Plan 9</h1>
-</header><div class="PREVIEW" id="org568def1">
+</header><div class="PREVIEW" id="org3e4ea28">
 <p>
 Checking out 9front/Plan 9 and some cool Thinkpad hardware.
 </p>
 
 </div>
-<div id="outline-container-orgd962f03" class="outline-2">
-<h2 id="orgd962f03">Why 9front?</h2>
-<div class="outline-text-2" id="text-orgd962f03">
+<div id="outline-container-org9cd8d31" class="outline-2">
+<h2 id="org9cd8d31">Why 9front?</h2>
+<div class="outline-text-2" id="text-org9cd8d31">
 
-<figure id="org971b73b">
+<figure id="orgf4d79cb">
 <img src="http://9front.org/img/thistimedefinitely.front.png" alt="thistimedefinitely.front.png" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px">
 
 </figure>
@@ -60,18 +60,18 @@ This space will evolve as I experiment, explore, and expand my knowledge.
 </p>
 </div>
 </div>
-<div id="outline-container-orgd83ba2a" class="outline-2">
-<h2 id="orgd83ba2a">What have I done so far?</h2>
-<div class="outline-text-2" id="text-orgd83ba2a">
+<div id="outline-container-org4a3dafa" class="outline-2">
+<h2 id="org4a3dafa">What have I done so far?</h2>
+<div class="outline-text-2" id="text-org4a3dafa">
 <p>
 Here is a list of the hardware I've managed to get 9front to run on:
 </p>
 </div>
-<div id="outline-container-org5313d78" class="outline-3">
-<h3 id="org5313d78">Thinkpad T420:</h3>
-<div class="outline-text-3" id="text-org5313d78">
+<div id="outline-container-org2fd17a8" class="outline-3">
+<h3 id="org2fd17a8">Thinkpad T420:</h3>
+<div class="outline-text-3" id="text-org2fd17a8">
 
-<figure id="org8599b1d">
+<figure id="org97d25c2">
 <img src="../img/thinkpad.jpg" alt="thinkpad.jpg" style="float:left; margin-right: 15px; vertical-align: bottom;" width="200px">
 
 </figure>
@@ -110,9 +110,9 @@ Once booted and I followed the install guide, running <code>inst/start</code> an
 </p>
 </div>
 </div>
-<div id="outline-container-org3864c59" class="outline-3">
-<h3 id="org3864c59">Raspberry Pi 3b</h3>
-<div class="outline-text-3" id="text-org3864c59">
+<div id="outline-container-org5842966" class="outline-3">
+<h3 id="org5842966">Raspberry Pi 3b</h3>
+<div class="outline-text-3" id="text-org5842966">
 <p>
 I installed 9front on a Raspberry Pi 3b which is running 9front successfully. There was a couple of guides that helped along the way:
 </p>
@@ -124,13 +124,13 @@ I installed 9front on a Raspberry Pi 3b which is running 9front successfully. Th
 </div>
 </div>
 </div>
-<div id="outline-container-org2243f6f" class="outline-2">
-<h2 id="org2243f6f">Next Steps</h2>
-<div class="outline-text-2" id="text-org2243f6f">
+<div id="outline-container-org631e381" class="outline-2">
+<h2 id="org631e381">Next Steps</h2>
+<div class="outline-text-2" id="text-org631e381">
 </div>
-<div id="outline-container-org4941213" class="outline-3">
-<h3 id="org4941213">Connect to wifi</h3>
-<div class="outline-text-3" id="text-org4941213">
+<div id="outline-container-org1dcd942" class="outline-3">
+<h3 id="org1dcd942">Connect to wifi</h3>
+<div class="outline-text-3" id="text-org1dcd942">
 <div class="org-src-container">
 <pre class="src src-rc"><span class="org-builtin">bind</span> -a <span class="org-string">'#l1'</span> /net
 aux/wpa -s &lt;SSID&gt; -p /net/ether1
@@ -152,9 +152,9 @@ Note: If you get the password incorrect you're going to see a DHCP error. So far
 </p>
 </div>
 </div>
-<div id="outline-container-orge3f5715" class="outline-3">
-<h3 id="orge3f5715">Man Pages</h3>
-<div class="outline-text-3" id="text-orge3f5715">
+<div id="outline-container-org3eaece3" class="outline-3">
+<h3 id="org3eaece3">Man Pages</h3>
+<div class="outline-text-3" id="text-org3eaece3">
 <p>
 <a href="https://man.9front.org/">man.9front.org</a>
 </p>
@@ -228,38 +228,38 @@ As you can see, the man pages are well structured and thorough.
 </p>
 </div>
 </div>
-<div id="outline-container-org3e2befe" class="outline-3">
-<h3 id="org3e2befe">USB Storage</h3>
-<div class="outline-text-3" id="text-org3e2befe">
+<div id="outline-container-org6c1302e" class="outline-3">
+<h3 id="org6c1302e">USB Storage</h3>
+<div class="outline-text-3" id="text-org6c1302e">
 <p>
 The USB storage mounts on <code>/shr/&lt;device-name&gt;</code> and I moved the files straight from there. I think there may be mount option just like Linux/Unix but I've not worked that out but there is a man mapge.
 </p>
 </div>
 </div>
-<div id="outline-container-org6827146" class="outline-3">
-<h3 id="org6827146">Uxn</h3>
-<div class="outline-text-3" id="text-org6827146">
+<div id="outline-container-org1260201" class="outline-3">
+<h3 id="org1260201">Uxn</h3>
+<div class="outline-text-3" id="text-org1260201">
 <p>
 I wanted to explore that ecosystem from within 9front. If you've not come across Uxn/HundredRabbits please check them out.
 </p>
 </div>
 </div>
-<div id="outline-container-org6179c51" class="outline-3">
-<h3 id="org6179c51">Web Browsing</h3>
-<div class="outline-text-3" id="text-org6179c51">
+<div id="outline-container-org56341ba" class="outline-3">
+<h3 id="org56341ba">Web Browsing</h3>
+<div class="outline-text-3" id="text-org56341ba">
 <p>
 I have installed <a href="https://github.com/netsurf-plan9/nsport">Netsurf</a> (the alternative browser) and there is also Mothra which is really cool. Both provide very minimal web experiences, with Mothra not supporting any JS or 'modern' browsing experiences. To be fair, most of my browsing is reading code or docs/blogs which render fine. I even checked out this blog which translates really well.
 </p>
 </div>
 </div>
 </div>
-<div id="outline-container-orga1beaa5" class="outline-2">
-<h2 id="orga1beaa5">Future</h2>
+<div id="outline-container-org69d4e79" class="outline-2">
+<h2 id="org69d4e79">Future</h2>
 </div>
 
-<div id="outline-container-orga6f3049" class="outline-2">
-<h2 id="orga6f3049">Useful Resources</h2>
-<div class="outline-text-2" id="text-orga6f3049">
+<div id="outline-container-orgedcfabe" class="outline-2">
+<h2 id="orgedcfabe">Useful Resources</h2>
+<div class="outline-text-2" id="text-orgedcfabe">
 <ul class="org-ul">
 <li><a href="https://www.youtube.com/channel/UC7qFfPYl0t8Cq7auyblZqxA">adventuresin9</a> (YouTube)</li>
 <li><a href="https://9p.io/wiki/plan9/plan_9_wiki/">Plan 9 wiki</a></li>
