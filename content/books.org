@@ -60,9 +60,11 @@ If people don't like folk music, they haven't heard the real thing.
 
 https://m.media-amazon.com/images/I/71IYBIjH1gL._SY522_.jpg
 
-Shirley Collins writes her early days and travels with Folklorist, Alan Lomax as the record audio and document the music of Americas heartland. Split in chapters between Collins' early life in -- and their professional and emotional relationship with Lomax, 
+Shirley Collins writes her early days and travels with Folklorist, Alan Lomax as the record audio and document the music of Americas heartland. Split in chapters between Collins' early life in -- and their professional and emotional relationship with Lomax,
 
 #+keywords: folk
+
+@@html:<div style="clear: both;"></div>@@
 
 * The Cuckoo's Egg                                  :cybersecurity:truecrime:
 
