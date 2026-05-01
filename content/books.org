@@ -5,8 +5,9 @@
 
 * To Anyone Who Ever Asks: The Life, Music, and Mystery of Connie Converse :music:folklore:
 
-| Author           | Howard Fishman |
-| Publication date |     2024-05-02 |
+| Author         | Publication date |
+|----------------+------------------|
+| Howard Fishman |       2024-05-02 |
 
 https://m.media-amazon.com/images/I/616XekvMCTL._AC_UF894,1000_QL80_.jpg
 
@@ -16,8 +17,9 @@ There are some surprising moments and a few theories on her disappearance that l
 
 * Code: The Hidden Language of Computer Hardware and Software :computer:science:technology:
 
-| Author           | Charles Petzold |
-| Publication date |      1999-09-29 |
+| Author          | Publication date |
+|-----------------+------------------|
+| Charles Petzold |       1999-09-29 |
 
 https://m.media-amazon.com/images/I/61Hc-9h+-XL.jpg
 
@@ -29,15 +31,16 @@ In Progress... Still in progress.
 
 * A Trading Game                           :finance:economics:currentaffairs:
 
-| Author         | Gary Stephenson |
-| Published date |      2025-01-30 |
-  
+| Author          | Published date |
+|-----------------+----------------|
+| Gary Stephenson |     2025-01-30 |
+
 #+begin_quote
 The rich get the assets, the poor get the debt, and then the poor have to pay their whole salary to the rich every year just to live in a house. The rich use that money to buy the rest of the assets from the middle class and then the problem gets worse every year.
 
 *Gary Stephenson*
 #+end_quote
-  
+
 https://cdn.waterstones.com/bookjackets/large/9781/8020/9781802062731.jpg
 
 Gary's take on economics really helped me understand how economics and trading works both in the UK and internationally. Before reading this I had no idea and hadn't thought too deeply about the topic. Since reading I've also been watching a few channels (including his own) on the topic/current affairs/economics and it has sparked interest in me. I particularly liked hearing about his rise to success in a field dominated by people from privileged backgrounds and how he navigated those relationships.
@@ -48,8 +51,9 @@ Gary is clearly a very smart person. Someone who not only can convey complex ide
 
 * STARTED America Over Water                         :folklore:music:america:
 
-| Author         | Shirley Collins |
-| Published date |      2022-01-20 |
+| Author          | Published date |
+|-----------------+----------------|
+| Shirley Collins |     2022-01-20 |
 
 #+begin_quote
 If people don't like folk music, they haven't heard the real thing.
@@ -68,8 +72,9 @@ Shirley Collins writes her early days and travels with Folklorist, Alan Lomax as
 
 * The Cuckoo's Egg                                  :cybersecurity:truecrime:
 
-| Author         | Clifford Stoll |
-| Published date |     2005-09-13 |
+| Author         | Published date |
+|----------------+----------------|
+| Clifford Stoll |     2005-09-13 |
 
 #+begin_quote
 The hacker didn't succeed through sophistication. Rather he poked at obvious places, trying to enter through unlock doors. Persistence, not wizardry, let him through.
@@ -94,8 +99,9 @@ On occasion the book felt a little like groundhog day due to the repetitive even
 
 * Cult of the Dead Cow                 :cybersecurity:truecrime:hacking:tech:
 
-| Author         | Joseph Menn |
-| Published date |  2020-06-02 |
+| Author      | Published date |
+|-------------+----------------|
+| Joseph Menn |     2020-06-02 |
 
 [[https://www.littlebrown.co.uk/wp-content/uploads/2019/05/hbg-title-9781541724426-49.jpg?w=436]]
 
@@ -103,8 +109,9 @@ On occasion the book felt a little like groundhog day due to the repetitive even
 
 * Going Dark: The Secret Social Lives of Extremists  :extremism:radicalisation:politics:
 
-| Author         | Julia Ebner |
-| Published date |  2020-02-20 |
+| Author      | Published date |
+|-------------+----------------|
+| Julia Ebner |     2020-02-20 |
 
 #+begin_quote
 Like the coronavirus pandemic, the current infodemic is a global phenomenon. We need to tackle it on an international level to avoid adding a third layer to this worldwide crisis: a societal one.
@@ -122,8 +129,9 @@ Additional content: [[https://www.youtube.com/watch?v=fAFV49e2W5M][Going Dark: T
 
 * Rinsed: From Cartels to Crypto             :truecrime:financial:technology:
 
-| Author         | Geoff White |
-| Published date |  2024-06-13 |
+| Author      | Published date |
+|-------------+----------------|
+| Geoff White |     2024-06-13 |
 
 #+begin_quote
 Rinsed is a triumph. If you want to understand how the chaotic world around us really works, read this book!
@@ -143,7 +151,8 @@ Money laundering and Cyber crime in general are mutually exclusive. Even the mos
 
 Here is a list of podcasts I regularly listen to about a variety of topics:
 
-
+| Link                 | Description                                             |
+|----------------------+---------------------------------------------------------|
 | [[https://darknetdiaries.com/][Darknet Diaries]]      | cybersecurity, hacking, fraud, technology               |
 | [[https://www.qanonanonymous.com/][QAA Podcast]]          | debunked conspiracy theories, current affairs, politics |
 | [[https://opensourcesecurity.io/category/podcast/][Open Source Security]] | cyber security, current affairs, technology             |

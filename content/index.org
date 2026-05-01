@@ -27,8 +27,9 @@ On rotation this month:
 
 ** How Bluegrass Music Destroyed My Life
 
-| Author           | John Fahey |
-| Publication date | 24-04-2010 |
+| Author     | Publication date |
+|------------+------------------|
+| John Fahey |       24-04-2010 |
 
 https://m.media-amazon.com/images/I/712DzUtij-L._AC_UF894,1000_QL80_.jpg
 
@@ -40,8 +41,9 @@ Ongoing reads/ last completed book:
 
 ** Enshittification: Why Everything Suddenly Got Worse and What To Do About It
 
-| Author           | Cory Doctorow |
-| Publication date | 14/10/2025    |
+| Author        | Publication date |
+|---------------+------------------|
+| Cory Doctorow | 14/10/2025       |
 
 Terrifying at times, and very informative. If you want to know how the world became enshittified then get the book (or audio book read by the author)
 
@@ -51,8 +53,10 @@ Terrifying at times, and very informative. If you want to know how the world bec
 
 Feel free to reach out via email or GitHub:
 
-| @@html:<i class="fa fa-envelope"></i>@@          | [[mailto:hello@mbrig.nl][email me]]         |
-| @@html:<i class="fa-brands fa-github-alt"></i>@@ | [[https://github.com/mbrignall][github/mbrignall]] |
+| @@html:<i class="fa fa-envelope"></i>@@ | @@html:<i class="fa-brands fa-github-alt"></i>@@  |
+|-----------------------------------------+--------------------------------------------------|
+| [[mailto:hello@mbrig.nl][email me]]                                | [[https://github.com/mbrignall][github/mbrignall]]                                 |
+  
 
 * Post Archive
 
