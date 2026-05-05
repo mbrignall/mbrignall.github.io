@@ -4,13 +4,17 @@
 
 * General
 
-During the day I work as a Security engineer in an incident response team. When not blocking attackers and analysing threats I can be found playing guitar.
+During the day I work as a security engineer in incident response. When not blocking attackers and analysing threats I can be found playing guitar and fiddling with computers.
+
+I like making ascii art. I like emacs.
 
 @@html:<div style="clear: both;"></div>@@
 
 * Music things
 
- I am working on music for live performance hopefully before the end of the year (more on that soon).
+ I am working on music under the name: persuasion. You can find the noisy madness here:
+
+[[https://wearepersuasion.com][wearepersuasion.com]]
 
 My musical influences include:
 
@@ -19,7 +23,7 @@ My musical influences include:
   - Converge/Botch
   - Death
 
-I enjoy exploring blues and post-rock, metal and sub-genres of. I have a background in Music Tech and spent many hours building devices and instruments using Raspberry Pi, [[https://puredata.info/][Pure Data]] and the fun music communities I discovered along the way. Maybe I'll cover those here at some point 🤔
+I have a background in Music Tech and spent many hours building devices and instruments using Raspberry Pi, [[https://puredata.info/][Pure Data]] and the fun music communities I discovered along the way. Maybe I'll cover those here at some point 🤔
 
 Here is a neat (I think) playlist of some of my faves:
 
@@ -27,7 +31,7 @@ Here is a neat (I think) playlist of some of my faves:
 
 * Linux things
 
-For some time now I've been obsessed with Linux, more specifically NixOS and most recently Guix SD. I discovered a rich world of possibilities upon realising that I could craft my systems declaritively.
+For some time now I've been obsessed with Linux, more specifically NixOS and most recently Guix SD. I discovered a rich world of possibilities upon realising that I could craft my systems declaratively.
 
 At work I'm using MacOS so am using Nix Darwin as a Flake for that:
 
