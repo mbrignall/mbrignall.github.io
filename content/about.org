@@ -8,11 +8,22 @@ During the day I work as a security engineer in incident response. When not bloc
 
 I like making ascii art. I like emacs.
 
-@@html:<div style="clear: both;"></div>@@
+A few sites that inspire me and this site:
+
+[[https://100r.co/site/home.html][100 Rabbits]]
+
+[[https://analognowhere.com/][analoguenowhere]]
+
+[[https://www.critterandguitari.com/][critter and guitari]]
 
 * Music things
 
- I am working on music under the name: persuasion. You can find the noisy madness here:
+#+ATTR_HTML: :style display:block !important; width:70%;
+https://wearepersuasion.com/assets/img/persuasion-logo.png
+
+@@html:<div style="clear: both;"></div>@@
+
+I am working on music under the name: persuasion. You can find the noisy madness here:
 
 [[https://wearepersuasion.com][wearepersuasion.com]]
 
