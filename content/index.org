@@ -47,9 +47,13 @@ Ongoing reads/ last completed book:
 |---------------+------------------|
 | Cory Doctorow | 14/10/2025       |
 
+https://m.media-amazon.com/images/I/41HN8d7mUFL.jpg
+
 Terrifying at times, and very informative. If you want to know how the world became enshittified then get the book (or audio book read by the author)
 
 [[./books.html][Read More...]]
+
+@@html:<div style="clear: both;"></div>@@
 
 * Contact
 
